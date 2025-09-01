@@ -1,0 +1,30 @@
+.header {
+  @apply flex  py-[25px]  items-center justify-between;
+}
+
+.header_links {
+  @apply flex gap-[44px] mx-auto text-main-gray max-lg:hidden;
+}
+
+.header_icons {
+  @apply flex gap-[10px];
+}
+
+
+/* Add this to your CSS file */
+/* Add this to your CSS file */
+.geo-container {
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.geo-container.hidden {
+    opacity: 0;
+    visibility: hidden;
+	transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+
+}
+
+.geo-container.visible {
+    opacity: 1;
+    visibility: visible;
+}

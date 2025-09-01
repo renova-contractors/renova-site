@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /api/
+Disallow: /cart
+Disallow: /liked
+Disallow: /catalog/
+Disallow: /contact/
+Disallow: /product/
+
+Allow: /
+
+
+Sitemap: https://www.renova.contractors/sitemap.xml

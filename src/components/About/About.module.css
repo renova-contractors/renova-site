@@ -1,0 +1,17 @@
+.mobileVersion {
+    display: none;
+}
+
+.desktopVersion {
+    display: block;
+}
+
+/* Mobile and tablet styles */
+@media (max-width: 1024px) {
+    .mobileVersion {
+        display: block;
+    }
+    .desktopVersion {
+        display: none;
+    }
+}

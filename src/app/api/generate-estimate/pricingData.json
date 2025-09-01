@@ -1,0 +1,1215 @@
+[{
+	"basement_finishing_cost": {
+	  "design_and_planning": {
+		"description": "Architectural and design fees",
+		"labor_cost_usd": "1500-7000",
+		"material_cost_usd": "500-3000",
+		"total_cost_usd": "2000-10000"
+	  },
+	  "permits_and_inspections": {
+		"description": "Building permits and inspection fees",
+		"labor_cost_usd": "1000-5000",
+		"material_cost_usd": "-",
+		"total_cost_usd": "1000-5000"
+	  },
+	  "framing_and_drywall": {
+		"description": "Walls, ceiling framing, and drywall",
+		"labor_cost_usd": "2000-10000",
+		"material_cost_usd": "1000-6000",
+		"total_cost_usd": "3000-16000"
+	  },
+	  "electrical_work": {
+		"description": "Wiring, outlets, lighting installation",
+		"labor_cost_usd": "1500-9000",
+		"material_cost_usd": "1000-6000",
+		"total_cost_usd": "2500-15000"
+	  },
+	  "plumbing": {
+		"description": "Plumbing for bathrooms/kitchens",
+		"labor_cost_usd": "1000-6000",
+		"material_cost_usd": "500-4000",
+		"total_cost_usd": "1500-10000"
+	  },
+	  "hvac": {
+		"description": "Heating, ventilation, air conditioning",
+		"labor_cost_usd": "1000-6000",
+		"material_cost_usd": "1000-4000",
+		"total_cost_usd": "2000-10000"
+	  },
+	  "insulation": {
+		"description": "Thermal and sound insulation",
+		"labor_cost_usd": "1000-4000",
+		"material_cost_usd": "500-3000",
+		"total_cost_usd": "1500-7000"
+	  },
+	  "flooring": {
+		"description": "Carpet, hardwood, or tile installation",
+		"labor_cost_usd": "1000-8000",
+		"material_cost_usd": "1000-6000",
+		"total_cost_usd": "2000-14000"
+	  },
+	  "painting": {
+		"description": "Interior wall and ceiling painting",
+		"labor_cost_usd": "1000-4000",
+		"material_cost_usd": "500-2000",
+		"total_cost_usd": "1500-6000"
+	  },
+	  "trim_and_finish_carpentry": {
+		"description": "Baseboards, crown molding, trim",
+		"labor_cost_usd": "1000-5000",
+		"material_cost_usd": "500-3000",
+		"total_cost_usd": "1500-8000"
+	  },
+	  "windows_and_doors": {
+		"description": "Installation of egress windows, doors",
+		"labor_cost_usd": "1000-6000",
+		"material_cost_usd": "1000-6000",
+		"total_cost_usd": "2000-12000"
+	  },
+	  "bathroom": {
+		"description": "Full bathroom installation",
+		"labor_cost_usd": "3000-14000",
+		"material_cost_usd": "2000-10000",
+		"total_cost_usd": "5000-24000"
+	  },
+	  "kitchen_or_wet_bar": {
+		"description": "Installation of kitchen or wet bar",
+		"labor_cost_usd": "3000-20000",
+		"material_cost_usd": "2000-10000",
+		"total_cost_usd": "5000-30000"
+	  },
+	  "storage_and_closets": {
+		"description": "Built-in storage, closets",
+		"labor_cost_usd": "500-4000",
+		"material_cost_usd": "500-2000",
+		"total_cost_usd": "1000-6000"
+	  },
+	  "miscellaneous": {
+		"description": "Additional unforeseen costs",
+		"labor_cost_usd": "1000-5000",
+		"material_cost_usd": "1000-5000",
+		"total_cost_usd": "2000-10000"
+	  },
+	  "cost_per_square_foot": {
+		"description": "Typical cost per square foot",
+		"labor_cost_usd": "25-150",
+		"material_cost_usd": "25-150",
+		"total_cost_usd": "50-300"
+	  },
+	  "total_estimated_cost": {
+		"description": "Total estimated cost",
+		"labor_cost_usd": "22000-114000",
+		"material_cost_usd": "10500-71000",
+		"total_cost_usd": "32500-185000"
+	  }
+	}
+  },
+  {
+	"bathroom_remodel_cost": {
+	  "design_and_planning": {
+		"description": "Architectural and design fees",
+		"labor_cost_usd": "1000-6000",
+		"material_cost_usd": "500-2000",
+		"total_cost_usd": "1500-8000"
+	  },
+	  "permits_and_inspections": {
+		"description": "Building permits and inspection fees",
+		"labor_cost_usd": "500-3000",
+		"material_cost_usd": "-",
+		"total_cost_usd": "500-3000"
+	  },
+	  "demolition": {
+		"description": "Removal of old fixtures and finishes",
+		"labor_cost_usd": "1000-4000",
+		"material_cost_usd": "-",
+		"total_cost_usd": "1000-4000"
+	  },
+	  "plumbing": {
+		"description": "New pipes, fittings, and fixtures",
+		"labor_cost_usd": "1500-6000",
+		"material_cost_usd": "1000-4000",
+		"total_cost_usd": "2500-10000"
+	  },
+	  "electrical_work": {
+		"description": "Wiring, outlets, lighting installation",
+		"labor_cost_usd": "1000-5000",
+		"material_cost_usd": "500-2000",
+		"total_cost_usd": "1500-7000"
+	  },
+	  "framing_and_drywall": {
+		"description": "Walls, ceiling framing, and drywall",
+		"labor_cost_usd": "1000-4000",
+		"material_cost_usd": "500-2000",
+		"total_cost_usd": "1500-6000"
+	  },
+	  "flooring": {
+		"description": "Tile, hardwood, or vinyl installation",
+		"labor_cost_usd": "1000-6000",
+		"material_cost_usd": "500-4000",
+		"total_cost_usd": "1500-10000"
+	  },
+	  "painting": {
+		"description": "Interior wall and ceiling painting",
+		"labor_cost_usd": "500-3000",
+		"material_cost_usd": "200-1000",
+		"total_cost_usd": "700-4000"
+	  },
+	  "trim_and_finish_carpentry": {
+		"description": "Baseboards, crown molding, trim",
+		"labor_cost_usd": "500-3000",
+		"material_cost_usd": "200-1000",
+		"total_cost_usd": "700-4000"
+	  },
+	  "cabinetry_and_countertops": {
+		"description": "Vanity, cabinets, countertops",
+		"labor_cost_usd": "1000-6000",
+		"material_cost_usd": "1000-6000",
+		"total_cost_usd": "2000-12000"
+	  },
+	  "fixtures": {
+		"description": "Sink, toilet, shower, tub",
+		"labor_cost_usd": "1000-6000",
+		"material_cost_usd": "1000-6000",
+		"total_cost_usd": "2000-12000"
+	  },
+	  "hvac": {
+		"description": "Ventilation and heating",
+		"labor_cost_usd": "500-3000",
+		"material_cost_usd": "200-1000",
+		"total_cost_usd": "700-4000"
+	  },
+	  "miscellaneous": {
+		"description": "Additional unforeseen costs",
+		"labor_cost_usd": "1000-4000",
+		"material_cost_usd": "500-2000",
+		"total_cost_usd": "1500-6000"
+	  },
+	  "cost_per_square_foot": {
+		"description": "Typical cost per square foot",
+		"labor_cost_usd": "75-300",
+		"material_cost_usd": "50-200",
+		"total_cost_usd": "125-500"
+	  },
+	  "total_estimated_cost": {
+		"description": "Total estimated cost",
+		"labor_cost_usd": "12500-65000",
+		"material_cost_usd": "7100-33000",
+		"total_cost_usd": "19600-98000"
+	  }
+	}
+  },
+  {
+	"kitchen_remodel_cost": {
+	  "design_and_planning": {
+		"description": "Architectural and design fees",
+		"labor_cost_usd": "2000-8500",
+		"material_cost_usd": "1000-5100",
+		"total_cost_usd": "3000-13600"
+	  },
+	  "permits_and_inspections": {
+		"description": "Building permits and inspection fees",
+		"labor_cost_usd": "1000-4250",
+		"material_cost_usd": "-",
+		"total_cost_usd": "1000-4250"
+	  },
+	  "demolition": {
+		"description": "Removal of old fixtures and finishes",
+		"labor_cost_usd": "1000-5100",
+		"material_cost_usd": "-",
+		"total_cost_usd": "1000-5100"
+	  },
+	  "plumbing": {
+		"description": "New pipes, fittings, and fixtures",
+		"labor_cost_usd": "2000-10200",
+		"material_cost_usd": "1500-5100",
+		"total_cost_usd": "3500-15300"
+	  },
+	  "electrical_work": {
+		"description": "Wiring, outlets, lighting installation",
+		"labor_cost_usd": "2000-8500",
+		"material_cost_usd": "1000-4250",
+		"total_cost_usd": "3000-12750"
+	  },
+	  "framing_and_drywall": {
+		"description": "Walls, ceiling framing, and drywall",
+		"labor_cost_usd": "1500-6800",
+		"material_cost_usd": "1000-3400",
+		"total_cost_usd": "2500-10200"
+	  },
+	  "flooring": {
+		"description": "Tile, hardwood, or vinyl installation",
+		"labor_cost_usd": "1500-10200",
+		"material_cost_usd": "1000-6800",
+		"total_cost_usd": "2500-17000"
+	  },
+	  "painting": {
+		"description": "Interior wall and ceiling painting",
+		"labor_cost_usd": "1000-5100",
+		"material_cost_usd": "500-1700",
+		"total_cost_usd": "1500-6800"
+	  },
+	  "cabinetry_and_countertops": {
+		"description": "Cabinets, countertops installation",
+		"labor_cost_usd": "2000-13600",
+		"material_cost_usd": "3000-13600",
+		"total_cost_usd": "5000-27200"
+	  },
+	  "fixtures_and_appliances": {
+		"description": "Sink, faucet, appliances installation",
+		"labor_cost_usd": "1500-6800",
+		"material_cost_usd": "3000-13600",
+		"total_cost_usd": "4500-20400"
+	  },
+	  "hvac": {
+		"description": "Ventilation and heating",
+		"labor_cost_usd": "1000-4250",
+		"material_cost_usd": "500-2550",
+		"total_cost_usd": "1500-6800"
+	  },
+	  "miscellaneous": {
+		"description": "Additional unforeseen costs",
+		"labor_cost_usd": "1000-5100",
+		"material_cost_usd": "1000-3400",
+		"total_cost_usd": "2000-8500"
+	  },
+	  "cost_per_square_foot": {
+		"description": "Typical cost per square foot",
+		"labor_cost_usd": "100-340",
+		"material_cost_usd": "75-255",
+		"total_cost_usd": "175-595"
+	  },
+	  "total_estimated_cost": {
+		"description": "Total estimated cost",
+		"labor_cost_usd": "20500-96900",
+		"material_cost_usd": "14500-64600",
+		"total_cost_usd": "35000-161500"
+	  }
+	}
+  },
+  {
+	"flooring_remodel_cost": {
+	  "lvt": {
+		"description": "Installation of LVT flooring",
+		"labor_cost_usd": "2000-5100",
+		"material_cost_usd": "1500-5100",
+		"total_cost_usd": "3500-10200"
+	  },
+	  "laminate": {
+		"description": "Installation of laminate flooring",
+		"labor_cost_usd": "1500-4250",
+		"material_cost_usd": "1000-3400",
+		"total_cost_usd": "2500-7650"
+	  },
+	  "hardwood": {
+		"description": "Installation of hardwood flooring",
+		"labor_cost_usd": "3000-10200",
+		"material_cost_usd": "2500-10200",
+		"total_cost_usd": "5500-20400"
+	  },
+	  "vinyl": {
+		"description": "Installation of vinyl flooring",
+		"labor_cost_usd": "1500-3400",
+		"material_cost_usd": "1000-2550",
+		"total_cost_usd": "2500-5950"
+	  },
+	  "cost_per_square_foot": {
+		"description": "Typical cost per square foot",
+		"labor_cost_usd": "5-34",
+		"material_cost_usd": "5-34",
+		"total_cost_usd": "10-68"
+	  },
+	  "total_estimated_cost": {
+		"description": "Total estimated cost",
+		"labor_cost_usd": "8000-22950",
+		"material_cost_usd": "6000-21350",
+		"total_cost_usd": "14000-44300"
+	  }
+	}
+	},
+	{
+		"cabinet_installation_cost": {
+		  "stock_cabinets": {
+			"description": "Installation of stock cabinets",
+			"labor_cost_usd": "1000-6120",
+			"material_cost_usd": "2000-15300",
+			"total_cost_usd": "3000-21420"
+		  },
+		  "semi_custom_cabinets": {
+			"description": "Installation of semi-custom cabinets",
+			"labor_cost_usd": "2000-9180",
+			"material_cost_usd": "3000-24480",
+			"total_cost_usd": "5000-33660"
+		  },
+		  "custom_cabinets": {
+			"description": "Installation of custom cabinets",
+			"labor_cost_usd": "3000-18360",
+			"material_cost_usd": "5000-30600",
+			"total_cost_usd": "8000-48960"
+		  },
+		  "cost_per_linear_foot": {
+			"description": "Typical cost per linear foot",
+			"labor_cost_usd": "50-306",
+			"material_cost_usd": "100-612",
+			"total_cost_usd": "150-918"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "6000-33660",
+			"material_cost_usd": "10000-70380",
+			"total_cost_usd": "16000-104040"
+		  }
+		}
+	},
+	{
+		"roofing_installation_cost": {
+		  "asphalt_shingles": {
+			"description": "Installation of asphalt shingles",
+			"labor_cost_usd": "3000-8100",
+			"material_cost_usd": "2000-9000",
+			"total_cost_usd": "5000-17100"
+		  },
+		  "metal_roofing": {
+			"description": "Installation of metal roofing",
+			"labor_cost_usd": "4000-12600",
+			"material_cost_usd": "3000-16200",
+			"total_cost_usd": "7000-28800"
+		  },
+		  "tile_roofing": {
+			"description": "Installation of tile roofing",
+			"labor_cost_usd": "5000-16200",
+			"material_cost_usd": "4000-18000",
+			"total_cost_usd": "9000-34200"
+		  },
+		  "wood_shingles": {
+			"description": "Installation of wood shingles",
+			"labor_cost_usd": "3500-12600",
+			"material_cost_usd": "3000-16200",
+			"total_cost_usd": "6500-28800"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "3-18",
+			"material_cost_usd": "3-18",
+			"total_cost_usd": "6-36"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "15500-49500",
+			"material_cost_usd": "12000-59400",
+			"total_cost_usd": "27500-108900"
+		  }
+		}
+	  },
+	  {
+		"siding_installation_cost": {
+		  "vinyl_siding": {
+			"description": "Installation of vinyl siding",
+			"labor_cost_usd": "2500-7200",
+			"material_cost_usd": "3000-8000",
+			"total_cost_usd": "5500-15200"
+		  },
+		  "fiber_cement_siding": {
+			"description": "Installation of fiber cement siding",
+			"labor_cost_usd": "4500-10800",
+			"material_cost_usd": "3500-12000",
+			"total_cost_usd": "8000-22800"
+		  },
+		  "wood_siding": {
+			"description": "Installation of wood siding",
+			"labor_cost_usd": "5000-14400",
+			"material_cost_usd": "4500-15000",
+			"total_cost_usd": "9500-29400"
+		  },
+		  "metal_siding": {
+			"description": "Installation of metal siding",
+			"labor_cost_usd": "4000-12600",
+			"material_cost_usd": "3500-14500",
+			"total_cost_usd": "7500-27100"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "6-25",
+			"material_cost_usd": "7-30",
+			"total_cost_usd": "13-55"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "16500-45000",
+			"material_cost_usd": "14500-49500",
+			"total_cost_usd": "31000-94500"
+		  }
+		}
+	  },
+	  {
+		"architecture_engineering_permitting_cost": {
+		  "architectural_design": {
+			"description": "Design and drafting services",
+			"labor_cost_usd": "3000-9000",
+			"material_cost_usd": "500-1500",
+			"total_cost_usd": "3500-10500"
+		  },
+		  "engineering_services": {
+			"description": "Structural, mechanical, and electrical engineering",
+			"labor_cost_usd": "2500-8000",
+			"material_cost_usd": "1000-3000",
+			"total_cost_usd": "3500-11000"
+		  },
+		  "permitting": {
+			"description": "Permit application and processing fees",
+			"labor_cost_usd": "1500-4500",
+			"material_cost_usd": "-",
+			"total_cost_usd": "1500-4500"
+		  },
+		  "site_survey": {
+			"description": "Surveying the property for design and planning",
+			"labor_cost_usd": "1000-3000",
+			"material_cost_usd": "-",
+			"total_cost_usd": "1000-3000"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "10-40",
+			"material_cost_usd": "5-15",
+			"total_cost_usd": "15-55"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "8000-24500",
+			"material_cost_usd": "1500-4500",
+			"total_cost_usd": "9500-29000"
+		  }
+		}
+	  },
+	  {
+		"tile_installation_cost": {
+		  "kitchen": {
+			"floor_tile": {
+			  "description": "Installation of floor tiles in kitchen",
+			  "labor_cost_usd": "1500-4500",
+			  "material_cost_usd": "1000-3500",
+			  "total_cost_usd": "2500-8000"
+			},
+			"backsplash_tile": {
+			  "description": "Installation of backsplash tiles",
+			  "labor_cost_usd": "1000-2500",
+			  "material_cost_usd": "800-2000",
+			  "total_cost_usd": "1800-4500"
+			}
+		  },
+		  "bathroom": {
+			"floor_tile": {
+			  "description": "Installation of floor tiles in bathroom",
+			  "labor_cost_usd": "1000-3000",
+			  "material_cost_usd": "800-2500",
+			  "total_cost_usd": "1800-5500"
+			},
+			"wall_tile": {
+			  "description": "Installation of wall tiles in bathroom",
+			  "labor_cost_usd": "1200-3500",
+			  "material_cost_usd": "1000-2800",
+			  "total_cost_usd": "2200-6300"
+			},
+			"shower_tile": {
+			  "description": "Installation of shower tiles",
+			  "labor_cost_usd": "1500-4500",
+			  "material_cost_usd": "1200-3500",
+			  "total_cost_usd": "2700-8000"
+			}
+		  },
+		  "living_room": {
+			"floor_tile": {
+			  "description": "Installation of floor tiles in living room",
+			  "labor_cost_usd": "2000-6000",
+			  "material_cost_usd": "1500-4500",
+			  "total_cost_usd": "3500-10500"
+			}
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "5-25",
+			"material_cost_usd": "5-25",
+			"total_cost_usd": "10-50"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "15000-50000",
+			"material_cost_usd": "12000-50000",
+			"total_cost_usd": "27000-100000"
+		  }
+		}
+	  },
+	  {
+		"landscaping_cost": {
+		  "lawn_installation": {
+			"description": "Installation of new lawn (sod or seed)",
+			"labor_cost_usd": "1000-3500",
+			"material_cost_usd": "1000-3000",
+			"total_cost_usd": "2000-6500"
+		  },
+		  "planting_and_garden_beds": {
+			"description": "Installation of plants and garden beds",
+			"labor_cost_usd": "1500-4500",
+			"material_cost_usd": "1000-3500",
+			"total_cost_usd": "2500-8000"
+		  },
+		  "hardscaping": {
+			"description": "Patios, walkways, retaining walls",
+			"labor_cost_usd": "3000-10000",
+			"material_cost_usd": "2000-8000",
+			"total_cost_usd": "5000-18000"
+		  },
+		  "irrigation_system": {
+			"description": "Installation of irrigation system",
+			"labor_cost_usd": "2000-5000",
+			"material_cost_usd": "1500-3500",
+			"total_cost_usd": "3500-8500"
+		  },
+		  "lighting": {
+			"description": "Installation of outdoor lighting",
+			"labor_cost_usd": "1500-4000",
+			"material_cost_usd": "1000-2500",
+			"total_cost_usd": "2500-6500"
+		  },
+		  "fencing": {
+			"description": "Installation of fencing",
+			"labor_cost_usd": "2500-6500",
+			"material_cost_usd": "2000-5000",
+			"total_cost_usd": "4500-11500"
+		  },
+		  "decks_and_pergolas": {
+			"description": "Construction of decks and pergolas",
+			"labor_cost_usd": "4000-12000",
+			"material_cost_usd": "3000-8000",
+			"total_cost_usd": "7000-20000"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "5-30",
+			"material_cost_usd": "5-25",
+			"total_cost_usd": "10-55"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "15500-45500",
+			"material_cost_usd": "11500-33500",
+			"total_cost_usd": "27000-79000"
+		  }
+		}
+	  },
+	  {
+		"masonry_cost": {
+		  "brickwork": {
+			"description": "Installation of brick walls and structures",
+			"labor_cost_usd": "3000-8000",
+			"material_cost_usd": "2000-5000",
+			"total_cost_usd": "5000-13000"
+		  },
+		  "stonework": {
+			"description": "Installation of stone walls and structures",
+			"labor_cost_usd": "4000-10000",
+			"material_cost_usd": "3000-7000",
+			"total_cost_usd": "7000-17000"
+		  },
+		  "concrete": {
+			"description": "Installation of concrete structures",
+			"labor_cost_usd": "2500-7000",
+			"material_cost_usd": "1500-4000",
+			"total_cost_usd": "4000-11000"
+		  },
+		  "pavers": {
+			"description": "Installation of paver walkways and patios",
+			"labor_cost_usd": "2000-6000",
+			"material_cost_usd": "1500-4000",
+			"total_cost_usd": "3500-10000"
+		  },
+		  "retaining_walls": {
+			"description": "Construction of retaining walls",
+			"labor_cost_usd": "3000-9000",
+			"material_cost_usd": "2500-6000",
+			"total_cost_usd": "5500-15000"
+		  },
+		  "fireplaces_and_chimneys": {
+			"description": "Construction of fireplaces and chimneys",
+			"labor_cost_usd": "4000-12000",
+			"material_cost_usd": "3000-7000",
+			"total_cost_usd": "7000-19000"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "10-35",
+			"material_cost_usd": "5-20",
+			"total_cost_usd": "15-55"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "18500-52000",
+			"material_cost_usd": "13500-33000",
+			"total_cost_usd": "32000-85000"
+		  }
+		}
+	  },
+	  {
+		"attic_renovation_cost": {
+		  "insulation": {
+			"description": "Installation of insulation",
+			"labor_cost_usd": "1500-6000",
+			"material_cost_usd": "1000-4000",
+			"total_cost_usd": "2500-10000"
+		  },
+		  "flooring": {
+			"description": "Installation of attic flooring",
+			"labor_cost_usd": "1500-8000",
+			"material_cost_usd": "1000-6000",
+			"total_cost_usd": "2500-14000"
+		  },
+		  "drywall_and_painting": {
+			"description": "Installation of drywall and painting",
+			"labor_cost_usd": "2000-10000",
+			"material_cost_usd": "1000-5000",
+			"total_cost_usd": "3000-15000"
+		  },
+		  "electrical_work": {
+			"description": "Wiring, outlets, lighting installation",
+			"labor_cost_usd": "1500-8000",
+			"material_cost_usd": "1000-5000",
+			"total_cost_usd": "2500-13000"
+		  },
+		  "hvac": {
+			"description": "Extension of HVAC system",
+			"labor_cost_usd": "2000-10000",
+			"material_cost_usd": "1500-6000",
+			"total_cost_usd": "3500-16000"
+		  },
+		  "windows_and_skylights": {
+			"description": "Installation of windows and skylights",
+			"labor_cost_usd": "2500-14000",
+			"material_cost_usd": "2000-10000",
+			"total_cost_usd": "4500-24000"
+		  },
+		  "storage_solutions": {
+			"description": "Built-in shelves, closets, and storage spaces",
+			"labor_cost_usd": "1500-8000",
+			"material_cost_usd": "1000-5000",
+			"total_cost_usd": "2500-13000"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "15-90",
+			"material_cost_usd": "10-50",
+			"total_cost_usd": "25-140"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "12500-64000",
+			"material_cost_usd": "8500-41000",
+			"total_cost_usd": "21000-105000"
+		  }
+		}
+	  },
+	  {
+		"painting_cost": {
+		  "interior_painting": {
+			"description": "Painting interior walls and ceilings",
+			"labor_cost_usd": "2000-6000",
+			"material_cost_usd": "500-2000",
+			"total_cost_usd": "2500-8000"
+		  },
+		  "exterior_painting": {
+			"description": "Painting exterior walls",
+			"labor_cost_usd": "3000-10000",
+			"material_cost_usd": "1000-4000",
+			"total_cost_usd": "4000-14000"
+		  },
+		  "trim_and_baseboards": {
+			"description": "Painting trim and baseboards",
+			"labor_cost_usd": "1000-4000",
+			"material_cost_usd": "300-1500",
+			"total_cost_usd": "1300-5500"
+		  },
+		  "doors_and_windows": {
+			"description": "Painting doors and windows",
+			"labor_cost_usd": "1000-3000",
+			"material_cost_usd": "300-1200",
+			"total_cost_usd": "1300-4200"
+		  },
+		  "cabinets": {
+			"description": "Painting kitchen and bathroom cabinets",
+			"labor_cost_usd": "2000-6000",
+			"material_cost_usd": "500-2000",
+			"total_cost_usd": "2500-8000"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "1-3",
+			"material_cost_usd": "0.50-1.50",
+			"total_cost_usd": "1.50-4.50"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "9000-29000",
+			"material_cost_usd": "2600-10700",
+			"total_cost_usd": "11600-39700"
+		  }
+		}
+	  },
+	  {
+		"decking_cost": {
+		  "wood_deck": {
+			"description": "Installation of a wood deck",
+			"labor_cost_usd": "3000-13600",
+			"material_cost_usd": "2000-8500",
+			"total_cost_usd": "5000-22100"
+		  },
+		  "composite_deck": {
+			"description": "Installation of a composite deck",
+			"labor_cost_usd": "4000-17000",
+			"material_cost_usd": "3000-10200",
+			"total_cost_usd": "7000-27200"
+		  },
+		  "pvc_deck": {
+			"description": "Installation of a PVC deck",
+			"labor_cost_usd": "4500-18700",
+			"material_cost_usd": "3500-11900",
+			"total_cost_usd": "8000-30600"
+		  },
+		  "deck_repair": {
+			"description": "Repair of an existing deck",
+			"labor_cost_usd": "1500-6800",
+			"material_cost_usd": "1000-4250",
+			"total_cost_usd": "2500-11050"
+		  },
+		  "deck_staining_and_sealing": {
+			"description": "Staining and sealing of a deck",
+			"labor_cost_usd": "1000-5100",
+			"material_cost_usd": "500-2550",
+			"total_cost_usd": "1500-7650"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "15-76.50",
+			"material_cost_usd": "10-51",
+			"total_cost_usd": "25-127.50"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "14000-61200",
+			"material_cost_usd": "10000-37400",
+			"total_cost_usd": "24000-98600"
+		  }
+		}
+	  },
+	  {
+		"electrical_work_cost": {
+		  "new_wiring": {
+			"description": "Installation of new wiring",
+			"labor_cost_usd": "2000-10200",
+			"material_cost_usd": "1000-5000",
+			"total_cost_usd": "3000-15200"
+		  },
+		  "electrical_panel_upgrade": {
+			"description": "Upgrading electrical panel",
+			"labor_cost_usd": "1500-10200",
+			"material_cost_usd": "1000-5000",
+			"total_cost_usd": "2500-15200"
+		  },
+		  "lighting_installation": {
+			"description": "Installation of new lighting fixtures",
+			"labor_cost_usd": "1500-13600",
+			"material_cost_usd": "1000-6000",
+			"total_cost_usd": "2500-19600"
+		  },
+		  "outlet_and_switch_installation": {
+			"description": "Installation of new outlets and switches",
+			"labor_cost_usd": "1000-6800",
+			"material_cost_usd": "500-3000",
+			"total_cost_usd": "1500-9800"
+		  },
+		  "rewiring": {
+			"description": "Rewiring existing structures",
+			"labor_cost_usd": "3000-27200",
+			"material_cost_usd": "1500-8000",
+			"total_cost_usd": "4500-35200"
+		  },
+		  "electrical_repairs": {
+			"description": "General electrical repairs",
+			"labor_cost_usd": "1000-10200",
+			"material_cost_usd": "500-4000",
+			"total_cost_usd": "1500-14200"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "10-68",
+			"material_cost_usd": "5-34",
+			"total_cost_usd": "15-102"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "10500-78200",
+			"material_cost_usd": "5500-31000",
+			"total_cost_usd": "16000-109200"
+		  }
+		}
+	  },
+	  {
+		"plumbing_cost": {
+		  "new_piping_installation": {
+			"description": "Installation of new pipes",
+			"labor_cost_usd": "2000-4500",
+			"material_cost_usd": "1000-2500",
+			"total_cost_usd": "3000-7000"
+		  },
+		  "plumbing_fixture_installation": {
+			"description": "Installation of sinks, toilets, faucets",
+			"labor_cost_usd": "1500-3500",
+			"material_cost_usd": "500-1500",
+			"total_cost_usd": "2000-5000"
+		  },
+		  "water_heater_installation": {
+			"description": "Installation of a new water heater",
+			"labor_cost_usd": "1500-3000",
+			"material_cost_usd": "1000-2000",
+			"total_cost_usd": "2500-5000"
+		  },
+		  "sewer_line_installation": {
+			"description": "Installation of new sewer lines",
+			"labor_cost_usd": "3000-6500",
+			"material_cost_usd": "2000-3000",
+			"total_cost_usd": "5000-9500"
+		  },
+		  "pipe_repair": {
+			"description": "Repair of existing pipes",
+			"labor_cost_usd": "1500-5000",
+			"material_cost_usd": "500-2000",
+			"total_cost_usd": "2000-7000"
+		  },
+		  "drain_cleaning": {
+			"description": "Cleaning and clearing of drains",
+			"labor_cost_usd": "500-1000",
+			"material_cost_usd": "200-500",
+			"total_cost_usd": "700-1500"
+		  },
+		  "leak_detection_and_repair": {
+			"description": "Detection and repair of leaks",
+			"labor_cost_usd": "1000-3000",
+			"material_cost_usd": "300-1000",
+			"total_cost_usd": "1300-4000"
+		  },
+		  "gas_line_installation": {
+			"description": "Installation of new gas lines",
+			"labor_cost_usd": "2500-6000",
+			"material_cost_usd": "1500-3000",
+			"total_cost_usd": "4000-9000"
+		  },
+		  "bathroom_plumbing_remodel": {
+			"description": "Complete bathroom plumbing remodel",
+			"labor_cost_usd": "3500-7500",
+			"material_cost_usd": "2000-4000",
+			"total_cost_usd": "5500-11500"
+		  },
+		  "kitchen_plumbing_remodel": {
+			"description": "Complete kitchen plumbing remodel",
+			"labor_cost_usd": "3000-6000",
+			"material_cost_usd": "1500-3500",
+			"total_cost_usd": "4500-9500"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "10-20",
+			"material_cost_usd": "5-10",
+			"total_cost_usd": "15-30"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "20500-46000",
+			"material_cost_usd": "10500-24000",
+			"total_cost_usd": "31000-70000"
+		  }
+		}
+	  },
+	  {
+		"window_installation_cost": {
+		  "single_hung_window": {
+			"description": "Installation of single-hung window",
+			"labor_cost_usd": "200-600",
+			"material_cost_usd": "150-500",
+			"total_cost_usd": "350-1100"
+		  },
+		  "double_hung_window": {
+			"description": "Installation of double-hung window",
+			"labor_cost_usd": "250-700",
+			"material_cost_usd": "200-600",
+			"total_cost_usd": "450-1300"
+		  },
+		  "casement_window": {
+			"description": "Installation of casement window",
+			"labor_cost_usd": "300-800",
+			"material_cost_usd": "250-700",
+			"total_cost_usd": "550-1500"
+		  },
+		  "sliding_window": {
+			"description": "Installation of sliding window",
+			"labor_cost_usd": "250-700",
+			"material_cost_usd": "200-600",
+			"total_cost_usd": "450-1300"
+		  },
+		  "bay_window": {
+			"description": "Installation of bay window",
+			"labor_cost_usd": "1000-2500",
+			"material_cost_usd": "800-2000",
+			"total_cost_usd": "1800-4500"
+		  },
+		  "bow_window": {
+			"description": "Installation of bow window",
+			"labor_cost_usd": "1200-3000",
+			"material_cost_usd": "1000-2500",
+			"total_cost_usd": "2200-5500"
+		  },
+		  "picture_window": {
+			"description": "Installation of picture window",
+			"labor_cost_usd": "500-1200",
+			"material_cost_usd": "400-1000",
+			"total_cost_usd": "900-2200"
+		  },
+		  "skylight": {
+			"description": "Installation of skylight",
+			"labor_cost_usd": "800-2000",
+			"material_cost_usd": "600-1500",
+			"total_cost_usd": "1400-3500"
+		  },
+		  "egress_window": {
+			"description": "Installation of egress window",
+			"labor_cost_usd": "1000-2500",
+			"material_cost_usd": "700-2000",
+			"total_cost_usd": "1700-4500"
+		  },
+		  "storm_window": {
+			"description": "Installation of storm window",
+			"labor_cost_usd": "200-600",
+			"material_cost_usd": "150-500",
+			"total_cost_usd": "350-1100"
+		  },
+		  "window_repair": {
+			"description": "General window repair",
+			"labor_cost_usd": "100-400",
+			"material_cost_usd": "50-200",
+			"total_cost_usd": "150-600"
+		  },
+		  "window_replacement": {
+			"description": "Replacement of existing windows",
+			"labor_cost_usd": "200-800",
+			"material_cost_usd": "150-600",
+			"total_cost_usd": "350-1400"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "20-100",
+			"material_cost_usd": "15-75",
+			"total_cost_usd": "35-175"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "6800-16600",
+			"material_cost_usd": "5900-14200",
+			"total_cost_usd": "12700-30800"
+		  }
+		}
+	  },
+	  {
+		"door_installation_cost": {
+		  "interior_door": {
+			"description": "Installation of interior door",
+			"labor_cost_usd": "200-600",
+			"material_cost_usd": "150-500",
+			"total_cost_usd": "350-1100"
+		  },
+		  "exterior_door": {
+			"description": "Installation of exterior door",
+			"labor_cost_usd": "300-800",
+			"material_cost_usd": "200-600",
+			"total_cost_usd": "500-1400"
+		  },
+		  "french_door": {
+			"description": "Installation of French door",
+			"labor_cost_usd": "500-1200",
+			"material_cost_usd": "400-1000",
+			"total_cost_usd": "900-2200"
+		  },
+		  "sliding_door": {
+			"description": "Installation of sliding door",
+			"labor_cost_usd": "400-1000",
+			"material_cost_usd": "300-800",
+			"total_cost_usd": "700-1800"
+		  },
+		  "bi_fold_door": {
+			"description": "Installation of bi-fold door",
+			"labor_cost_usd": "150-500",
+			"material_cost_usd": "100-300",
+			"total_cost_usd": "250-800"
+		  },
+		  "pocket_door": {
+			"description": "Installation of pocket door",
+			"labor_cost_usd": "400-1000",
+			"material_cost_usd": "300-800",
+			"total_cost_usd": "700-1800"
+		  },
+		  "patio_door": {
+			"description": "Installation of patio door",
+			"labor_cost_usd": "500-1500",
+			"material_cost_usd": "400-1200",
+			"total_cost_usd": "900-2700"
+		  },
+		  "storm_door": {
+			"description": "Installation of storm door",
+			"labor_cost_usd": "200-600",
+			"material_cost_usd": "150-500",
+			"total_cost_usd": "350-1100"
+		  },
+		  "door_repair": {
+			"description": "General door repair",
+			"labor_cost_usd": "100-400",
+			"material_cost_usd": "50-200",
+			"total_cost_usd": "150-600"
+		  },
+		  "door_replacement": {
+			"description": "Replacement of existing doors",
+			"labor_cost_usd": "200-800",
+			"material_cost_usd": "150-600",
+			"total_cost_usd": "350-1400"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "20-100",
+			"material_cost_usd": "15-75",
+			"total_cost_usd": "35-175"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "5450-14500",
+			"material_cost_usd": "3700-8800",
+			"total_cost_usd": "9150-23300"
+		  }
+		}
+	  },
+	  {
+		"excavation_cost": {
+		  "site_clearing": {
+			"description": "Clearing the site for construction",
+			"labor_cost_usd": "2000-6000",
+			"material_cost_usd": "500-2000",
+			"total_cost_usd": "2500-8000"
+		  },
+		  "foundation_excavation": {
+			"description": "Excavating for foundations",
+			"labor_cost_usd": "3000-8000",
+			"material_cost_usd": "1000-3000",
+			"total_cost_usd": "4000-11000"
+		  },
+		  "trenching": {
+			"description": "Excavation of trenches for utilities",
+			"labor_cost_usd": "1500-4500",
+			"material_cost_usd": "500-1500",
+			"total_cost_usd": "2000-6000"
+		  },
+		  "grading_and_leveling": {
+			"description": "Grading and leveling the site",
+			"labor_cost_usd": "2000-5000",
+			"material_cost_usd": "1000-2000",
+			"total_cost_usd": "3000-7000"
+		  },
+		  "demolition_and_removal": {
+			"description": "Demolition and removal of existing structures",
+			"labor_cost_usd": "2500-7000",
+			"material_cost_usd": "1000-3000",
+			"total_cost_usd": "3500-10000"
+		  },
+		  "rock_and_soil_removal": {
+			"description": "Removal of rock and soil",
+			"labor_cost_usd": "1500-4500",
+			"material_cost_usd": "500-1500",
+			"total_cost_usd": "2000-6000"
+		  },
+		  "backfilling": {
+			"description": "Backfilling excavated areas",
+			"labor_cost_usd": "1000-3000",
+			"material_cost_usd": "500-1500",
+			"total_cost_usd": "1500-4500"
+		  },
+		  "cost_per_cubic_yard": {
+			"description": "Typical cost per cubic yard",
+			"labor_cost_usd": "20-50",
+			"material_cost_usd": "10-30",
+			"total_cost_usd": "30-80"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "13500-38000",
+			"material_cost_usd": "5000-14500",
+			"total_cost_usd": "18500-52500"
+		  }
+		}
+	  },
+	  {
+		"hvac_cost": {
+		  "hvac_system_installation": {
+			"description": "Installation of a new HVAC system",
+			"labor_cost_usd": "3000-10000",
+			"material_cost_usd": "2000-7000",
+			"total_cost_usd": "5000-17000"
+		  },
+		  "hvac_system_replacement": {
+			"description": "Replacement of an existing HVAC system",
+			"labor_cost_usd": "2500-8000",
+			"material_cost_usd": "2000-5000",
+			"total_cost_usd": "4500-13000"
+		  },
+		  "furnace_installation": {
+			"description": "Installation of a new furnace",
+			"labor_cost_usd": "2000-6000",
+			"material_cost_usd": "1500-4000",
+			"total_cost_usd": "3500-10000"
+		  },
+		  "air_conditioner_installation": {
+			"description": "Installation of a new air conditioner",
+			"labor_cost_usd": "2500-7000",
+			"material_cost_usd": "2000-4000",
+			"total_cost_usd": "4500-11000"
+		  },
+		  "ductwork_installation": {
+			"description": "Installation of new ductwork",
+			"labor_cost_usd": "1500-4500",
+			"material_cost_usd": "1000-3000",
+			"total_cost_usd": "2500-7500"
+		  },
+		  "ductwork_repair": {
+			"description": "Repair of existing ductwork",
+			"labor_cost_usd": "1000-3000",
+			"material_cost_usd": "500-1500",
+			"total_cost_usd": "1500-4500"
+		  },
+		  "thermostat_installation": {
+			"description": "Installation of a new thermostat",
+			"labor_cost_usd": "200-600",
+			"material_cost_usd": "100-300",
+			"total_cost_usd": "300-900"
+		  },
+		  "hvac_maintenance": {
+			"description": "Regular maintenance of HVAC systems",
+			"labor_cost_usd": "100-400",
+			"material_cost_usd": "50-200",
+			"total_cost_usd": "150-600"
+		  },
+		  "cost_per_square_foot": {
+			"description": "Typical cost per square foot",
+			"labor_cost_usd": "20-50",
+			"material_cost_usd": "10-30",
+			"total_cost_usd": "30-80"
+		  },
+		  "total_estimated_cost": {
+			"description": "Total estimated cost",
+			"labor_cost_usd": "12800-39500",
+			"material_cost_usd": "9150-25800",
+			"total_cost_usd": "21950-65300"
+		  }
+		}
+	  }
+  ]

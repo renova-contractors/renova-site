@@ -1,0 +1,14 @@
+.instagramEmbed {
+  background: #FFF;
+  border: 0;
+  border-radius: 10px !important;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15);
+  margin: 0; /* Center the element horizontally */
+  width: 400px !important;
+  height: 400px;
+  @media (max-width: 600px) {
+	  width: 360px !important;
+  }
+  padding: 0;
+
+}

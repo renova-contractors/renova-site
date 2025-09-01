@@ -1,0 +1,10 @@
+.next
+.DS_Store
+out
+
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+**/*.html

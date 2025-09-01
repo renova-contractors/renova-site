@@ -1,0 +1,17 @@
+.swiper {
+
+	max-width: 1760px;
+
+}
+
+.swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+	background-color: black;
+	width: 320px;
+	left: 50%;
+	transform: translate(-50%, 50%);
+
+}
+
+
+
+
