@@ -1,0 +1,96 @@
+
+    { "tile": [{
+		"Supplier": "https://www.bedrosians.com/en/product/detail/cloe-tile/?itemNo=DECCLOGRN28G",
+		"Id": 1,
+		"url": "/bedrosians-Cloe-2.5x8-Ceramic-Tile",
+		"Code": "919182",
+		"Category": "Tile",
+		"Finish": "Gloss",
+		"Application": "Wall Tile",
+		"Manufacturer": "Bedrosians",
+		"Model": "Cloe",
+		"Color": "Black",
+		"Material": "Ceramic",
+		"Country Of Origin": "Spain",
+		"Sizes": ["2-1/2 X 8", "5X5"],
+		"Length": "2.5",
+		"Width": "8",
+		"Thickness": "3/8\"",
+		"Box": "10.64 sq ft",
+		"Shape": "Rectangle",
+		"Description": "<p>The Cloe Collection presents a range of glazed ceramic wall tiles distinguished by their vibrant colors, smooth gloss finish, and captivating tonal variations. With eight stunning colors to choose from—White, Creme, Baby Blue, Grey, Pink, Green, Blue, and Black—the possibilities for creative combinations are endless.</p><p>Available in two versatile sizes—5”x5” and 2.5”x8”—the Cloe Collection seamlessly blends modern aesthetics with timeless appeal, making it suitable for a wide range of design styles.</p><p>For those seeking to add a touch of flair, our collection features a striking 5”x5” black and white Loire deco tile, perfect for creating eye-catching patterns on your walls.</p><p>To complete your project with finesse, consider our ½”x8 Jolly Miter Edge Trim, available in a glossy finish. This elegant trim adds a refined touch to your design while providing a polished look.</p><p>With its captivating colors, sleek finish, and versatile design options, the Cloe Collection offers endless possibilities for creating stunning interiors. Elevate your space with the Cloe Collection today.</p>",
+		"Images": [
+			"https://res-0.cloudinary.com/bedrosians/image/upload/t_product_detail,f_auto/v1/cdn-bedrosian/assets/products/hiresimages/DECCLOBAB28G",
+			"https://res-0.cloudinary.com/bedrosians/image/upload/t_product_detail,f_auto/v1/Alt%20Images/Cloe/DECCLOBLA28G_ANGLE.jpg",
+			"https://res-3.cloudinary.com/bedrosians/image/upload/t_product_detail,f_auto/v1/installation_shots/Cloe/004_Cloe.jpg",
+			"https://res-4.cloudinary.com/bedrosians/image/upload/t_product_detail,f_auto/v1/installation_shots/Cloe/DECCLOBLA28G_Inst_JAL_P1.jpg"
+		],
+		"Variations": [
+			{
+				"Color": "Blue",
+				"VariationImage": "https://cdn11.bigcommerce.com/s-v3lx6qlsxo/images/stencil/1280w/attribute_rule_images/1695112_source_1646730009.jpg"
+			},
+			{
+				"Color": "Creme",
+				"VariationImage": "https://cdn11.bigcommerce.com/s-v3lx6qlsxo/images/stencil/1280w/attribute_rule_images/1695111_source_1646730008.jpg"
+			},
+			{
+				"Color": "Grey",
+				"VariationImage": "https://cdn11.bigcommerce.com/s-v3lx6qlsxo/images/stencil/1280x1280/attribute_rule_images/1695109_source_1646730006.jpg"
+			}
+		]
+	},
+    {
+        "Supplier": "https://www.bedrosians.com/en/product/detail/cloe-tile/?itemNo=DECCLOGRN28G",
+        "Id": 2,
+        "url": "c",
+        "Code": "919182",
+        "Category": "Tile",
+        "Finish": "Matte",
+        "Application": "Floor Tile",
+        "Manufacturer": "Bedrosians",
+        "Model": "Makoto",
+        "Color": "Arashi Blue",
+        "Material": "Porcelain",
+        "Country Of Origin": "Spain",
+        "Sizes": [
+            "2X2",
+            "10X10",
+            "2.5x10"
+        ],
+        "Length": "2.5",
+        "Width": "8",
+        "Thickness": "3/8\"",
+        "Box": "10.64 sq ft",
+        "Shape": [
+            "Rectangle",
+            "Mosaic Sheet",
+            "Rectangular",
+            "Trim"
+        ],
+        "Description": {
+            "description": "<p>Elevate your surroundings with the exquisite Makoto Collection, featuring a stunning array of decorative glazed ceramic and porcelain tiles. Crafted with meticulous attention to detail, each tile exudes luxury and sophistication, enhancing the ambiance of any space.</p><p>Explore our diverse selection of tile types and shapes, including elegant 2.5in. x 10in. wall tiles, chic 10in. x 11.5in. hexagon tiles, sleek 0.5in. x 8in. miter edge trims, and charming 2in. round mosaics. With a matte finish that exudes understated elegance, these tiles are the epitome of timeless style.</p><p>Choose from a rich palette of colors inspired by nature's beauty, including serene Shoji White, warm Tatami Beige, sophisticated Kumo Grey, vibrant Umi Terracotta, delicate Momoiro Blush, lush Midori Green, tranquil Arashi Blue, and bold Kuroi Black. Whatever your design vision, the Makoto Collection offers the perfect tile to bring it to life.</p><p>Crafted in renowned tile-making regions such as Spain and Italy, the Makoto Collection combines traditional craftsmanship with modern innovation. Each tile is expertly crafted to ensure exceptional quality and durability, making them ideal for both residential and commercial spaces.</p><p>Transform your interior with the timeless elegance of the Makoto Collection. Discover endless design possibilities and create a space that reflects your unique style and personality.</p>"
+        },
+        "Images": [
+            "https://res-4.cloudinary.com/bedrosians/image/upload/t_product_detail,f_auto/v1/cdn-bedrosian/assets/products/hiresimages/DECMAKARBHEX10M"
+        ],
+        "Variations": [
+            {
+                "Color": "Kumo Grey",
+                "VariationImage": "https://res-2.cloudinary.com/bedrosians/image/upload/t_product_detail,f_auto/v1/cdn-bedrosian/assets/products/hiresimages/DECMAKKUGHEX10M"
+            },
+            {
+                "Color": "Kuroi Black",
+                "VariationImage": "https://res-6.cloudinary.com/bedrosians/image/upload/t_product_detail,f_auto/v1/cdn-bedrosian/assets/products/hiresimages/DECMAKKUBHEX10M"
+            },
+            {
+                "Color": "Midori Green",
+                "VariationImage": "https://res-2.cloudinary.com/bedrosians/image/upload/t_product_detail,f_auto/v1/cdn-bedrosian/assets/products/hiresimages/DECMAKMIGHEX10M"
+            },
+            {
+                "Color": "Momoiro Blush",
+                "VariationImage": "https://res-4.cloudinary.com/bedrosians/image/upload/t_product_detail,f_auto/v1/cdn-bedrosian/assets/products/hiresimages/DECMAKMOBHEX10M"
+            }
+        ]
+    }]}
+
