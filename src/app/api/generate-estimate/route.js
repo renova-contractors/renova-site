@@ -3,8 +3,6 @@
 
 import { NextResponse } from "next/server";
 import OpenAI from "openai";
-/* import fs from 'fs';
-import path from 'path' */ // I have a 65 sqft bathroom i need completely gut out/ convert bathtub to shower and replace all fixtures mid-grade and heated floors, install fan, move toilet
 
 const openai = new OpenAI({
 	apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY,
