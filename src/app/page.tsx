@@ -182,20 +182,6 @@ export default function Home(): JSX.Element {
         <YouTubeShortSlider category="kitchen" city="seattle" />
         <GenerateEstimate />
         <OurServices {...mainPageContent.ourServices} />
-        {/* <section>
-          <h2 className="custom-heading sm:text-center first-letter:text-main-yellow">
-            {serviceHeadings.all} Photos
-          </h2>
-
-           <div className="container inside-mb flex max-sm:flex-col gap-10 max-sm:gap-5 justify-between">
-            <ThumbsSwiper category="kitchen" />
-            <ThumbsSwiper category="basement" />
-          </div>
-          <div className="container component-mb flex max-sm:flex-col gap-10 max-sm:gap-5 justify-between">
-            <ThumbsSwiper category="bathroom" />
-            <ThumbsSwiper category="countertops" />
-          </div>
-        </section> */}
 
         <Licensing />
 

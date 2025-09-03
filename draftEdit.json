@@ -8,7 +8,7 @@
   "description": "Bathroom remodels with Renova Contractors LLC on schedule and budget. Free cost estimates with discounts on bathroom fixtures and bathroom tile.",
   "hero": {
     "h1": "Seattle Bathroom Remodeling",
-    "heroP": "Renova Contractors LLC handles full-scope bathroom remodeling in Seattle, from layout changes to finish installs. We build walk-in showers with custom shower tile, waterproofed pans, and recessed shower niches for storage 🚿. If you want to rework the layout, we relocate plumbing, reframe for new vanities, or move walls as needed. All materials — toilets, vanities, flooring, fixtures, shower glass, etc. — can be sourced through us at contractor pricing. We install heated bathroom floors 🔥, wall-hung vanities, and custom tile surrounds with Schluter waterproofing. Timelines are set upfront, with no change orders unless you ask for them. You’ll get manufacturer warranties on tile, fixtures, and flooring — plus our own labor guarantee. Everything’s built to code, inspected, and handed over clean.",
+    "heroP": "- 🚿 Walk-in showers — custom tile, waterproof pans, recessed niches, and frameless glass\n- 🔧 Layout changes — plumbing relocations, framing for vanities, or wall adjustments\n- 🔥 Heated bathroom floors — warm, comfortable, and efficient\n- 💰 Contractor pricing — toilets, vanities, fixtures, flooring, and shower glass\n- 🛡️ Waterproofing — Schluter systems and long-lasting tile surrounds\n- 📅 Straightforward schedule — clear 6–9 week timelines with no surprise change orders\n- ✅ Warranties — manufacturer coverage plus our own labor guarantee\n- 🏡 Built to code — inspected, safe, and delivered clean",
     "heroImageAlt": "Bathroom remodel banner",
     "heroPhrase": "Some people look for a beautiful place, others make a place beautiful."
   },
@@ -356,33 +356,30 @@
     "secondAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756871991/seattle/bathroom/IMG_2813_c0oejg.heic",
-          "alt": "A white bathtub in a bathroom."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2813_uestp8.jpg",
+          "alt": "Bright, modern bathroom with a freestanding bathtub by large windows, double sink vanity with mirror, glass shower, and separate toilet area; white and light gray tones throughout."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756871991/seattle/bathroom/IMG_2797_mlxarg.heic",
-          "alt": "A white bathtub in a bathroom."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2806_vlwuwy.jpg",
+          "alt": "Sunlight casts shadows on white subway tile in a shower with a round showerhead, square control valve, a hand-held shower wand, and a chrome riser bar."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756871991/seattle/bathroom/IMG_2806_q7gi9d.heic",
-          "alt": "A shower head and faucet in a bathroom."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2797_tfrnfa.jpg",
+          "alt": "A white freestanding bathtub sits by large windows in a bright bathroom with white walls, tiled floor, and a view of green trees outside. A silver faucet is mounted beside the tub."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756871991/seattle/bathroom/IMG_2798_zcpzpb.heic",
-          "alt": "A white bathtub in a bathroom."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2817_tdbt9o.jpg",
+          "alt": "A bright bathroom featuring a white freestanding bathtub near a window, a light-colored vanity cabinet, mosaic tile flooring, and sunlight streaming in, casting shadows on the floor."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756871994/seattle/bathroom/IMG_2799_jy0r76.heic",
-          "alt": "A bathroom with a large mirror and a tub."
-        },{
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756871994/seattle/bathroom/IMG_2817_t0brog.heic",
-          "alt": "A bathroom with a tub and sink."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926112/seattle/bathroom/IMG_2799_drni7u.jpg",
+          "alt": "A modern bathroom with a large double-sink vanity, a wide mirror, wall-mounted lights, a towel bar, and a freestanding bathtub near a window letting in natural light."
         }
       ],
       "title": "Classic Bathroom Remodel 2025",
   "heading": "Bathroom Remodel",
   "paragraph": "Seattle bathroom remodel with a freestanding soaking tub, glass-enclosed shower, shaker-style vanity with quartz top, herringbone mosaic tile floor, and detailed crown molding. The space blends natural light with traditional finishes for an elegant, timeless look.",
-  "timeline": "9 weeks"
+  "timeline": "7 weeks"
     }
   }
 }
