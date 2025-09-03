@@ -174,9 +174,7 @@ export default function Home(): JSX.Element {
       <main>
         {/*  <BackgroundPictures pageType={backgroundPicturesMain} /> */}
         <Slider id="hero" />
-        {/* <FormMain>
-          <CatalogBanner isMobile={isMobile} />
-        </FormMain> */}
+        
         <PageNav />
         <ServicesAbout {...mainPageContent.about} isMobile={isMobile} />
         <YouTubeShortSlider category="kitchen" city="seattle" />
