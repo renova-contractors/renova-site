@@ -10,9 +10,18 @@ export async function generateMetadata(
 	parent: ResolvingMetadata,
 ): Promise<Metadata> {
 	const id = params.url;
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		return {
+			title: "Blog Post",
+			description: "Blog post from RENOVA Contractors",
+		};
+	}
 
 	const post = await fetch(
-		`${process.env.NEXT_PUBLIC_BACKEND_URL}/blog/url/${id}`,
+		`${backendUrl}/blog/url/${id}`,
 	).then((res) => res.json());
 
 	// Assuming 'title' and 'description' properties exist in the API response
@@ -28,9 +37,27 @@ export async function generateMetadata(
 }
 
 export async function generateStaticParams(): Promise<{ url: string }[]> {
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		return [];
+	}
+
 	const url = await fetch(
-		`${process.env.NEXT_PUBLIC_BACKEND_URL}/blog/url/`,
-	).then((res) => res.json());
+		`${backendUrl}/blog/url/`,
+	).then(async (res) => {
+		if (!res.ok) {
+			console.error(`API request failed: ${res.status} ${res.statusText}`);
+			return [];
+		}
+		const contentType = res.headers.get('content-type');
+		if (!contentType || !contentType.includes('application/json')) {
+			console.error('API response is not JSON');
+			return [];
+		}
+		return res.json();
+	});
 
 	// Check if the response is an array before using .map
 	if (Array.isArray(url)) {
@@ -47,8 +74,20 @@ export async function generateStaticParams(): Promise<{ url: string }[]> {
 
 const page = async ({ params }: Props): Promise<JSX.Element> => {
 	const getBlog = async (): Promise<any> => {
+		const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+		if (!backendUrl) {
+			console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+			return {
+				title: "Blog Post",
+				description: "Blog post from RENOVA Contractors",
+				markdown: "<p>Blog content not available.</p>",
+				createdAt: new Date().toISOString(),
+			};
+		}
+
 		const res = await fetch(
-			`${process.env.NEXT_PUBLIC_BACKEND_URL}/blog/url/${params.url}`,
+			`${backendUrl}/blog/url/${params.url}`,
 		);
 		return res.json();
 	};

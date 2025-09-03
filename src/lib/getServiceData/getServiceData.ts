@@ -1,6 +1,13 @@
 export const getServicesData = async (params: any): Promise<any> => {
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		throw new Error("Backend URL is not configured");
+	}
+
 	const res = await fetch(
-		`${process.env.NEXT_PUBLIC_BACKEND_URL}/services/${params.services}`,
+		`${backendUrl}/services/${params.services}`,
 	);
 
 	if (!res.ok) {
@@ -10,7 +17,6 @@ export const getServicesData = async (params: any): Promise<any> => {
 	const data = await res.json();
 	
 	// Debug logging
-	console.log(`API Response for ${params.services}:`, data);
 	
 	// If the API returns an array, find the exact service that matches the URL
 	if (Array.isArray(data)) {
@@ -20,7 +26,6 @@ export const getServicesData = async (params: any): Promise<any> => {
 			service.id === params.services
 		);
 		
-		console.log(`Found exact service:`, exactService);
 		
 		// Return the exact service if found, otherwise return the full array
 		return exactService ? [exactService] : data;

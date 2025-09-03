@@ -1,11 +1,18 @@
 export const getBlogData = async (search = ""): Promise<any> => {
 	let res;
 
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		throw new Error("Backend URL is not configured");
+	}
+
 	if (search === "") {
-		res = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/blog/`);
+		res = await fetch(`${backendUrl}/blog/`);
 	} else {
 		res = await fetch(
-			`${process.env.NEXT_PUBLIC_BACKEND_URL}/blog/${search}`,
+			`${backendUrl}/blog/${search}`,
 		);
 	}
 

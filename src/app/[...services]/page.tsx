@@ -28,14 +28,23 @@ type Props = {
 };
 
 export async function generateMetadata(
-  { params }: Props,
-  parent: ResolvingMetadata,
+	{ params }: Props,
+	parent: ResolvingMetadata,
 ): Promise<Metadata> {
-  const id = params.services.join("/");
+	const id = params.services.join("/");
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
-  const service = await fetch(
-    `${process.env.NEXT_PUBLIC_BACKEND_URL}/services/${id}`,
-  ).then((res) => res.json());
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		return {
+			title: "Service Page",
+			description: "Service page from RENOVA Contractors",
+		};
+	}
+
+	const service = await fetch(
+		`${backendUrl}/services/${id}`,
+	).then((res) => res.json());
 
   const previousImages = (await parent).openGraph?.images || [];
 
@@ -49,9 +58,27 @@ export async function generateMetadata(
 }
 
 export async function generateStaticParams() {
-  const url = await fetch(
-    `${process.env.NEXT_PUBLIC_BACKEND_URL}/services/`,
-  ).then((res) => res.json());
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		return [];
+	}
+
+	const url = await fetch(
+		`${backendUrl}/services/`,
+	).then(async (res) => {
+		if (!res.ok) {
+			console.error(`API request failed: ${res.status} ${res.statusText}`);
+			return [];
+		}
+		const contentType = res.headers.get('content-type');
+		if (!contentType || !contentType.includes('application/json')) {
+			console.error('API response is not JSON');
+			return [];
+		}
+		return res.json();
+	});
 
   return url.map((post: { service: string }) => ({
     services: post.service.split("/"),

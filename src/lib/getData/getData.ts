@@ -1,5 +1,12 @@
 export async function getData(params: any, searchParams: any): Promise<any> {
-	let url = `${process.env.NEXT_PUBLIC_BACKEND_URL}`;
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		throw new Error("Backend URL is not configured");
+	}
+
+	let url = `${backendUrl}`;
 
 	// If params.slug is an array, join it into a string with slashes. If not an array, use it as is, or default to an empty string if undefined.
 	const slug = Array.isArray(params.slug)

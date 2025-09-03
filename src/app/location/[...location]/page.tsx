@@ -27,9 +27,27 @@ type LocationParams = {
 };
 
 export async function generateStaticParams(): Promise<any> {
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		return [];
+	}
+
 	const url = await fetch(
-		`${process.env.NEXT_PUBLIC_BACKEND_URL}/location/`,
-	).then((res) => res.json());
+		`${backendUrl}/location/`,
+	).then(async (res) => {
+		if (!res.ok) {
+			console.error(`API request failed: ${res.status} ${res.statusText}`);
+			return [];
+		}
+		const contentType = res.headers.get('content-type');
+		if (!contentType || !contentType.includes('application/json')) {
+			console.error('API response is not JSON');
+			return [];
+		}
+		return res.json();
+	});
 
 	return url.map((post: { city: string }) => ({
 		location: [post.city],
@@ -41,9 +59,30 @@ export async function generateMetadata(
 	parent: any,
 ): Promise<any> {
 	const city = params.location;
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		return {
+			title: "Location Page",
+			description: "Location page from RENOVA Contractors",
+		};
+	}
+
 	const product = await fetch(
-		`${process.env.NEXT_PUBLIC_BACKEND_URL}/location/${city}`,
-	).then((res) => res.json());
+		`${backendUrl}/location/${city}`,
+	).then(async (res) => {
+		if (!res.ok) {
+			console.error(`API request failed: ${res.status} ${res.statusText}`);
+			return { title: "Location Page", description: "Location page from RENOVA Contractors" };
+		}
+		const contentType = res.headers.get('content-type');
+		if (!contentType || !contentType.includes('application/json')) {
+			console.error('API response is not JSON');
+			return { title: "Location Page", description: "Location page from RENOVA Contractors" };
+		}
+		return res.json();
+	});
 	/* 	const previousImages = (await parent).openGraph?.images || [];
 	 */
 
@@ -58,8 +97,19 @@ export async function generateMetadata(
 
 async function getLocationData(params: LocationParams): Promise<any> {
 	const city = params.location;
+	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+	if (!backendUrl) {
+		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+		return {
+			title: "Location Page",
+			description: "Location page from RENOVA Contractors",
+			markdown: "<p>Location content not available.</p>",
+		};
+	}
+
 	const res = await fetch(
-		`${process.env.NEXT_PUBLIC_BACKEND_URL}/location/${city}`,
+		`${backendUrl}/location/${city}`,
 	);
 
 	if (!res.ok) {
