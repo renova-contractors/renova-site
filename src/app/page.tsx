@@ -27,6 +27,7 @@ import SeattleRemodelCalculator from "@/components/Roi";
 import { HowWeWork } from "@/components/HowWeWork/HowWeWork";
 import YouTubeShortSlider from "@/components/Shorts/YoutubeShorts";
 import { GenerateEstimate } from "@/components/Chatbot/GenerateEstimate";
+import SimpleYouTubeVideo from "@/components/YouTubeVideo/SimpleYouTubeVideo";
 
 export const metadata: Metadata = {
   title: "Home Remodeling Seattle | Kitchens, Bathrooms, Basements – Renova Contractors LLC",
@@ -159,6 +160,27 @@ export default function Home(): JSX.Element {
           "name": "Google Reviews"
         },
         "reviewBody": "RENOVA Contractors LLC is known for quality craftsmanship, clear communication, and handling permits, design, and construction in-house."
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://www.renova.contractors/#video",
+        "name": "Seattle Home Remodeling Services - RENOVA Contractors",
+        "description": "Learn about RENOVA Contractors' home remodeling services in Seattle including kitchen, bathroom, basement, and more renovation projects.",
+        "thumbnailUrl": "https://img.youtube.com/vi/AuuHOqpgals/maxresdefault.jpg",
+        "uploadDate": "2024-01-15",
+        "duration": "PT2M30S",
+        "contentUrl": "https://www.youtube.com/watch?v=AuuHOqpgals",
+        "embedUrl": "https://www.youtube.com/embed/AuuHOqpgals",
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.renova.contractors/#organization",
+          "name": "RENOVA Contractors LLC"
+        },
+        "about": {
+          "@type": "LocalBusiness",
+          "@id": "https://www.renova.contractors/#localbusiness",
+          "name": "RENOVA Contractors LLC"
+        }
       }
     ]
   };
@@ -180,6 +202,9 @@ export default function Home(): JSX.Element {
         <YouTubeShortSlider category="kitchen" city="seattle" />
         <GenerateEstimate />
         <OurServices {...mainPageContent.ourServices} />
+      <SimpleYouTubeVideo
+        videoUrl="https://www.youtube.com/watch?v=AuuHOqpgals"
+      />
 
         <Licensing />
 

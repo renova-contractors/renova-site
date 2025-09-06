@@ -2,184 +2,178 @@
   {
     
     "location": "seattle",
-    "category": "basement",
-    "service": "basement-finishing-seattle",
-    "title": "Basement Remodeling and Finishing in Seattle",
-    "description": "Real professionals at Renova Contractors LLC perform basement remodeling and finishing. Learn more about our exclusive deals and discounts on fixtures and basement flooring.",
+    "category": "cabinets",
+    "service": "cabinet-installation-seattle",
+    "title": "Kitchen Cabinet Installation in Seattle ",
+    "description": "Cabinet Installers from Renova Contractors LLC offer a wide variety of prefabricated and custom cabinets that come in all dimensions and colors. One stop shop. Call Us Today!",
     "hero": {
-      "h1": "Best Basement Finishing Services in Seattle",
-      "heroP": "- 🧱 **Basement remodel** — turn unused or cluttered space into livable square footage\n- 🪵 **Floors, drywall, lighting, paint** — refresh or full finish, your choice\n- 🚽 **Bathroom add-on** — licensed plumber handles rough-in and fixtures\n- 📐 **Simple layouts** — one room or a couple, doesn’t need to be fancy\n- 🧰 **Partial or whole-basement** — we take small scopes or full conversions\n- 🛋️ **Flexible use** — rec room, office, guest room, or clean storage\n- 🔧 **Clean build** — framed, trimmed, sealed; no mess left behind\n- ✅ **To code & ready to use** — inspected, safe, move-in ready",
-      "heroImageAlt": "Basement finishing banner",
-      "heroPhrase": "A basement remodel can transform an underutilized space into a functional and enjoyable part of your home."
+      "h1": "Cabinet Installation in Seattle ",
+      "heroP": "RENOVA Contractors LLC installs kitchen cabinets, bathroom vanities, and custom storage systems across Seattle. We work with both prefab cabinet lines and custom-built options from our own local shop — depending on your layout, budget, and timeline. Every cabinet is measured to fit, shimmed, fastened to studs, and trimmed. No loose boxes, no filler tricks, no gaps hidden with caulk. We install plywood boxes only — no particle board or ikea grade junk cabinets. If your layout needs a specialty piece, we build it or customize.",
+      "heroImageAlt": "Cabinet installation banner",
+      "heroPhrase": "Installing cabinets on your walls right the first time."
     },
     "about": {
-      "phrase1": "Basement remodeling is an investment in your home's future, turning a previously unused space into a functional and attractive area.",
-      "phrase2": "Basement remodeling offers endless possibilities, from creating a home theater or gym to designing a guest suite or a home office.",
-      "priceLine1": "Basement Finishing: 🛠️ Transform your unfinished basement into livable space for $20,000-$40,000+. Add a family room, bedroom, or office!",
-      "priceLine2": "Basement Waterproofing: 💧 Protect your basement from leaks and moisture for $5,000-$10,000. Keep your space dry and secure!",
-      "sectionP1": "Remodeling a basement increases value and gives more space: having a livable basement is only a plus. Renova Contractors LLC specializes in basement remodeling. It is pretty straightforward aside from when adding a basement bathroom or basement kitchen. We would have to make a trench and dig through the cement; however, this isn’t much of a problem with licensed plumbers who will pull permits. With specialized equipment, we can easily break through the concrete and dig the trench to hook up to your main water line. It is of the utmost importance to have your basement well-waterproofed and insulated. If you insulated your basement well, you would want to make sure that you were also installing proper windows that would prevent drafts and are up to code, which requires egress windows in bedrooms ",
-      "sectionP2": "Renova Contractors LLC offers more than just basement remodeling; we also offer specialized services such as basement finishing for when you just need to add a little extra touch to make it welcoming. You can also install a basement entertainment center to enjoy movies and entertain your guests. Basement window installation and basement flooring installation all contribute to a well-finished basement. If you feel lost on where to start with your basement remodel or basement finishing, we provide you with our complimentary interior designer, who will guide you through the vast world of fixtures, colors, and finishes to make sure we bring your dreams into reality. ",
-      "section2H2": "Common Challenges and Solutions for Basements",
-      "section2P1": "When remodeling a basement, you may encounter several avoidable problems. At Renova Contractors LLC, we meticulously plan and analyze the location to ensure we steer clear of problematic areas or promptly address them. The primary challenge in a basement is moisture control, as it is below ground level and dampness accumulates easily. An effective way to prevent moisture from getting in is to have your basement waterproofed with Drylok. Having more sunlight come into your basement will also help prevent dampness, so using our basement window installation service would be a great way to solve this issue. Additionally, addressing poor natural lighting is crucial to creating an inviting space. You can achieve this by maximizing natural light through larger windows, using layered lighting with a combination of ambient, task, and accent lights, and incorporating light colors and reflective surfaces to brighten the area.",
-      "section2P2": "If you plan to use your basement as an entertainment center, and since we provide basement bar installation services, you may want to consider adding some soundproofing. Effective ways to block out noise would be to install soundproof insulation in the walls and ceiling, use insulated drywall, and add acoustic panels. We would perhaps also recommend a carpet that would absorb some noise. Sealing gaps around doors, windows, and utility penetrations with acoustic sealant or weatherstripping is also essential to prevent noise from traveling through small openings. Renovating your basement can significantly enhance its appeal and encourage you to spend more time there.",
+      "phrase1": "Crafting Beautiful, Functional Spaces",
+      "phrase2": "Adding storge with taste and beauty.",
+      "priceLine1": "\nStock Cabinets: 🛠️ Quick and cost-effective, stock cabinets for $100-$200 per linear foot. Ready to install with basic styles and finishes!",
+      "priceLine2": "Custom Cabinets: ✨ Tailored to your space with custom cabinets for $200-$900 per linear foot. Choose your materials, style, and finish for a perfect fit!",
+      "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996751/cabinets/2FB7F4AA-32AC-486A-BE24-3DA17EB94E08_qiheki.jpg",
+      "image1alt": "A modern room features white cabinets with brass handles, a wooden countertop, and decorative shelves above. A flat-screen TV is mounted on a pinkish wall, and an open doorway reveals an adjacent room showcasing expert cabinet installation with large windows and shutters.",
+      "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996732/cabinets/5432BC60-4395-4561-8CE1-B7C69B18F6DC_upomi2.jpg",
+      "image2alt": "A person wearing a beige shirt, black pants, and a cap stands in a modern kitchen with white cabinets and drawers, wooden countertops, and a black ceiling fan above. The sleek kitchen cabinets frame the window with white shutters situated behind the person.",
+      "sectionP1": "In your home, you want to see beauty combined with functionality. That is where Renova Contractors LLC comes in with cabinet installation service for the kitchen, bathrooms, or any other room where you want additional storage space. We install kitchen cabinets for all your needs without compromising on the aesthetics of the space, and we provide you with a wide range of selections. Our cabinets come in various colors; you can pick blue kitchen cabinets, yellow cabinets, or go with the standard options of grey and white kitchen cabinets. We offer customization options for kitchen cabinets, providing you with more flexibility to choose the organization of your space. Our designers will give you thorough consultations to help you choose the right fit for your kitchen cabinetry. ",
+      "sectionP2": "We provide you with options for bathroom vanity cabinets of mass variety, such as a standard standing cabinet or a floating vanity. If you want to refinish your cabinets and add a new layer of color, that is also possible with Renova Contractors LLC. We will take your old cabinets and give them a second life. We employ highly trained installers who make most of the cabinets installation happen withing a day or two.",
+      "section2H2": "Why Us? ",
+      "section2P1": "Choosing Renova Contractors LLC for your cabinet requirements can be a rewarding experience. We offer a diverse range of top-notch cabinets, ready for installation in your home within a few days. By consulting our designers through our complimentary service, you can be confident that your new cabinets will bring a refreshing new look to your home. In our catalog, we often offer significant discounts on kitchen cabinets, and when you undertake a kitchen remodel, we will cover the cost of all upper cabinets. That is a strong case for picking Renova Contractors LLC as your trusted partner for cabinet installation. ",
+      "section2P2": "On a serious note, we employ a highly skilled team that knows how to do everything right the first time. Before we deliver the cabinets for assembly to our warehouse, we ensure that our distributors provide us with all the necessary materials, thereby minimizing our time in your home. We already come with pre-assembled cabinets to hang on your wall within a day or two, depending on the number of cabinets you have ordered. During our work, we ensure that the space is well maintained, avoiding scratches on the floor from screws and other sharp objects. Our plan was designed to maximize your investment while reducing the stress of construction and hectic planning. We have everything planned out and thought through, so with Renova Contractors LLC, having your cabinets installed is the smart way to go!",
       "perks": [
         {
-          "heading": "Custom Design",
-          "paragraph": "We offer tailored design plans that reflect your unique style and functional needs."
+          "heading": "Renova Contractors LLC Strategy",
+          "paragraph": "Minimizing the time to install cabinets by doing it right the first time."
+        },
+        {
+          "heading": "Quality and Pricing",
+          "paragraph": "Offering you competitive prices without compromising on the quality."
+        },
+        {
+          "heading": "Bundle Deals",
+          "paragraph": "We offer a wide range of deals and discounts, check our catalog or call us."
+        },
+        {
+          "heading": "Custom Solutions",
+          "paragraph": "Custom cabinetry available that will fit all your needs and tastes."
+        },
+        {
+          "heading": "Customer Satisfaction",
+          "paragraph": "We prioritize customer satisfaction, ensuring you're happy with the results."
         },
         {
           "heading": "Video Monitoring",
-          "paragraph": "We offer video monitoring so you can track progress while away."
+          "paragraph": "We provide video monitoring during the installation process, ensuring transparency and allowing you to track progress."
         },
         {
-          "heading": "Space Utilization",
-          "paragraph": "Our creative solutions maximize your basement's potential, ensuring every inch is functional and beautiful."
+          "heading": "Design Consultation",
+          "paragraph": "Our expert designers offer personalized consultations to help you choose the perfect cabinets for your space."
         },
         {
-          "heading": "Smart Home",
-          "paragraph": "We incorporate the latest smart home technology to make your basement remodel both modern and convenient."
+          "heading": "3D Visualization",
+          "paragraph": "We provide 3D visualizations of your project, so you can see the final look before installation begins."
         },
         {
-          "heading": "Eco-Friendly",
-          "paragraph": "We provide sustainable and eco-friendly materials and practices to minimize your carbon footprint."
+          "heading": "Flexible Scheduling",
+          "paragraph": "We offer flexible scheduling options to fit your busy lifestyle and minimize disruption to your daily routine."
         },
         {
-          "heading": "Soundproofing",
-          "paragraph": "Our soundproofing techniques ensure your basement is a quiet, peaceful retreat from the rest of the home."
+          "heading": "Warranty",
+          "paragraph": "Our cabinets come with a 2-year warranty, giving you peace of mind and confidence in our quality."
         },
         {
-          "heading": "Lighting Solutions",
-          "paragraph": "We use advanced lighting techniques to brighten your basement, making it inviting and warm."
+          "heading": "Post-Installation Support",
+          "paragraph": "We provide ongoing support and maintenance tips to keep your cabinets looking their best for years to come."
         },
         {
-          "heading": "Multi-Functional Spaces",
-          "paragraph": "We design basements that serve multiple purposes, from entertainment areas to home offices or gyms."
+          "heading": "Expert Craftsmanship",
+          "paragraph": "Our skilled craftsmen ensure precise and flawless cabinet installation, enhancing the aesthetic appeal of your space."
         },
         {
-          "heading": "Moisture Control",
-          "paragraph": "Our moisture control systems protect your basement from dampness and mold, ensuring a healthy environment."
+          "heading": "Grain Matching",
+          "paragraph": "We offer grain matching services for a seamless and cohesive look in your cabinetry."
         },
         {
-          "heading": "Luxury Finishes",
-          "paragraph": "We offer high-end finishes and fixtures to give your basement a sophisticated, polished look."
-        },
-        {
-          "heading": "Flexible Financing",
-          "paragraph": "Our flexible financing plans make it easier for you to start your basement remodeling project."
-        },
-        {
-          "heading": "Project Management",
-          "paragraph": "A dedicated project manager ensures your basement remodel is completed on time and within budget."
-        },
-        {
-          "heading": "Virtual Consultations",
-          "paragraph": "We offer virtual consultations to provide you with expert advice and planning without leaving your home."
-        },
-        {
-          "heading": "Energy Efficiency",
-          "paragraph": "Our remodeling services include energy-efficient upgrades to reduce your utility costs and improve sustainability."
-        },
-        {
-          "heading": "Home Theater",
-          "paragraph": "We create stunning home theater setups for the ultimate entertainment experience in your basement."
-        },
-        {
-          "heading": "Basement Bar",
-          "paragraph": "Our team can design and build a custom basement bar, perfect for entertaining guests."
-        },
-        {
-          "heading": "Kid-Friendly",
-          "paragraph": "We create safe, fun, and functional spaces tailored for your children's needs."
-        },
-        {
-          "heading": "Pet-Friendly",
-          "paragraph": "Our designs include pet-friendly features to accommodate your furry family members."
-        },
-        {
-          "heading": "Rapid Turnaround",
-          "paragraph": "We offer expedited services to complete your basement remodel quickly without compromising on quality."
+          "heading": "Seamless Repairs",
+          "paragraph": "In case of any damage, we offer seamless repair services to restore your cabinets to their original condition."
         }
       ],
-      "sectionH1": "Why Remodel A Basement? ",
-      "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724111189/basement/renova_contractors_work_image_1724110883655_zjy0km.jpg",
-      "image1alt": "A spacious, newly finished basement with light blue walls and gray carpeting. On the left side, there is a small area with wood cabinets, a countertop, and a white tile backsplash. Recessed lighting brightens the room, showcasing the quality work of our trusted basement remodeling contractor.",
-      "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724111154/basement/renova_contractors_work_image_1724110884244_bt0hbv.jpg",
-      "image2alt": "A small, empty room with white walls and a wooden floor. The ceiling is fitted with two recessed lights, and there are two square windows with shutters near the top of one wall. Ideal for basement finishing, the room is clean and brightly lit, boasting minimal decor."
+      "sectionH1": "Explore Cabinets with Renova Contractors LLC"
     },
     "ourServices": {
-      "h2": "Basement Services",
-      "paragraph": "RENOVA handles full-scope basement remodeling in Seattle, including layout changes, framing, drywall, and finish carpentry. We work on basement finishing projects for both raw and partially completed basements — adding new walls, ceilings, insulation, lighting, and flooring. Need a basement bathroom or bedroom? We build those with proper venting, plumbing, and code-compliant layout. Egress windows can be installed or enlarged as required for sleeping areas. All plans are customized to the space — no templates. Whether you're partially converting basement to living space or finishing a full basement suite - we handle it from start to finish. ",
+      "h2": "Cabinet Installation Services",
+      "paragraph": "We offer a wide range of cabinet installation services for any room or requirement. We provide storage space that is both functional and aesthetically pleasing. Custom cabinetry and cabinet refinishing are also available, in addition to cabinet procurement and installation. Our interior designer, through a complimentary consultation, will point you in the right direction.",
       "array": [
         {
-          "heading": "Basement Finishing",
-          "paragraph": "Transform your basement into functional living space with our finishing services.",
-          "url": "/basement-finishing",
-          "image": "service_image_basement_finishing",
-          "price": "Price starts at $10000"
+          "heading": "Kitchen Cabinet Installation",
+          "paragraph": "Kitchen cabinets installed by professionals in your kitchen. Pick your perfect kitchen cabinet set from our inventory.",
+          "url": "/kitchen-cabinet-installation",
+          "image": "service_image_kitchen_cabinets",
+          "price": "Price starts at $3000"
         },
         {
-          "heading": "Basement Flooring",
-          "paragraph": "Choose from a variety of flooring options to enhance your basement's comfort and style.",
-          "url": "/service/basement-flooring",
-          "image": "service_image_basement_flooring",
-          "price": "Price starts at $5000"
+          "heading": "Kitchen Cabinets",
+          "paragraph": "Melamine MDF hardwood plywood kitchen cabinets and many more are available for purchase with select cabinets at a discount.",
+          "url": "/service/kitchen-cabinets",
+          "image": "service_image_kitchen_electrical",
+          "price": "Price starts at $3000"
         },
         {
-          "heading": "Basement Remodel",
-          "paragraph": "Revamp your basement for improved functionality and aesthetics with our remodeling services.",
-          "url": "/service/basement-remodel",
-          "image": "service_image_basement_remodel",
-          "price": "Price starts at $12000"
+          "heading": "Cabinet Design",
+          "paragraph": "Our designer services for creating kitchen and bathroom cabinet designs are complimentary. Visualize your cabinets with ease.",
+          "url": "/service/cabinet-design",
+          "image": "service_image_kitchen_countertops",
+          "price": "Price starts at $1500"
         },
         {
-          "heading": "Basement Entertainment Center",
-          "paragraph": "Create the ultimate entertainment space in your basement with our customized solutions.",
-          "url": "/service/basement-entertainment-center",
-          "image": "service_image_basement_entertainment",
-          "price": "Price starts at $8000"
+          "heading": "Cabinet Installation",
+          "paragraph": "If you need more storage we can install cabinets in any room of your house. Cabinet Installation for all your storage needs done right.",
+          "url": "/service/cabinet-installation",
+          "image": "service_image_kitchen_electrical",
+          "price": "Price starts at $2500"
         },
         {
-          "heading": "Basement Bathroom",
-          "paragraph": "Add convenience and value to your basement with a professionally installed bathroom.",
-          "url": "/service/basement-bathroom",
-          "image": "service_image_basement_bathroom",
-          "price": "Price starts at $6000"
+          "heading": "Bathroom Cabinets",
+          "paragraph": "Bathroom cabinets are a great way to add style to your bathroom. Specialty cabinets are available for bathroom vanity and storage needs.",
+          "url": "/service/bathroom-cabinets",
+          "image": "service_image_kitchen_backsplash",
+          "price": "Price starts at $2200"
         },
         {
-          "heading": "Basement Waterproofing",
-          "paragraph": "Protect your basement from moisture and water damage with our waterproofing solutions.",
-          "url": "/service/basement-waterproofing",
-          "image": "service_image_basement_waterproofing",
-          "price": "Price starts at $5500"
+          "heading": "Cabinet Refinishing",
+          "paragraph": "Our cabinet refacing service can save you time and money with professional results. Kitchen cabinet refinishing and more with our help.",
+          "url": "/service/cabinet-refinishing",
+          "image": "service_image_kitchen_flooring",
+          "price": "Price starts at $1500"
         },
         {
-          "heading": "Basement Insulation",
-          "paragraph": "Ensure year-round comfort and energy efficiency in your basement with proper insulation.",
-          "url": "/service/basement-insulation",
-          "image": "service_image_basement_insulation",
-          "price": "Price starts at $4500"
+          "heading": "Built-in Cabinets",
+          "paragraph": "Built-in cabinets provide a seamless and timeless look to any room creating a sense of cohesiveness and helping to declutter your space.",
+          "url": "/service/built-in-cabinets",
+          "image": "service_image_custom_kitchen_cabinets",
+          "price": "Price starts at $4000"
         },
         {
-          "heading": "Basement Bar",
-          "paragraph": "Create a stylish and functional bar space in your basement for entertaining guests.",
-          "url": "/service/basement-bar",
-          "image": "service_image_basement_bar",
-          "price": "Price starts at $7000"
+          "heading": "Cabinet Door Replacement",
+          "paragraph": "Freshen up your kitchen cabinets by replacing the cabinet doors with a wide variety of options that won't break the bank.",
+          "url": "/service/cabinet-door-replacement",
+          "image": "service_image_kitchen_plumbing",
+          "price": "Price starts at $1800"
         },
         {
-          "heading": "Basement Windows",
-          "paragraph": "Brighten up your basement and improve ventilation with new windows.",
-          "url": "/service/basement-windows",
-          "image": "service_image_basement_windows",
-          "price": "Price starts at $3500"
+          "heading": "Cabinet Repair",
+          "paragraph": "We specialize in repairing kitchen cabinets as well as any other cabinets in your home that require fixing.",
+          "url": "/service/cabinet-repair",
+          "image": "service_image_kitchen_hardware",
+          "price": "Price starts at $800"
+        },
+        {
+          "heading": "Cabinet Painting",
+          "paragraph": "Brighten up your cabinets with our professional cabinet painting service. We use high-quality cabinet paint for all of your cabinets.",
+          "url": "/service/cabinet-painting",
+          "image": "service_image_kitchen_pantry",
+          "price": "Price starts at $1300"
+        },
+        {
+          "heading": "Storage Cabinets",
+          "paragraph": "Add storage space and functionality to any room with our cabinet installation and sales service. See storage cabinets we sell and install.",
+          "url": "/service/storage-cabinets",
+          "image": "service_image_kitchen_expansion",
+          "price": "Price starts at $2500"
         }
       ],
-      "ourServicesMarkdown": "RENOVA Contractors LLC is a full-scope basement remodel company in Seattle. We specialize in basement finishing, ADU conversions, and full interior buildouts — from concrete to trim. Whether you’re upgrading an old basement, finishing new construction, or converting space into a legal unit, we manage every phase of the job.\n\nWe’re a licensed basement remodel contractor in Seattle — everything we do meets current Seattle building code, from insulation and egress to HVAC and plumbing. If the job calls for structural changes, layout rework, or new windows, we bring in a licensed engineer or architect. And for material selection, layout, tile, and finishes — we include free interior design support with every project.\n\n### What’s Included:\n- 🪚 **Framing and layout** – Bedrooms, rec rooms, laundry rooms, ADUs, or multi-room setups  \n- 🌧️ **Insulation and moisture barrier** – R-21 walls, vapor protection, floor prep  \n- 🪟 **Egress windows** – Fully compliant with IRC R310 — includes cutting, drainage, and trim  \n- 🔧 **Plumbing rough-in** – Full drain, supply, and vent for bathrooms or basement kitchens  \n- ⚡ **Electrical** – Lights, outlets, smoke/CO detectors, new circuits, subpanel work  \n- 🌬️ **HVAC** – Duct tie-ins or ductless systems for added zones  \n- 🧱 **Drywall, paint, trim** – Moisture-rated board, corner bead, baseboard, and doors  \n- 🛁 **Bathrooms** – Waterproof showers, tiled floors, fans, and fixtures  \n- 🪵 **Flooring** – LVP, tile, or carpet depending on the room type and slab condition\n\nWe’re a Seattle basement remodeling company that handles permits, manages trades, and keeps jobs moving — no handoffs, no missed steps. If you need a reliable basement renovation expert in Seattle, **RENOVA Contractors LLC** builds it clean, builds it once, and builds it right. ✅🧰📏"
+      "ourServicesMarkdown": "RENOVA Contractors LLC installs cabinets for kitchens, bathrooms, laundry rooms, and storage areas across Seattle. Whether you're using prefab boxes or going full custom, we install everything level, shimmed, and fastened to structure — no wobbly boxes, no bad gaps, no shortcuts.\n\nWe’re the go-to team for homeowners searching for **cabinet installers near me**, **kitchen cabinet installation**, and clean, code-compliant work.\n\n### Our Cabinet Installation Services Include:\n- **Kitchen cabinet installation** – Upper and base cabinets set to laser lines, properly shimmed and fastened to studs  \n- **Bathroom vanity installation** – Wall-mounted or freestanding vanities, sink cutouts drilled clean, sealed and leveled  \n- **Custom cabinets** – Boxes built in our shop if prefab doesn’t fit your layout — plywood only, no particle board  \n- **Filler panels & trim** – Scribed and cut on-site — we don’t hide gaps with caulk  \n- **Toe kicks, crown, and end panels** – Installed tight and clean — no flex, no glue-only attachments  \n- **Appliance panel fitment** – Dishwasher, fridge, or range panels cut and aligned to match  \n- **Sink base cutouts** – Drilled with hole saws — not smashed out  \n- **Cabinet hardware** – Pulls, handles, soft-close hinges, tip-out trays, and organizers\n\nIf you’re searching for **cabinet contractors near me**, **kitchen cabinet installers near me**, or a licensed crew for full cabinet installation in Seattle, **RENOVA Contractors LLC** gets it done right — clean fit, clean lines, no filler tricks. ✅📐🧰"
     },
     "manufacturers": {
-      "h2": "Materials to Use For your Basement",
-      "p": "When it comes to basement finishing projects, several manufacturers stand out for their high-quality products and systems. Total Basement Finishing (TBF) offers moisture-resistant wall panels, ceiling tiles, and flooring options designed to handle basement challenges like high humidity and potential leaks, while also being easy to install and durable. Owens Corning provides insulated wall panels and suspended ceilings that resist moisture and mold, known for quick installation and long-lasting performance. Basement Systems Inc. offers innovative solutions such as the ThermalDry® flooring system and EverLast™ wall panels, which are waterproof and mold-resistant, enhancing both durability and aesthetics in finished basements.",
-      "markdownmanufacturers": "We don’t use cheap stock or bottom-shelf materials. Every basement we remodel in Seattle is built with code-compliant products that are rated for moisture, structure, and long-term durability.\n\n### Structure & Framing 🪚\n- **Framing lumber** – Kiln-dried SPF or Douglas Fir from Dunn Lumber or Parr  \n- **Pressure-treated wood** – Used for all below-grade framing where required (IRC R317.1)  \n- **Subfloor systems** – DRIcore, Barricade, or custom ¾\" plywood over vapor sheet  \n- **Wall anchors & fasteners** – Rated per IBC/IRC Table R602.3(1) and Seattle seismic (Zone D2)\n\n### Insulation & Vapor Control 🌧️\n- **Wall insulation** – R-21 fiberglass batts (WA Energy Code Section R402.1.2)  \n- **Floor insulation** – R-10 rigid foam over slab where required for ADUs or storage  \n- **Vapor barrier** – 6-mil poly or StegoWrap, taped and sealed under flooring  \n- **Air sealing** – Great Stuff Pro foam or Tremco Acoustical Sealant for all penetrations\n\n### Plumbing, Electrical, HVAC ⚙️\n- **Plumbing** – PEX (Uponor), ABS/PVC drains, sloped and vented to UPC code  \n- **Electrical** – 2020 NEC-compliant wiring, GFCI protection, tamper-resistant outlets  \n- **HVAC** – Ducts sealed with UL 181 tape or ductless mini-splits (Mitsubishi, Daikin) sized per load\n\n### Drywall, Trim, Finishes 🧱\n- **Drywall** – ½\" mold-resistant board on walls, ⅝\" Type X where required  \n- **Tile** – Statements, United Tile, or Daltile — installed over Schluter KERDI or Wedi board  \n- **Flooring** – COREtec or Shaw LVP, CFM carpet, or tile rated for slab installation"
+      "h2": "Our Cabinets Suppliers",
+      "p": "We value our reputation and our mission to provide the best for our customers. Through the years, we acknowledged the manufacturers and distributors who constantly delivered high-quality and reliable cabinets for kitchens, bathrooms, and other rooms. For many years, we worked closely with them to create renderings and plan the layout of numerous projects that required cabinet installation. We provide our clients with reputable companies that stand by their work with high-quality products.",
+      "markdownmanufacturers": "RENOVA Contractors LLC installs both custom cabinets and prefab cabinet lines depending on layout and budget. All cabinets we install — custom or stock — are plywood construction with quality hardware. No MDF boxes. No stapled particle board.\n\n### What Materials We Use:\n- 🪵 **Cabinet boxes** – ½\" or ¾\" plywood sides, full backs, solid wood face frames (if framed)  \n- 🛠️ **Drawer boxes** – Dovetail or doweled hardwood, soft-close undermount slides  \n- 🚪 **Doors & panels** – Painted MDF, hardwood, or laminate finish depending on line  \n- 🧲 **Hardware** – Soft-close hinges (Blum, Salice), full-extension glides, adjustable shelves  \n- 🎨 **Finishes** – Painted, stained wood, thermofoil, or high-pressure laminate — all sprayed or factory-cured  \n- 📦 **Custom builds** – Made in our shop for anything prefab can’t cover — tall units, angled walls, filler panels, odd dimensions\n\n### Cabinet Brands We Install:\n- **Bellmont Cabinets** – Frameless, modern, durable finish, made in WA  \n- **GoldenHome** – European-style frameless line, fast turnaround, budget friendly  \n- **ProCraft** – Plywood boxes, solid drawer fronts, standard sizes — good fit for standard kitchens  \n- **Custom Shop Line** – Built in-house to match any layout, finish, or size\n\n### Seattle Cabinet Suppliers:\n- **Pius Kitchen & Bath – Seattle**  \n📍 4400 4th Ave S, Seattle, WA 98134  \nStocking GoldenHome and modern Euro-style cabinet lines\n\n- **Cabinets To Go – Seattle**  \n📍 6003 MLK Jr Way S, Seattle, WA 98118  \nBudget-friendly cabinets with local pickup\n\n- **Dunn Lumber – Seattle**  \n📍 3800 1st Ave S, Seattle, WA 98134  \nTrim stock, plywood, glue, brackets, fillers — we use this daily\n\n- **Bellmont Cabinet Co.**  \n📍 12303 Cyrus Way, Mukilteo, WA 98275  \nFrameless cabinet manufacturer — built locally with full warranty\n\nAll materials are staged before we start. We pass on **contractor pricing** — usually **15–30% less than showroom quotes**. We handle everything — supply, build, delivery, and install. ✅📐🧰"
     },
     "howWeWork": {
       "array": [
@@ -187,241 +181,231 @@
           "id": "1",
           "title": "Initial Consultation",
           "description": {
-            "p1": "Understanding your vision.",
-            "p2": "Discussing your requirements.",
-            "p3": "Providing a project overview."
+            "p1": "Understanding your needs and preferences.",
+            "p2": "Discussing your vision and goals.",
+            "p3": "Gathering information for a tailored design."
           },
-          "imagePath": "initial_consultation_image"
+          "imagePath": "https://example.com/consultation.jpg"
         },
         {
           "id": "2",
           "title": "Design and Planning",
           "description": {
-            "p1": "Creating a detailed plan.",
-            "p2": "Designing the layout.",
-            "p3": "Ensuring feasibility and compliance."
+            "p1": "Creating a custom layout for your space.",
+            "p2": "Selecting materials and finishes.",
+            "p3": "Ensuring optimal functionality and aesthetics."
           },
-          "imagePath": "design_planning_image"
+          "imagePath": "https://example.com/design.jpg"
         },
         {
           "id": "3",
           "title": "Cost Estimation and Budgeting",
           "description": {
-            "p1": "Providing detailed cost estimates.",
-            "p2": "Budgeting for the project.",
-            "p3": "Ensuring transparency in pricing."
+            "p1": "Providing a detailed quote.",
+            "p2": "Ensuring transparency and no surprises.",
+            "p3": "Aligning with your budget."
           },
-          "imagePath": "cost_estimation_image"
+          "imagePath": "https://example.com/cost.jpg"
         },
         {
           "id": "4",
-          "title": "Permits and Approvals",
+          "title": "Material Procurement",
           "description": {
-            "p1": "Securing necessary permits.",
-            "p2": "Obtaining required approvals.",
-            "p3": "Ensuring legal compliance."
+            "p1": "Sourcing high-quality materials.",
+            "p2": "Coordinating delivery schedules.",
+            "p3": "Ensuring everything is ready for installation."
           },
-          "imagePath": "permits_approvals_image"
+          "imagePath": "https://example.com/materials.jpg"
         },
         {
           "id": "5",
           "title": "Site Preparation",
           "description": {
-            "p1": "Clearing and cleaning the site.",
-            "p2": "Marking the layout.",
-            "p3": "Preparing for construction."
+            "p1": "Preparing the space for installation.",
+            "p2": "Ensuring a clean and safe work environment.",
+            "p3": "Minimizing disruption to your home."
           },
-          "imagePath": "site_preparation_image"
+          "imagePath": "https://example.com/preparation.jpg"
         },
         {
           "id": "6",
-          "title": "Framing and Insulation",
+          "title": "Cabinet Installation",
           "description": {
-            "p1": "Installing framing.",
-            "p2": "Adding insulation.",
-            "p3": "Ensuring structural integrity and comfort."
+            "p1": "Installing cabinets with precision.",
+            "p2": "Ensuring proper alignment and fit.",
+            "p3": "Adhering to the highest standards."
           },
-          "imagePath": "framing_insulation_image"
+          "imagePath": "https://example.com/installation.jpg"
         },
         {
           "id": "7",
-          "title": "Electrical and Plumbing Work",
+          "title": "Countertop and Hardware Installation",
           "description": {
-            "p1": "Installing electrical systems.",
-            "p2": "Setting up plumbing.",
-            "p3": "Ensuring functionality and safety."
+            "p1": "Installing countertops with care.",
+            "p2": "Adding finishing touches with hardware.",
+            "p3": "Ensuring everything is secure and functional."
           },
-          "imagePath": "electrical_plumbing_image"
+          "imagePath": "https://example.com/countertops.jpg"
         },
         {
           "id": "8",
-          "title": "Drywall and Finishing",
+          "title": "Finishing Touches",
           "description": {
-            "p1": "Installing drywall.",
-            "p2": "Applying finishes.",
-            "p3": "Creating a polished look."
+            "p1": "Finalizing details for a polished look.",
+            "p2": "Ensuring everything meets our high standards.",
+            "p3": "Preparing for the final inspection."
           },
-          "imagePath": "drywall_finishing_image"
+          "imagePath": "https://example.com/finishing.jpg"
         },
         {
           "id": "9",
-          "title": "Flooring Installation",
+          "title": "Inspection and Quality Control",
           "description": {
-            "p1": "Laying down the flooring.",
-            "p2": "Choosing the best materials.",
-            "p3": "Ensuring durability and style."
+            "p1": "Thoroughly inspecting the installation.",
+            "p2": "Ensuring everything is up to code.",
+            "p3": "Making any necessary adjustments."
           },
-          "imagePath": "flooring_installation_image"
+          "imagePath": "https://example.com/inspection.jpg"
         },
         {
           "id": "10",
-          "title": "Final Touches and Cleanup",
+          "title": "Final Walkthrough and Handover",
           "description": {
-            "p1": "Adding final details.",
-            "p2": "Cleaning up the site.",
-            "p3": "Preparing for handover."
+            "p1": "Walking through the completed project.",
+            "p2": "Addressing any final questions or concerns.",
+            "p3": "Handing over the keys to your new space."
           },
-          "imagePath": "final_touches_cleanup_image"
-        },
-        {
-          "id": "11",
-          "title": "Final Inspection and Handover",
-          "description": {
-            "p1": "Conducting a thorough inspection.",
-            "p2": "Ensuring quality standards are met.",
-            "p3": "Handing over the finished project."
-          },
-          "imagePath": "final_inspection_handover_image"
+          "imagePath": "https://example.com/handover.jpg"
         }
       ],
-      "howWeWorkMarkdown": "RENOVA Contractors LLC takes a hands-on, full-scope approach to basement remodeling in Seattle. We start with a walkthrough to measure the space, check structural elements, and discuss layout options. If the project involves egress, structural work, or ADU planning, we coordinate with licensed engineers or architects early.\n\nFrom there, we build a clear line-by-line estimate and submit all required permits to the City of Seattle. Materials are ordered up front, and we manage every trade — framing, electrical, plumbing, HVAC, insulation, drywall, flooring, and finish work — in sequence. You’ll work with the same crew start to finish, with no rotating subs or missed steps.\n\nOur team walks every inspection, keeps the jobsite clean, and finishes with a full walkthrough and labor warranty. We don’t cut corners — we build it once, build it clean, and build it to code. ✅"
+      "howWeWorkMarkdown": "RENOVA Contractors LLC installs both custom cabinets and non-custom prefab cabinets across Seattle. We help you choose based on your layout, timeline, and budget — no upselling, no shortcuts. Some projects need full custom work. Others don’t. We do both.\n\nWe’ve got our own cabinet shop in the Seattle area — so if the cabinets don’t fit, or the layout needs something built to size, we build it ourselves. For tight budgets or simple layouts, we install solid prefab lines like Bellmont or GoldenHome. Either way, everything is installed by our crew — no third-party subs.\n\n### Why Go Custom or Non-Custom?\n- **Go custom** if your space is tight, uneven, or has non-standard dimensions — or if you want full control over layout, finish, and cabinet features  \n- **Go non-custom (prefab)** if your kitchen or bathroom has a standard footprint and you want to keep cost and lead time down\n\n### Our Cabinet Install Process:\n- 📏 **Measure on site** – Check wall spacing, plumbing, appliances, and layout  \n- 🛠️ **Help you choose prefab or custom** – Based on what fits the space and budget  \n- 🪵 **Trim or build what’s needed** – Fillers, panels, special sizes  \n- 🔧 **Install uppers first** – Shimmed and fastened to studs — no drywall anchors  \n- ⚙️ **Install base cabinets after flooring** – Leveled and secured  \n- 🧰 **Drill sink cutouts** – With a hole saw — clean and tight  \n- 🧱 **Install trim, toe kicks, and hardware** – After fit is dialed in\n\nNo filler tricks. No loose cabinets. No blame game between the shop and the install crew — we handle both. If you're searching for **Seattle cabinet installers**, **custom cabinet makers**, or someone to handle the full build and install, **RENOVA Contractors LLC** does it right — custom or prefab. ✅🪚📐"
     },
     "faqItems": [
       {
-        "question": "Can we make changes post-contract-signing?",
-        "answer": "Yes, certain changes can be made. However, it will require resigning the contract as new terms and conditions and pricing will apply."
+        "question": "Do you install both prefab and custom cabinets?",
+        "answer": "Yes – we do both. For standard layouts and tighter budgets, we install prefab lines like Bellmont or GoldenHome. For odd spaces or full design flexibility, we build custom in our own Seattle-area shop."
       },
       {
-        "question": "How long does a basement remodel take?",
-        "answer": "The duration varies. Without adding a bathroom or kitchen, it can take about 2 weeks. Adding a bathroom may extend the project to around 6 weeks due to plumbing and leveling work."
+        "question": "What materials do you use for cabinets?",
+        "answer": "All boxes are plywood — never particle board. Doors and drawer fronts vary (painted MDF, hardwood, laminate), and all hardware is soft-close. We only use durable, job-ready materials."
       },
       {
-        "question": "Do you handle the permits and approvals?",
-        "answer": "Yes, we manage all necessary permits and approvals to ensure compliance with local regulations."
+        "question": "Can you install cabinets I’ve already purchased?",
+        "answer": "If the quality is good — yes. We won’t install cheap flat-pack particle board or anything that can’t hold a screw. Send us the specs and we’ll confirm if it’s installable."
       },
       {
-        "question": "Are your services insured?",
-        "answer": "Yes, all our basement services are fully insured to give you peace of mind."
+        "question": "How do you handle uneven walls or tight spaces?",
+        "answer": "We scribe, cut, and fit every filler panel or side trim on-site. Nothing is forced. If prefab won’t fit, we build what’s missing to match in our shop."
       },
       {
-        "question": "What type of materials do you use?",
-        "answer": "We use high-quality materials to ensure durability, comfort, and aesthetic appeal in your finished basement."
+        "question": "Do you install bathroom vanities and utility cabinets?",
+        "answer": "Yes – we install all types of cabinetry: kitchen, bath, laundry, mudroom, and closet. Vanities are leveled, secured, and drilled for plumbing with a hole saw — no bashing."
       },
       {
-        "question": "Can you install a bathroom in my basement?",
-        "answer": "Yes, we can professionally install a bathroom in your basement, including all necessary plumbing and electrical work."
+        "question": "How long does cabinet installation usually take?",
+        "answer": "A standard kitchen install takes 1–2 days. Full custom kitchens or jobs with major trim/detailing may take longer. We’ll give you a real timeline before we start."
       },
       {
-        "question": "What is the cost of a basement remodel?",
-        "answer": "The cost varies based on the project's scope. A basic remodel starts at $8,000, while more extensive renovations can go up to $15,000 or more."
-      },
-      {
-        "question": "How do you ensure the basement remains dry?",
-        "answer": "We offer comprehensive waterproofing solutions to protect your basement from moisture and water damage."
+        "question": "Do you provide the cabinets, or do I have to supply them?",
+        "answer": "We can do both. You can choose from our supplier network (Dunn, Pius, Bellmont) or bring your own. Either way, we handle delivery, staging, and install."
       }
     ],
     "images": {
-      "hero": [
+    "hero": [
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757121969/seattle/cabinets/IMG_1652_b0b2pa.jpg",
+        "alt": "A wall of white built-in cabinets with silver handles, featuring an arched doorway in the middle. The cabinets have a modern, clean design and are set against a hardwood floor."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757122478/seattle/cabinets/kitchen-cabinets-seattle_zs62ct.jpg",
+        "alt": "Modern kitchen with wood cabinets, white countertops, stainless steel appliances, a gas stove, refrigerator, and dishwasher. A potted plant sits by the sink beneath a window, and another on the island."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757122479/seattle/cabinets/modern-cabinets-seattle_wabfc8.jpg",
+        "alt": "Modern bathroom vanity with a large glass-enclosed shower, dual sinks, wall-mounted faucets, dark wood cabinets, geometric tile patterns, and decorative lighting, featuring natural and artificial light."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757122478/seattle/cabinets/kitchen-cabinets-seattle-2_m7qdyo.jpg",
+        "alt": "Modern kitchen with white cabinets, wood accents, a large island with a white countertop, yellow bar stools, pendant lights, built-in ovens, a stainless steel range hood, and decorative plants and flowers."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757122477/seattle/cabinets/kitchen-cabinets-seattle-1_tvtjc4.jpg",
+        "alt": "Modern kitchen with high vaulted ceilings, large windows, marble countertops and island with four wooden barstools, black cabinets, pendant lights, and a potted plant on light wood floors."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757121970/seattle/cabinets/IMG_1674_ghppba.jpg",
+        "alt": "A modern kitchen with white cabinets, stainless steel stove and hood, wood flooring, a patterned rug, arched doorway, and a wooden door with glass panes. The space is well-lit with recessed ceiling lights."
+      }
+    ],
+    "firstAlbum": {
+      "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722994246/basement/B98805A2-3A03-46E5-A8FB-C2CF87193B8D_npmhw9.jpg",
-          "alt": "A spacious room featuring white built-in cabinets with gold handles, light wood flooring, and soft gray walls. A black ceiling fan and two modern wall lights illuminate the space, which also has a countertop area beneath the window with shutters—perfect for your basement remodeling project."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757123365/seattle/cabinets/flat-panel-cabinets-seattle_vqm6bn.jpg",
+          "alt": "Modern kitchen with wood and black cabinets, stainless steel appliances, white countertops, an island with a sink, a patterned rug on wood flooring, and stair railings visible in the background."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757119099/seattle/basement/29B26551-8090-49A8-A2BF-FEDA5CC2C945_1_105_c_nb99j7.jpg",
-          "alt": "A modern basement kitchenette with taupe cabinets, a granite countertop, a built-in sink, open shelves, a wine fridge, and a large flat-screen TV mounted on a blue-gray accent wall."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757123405/seattle/cabinets/modern-cabinets-3_epujgd.jpg",
+          "alt": "Modern kitchen with glossy white cabinets, a large island with bar stools, pendant lights, and wooden flooring. Open layout leads to a bright living area and outdoor patio with seating."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757119309/seattle/basement/IMG_2411_ujy3je.jpg",
-          "alt": "A modern basement bar with light wood cabinets, black countertops, and a patterned backsplash with circles and lines. A white vase and tray sit on the peninsula; sunlight streams through a window on the left."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757123405/seattle/cabinets/modern-cabinets_ugyace.jpg",
+          "alt": "Modern kitchen with wood and dark gray cabinets, stainless steel French door refrigerator, gold hardware and fixtures, white marble countertops, and a stove with a wooden-accented range hood. Potted plants add decor."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757119308/seattle/basement/IMG_2408_fshjla.jpg",
-          "alt": "A modern basement bar with light wood cabinets, a black countertop and backsplash, and patterned wallpaper featuring vertical lines and white circles. A sink with a black faucet is centered below the wallpaper, and sunlight streams through a window."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757123404/seattle/cabinets/modern-cabinets-1_kjg0oh.jpg",
+          "alt": "Modern kitchen with a large island, three gray barstools, black and wood cabinetry, stainless steel fridge, pendant lights, and minimalist decor, including a vase with branches and a bowl of fruit on the island."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722994268/basement/97A42AE1-CEF8-464A-9198-581855A9B6BC_aq0ic0.jpg",
-          "alt": "A modern living room features a dark gray sectional sofa atop a patterned area rug. The room has light wood flooring, a ceiling fan, recessed lighting, and a white door with a half-circle window to the right. A person partially visible carries red flowers on the left, hinting at recent basement remodeling efforts."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996989/cabinets/C552576D-5336-49AE-87EF-2E14ACC1CDA3_fgidhv.jpg",
+          "alt": "Modern kitchen with light gray cabinets, wooden floor, black hardware, open wooden shelves, stainless steel stove, large window, and a natural fiber rug. Bright daylight streams in from the window."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757119309/seattle/basement/IMG_2444_f9kwqu.jpg",
-          "alt": "A bright  basementlaundry room with a washer and dryer on the left, teal cabinets with silver handles, a marble countertop, and a large window letting in natural light. The floor is tiled in gray."
-        },
-        {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722994259/basement/9BC2F1F3-5A87-4F44-B9DF-589EF4C26971_fv1ohl.jpg",
-          "alt": "A spacious, modern kitchen with light wood flooring, white cabinetry, and wooden countertops. A flat-screen TV is mounted on the wall to the left. The ceiling features recessed lighting and a large black ceiling fan installed by a reputable basement contractor. Large windows provide ample natural light."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996967/cabinets/A7E2FEFC-D3C6-4EC5-8B92-2ABAA1B89CF5_enxjqc.jpg",
+          "alt": "A modern kitchen with light wood flooring, white cabinets with black handles, a built-in oven, and a staircase with wooden steps in the background."
         }
       ],
-      "firstAlbum": {
-        "images": [
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620413/seattle/basement/finished-basement-in-seattle-1_dqc6zx.jpg",
-            "alt": "A bright, finished basement room with light wood flooring, white walls, recessed ceiling lights, small windows, and open doors leading to adjacent spaces."
-          },
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620412/seattle/basement/finished-basement-in-seattle_gttbgv.jpg",
-            "alt": "A bright, empty room with light wood floors, white walls, recessed ceiling lights, a wall-mounted air conditioner, two small windows, and a doorway on the right."
-          },
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620428/seattle/basement/finished-basement-in-seattle-2_fj0eke.jpg",
-            "alt": "Modern kitchen with light cabinets, white countertops, a black faucet, and a window above the sink. There is a door, an air conditioning unit, and wooden flooring with a small rug in the center."
-          },
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620456/seattle/basement/basement-bedroom-seattle-1_see9p7.jpg",
-            "alt": "Modern bathroom with black and white checkered floor, white walls, a toilet, a walk-in shower with white subway tiles, and a vanity with a marble countertop, bronze fixtures, and decorative plants."
-          },
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620457/seattle/basement/remodeled-basement-seattle-1_n7tz0e.jpg",
-            "alt": "Modern kitchen with cream cabinets, stainless steel appliances, light wood flooring, a patterned rug, tiled backsplash, and a window above the sink with a potted plant on the counter."
-          },
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620458/seattle/basement/remodeled-basement-seattle_eepo2h.jpg",
-            "alt": "A small, empty room with white walls, light wood flooring, a small rectangular window, and two recessed ceiling lights. The window shows green trees outside."
-          }
-        ],
-        "title": "Modern Basement ADU Remodel 2025",
-        "heading": "Basement Remodel",
-        "paragraph": "Full basement ADU with new bath, kitchenette, LVP flooring, recessed lighting, doors, trim, and fresh interior paint.",
-        "timeline": "9 weeks"
-      },
-      "secondAlbum": {
-        "images": [
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619742/seattle/basement/basement-bathroom_xw1dfr.jpg",
-            "alt": "A small, empty room with light wood flooring, white walls, a window with white blinds, a wooden beam near the ceiling, and a white closet with louvered doors."
-          },
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619741/seattle/basement/basement-laundry-1_t7yqjf.jpg",
-            "alt": "A small, empty room with light wood flooring, white walls, a closed white closet door, and two windows with white blinds letting in natural light."
-          },
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619751/seattle/basement/finished-basement_xdzjlx.jpg",
-            "alt": "A modern, open-plan room with light wood flooring, white walls, exposed wooden ceiling beams, built-in shelves, and a kitchen area with stainless steel appliances in the background."
-          },
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619748/seattle/basement/basement-laundry_a2wm4q.jpg",
-            "alt": "Modern kitchen with white cabinets, open shelves, stainless steel appliances, light wood flooring, and recessed lighting. Unfinished ceiling beam and white walls create a clean, open look. Doorway leads to another room."
-          },
-          {
-            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619752/seattle/basement/finished-basement-2_nno9px.jpg",
-            "alt": "A small, empty room with white walls, light wood flooring, a window with white blinds, exposed wooden ceiling beams, and a wall-mounted air conditioning unit. Recessed lights are installed in the ceiling."
-          }
-        ],
-        "title": "Modern Basement ADU Remodel 2025",
-        "heading": "Basement Remodel",
-        "paragraph": "Full basement ADU with new bath, kitchenette, LVP flooring, recessed lighting, doors, trim, and fresh interior paint.",
-        "timeline": "9 weeks"
-      }
+      "title": "Modern Cabinet Installation Seattle 2025",
+  "heading": "Cabinet Projects",
+  "paragraph": "Multiple Seattle modern cabinet installation projects featuring custom-built and non-custom stock cabinets. Work includes flat-panel doors, soft-close hinges, full-height pantry cabinets. Mix of painted, matte, and wood-grain finishes",
+  "timeline": "3–5 days per project (8+ weeks for custom)"
+    },
+    "secondAlbum": {
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757126987/seattle/cabinets/recessed-panel-custom-cabinets-1_gzdo3z.jpg",
+          "alt": "A modern kitchen with wooden cabinets, a stainless steel stove and range hood, and a window overlooking greenery. A laptop and cup sit on the counter, and a rug covers part of the hardwood floor."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757126989/seattle/cabinets/shaker-custom-cabinets-1_adcued.jpg",
+          "alt": "A modern wine bar with dark wood cabinets, glass-front upper cupboards, built-in wine racks holding bottles, and a white countertop with wooden boxes, wine glasses, and a metal wine bowl."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757126987/seattle/cabinets/recessed-panel-custom-cabinets-2_xgubqd.jpg",
+          "alt": "A narrow kitchen with light wood cabinets, white countertops, a window, and decorative items on the counter. A dining room with large windows and a table is visible through a doorway at the end of the space."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757126988/seattle/cabinets/recessed-panel-custom-cabinets_zczmdf.jpg",
+          "alt": "A modern kitchen with white floor-to-ceiling cabinets, gold handles, an arched doorway, a stainless steel stove with a metallic vent hood, wooden door with glass panes, and a patterned rug on wooden floors."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757127006/seattle/cabinets/shaker-custom-cabinets-2_jwham7.jpg",
+          "alt": "Modern open-concept kitchen with light wood cabinets, white countertops, pendant lights, stainless steel appliances, and an island with a sink; view extends to a bright living room with large windows."
+        },{
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757127007/seattle/cabinets/shaker-custom-cabinets-4_uwxkgt.jpg",
+          "alt": "Modern kitchen with wood cabinets, white marble countertop and backsplash, black fixtures, two hanging black pendant lights, and small decor items including plants and bottles on the counter."
+        },{
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757127006/seattle/cabinets/shaker-custom-cabinets-3_xmk3pv.jpg",
+          "alt": "A modern kitchen with light wooden cabinets, white countertops, a stainless steel range hood, and a pot filler above the stove. Hardwood floors and white walls create a bright, open space with a view into a dining area."
+        },{
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757127008/seattle/cabinets/shaker-custom-cabinets_qx3jw8.jpg",
+          "alt": "A kitchen with wooden cabinets, white countertops, small framed art, and a rooster statue on the floor. Large windows and a glass door provide a view of trees and a deck outside."
+        }
+      ],
+      "title": "Shaker & Recessed Panel Cabinets Seattle 2025",
+  "heading": "Custom Cabinet Projects",
+  "paragraph": "Seattle projects with shaker, recessed panel, and raised panel cabinets. Custom pantry walls, wine storage, and inset drawer fronts. Painted and stained finishes with modern hardware.",
+  "timeline": "3-5 days per project (12+ weeks for custom)"
     }
   }
-
+  }
 ]

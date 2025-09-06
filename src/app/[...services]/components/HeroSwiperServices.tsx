@@ -6,8 +6,21 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import { Navigation, Thumbs } from "swiper/modules";
 
-export const HeroSwiperServices = ({category}) => {
+interface HeroSwiperServicesProps {
+  category: string;
+  images?: {
+    hero?: Array<{
+      src: string;
+      alt: string;
+    }>;
+  };
+}
+
+export const HeroSwiperServices = ({ category, images }: HeroSwiperServicesProps) => {
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
+
+  // Use database images if available, otherwise fall back to thumbsData
+  const slidesData = images?.hero?.length ? images.hero : thumbsData[category] || [];
 
   return (
 	<Swiper
@@ -21,7 +34,7 @@ export const HeroSwiperServices = ({category}) => {
 					style={{ borderRadius: 10, height: 200, overflowX: "auto" }}
 					className="w-full"
 				>
-					{thumbsData[category].map((slide, index) => (
+					{slidesData.map((slide, index) => (
 						<SwiperSlide
 						style={{
 							width: 350,
