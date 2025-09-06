@@ -1,388 +1,427 @@
 [
   {
-  
-  "location": "seattle",
-  "category": "bathroom",
-  "service": "bathroom-remodel-seattle",
-  "title": "Bathroom Remodel Contractors in Seattle, Cost of Bathroom Remodel",
-  "description": "Bathroom remodels with Renova Contractors LLC on schedule and budget. Free cost estimates with discounts on bathroom fixtures and bathroom tile.",
-  "hero": {
-    "h1": "Seattle Bathroom Remodeling",
-    "heroP": "- 🚿 Walk-in showers — custom tile, waterproof pans, recessed niches, and frameless glass\n- 🔧 Layout changes — plumbing relocations, framing for vanities, or wall adjustments\n- 🔥 Heated bathroom floors — warm, comfortable, and efficient\n- 💰 Contractor pricing — toilets, vanities, fixtures, flooring, and shower glass\n- 🛡️ Waterproofing — Schluter systems and long-lasting tile surrounds\n- 📅 Straightforward schedule — clear 6–9 week timelines with no surprise change orders\n- ✅ Warranties — manufacturer coverage plus our own labor guarantee\n- 🏡 Built to code — inspected, safe, and delivered clean",
-    "heroImageAlt": "Bathroom remodel banner",
-    "heroPhrase": "Some people look for a beautiful place, others make a place beautiful."
-  },
-  "about": {
-    "phrase1": "Good design can transform a bathroom from a functional space to a relaxing retreat.",
-    "phrase2": "Every bathroom deserves a touch of elegance and a splash of comfort.",
-    "priceLine1": "Basic Remodel: 🚿 Update fixtures, vanity, and tile for $15,000-$25,000. A fresh new look on a budget!\n",
-    "priceLine2": "Luxury Remodel: 🛁 Upgrade with custom finishes, heated floors, and high-end fixtures for $30,000-$50,000+. Create your dream bathroom!",
-    "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722931918/bathrooms/46FD50E7-7447-4B2A-9FE3-810A7B80DEB8_v7yyms.jpg",
-    "image1alt": "A modern bathroom remodel featuring a white toilet next to a vanity with a light wood cabinet, black handles, and a white countertop. A wall-mounted mirror above the vanity and a partially open door leading to another room with hardwood flooring complete this sleek remodeling project.",
-    "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722930122/bathrooms/E8AA2224-A9E8-434C-97C3-7D49048F9121_i0bq1k.jpg",
-    "image2alt": "A modern bathroom remodel features a bathtub with sliding glass doors and blue subway tile walls. Adjacent is a white vanity with a matching sink and a chrome faucet under a large mirror. Shelves and a small window are visible, providing light and storage.",
-    "sectionP1": "Your bathroom is a place to relax and enjoy the quietness of it all. The last thing you want is to fumble through the clutter and hit your elbows on bathroom fixtures. Renova Contractors LLC gives you the option to use all of the space in your bathroom or expand the room itself. Expansion can be costly because extensive architectural and structural changes, along with electrical and plumbing work, are required. Depending on your budget, we can discuss the different options you have.",
-    "sectionP2": "If your budget does not allow for wall relocation, we propose a solution that optimizes the available space in the room. This involves removing your tub and shower combination to create a single walk-in shower, which you can customize to your preferred dimensions. Built-in wall shelves and niches can make the bathroom feel much more open, and if you install a pedestal sink, you're giving it a less cluttered feel. Our interior designer will make sure that the new bathroom layout is functional and optimal. When you want to extend your bathroom beyond its current footprint, we will have our structural engineer consult you on how to best proceed and the project's feasibility. When doing a bathroom remodel, we often change the electrical wiring and the layout of the plumbing pipes, so when doing such an extensive remodel, there will be no problem with the additional wiring and plumbing. Keep in mind that the installation of bathroom tiles heavily depends not only on the square footage, but also on the overall complexity of the tile and its pattern. For example, a small walk-in shower with a complex tile design may cost more than a larger walk-in shower with a simple, pattern-free design. When doing a bathroom remodel, we provide you with a cost sheet that is transparent and very accurate. We pride ourselves on our accuracy with the price, so we can explore different options for the bathroom renovation project.",
-    "section2H2": "Renova Contractors LLC Go-to For Bathroom Remodel",
-    "section2P1": "We are a company that takes a client-centered approach to all of our projects. We provide you with a clear-cut cost sheet and a fantastic warranty. Before the project starts, we provide you with a detailed project schedule that we adhere to vigorously while remaining flexible. Renova Contractors LLC believes in our management style and adherence to deadlines, so we also provide you with a $50 discount for every day that we are behind. We provide you with a variety of discounts and complimentary services, including free consultations with our interior designer and free 3D renderings. Our architect also offers complimentary consultations. Imagine having three professionals working on your bathroom renovation project at all times: an interior designer, an architect, and a project manager. However, we offer even more. At home or on vacation, you can check our video monitoring system we installed with your permission to track the project's progress. You can relax and not worry. Once the designer finalizes the 3D rendering based on your notes and vision, we begin procuring bathroom fixtures such as tubs, faucets, and showerheads. We offer free delivery and always pass on our contractor discount to you.",
-    "section2P2": "Each bathroom renovation project entails electrical and plumbing installation; for all this, our licensed electricians and licensed plumbers pull permits and pass all necessary inspections. Our tile installation team is perfect at making sure that your shower is waterproof and sealed correctly. Before we tile a custom shower, the project manager thoroughly inspects it for water leaks and drainage. You must approve each stage of the bathroom renovation project before we proceed to the next. We keep you updated daily and make sure you are up to date with all the things going on. With an extensive remodel, we also offer our clients a complimentary house cleaning. After you do a final walkthrough of the project with us, we will then provide you with a free house cleaning service as a token of appreciation.",
-    "perks": [
-      {
-        "heading": "Custom Designs",
-        "paragraph": "We create personalized designs that reflect your unique style and preferences."
-      },
-      {
-        "heading": "Quality Materials",
-        "paragraph": "We use only the best materials to ensure durability and beauty in every project."
-      },
-      {
-        "heading": "Spa-Like Features",
-        "paragraph": "Transform your bathroom into a relaxing spa retreat with our luxurious features and finishes."
-      },
-      {
-        "heading": "Design Consultations",
-        "paragraph": "We offer virtual design consultations for your convenience, allowing you to plan your remodel from anywhere."
-      },
-      {
-        "heading": "Smart Bathroom",
-        "paragraph": "Incorporate the latest smart technology into your bathroom for a modern and functional space."
-      },
-      {
-        "heading": "Customized Storage",
-        "paragraph": "We design and install custom storage solutions to maximize space and keep your bathroom organized."
-      },
-      {
-        "heading": "Exclusive Partnerships",
-        "paragraph": "We collaborate with top brands and suppliers to bring you exclusive products and materials at a discount."
-      },
-      {
-        "heading": "Luxury Fixtures",
-        "paragraph": "Upgrade your bathroom with high-end fixtures that add elegance and sophistication."
-      },
-      {
-        "heading": "Water Conservation",
-        "paragraph": "Our eco-friendly solutions include water-saving fixtures and sustainable materials to reduce your environmental footprint."
-      },
-      {
-        "heading": "Aging-in-Place Upgrades",
-        "paragraph": "We offer specialized designs to make your bathroom safer and more accessible for aging in place."
-      },
-      {
-        "heading": "3D Rendering",
-        "paragraph": "Visualize your new bathroom before we start with our advanced 3D rendering services."
-      },
-      {
-        "heading": "Health-Conscious Options",
-        "paragraph": "We offer hypoallergenic and non-toxic materials for a healthier bathroom environment."
-      },
-      {
-        "heading": "Noise Reduction",
-        "paragraph": "Our renovation techniques include soundproofing solutions to create a quieter, more serene bathroom."
-      },
-      {
-        "heading": "Pet-Friendly Features",
-        "paragraph": "Incorporate pet-friendly elements into your bathroom design for the convenience of your furry friends."
-      },
-      {
-        "heading": "Mood Lighting",
-        "paragraph": "Enhance your bathroom with customizable mood lighting to create the perfect ambiance."
-      }
-    ],
-    "sectionH1": "Renovate Your Seattle Bathroom"
-  },
-  "ourServices": {
-    "h2": "Renova Contractors LLC Bathroom Services",
-    "paragraph": "When it comes to bathrooms, RENOVA handles every part of the job — start to finish. We offer bathroom remodeling services in Seattle that cover everything from cabinet installation, vanity replacement, and layout reconfiguration, to full plumbing and electrical rough-ins ⚡🚿. Whether you're adding a walk-in shower, a freestanding tub, or reworking the space to include double sinks or a larger linen closet, we build it to code. Most remodels involve detailed tile installation — we do shower surrounds, accent walls, floor tile, and backsplashes, with waterproofing systems like Schluter behind every wet zone. Heated floor systems can be installed under tile for added comfort 🔥. Every bathroom renovation includes licensed trades and exact planning for lighting, GFCI outlets, drain lines, and venting. You can also request standalone services like floor tile replacement, toilet relocation, or shower glass install — our team can break it down piece by piece.\n",
-    "array": [
-      {
-        "heading": "Bathroom Remodel",
-        "paragraph": "Remodel your bathroom with experts. Change your layout or do a completely new addition; we have the system down for the best results.",
-        "url": "/bathroom-remodel",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      },
-      {
-        "heading": "Bathroom Layout",
-        "paragraph": "Optimize your bathroom space; don't lose square footage. A change in layout can add more usable square footage to your bathroom.",
-        "url": "/service/bathroom-layout",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      },
-      {
-        "heading": "Bathroom Design",
-        "paragraph": "Create a stylish and functional bathroom design with our designers who will customize it to fit your needs and unique style.",
-        "url": "/service/bathroom-design",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      },
-      {
-        "heading": "Bathroom Cabinetry",
-        "paragraph": "Bathroom cabinet installation provides stylish and reliable storage with cabinets designed for humid environments.",
-        "url": "/service/bathroom-cabinetry",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      },
-      {
-        "heading": "Heated Bathroom Floor",
-        "paragraph": "Experience the ultimate comfort of a heated bathroom floor with installation by licensed electricians.",
-        "url": "/service/heated-bathroom-floor",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      },
-      {
-        "heading": "Bathroom Expansion",
-        "paragraph": "Expand your bathroom space to enhance comfort and functionality by adding a walk-in shower or tub, or a modern combination of both.",
-        "url": "/service/bathroom-expansion",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      },
-      {
-        "heading": "Bathroom Shower",
-        "paragraph": "Upgrade your bathroom with a new shower installation. We provide both prefab and custom shower installations.",
-        "url": "/service/bathroom-shower",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      },
-      {
-        "heading": "Bathroom Fixtures",
-        "paragraph": "Order and receive new bathroom fixtures hassle-free. Enjoy fast and seamless bathroom fixture installation service with free delivery.",
-        "url": "/service/bathroom-fixtures",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      },
-      {
-        "heading": "Bathroom Plumbing",
-        "paragraph": "Ensure your bathroom plumbing works perfectly with our bathroom plumbing services; warranty is provided for all plumbing work.",
-        "url": "/service/bathroom-plumbing",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      },
-      {
-        "heading": "Bathroom Tile",
-        "paragraph": "Bathroom tile installation offers the opportunity to refresh your bathroom without major changes, keeping it simple and elegant.",
-        "url": "/service/bathroom-tile",
-        "image": "service_image_kitchen_addition",
-        "price": "Price starts at $3000"
-      }
-    ],
-    "ourServicesMarkdown": "RENOVA Contractors LLC is a licensed bathroom remodeling company in Seattle. We handle full bathroom remodels – demo, framing, waterproofing, tile, plumbing, and finish work. Whether it’s a hallway bath or a full custom primary suite, we manage every part of the job – no guesswork, no shortcuts.\n\n### What’s Included:\n- 🧰 **Full demo** – Down to studs and subfloor – no tiling over old rot or bad board  \n- 🧱 **Waterproofing systems** – Schluter KERDI, Wedi, or RedGard – all installed to code and flood-tested if required  \n- 🛁 **Shower builds** – Custom tile showers, pans, benches, niches, and glass – slope-checked and vented  \n- 🔧 **Plumbing** – Drain, vent, and supply moved or upgraded – UPC compliant  \n- ⚡ **Electrical** – GFCI outlets, lighting, fan circuits – updated per NEC with full grounding  \n- 🪵 **Vanities & tops** – Plywood vanities, quartz or stone tops, under-mount sinks  \n- 🧱 **Tile install** – Floors, walls, base, trim – grouted and sealed  \n- 🧽 **Paint, doors, trim** – Moisture-rated drywall, clean paint lines, casing, and baseboard  \n- 🚽 **Toilet, fixtures, accessories** – Installed level, pressure-tested, caulked, and clean\n\nWe also include free interior design support for layout, tile choices, fixtures, and lighting. **Permits are pulled with the City of Seattle**, and we handle every inspection.\n\nIf you're searching for a dependable bathroom remodel contractor in Seattle, or comparing Seattle bathroom remodel companies, **RENOVA Contractors LLC** builds clean, builds tight, and gets it done right. ✅📐🛠️"
-  },
-  "manufacturers": {
-    "h2": "Bathroom Fixture Manufacturers",
-    "p": "Renova Contractors LLC highlights the importance of great products, especially when it comes to plumbing fixtures in the bathroom, since this is the last place you want something to go wrong. We work with several manufacturers, like Moen, Delta, Grohe, and Kohler, among many others, who have proven that their products are of high quality and durable against frequent usage.",
-    "markdownmanufacturers": "\nWe remodel bathrooms across Seattle and take care of the materials too — so you don’t have to shop around or guess what fits. We use suppliers we trust and install everything ourselves 👇\n\n### 🪞 Vanities & Storage\n\n- **ProCraft**, **Luban**, and **Bellmont** – Quality vanities with soft-close drawers, smooth finishes, and solid build.  \n- **Golden Home** – Budget-friendly storage options like floating shelves and extra cabinets that still look clean.  \n\n### 🧱 Bathroom Tile Options\n\n- **United Tile** – Affordable **ceramic tile** for floors and walls (starts around $2.99/sq. ft.).  \n- **Daltile** – Great for **slate floors** or **wood-look tile** that works in wet areas.  \n- **CFM** – Classic **subway tile** with a glossy finish — easy to clean.  \n- **Statements Tile** – If you want something bold or modern for the shower wall or a niche.  \n\n### 🚿 Fixtures & Details\n\n- **Ferguson** – Sinks, faucets, and shower heads in **matte black**, **brushed nickel**, or whatever finish you want.  \n- **Schluter** – For **heated bathroom floors** and waterproofing under tile — we use it on almost every job.  \n\n### 🔧 Install & Warranty\n\n- We install everything: **vanities**, **tile**, **toilets**, **floor heat**, **lighting**, and more — no third parties.  \n- Materials are ordered ahead so we’re not waiting. If it's in stock, we usually start in **under 3 days**.  \n- Every job comes with a **2-year warranty on labor** and longer guarantees on most materials.\n\nIf you're doing a bathroom remodel in Seattle — full or small — we’ll build it right, and you won’t have to chase parts or fix stuff after.\n"
-  },
-  "howWeWork": {
-    "array": [
-      {
-        "id": "1",
-        "title": "Initial Consultation",
-        "description": {
-          "p1": "We begin with an initial consultation to understand your needs.",
-          "p2": "Discuss your vision and requirements with our team.",
-          "p3": "Get a preliminary idea of the project's scope and budget."
-        },
-        "imagePath": "url_to_image1"
-      },
-      {
-        "id": "2",
-        "title": "Design Phase",
-        "description": {
-          "p1": "Our design team creates a custom plan for your bathroom.",
-          "p2": "Review and approve the design before moving forward.",
-          "p3": "Make any necessary adjustments to ensure your satisfaction."
-        },
-        "imagePath": "url_to_image2"
-      },
-      {
-        "id": "3",
-        "title": "Budgeting and Cost Estimation",
-        "description": {
-          "p1": "We provide a detailed cost estimate for your project.",
-          "p2": "Discuss the budget and make any necessary adjustments.",
-          "p3": "Ensure the project stays within your financial plan."
-        },
-        "imagePath": "url_to_image3"
-      },
-      {
-        "id": "4",
-        "title": "Permits and Approvals",
-        "description": {
-          "p1": "We handle all necessary permits and approvals.",
-          "p2": "Ensure compliance with local regulations and codes.",
-          "p3": "Keep you informed of any updates or changes."
-        },
-        "imagePath": "url_to_image4"
-      },
-      {
-        "id": "5",
-        "title": "Material Selection",
-        "description": {
-          "p1": "Choose from a wide range of high-quality materials.",
-          "p2": "Get expert advice on the best options for your project.",
-          "p3": "Ensure all materials fit your style and budget."
-        },
-        "imagePath": "url_to_image5"
-      },
-      {
-        "id": "6",
-        "title": "Scheduling and Planning",
-        "description": {
-          "p1": "We create a detailed schedule for your project.",
-          "p2": "Coordinate all aspects of the remodeling process.",
-          "p3": "Keep you informed of the timeline and any changes."
-        },
-        "imagePath": "url_to_image6"
-      },
-      {
-        "id": "7",
-        "title": "Pre-Construction Preparation",
-        "description": {
-          "p1": "Prepare the site for construction work.",
-          "p2": "Ensure all necessary preparations are completed.",
-          "p3": "Minimize disruptions to your daily routine."
-        },
-        "imagePath": "url_to_image7"
-      },
-      {
-        "id": "8",
-        "title": "Demolition",
-        "description": {
-          "p1": "Remove old fixtures and materials.",
-          "p2": "Prepare the space for new construction.",
-          "p3": "Dispose of debris safely and efficiently."
-        },
-        "imagePath": "url_to_image8"
-      },
-      {
-        "id": "9",
-        "title": "Construction and Installation",
-        "description": {
-          "p1": "Begin the construction and installation phase.",
-          "p2": "Ensure high-quality workmanship throughout the project.",
-          "p3": "Keep you updated on progress and any issues."
-        },
-        "imagePath": "url_to_image9"
-      },
-      {
-        "id": "10",
-        "title": "Final Walkthrough and Handover",
-        "description": {
-          "p1": "Conduct a final walkthrough to ensure satisfaction.",
-          "p2": "Address any remaining issues or concerns.",
-          "p3": "Hand over the completed bathroom to you."
-        },
-        "imagePath": "url_to_image10"
-      }
-    ],
-    "howWeWorkMarkdown": "\nAt RENOVA, we approach each **bathroom remodel** like a construction project — not a cosmetic upgrade. Everything is planned around your space, your fixtures, and actual code requirements in Seattle 🛠️. No guesswork, no “we’ll figure it out later.” Here’s how we work:\n\n### 🔍 Step-by-Step Process\n\n- **👣 Site Visit** – We take measurements, and assess plumbing, framing, electrical, and ventilation.  \n- **📐 Scope & Planning** – You pick materials or we help you select; we finalize layout, rough-in locations, and fixture specs.  \n- **📦 Material Prep** – We order all major items: tile, vanities, fixtures, toilets, glass, and store them until demo.  \n- **🧱 Demo & Rough-In** – Old surfaces removed. We reroute plumbing and wiring as needed; install backing for wall-hung items.  \n- **🧯 Waterproofing & Tile** – We prep wet areas using waterproofing membrane and install tile (floor, shower, walls).  \n- **🚿 Fixture Install** – Everything goes in: toilet, vanity, tub, shower glass, mirrors, lighting.  \n- **🧽 Final Touches** – Paint, caulking, trim, and final walkthrough.  \n\nEverything is built to code, clean, and made to last — no shortcuts.\n"
-  },
-  "faqItems": [
-    {
-      "question": "What is the typical timeline for a bathroom remodel?",
-      "answer": "The timeline for a bathroom remodel can vary depending on the scope of the project. On average, a complete bathroom remodel can take 2-4 weeks from start to finish and heavily depends on what layout changes you want to make. ."
+    
+    "location": "seattle",
+    "category": "basement",
+    "service": "basement-finishing-seattle",
+    "title": "Basement Remodeling and Finishing in Seattle",
+    "description": "Real professionals at Renova Contractors LLC perform basement remodeling and finishing. Learn more about our exclusive deals and discounts on fixtures and basement flooring.",
+    "hero": {
+      "h1": "Best Basement Finishing Services in Seattle",
+      "heroP": "- 🧱 **Basement remodel** — turn unused or cluttered space into livable square footage\n- 🪵 **Floors, drywall, lighting, paint** — refresh or full finish, your choice\n- 🚽 **Bathroom add-on** — licensed plumber handles rough-in and fixtures\n- 📐 **Simple layouts** — one room or a couple, doesn’t need to be fancy\n- 🧰 **Partial or whole-basement** — we take small scopes or full conversions\n- 🛋️ **Flexible use** — rec room, office, guest room, or clean storage\n- 🔧 **Clean build** — framed, trimmed, sealed; no mess left behind\n- ✅ **To code & ready to use** — inspected, safe, move-in ready",
+      "heroImageAlt": "Basement finishing banner",
+      "heroPhrase": "A basement remodel can transform an underutilized space into a functional and enjoyable part of your home."
     },
-    {
-      "question": "Do I need to move out during the bathroom remodel?",
-      "answer": "In most cases, you do not need to move out during a bathroom remodel. Our team works efficiently to minimize disruption to your daily life. However, there may be times when the bathroom is inaccessible for short periods."
-    },
-    {
-      "question": "What are the latest trends in bathroom design?",
-      "answer": "Some of the latest trends in bathroom design include the use of natural materials, such as wood and stone, walk-in showers with frameless glass doors, and smart bathroom technology like touchless faucets and smart mirrors."
-    },
-    {
-      "question": "How do I choose the right bathroom fixtures?",
-      "answer": "Choosing the right bathroom fixtures involves considering both functionality and style. Our design team can help you select fixtures that meet your needs and complement your overall bathroom design."
-    },
-    {
-      "question": "What should I consider when planning a bathroom layout?",
-      "answer": "When planning a bathroom layout, consider factors like the placement of plumbing fixtures, storage needs, and the flow of the space. Maximizing natural light and ensuring easy access to essential items are also important."
-    }
-  ],
-  "images": {
-    "hero": [],
-    "firstAlbum": {
-      "images": [
+    "about": {
+      "phrase1": "Basement remodeling is an investment in your home's future, turning a previously unused space into a functional and attractive area.",
+      "phrase2": "Basement remodeling offers endless possibilities, from creating a home theater or gym to designing a guest suite or a home office.",
+      "priceLine1": "Basement Finishing: 🛠️ Transform your unfinished basement into livable space for $20,000-$40,000+. Add a family room, bedroom, or office!",
+      "priceLine2": "Basement Waterproofing: 💧 Protect your basement from leaks and moisture for $5,000-$10,000. Keep your space dry and secure!",
+      "sectionP1": "Remodeling a basement increases value and gives more space: having a livable basement is only a plus. Renova Contractors LLC specializes in basement remodeling. It is pretty straightforward aside from when adding a basement bathroom or basement kitchen. We would have to make a trench and dig through the cement; however, this isn’t much of a problem with licensed plumbers who will pull permits. With specialized equipment, we can easily break through the concrete and dig the trench to hook up to your main water line. It is of the utmost importance to have your basement well-waterproofed and insulated. If you insulated your basement well, you would want to make sure that you were also installing proper windows that would prevent drafts and are up to code, which requires egress windows in bedrooms ",
+      "sectionP2": "Renova Contractors LLC offers more than just basement remodeling; we also offer specialized services such as basement finishing for when you just need to add a little extra touch to make it welcoming. You can also install a basement entertainment center to enjoy movies and entertain your guests. Basement window installation and basement flooring installation all contribute to a well-finished basement. If you feel lost on where to start with your basement remodel or basement finishing, we provide you with our complimentary interior designer, who will guide you through the vast world of fixtures, colors, and finishes to make sure we bring your dreams into reality. ",
+      "section2H2": "Common Challenges and Solutions for Basements",
+      "section2P1": "When remodeling a basement, you may encounter several avoidable problems. At Renova Contractors LLC, we meticulously plan and analyze the location to ensure we steer clear of problematic areas or promptly address them. The primary challenge in a basement is moisture control, as it is below ground level and dampness accumulates easily. An effective way to prevent moisture from getting in is to have your basement waterproofed with Drylok. Having more sunlight come into your basement will also help prevent dampness, so using our basement window installation service would be a great way to solve this issue. Additionally, addressing poor natural lighting is crucial to creating an inviting space. You can achieve this by maximizing natural light through larger windows, using layered lighting with a combination of ambient, task, and accent lights, and incorporating light colors and reflective surfaces to brighten the area.",
+      "section2P2": "If you plan to use your basement as an entertainment center, and since we provide basement bar installation services, you may want to consider adding some soundproofing. Effective ways to block out noise would be to install soundproof insulation in the walls and ceiling, use insulated drywall, and add acoustic panels. We would perhaps also recommend a carpet that would absorb some noise. Sealing gaps around doors, windows, and utility penetrations with acoustic sealant or weatherstripping is also essential to prevent noise from traveling through small openings. Renovating your basement can significantly enhance its appeal and encourage you to spend more time there.",
+      "perks": [
         {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756870526/seattle/bathroom/IMG_1364_mmg9z9.jpg",
-        "alt": "A modern bathroom vanity with a chevron wood pattern, gold hardware, and dual sinks beneath a large, backlit mirror. Tiled walls and floors, a towel hangs on a gold rack."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756870526/seattle/bathroom/IMG_2436_cxeetx.heic",
-        "alt": "A bathroom with a wood paneled wall."
-      },
-        {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868039/seattle/bathroom/seattle-bathroom-remodel-1_gavidj.jpg",
-          "alt": "Modern bathroom with white subway tile, a bathtub-shower combo, gold fixtures, a vanity with a white countertop, a rectangular mirror, wall art, a towel, and a green plant in a vase. Bright and clean design."
+          "heading": "Custom Design",
+          "paragraph": "We offer tailored design plans that reflect your unique style and functional needs."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868039/seattle/bathroom/bathroom-remodel-seattle_z15qo3.jpg",
-          "alt": "Modern bathroom with a rectangular sink, dark vanity, glass-enclosed shower, beige tiles, and an illuminated mirror above the sink. RENOVA logo is visible in the bottom right corner."
+          "heading": "Video Monitoring",
+          "paragraph": "We offer video monitoring so you can track progress while away."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868039/seattle/bathroom/bathroom-remodel-seattle-1_gcoqu2.jpg",
-          "alt": "Modern bathroom with a glass-enclosed shower featuring black fixtures and a large freestanding white bathtub, set against gray tiled walls and white floors."
+          "heading": "Space Utilization",
+          "paragraph": "Our creative solutions maximize your basement's potential, ensuring every inch is functional and beautiful."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868040/seattle/bathroom/modern-bathroom-remodel_cvzlys.jpg",
-          "alt": "Modern bathroom with a glass-enclosed shower on the left, light wood vanity with a white countertop and gold fixtures on the right, oval mirror above, and a doorway leading to a bright adjoining room."
+          "heading": "Smart Home",
+          "paragraph": "We incorporate the latest smart home technology to make your basement remodel both modern and convenient."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868040/seattle/bathroom/seattle-bathroom-remodel-3_beag7r.jpg",
-          "alt": "Modern bathroom with a double-sink wooden vanity, two mirrors, gold fixtures, wall sconces, and a glass-enclosed walk-in shower with a rainfall shower head and a bench."
+          "heading": "Eco-Friendly",
+          "paragraph": "We provide sustainable and eco-friendly materials and practices to minimize your carbon footprint."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868040/seattle/bathroom/seattle-bathroom-remodel-2_vwpw4i.jpg",
-          "alt": "Modern bathroom with a spacious glass-enclosed shower, dark herringbone tile walls, gold fixtures, and a bathtub placed by two windows. A towel and decorative items sit on a stool by the tub."
+          "heading": "Soundproofing",
+          "paragraph": "Our soundproofing techniques ensure your basement is a quiet, peaceful retreat from the rest of the home."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868040/seattle/bathroom/seattle-bathroom-remodel-4_n1izbp.jpg",
-          "alt": "Modern bathroom with a large soaking tub, glass-enclosed shower with gray tiles, double sinks with mirrors, and a large window letting in natural light. The space is bright and clean with white walls and minimal decor."
+          "heading": "Lighting Solutions",
+          "paragraph": "We use advanced lighting techniques to brighten your basement, making it inviting and warm."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722931244/bathrooms/2A6DFEA9-E159-4DB0-8D9D-2F426D6AAF11_zrficv.jpg",
-          "alt": ""
+          "heading": "Multi-Functional Spaces",
+          "paragraph": "We design basements that serve multiple purposes, from entertainment areas to home offices or gyms."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722931236/bathrooms/CAB2473E-7AC5-4886-951D-743466AD39BA_nrndgl.jpg",
-          "alt": ""
+          "heading": "Moisture Control",
+          "paragraph": "Our moisture control systems protect your basement from dampness and mold, ensuring a healthy environment."
+        },
+        {
+          "heading": "Luxury Finishes",
+          "paragraph": "We offer high-end finishes and fixtures to give your basement a sophisticated, polished look."
+        },
+        {
+          "heading": "Flexible Financing",
+          "paragraph": "Our flexible financing plans make it easier for you to start your basement remodeling project."
+        },
+        {
+          "heading": "Project Management",
+          "paragraph": "A dedicated project manager ensures your basement remodel is completed on time and within budget."
+        },
+        {
+          "heading": "Virtual Consultations",
+          "paragraph": "We offer virtual consultations to provide you with expert advice and planning without leaving your home."
+        },
+        {
+          "heading": "Energy Efficiency",
+          "paragraph": "Our remodeling services include energy-efficient upgrades to reduce your utility costs and improve sustainability."
+        },
+        {
+          "heading": "Home Theater",
+          "paragraph": "We create stunning home theater setups for the ultimate entertainment experience in your basement."
+        },
+        {
+          "heading": "Basement Bar",
+          "paragraph": "Our team can design and build a custom basement bar, perfect for entertaining guests."
+        },
+        {
+          "heading": "Kid-Friendly",
+          "paragraph": "We create safe, fun, and functional spaces tailored for your children's needs."
+        },
+        {
+          "heading": "Pet-Friendly",
+          "paragraph": "Our designs include pet-friendly features to accommodate your furry family members."
+        },
+        {
+          "heading": "Rapid Turnaround",
+          "paragraph": "We offer expedited services to complete your basement remodel quickly without compromising on quality."
         }
       ],
-      "title": "Modern Bathroom Remodels 2025",
-  "heading": "Bathroom Remodels",
-  "paragraph": "Several modern bathroom remodels completed in Seattle – each featuring custom tiled showers, upgraded vanities, glass enclosures, new flooring, fresh paint, and contemporary fixtures built for everyday comfort.",
-  "timeline": "3-8 weeks"
+      "sectionH1": "Why Remodel A Basement? ",
+      "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724111189/basement/renova_contractors_work_image_1724110883655_zjy0km.jpg",
+      "image1alt": "A spacious, newly finished basement with light blue walls and gray carpeting. On the left side, there is a small area with wood cabinets, a countertop, and a white tile backsplash. Recessed lighting brightens the room, showcasing the quality work of our trusted basement remodeling contractor.",
+      "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724111154/basement/renova_contractors_work_image_1724110884244_bt0hbv.jpg",
+      "image2alt": "A small, empty room with white walls and a wooden floor. The ceiling is fitted with two recessed lights, and there are two square windows with shutters near the top of one wall. Ideal for basement finishing, the room is clean and brightly lit, boasting minimal decor."
     },
-    "secondAlbum": {
-      "images": [
+    "ourServices": {
+      "h2": "Basement Services",
+      "paragraph": "RENOVA handles full-scope basement remodeling in Seattle, including layout changes, framing, drywall, and finish carpentry. We work on basement finishing projects for both raw and partially completed basements — adding new walls, ceilings, insulation, lighting, and flooring. Need a basement bathroom or bedroom? We build those with proper venting, plumbing, and code-compliant layout. Egress windows can be installed or enlarged as required for sleeping areas. All plans are customized to the space — no templates. Whether you're partially converting basement to living space or finishing a full basement suite - we handle it from start to finish. ",
+      "array": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2813_uestp8.jpg",
-          "alt": "Bright, modern bathroom with a freestanding bathtub by large windows, double sink vanity with mirror, glass shower, and separate toilet area; white and light gray tones throughout."
+          "heading": "Basement Finishing",
+          "paragraph": "Transform your basement into functional living space with our finishing services.",
+          "url": "/basement-finishing",
+          "image": "service_image_basement_finishing",
+          "price": "Price starts at $10000"
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2806_vlwuwy.jpg",
-          "alt": "Sunlight casts shadows on white subway tile in a shower with a round showerhead, square control valve, a hand-held shower wand, and a chrome riser bar."
+          "heading": "Basement Flooring",
+          "paragraph": "Choose from a variety of flooring options to enhance your basement's comfort and style.",
+          "url": "/service/basement-flooring",
+          "image": "service_image_basement_flooring",
+          "price": "Price starts at $5000"
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2797_tfrnfa.jpg",
-          "alt": "A white freestanding bathtub sits by large windows in a bright bathroom with white walls, tiled floor, and a view of green trees outside. A silver faucet is mounted beside the tub."
+          "heading": "Basement Remodel",
+          "paragraph": "Revamp your basement for improved functionality and aesthetics with our remodeling services.",
+          "url": "/service/basement-remodel",
+          "image": "service_image_basement_remodel",
+          "price": "Price starts at $12000"
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2817_tdbt9o.jpg",
-          "alt": "A bright bathroom featuring a white freestanding bathtub near a window, a light-colored vanity cabinet, mosaic tile flooring, and sunlight streaming in, casting shadows on the floor."
+          "heading": "Basement Entertainment Center",
+          "paragraph": "Create the ultimate entertainment space in your basement with our customized solutions.",
+          "url": "/service/basement-entertainment-center",
+          "image": "service_image_basement_entertainment",
+          "price": "Price starts at $8000"
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926112/seattle/bathroom/IMG_2799_drni7u.jpg",
-          "alt": "A modern bathroom with a large double-sink vanity, a wide mirror, wall-mounted lights, a towel bar, and a freestanding bathtub near a window letting in natural light."
+          "heading": "Basement Bathroom",
+          "paragraph": "Add convenience and value to your basement with a professionally installed bathroom.",
+          "url": "/service/basement-bathroom",
+          "image": "service_image_basement_bathroom",
+          "price": "Price starts at $6000"
+        },
+        {
+          "heading": "Basement Waterproofing",
+          "paragraph": "Protect your basement from moisture and water damage with our waterproofing solutions.",
+          "url": "/service/basement-waterproofing",
+          "image": "service_image_basement_waterproofing",
+          "price": "Price starts at $5500"
+        },
+        {
+          "heading": "Basement Insulation",
+          "paragraph": "Ensure year-round comfort and energy efficiency in your basement with proper insulation.",
+          "url": "/service/basement-insulation",
+          "image": "service_image_basement_insulation",
+          "price": "Price starts at $4500"
+        },
+        {
+          "heading": "Basement Bar",
+          "paragraph": "Create a stylish and functional bar space in your basement for entertaining guests.",
+          "url": "/service/basement-bar",
+          "image": "service_image_basement_bar",
+          "price": "Price starts at $7000"
+        },
+        {
+          "heading": "Basement Windows",
+          "paragraph": "Brighten up your basement and improve ventilation with new windows.",
+          "url": "/service/basement-windows",
+          "image": "service_image_basement_windows",
+          "price": "Price starts at $3500"
         }
       ],
-      "title": "Classic Bathroom Remodel 2025",
-  "heading": "Bathroom Remodel",
-  "paragraph": "Seattle bathroom remodel with a freestanding soaking tub, glass-enclosed shower, shaker-style vanity with quartz top, herringbone mosaic tile floor, and detailed crown molding. The space blends natural light with traditional finishes for an elegant, timeless look.",
-  "timeline": "7 weeks"
+      "ourServicesMarkdown": "RENOVA Contractors LLC is a full-scope basement remodel company in Seattle. We specialize in basement finishing, ADU conversions, and full interior buildouts — from concrete to trim. Whether you’re upgrading an old basement, finishing new construction, or converting space into a legal unit, we manage every phase of the job.\n\nWe’re a licensed basement remodel contractor in Seattle — everything we do meets current Seattle building code, from insulation and egress to HVAC and plumbing. If the job calls for structural changes, layout rework, or new windows, we bring in a licensed engineer or architect. And for material selection, layout, tile, and finishes — we include free interior design support with every project.\n\n### What’s Included:\n- 🪚 **Framing and layout** – Bedrooms, rec rooms, laundry rooms, ADUs, or multi-room setups  \n- 🌧️ **Insulation and moisture barrier** – R-21 walls, vapor protection, floor prep  \n- 🪟 **Egress windows** – Fully compliant with IRC R310 — includes cutting, drainage, and trim  \n- 🔧 **Plumbing rough-in** – Full drain, supply, and vent for bathrooms or basement kitchens  \n- ⚡ **Electrical** – Lights, outlets, smoke/CO detectors, new circuits, subpanel work  \n- 🌬️ **HVAC** – Duct tie-ins or ductless systems for added zones  \n- 🧱 **Drywall, paint, trim** – Moisture-rated board, corner bead, baseboard, and doors  \n- 🛁 **Bathrooms** – Waterproof showers, tiled floors, fans, and fixtures  \n- 🪵 **Flooring** – LVP, tile, or carpet depending on the room type and slab condition\n\nWe’re a Seattle basement remodeling company that handles permits, manages trades, and keeps jobs moving — no handoffs, no missed steps. If you need a reliable basement renovation expert in Seattle, **RENOVA Contractors LLC** builds it clean, builds it once, and builds it right. ✅🧰📏"
+    },
+    "manufacturers": {
+      "h2": "Materials to Use For your Basement",
+      "p": "When it comes to basement finishing projects, several manufacturers stand out for their high-quality products and systems. Total Basement Finishing (TBF) offers moisture-resistant wall panels, ceiling tiles, and flooring options designed to handle basement challenges like high humidity and potential leaks, while also being easy to install and durable. Owens Corning provides insulated wall panels and suspended ceilings that resist moisture and mold, known for quick installation and long-lasting performance. Basement Systems Inc. offers innovative solutions such as the ThermalDry® flooring system and EverLast™ wall panels, which are waterproof and mold-resistant, enhancing both durability and aesthetics in finished basements.",
+      "markdownmanufacturers": "We don’t use cheap stock or bottom-shelf materials. Every basement we remodel in Seattle is built with code-compliant products that are rated for moisture, structure, and long-term durability.\n\n### Structure & Framing 🪚\n- **Framing lumber** – Kiln-dried SPF or Douglas Fir from Dunn Lumber or Parr  \n- **Pressure-treated wood** – Used for all below-grade framing where required (IRC R317.1)  \n- **Subfloor systems** – DRIcore, Barricade, or custom ¾\" plywood over vapor sheet  \n- **Wall anchors & fasteners** – Rated per IBC/IRC Table R602.3(1) and Seattle seismic (Zone D2)\n\n### Insulation & Vapor Control 🌧️\n- **Wall insulation** – R-21 fiberglass batts (WA Energy Code Section R402.1.2)  \n- **Floor insulation** – R-10 rigid foam over slab where required for ADUs or storage  \n- **Vapor barrier** – 6-mil poly or StegoWrap, taped and sealed under flooring  \n- **Air sealing** – Great Stuff Pro foam or Tremco Acoustical Sealant for all penetrations\n\n### Plumbing, Electrical, HVAC ⚙️\n- **Plumbing** – PEX (Uponor), ABS/PVC drains, sloped and vented to UPC code  \n- **Electrical** – 2020 NEC-compliant wiring, GFCI protection, tamper-resistant outlets  \n- **HVAC** – Ducts sealed with UL 181 tape or ductless mini-splits (Mitsubishi, Daikin) sized per load\n\n### Drywall, Trim, Finishes 🧱\n- **Drywall** – ½\" mold-resistant board on walls, ⅝\" Type X where required  \n- **Tile** – Statements, United Tile, or Daltile — installed over Schluter KERDI or Wedi board  \n- **Flooring** – COREtec or Shaw LVP, CFM carpet, or tile rated for slab installation"
+    },
+    "howWeWork": {
+      "array": [
+        {
+          "id": "1",
+          "title": "Initial Consultation",
+          "description": {
+            "p1": "Understanding your vision.",
+            "p2": "Discussing your requirements.",
+            "p3": "Providing a project overview."
+          },
+          "imagePath": "initial_consultation_image"
+        },
+        {
+          "id": "2",
+          "title": "Design and Planning",
+          "description": {
+            "p1": "Creating a detailed plan.",
+            "p2": "Designing the layout.",
+            "p3": "Ensuring feasibility and compliance."
+          },
+          "imagePath": "design_planning_image"
+        },
+        {
+          "id": "3",
+          "title": "Cost Estimation and Budgeting",
+          "description": {
+            "p1": "Providing detailed cost estimates.",
+            "p2": "Budgeting for the project.",
+            "p3": "Ensuring transparency in pricing."
+          },
+          "imagePath": "cost_estimation_image"
+        },
+        {
+          "id": "4",
+          "title": "Permits and Approvals",
+          "description": {
+            "p1": "Securing necessary permits.",
+            "p2": "Obtaining required approvals.",
+            "p3": "Ensuring legal compliance."
+          },
+          "imagePath": "permits_approvals_image"
+        },
+        {
+          "id": "5",
+          "title": "Site Preparation",
+          "description": {
+            "p1": "Clearing and cleaning the site.",
+            "p2": "Marking the layout.",
+            "p3": "Preparing for construction."
+          },
+          "imagePath": "site_preparation_image"
+        },
+        {
+          "id": "6",
+          "title": "Framing and Insulation",
+          "description": {
+            "p1": "Installing framing.",
+            "p2": "Adding insulation.",
+            "p3": "Ensuring structural integrity and comfort."
+          },
+          "imagePath": "framing_insulation_image"
+        },
+        {
+          "id": "7",
+          "title": "Electrical and Plumbing Work",
+          "description": {
+            "p1": "Installing electrical systems.",
+            "p2": "Setting up plumbing.",
+            "p3": "Ensuring functionality and safety."
+          },
+          "imagePath": "electrical_plumbing_image"
+        },
+        {
+          "id": "8",
+          "title": "Drywall and Finishing",
+          "description": {
+            "p1": "Installing drywall.",
+            "p2": "Applying finishes.",
+            "p3": "Creating a polished look."
+          },
+          "imagePath": "drywall_finishing_image"
+        },
+        {
+          "id": "9",
+          "title": "Flooring Installation",
+          "description": {
+            "p1": "Laying down the flooring.",
+            "p2": "Choosing the best materials.",
+            "p3": "Ensuring durability and style."
+          },
+          "imagePath": "flooring_installation_image"
+        },
+        {
+          "id": "10",
+          "title": "Final Touches and Cleanup",
+          "description": {
+            "p1": "Adding final details.",
+            "p2": "Cleaning up the site.",
+            "p3": "Preparing for handover."
+          },
+          "imagePath": "final_touches_cleanup_image"
+        },
+        {
+          "id": "11",
+          "title": "Final Inspection and Handover",
+          "description": {
+            "p1": "Conducting a thorough inspection.",
+            "p2": "Ensuring quality standards are met.",
+            "p3": "Handing over the finished project."
+          },
+          "imagePath": "final_inspection_handover_image"
+        }
+      ],
+      "howWeWorkMarkdown": "RENOVA Contractors LLC takes a hands-on, full-scope approach to basement remodeling in Seattle. We start with a walkthrough to measure the space, check structural elements, and discuss layout options. If the project involves egress, structural work, or ADU planning, we coordinate with licensed engineers or architects early.\n\nFrom there, we build a clear line-by-line estimate and submit all required permits to the City of Seattle. Materials are ordered up front, and we manage every trade — framing, electrical, plumbing, HVAC, insulation, drywall, flooring, and finish work — in sequence. You’ll work with the same crew start to finish, with no rotating subs or missed steps.\n\nOur team walks every inspection, keeps the jobsite clean, and finishes with a full walkthrough and labor warranty. We don’t cut corners — we build it once, build it clean, and build it to code. ✅"
+    },
+    "faqItems": [
+      {
+        "question": "Can we make changes post-contract-signing?",
+        "answer": "Yes, certain changes can be made. However, it will require resigning the contract as new terms and conditions and pricing will apply."
+      },
+      {
+        "question": "How long does a basement remodel take?",
+        "answer": "The duration varies. Without adding a bathroom or kitchen, it can take about 2 weeks. Adding a bathroom may extend the project to around 6 weeks due to plumbing and leveling work."
+      },
+      {
+        "question": "Do you handle the permits and approvals?",
+        "answer": "Yes, we manage all necessary permits and approvals to ensure compliance with local regulations."
+      },
+      {
+        "question": "Are your services insured?",
+        "answer": "Yes, all our basement services are fully insured to give you peace of mind."
+      },
+      {
+        "question": "What type of materials do you use?",
+        "answer": "We use high-quality materials to ensure durability, comfort, and aesthetic appeal in your finished basement."
+      },
+      {
+        "question": "Can you install a bathroom in my basement?",
+        "answer": "Yes, we can professionally install a bathroom in your basement, including all necessary plumbing and electrical work."
+      },
+      {
+        "question": "What is the cost of a basement remodel?",
+        "answer": "The cost varies based on the project's scope. A basic remodel starts at $8,000, while more extensive renovations can go up to $15,000 or more."
+      },
+      {
+        "question": "How do you ensure the basement remains dry?",
+        "answer": "We offer comprehensive waterproofing solutions to protect your basement from moisture and water damage."
+      }
+    ],
+    "images": {
+      "hero": [
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722994246/basement/B98805A2-3A03-46E5-A8FB-C2CF87193B8D_npmhw9.jpg",
+          "alt": "A spacious room featuring white built-in cabinets with gold handles, light wood flooring, and soft gray walls. A black ceiling fan and two modern wall lights illuminate the space, which also has a countertop area beneath the window with shutters—perfect for your basement remodeling project."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757119099/seattle/basement/29B26551-8090-49A8-A2BF-FEDA5CC2C945_1_105_c_nb99j7.jpg",
+          "alt": "A modern basement kitchenette with taupe cabinets, a granite countertop, a built-in sink, open shelves, a wine fridge, and a large flat-screen TV mounted on a blue-gray accent wall."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757119309/seattle/basement/IMG_2411_ujy3je.jpg",
+          "alt": "A modern basement bar with light wood cabinets, black countertops, and a patterned backsplash with circles and lines. A white vase and tray sit on the peninsula; sunlight streams through a window on the left."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757119308/seattle/basement/IMG_2408_fshjla.jpg",
+          "alt": "A modern basement bar with light wood cabinets, a black countertop and backsplash, and patterned wallpaper featuring vertical lines and white circles. A sink with a black faucet is centered below the wallpaper, and sunlight streams through a window."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722994268/basement/97A42AE1-CEF8-464A-9198-581855A9B6BC_aq0ic0.jpg",
+          "alt": "A modern living room features a dark gray sectional sofa atop a patterned area rug. The room has light wood flooring, a ceiling fan, recessed lighting, and a white door with a half-circle window to the right. A person partially visible carries red flowers on the left, hinting at recent basement remodeling efforts."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757119309/seattle/basement/IMG_2444_f9kwqu.jpg",
+          "alt": "A bright  basementlaundry room with a washer and dryer on the left, teal cabinets with silver handles, a marble countertop, and a large window letting in natural light. The floor is tiled in gray."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722994259/basement/9BC2F1F3-5A87-4F44-B9DF-589EF4C26971_fv1ohl.jpg",
+          "alt": "A spacious, modern kitchen with light wood flooring, white cabinetry, and wooden countertops. A flat-screen TV is mounted on the wall to the left. The ceiling features recessed lighting and a large black ceiling fan installed by a reputable basement contractor. Large windows provide ample natural light."
+        }
+      ],
+      "firstAlbum": {
+        "images": [
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620413/seattle/basement/finished-basement-in-seattle-1_dqc6zx.jpg",
+            "alt": "A bright, finished basement room with light wood flooring, white walls, recessed ceiling lights, small windows, and open doors leading to adjacent spaces."
+          },
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620412/seattle/basement/finished-basement-in-seattle_gttbgv.jpg",
+            "alt": "A bright, empty room with light wood floors, white walls, recessed ceiling lights, a wall-mounted air conditioner, two small windows, and a doorway on the right."
+          },
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620428/seattle/basement/finished-basement-in-seattle-2_fj0eke.jpg",
+            "alt": "Modern kitchen with light cabinets, white countertops, a black faucet, and a window above the sink. There is a door, an air conditioning unit, and wooden flooring with a small rug in the center."
+          },
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620456/seattle/basement/basement-bedroom-seattle-1_see9p7.jpg",
+            "alt": "Modern bathroom with black and white checkered floor, white walls, a toilet, a walk-in shower with white subway tiles, and a vanity with a marble countertop, bronze fixtures, and decorative plants."
+          },
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620457/seattle/basement/remodeled-basement-seattle-1_n7tz0e.jpg",
+            "alt": "Modern kitchen with cream cabinets, stainless steel appliances, light wood flooring, a patterned rug, tiled backsplash, and a window above the sink with a potted plant on the counter."
+          },
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756620458/seattle/basement/remodeled-basement-seattle_eepo2h.jpg",
+            "alt": "A small, empty room with white walls, light wood flooring, a small rectangular window, and two recessed ceiling lights. The window shows green trees outside."
+          }
+        ],
+        "title": "Modern Basement ADU Remodel 2025",
+        "heading": "Basement Remodel",
+        "paragraph": "Full basement ADU with new bath, kitchenette, LVP flooring, recessed lighting, doors, trim, and fresh interior paint.",
+        "timeline": "9 weeks"
+      },
+      "secondAlbum": {
+        "images": [
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619742/seattle/basement/basement-bathroom_xw1dfr.jpg",
+            "alt": "A small, empty room with light wood flooring, white walls, a window with white blinds, a wooden beam near the ceiling, and a white closet with louvered doors."
+          },
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619741/seattle/basement/basement-laundry-1_t7yqjf.jpg",
+            "alt": "A small, empty room with light wood flooring, white walls, a closed white closet door, and two windows with white blinds letting in natural light."
+          },
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619751/seattle/basement/finished-basement_xdzjlx.jpg",
+            "alt": "A modern, open-plan room with light wood flooring, white walls, exposed wooden ceiling beams, built-in shelves, and a kitchen area with stainless steel appliances in the background."
+          },
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619748/seattle/basement/basement-laundry_a2wm4q.jpg",
+            "alt": "Modern kitchen with white cabinets, open shelves, stainless steel appliances, light wood flooring, and recessed lighting. Unfinished ceiling beam and white walls create a clean, open look. Doorway leads to another room."
+          },
+          {
+            "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756619752/seattle/basement/finished-basement-2_nno9px.jpg",
+            "alt": "A small, empty room with white walls, light wood flooring, a window with white blinds, exposed wooden ceiling beams, and a wall-mounted air conditioning unit. Recessed lights are installed in the ceiling."
+          }
+        ],
+        "title": "Modern Basement ADU Remodel 2025",
+        "heading": "Basement Remodel",
+        "paragraph": "Full basement ADU with new bath, kitchenette, LVP flooring, recessed lighting, doors, trim, and fresh interior paint.",
+        "timeline": "9 weeks"
+      }
     }
   }
-}
-
 
 ]

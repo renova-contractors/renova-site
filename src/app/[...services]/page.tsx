@@ -42,17 +42,51 @@ export async function generateMetadata(
 		};
 	}
 
-	const service = await fetch(
+	const serviceData = await fetch(
 		`${backendUrl}/services/${id}`,
 	).then((res) => res.json());
+
+  // Debug logging for metadata generation
+  console.log('Metadata generation for URL:', id);
+
+  // Find exact service match (same logic as getServicesData)
+  let service;
+  if (Array.isArray(serviceData)) {
+    // First try to find exact match
+    service = serviceData.find((s: any) => s.service === id);
+    
+    // If no exact match, try slug or id
+    if (!service) {
+      service = serviceData.find((s: any) => 
+        s.slug === id || s.id === id
+      );
+    }
+    
+    // If still no match, use first item
+    if (!service) {
+      service = serviceData[0];
+    }
+  } else {
+    service = serviceData;
+  }
+
+  console.log('Selected service for metadata:', service?.title);
 
   const previousImages = (await parent).openGraph?.images || [];
 
   return {
-    title: service[0]?.title || "Service Page",
-    description: service[0]?.description || "",
+    title: service?.title || "Service Page",
+    description: service?.description || "",
     openGraph: {
+      title: service?.title || "Service Page",
+      description: service?.description || "",
       images: ["/some-specific-page-image.jpg", ...previousImages],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: service?.title || "Service Page",
+      description: service?.description || "",
+      images: ["/some-specific-page-image.jpg"],
     },
   };
 }

@@ -20,12 +20,22 @@ export const getServicesData = async (params: any): Promise<any> => {
 	
 	// If the API returns an array, find the exact service that matches the URL
 	if (Array.isArray(data)) {
-		const exactService = data.find((service: any) => 
-			service.service === params.services || 
-			service.slug === params.services ||
-			service.id === params.services
+		console.log('Searching for service:', params.services);
+		
+		// First try to find exact match
+		let exactService = data.find((service: any) => 
+			service.service === params.services
 		);
 		
+		// If no exact match, try slug or id
+		if (!exactService) {
+			exactService = data.find((service: any) => 
+				service.slug === params.services ||
+				service.id === params.services
+			);
+		}
+		
+		console.log('Found service:', exactService?.title);
 		
 		// Return the exact service if found, otherwise return the full array
 		return exactService ? [exactService] : data;
