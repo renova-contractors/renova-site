@@ -48,7 +48,7 @@ export const HeroSwiperServices = ({ category, images }: HeroSwiperServicesProps
 								quality={80}
 								fill
 								src={slide.src}
-								alt={slide.alt}
+								alt={slide.alt || `Home remodeling project image ${index + 1} by RENOVA Contractors`}
 							/>
 						</SwiperSlide>
 					))}

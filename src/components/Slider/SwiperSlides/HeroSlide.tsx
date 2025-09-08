@@ -41,15 +41,15 @@ export const HeroSlide: FC<SwiperContent> = ({
 			>
 				{isLoading && <SkeletonLoader />}
 				<Image
-					alt="Modern home remodeling in Seattle showing kitchen, bathroom, and basement renovation projects by RENOVA Contractors"
+					alt="banner-image-seattle-remodel"
 					className={`w-full rounded-3xl max-md:rounded-xl ${isLoading ? 'hidden' : 'block'}`}
 					src={currentImage}
-					quality={85}
-					fill
-					style={{ objectFit: 'contain' }}
-					sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-					priority={true}
-					onLoad={handleImageLoad}
+					quality={60}
+					layout="responsive"
+					objectFit="contain"
+					width={1440}
+					height={480}
+					onLoadingComplete={handleImageLoad} // Callback when image is loaded
 				/>
 			</div>
 		</div>

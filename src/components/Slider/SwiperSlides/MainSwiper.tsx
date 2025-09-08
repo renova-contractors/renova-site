@@ -12,7 +12,6 @@ const MainSwiper: React.FC<Props> = ({ image, height, width }: any) => {
 		<div className="w-full relative">
 			<Image
 				src={image}
-				layout="responsive"
 				className="object-cover w-full! h-full top-0 left-0"
 				height={height}
 				width={width}
