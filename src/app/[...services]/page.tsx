@@ -250,9 +250,14 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         category={servicesPageData.category}
         location={servicesPageData.location}
       />
-    
+      {servicesPageData.video && (
+        <SimpleYouTubeVideo
+          videoUrl={`https://www.youtube.com/watch?v=${servicesPageData.video}`}
+        />
+      )}
 
       <Licensing />
+
       <GenerateEstimate />
 
       <CostTables

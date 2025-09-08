@@ -1,192 +1,138 @@
 [
-  {
- 
+ {
+  
   "location": "seattle",
-  "category": "tile",
-  "service": "tile-installation-seattle",
-  "title": "Tile Installation in Seattle: Bathroom, Kitchen, Floor ",
-  "description": "RENOVA Contractors LLC is a ✅ trusted tile installer in Seattle. We install tile in showers, bathrooms, floors, kitchens, and entryways – with proper prep, waterproofing, and clean finish work. ",
+  "category": "countertops",
+  "service": "countertop-installation-seattle",
+  "title": "Countertop Installation in Seattle: Granite, Marble, Quartz",
+  "description": "Discover premium countertop installation services for a variety of materials including quartz, granite, and marble.",
   "hero": {
-    "h1": "Tile Installation Contractor in Seattle – Showers, Floors, Backsplashes 🧱🛠️",
-    "heroP": "**Seattle tile installation** 🏙️ — professional **floor, wall, and backsplash tile work** across Seattle homes and condos. We handle **kitchen backsplashes, bathroom showers, tub surrounds, and flooring** 🛁 — from prep to grout. **Surface prep done right** 🪚 — we use cement board, Schluter, or Wedi systems for a waterproof base. **Precision layout** 📏 — straight lines, perfect spacing, clean cuts around outlets and corners. **No shortcuts** 🚫 — no mastic where thinset belongs, no skipping waterproofing, no uneven edges. **Quality materials** 🧱 — porcelain, ceramic, marble, or natural stone — all set with premium mortars and grouts designed for Seattle’s damp climate. **Custom details** 🎨 — mosaics, niches, heated floors, and patterns like herringbone or stacked layouts. **Full bathroom remodel ready** 🧰 — we handle demo, waterproofing, tile, and fixtures. If you’re searching **tile installers Seattle**, **bathroom tile installation near me**, or **kitchen backsplash Seattle**, we deliver clean, durable work in Ballard, Queen Anne, Green Lake, Bellevue, and beyond — **built right, built to last** ✅.",
-    "heroImageAlt": "Tile installation banner",
-    "heroPhrase": "Elegance in Every Square Inch: Crafting Stunning Tiled Interiors That Speak of Sophistication and Style."
+    "h1": "Countertop Installation in Seattle by Renova Contractors LLC",
+    "heroH2": "Top Quality Countertops for Seattle Homes",
+    "heroP": "Renova Contractors LLC offers expert **countertop installation in Seattle** 🏙️ — specializing in **quartz countertops Seattle**, **granite countertops Seattle**, and **marble countertop installation Seattle**. We measure, cut, deliver, and install with a smooth process that keeps your project on schedule. Our team works across **Capitol Hill, Ballard, Queen Anne, Green Lake, Fremont, West Seattle, and Magnolia** — handling **kitchen countertops, bathroom vanity tops, and custom laundry room counters**. We provide **complimentary countertop design consultations** 🎨 to match your style and budget, plus pro tips on choosing durable, low-maintenance materials for your space. Whether you need **kitchen countertop replacement Seattle** or brand-new counters for a remodel, we install everything to perfection ✅ — clean seams, level fit, and polished finish — so your new countertop is ready to use right away.",
+    "heroImageAlt": "Kitchen with newly installed granite countertop",
+    "heroPhrase": "Countertops that give your kitchen a new look"
   },
   "about": {
-    "phrase1": "Your Vision, Our Precision: Delivering Flawless Tiling with an Eye for Detail and Excellence",
-    "phrase2": "Unmatched Craftsmanship for Timeless Interiors: Combining Quality Materials with Expert Installation.",
-    "priceLine1": "Ceramic Tile: 🛠️ Update your space with ceramic tiles for $9-$35/sq ft. Versatile and budget-friendly for any room!",
-    "priceLine2": "Porcelain Tile: ✨ Go for durability and style with porcelain tiles for $15-$45/sq ft. Ideal for high-traffic areas and a polished finish!",
-    "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722995426/tile/F2E04F04-31D8-4CEB-BDC9-BC0CDD59EF26_a65njd.jpg",
-    "image1alt": "A spacious modern room with a central fireplace surrounded by light-colored stone. Large windows let in natural light, and the ceiling features several multi-colored pendant lights. The expertly crafted tile installation adds elegance, while outside, greenery and parked cars are visible through the windows.",
-    "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722995336/tile/C489A5A3-D860-42AE-8712-DED9CF27CD92_weedwj.jpg",
-    "image2alt": "A wall of rectangular white tiles, installed by our expert tile installation company, features a built-in niche for storage. Positioned near the center of the wall, the niche adds both function and design. Subtle reflections from the lighting enhance the glossy surface installed by our skilled tile guys.",
-    "sectionP1": "The Renova Contractors LLC tile installation crew specializes in installing your selected tile on any surface you want. We install tile in the kitchen as a kitchen backsplash to build you a custom walk-in shower and cover it in the most intricate tile patterns. Whether you choose a simple brick pattern, offset tile, herringbone, or even basketweave, our tile installers can manage the project on time and budget. Check out our previous tile installation work and judge for yourself our craftsmanship.",
-    "sectionP2": "When we install tile on any surface, we first check the levels to ensure that the tile stays on one level and doesn't protrude in random spots. Our tile installation team cares about their craft; it may look simple, but that’s because they are just that good with tile of different sizes and shapes. If you want a subway tile, diamond tile, mosaic, or even Moroccan fish scales, we have you covered with superb work and grout.",
-    "section2H2": "Why Choose Renova Contractors LLC Tile?",
-    "section2P1": "Choosing Renova Contractors LLC means choosing quality, reliability, and a commitment to excellence. We highlight the importance of communication and daily updates on the project and you will even have a dedicated project manger who will be within an arms reach all day. Our experienced team of tile installers is dedicated to delivering high-quality results on every project. We take the time to understand your needs and preferences, providing personalized solutions that fit your lifestyle and budget. Our transparent pricing ensures you know exactly what to expect, with no hidden costs.",
-    "section2P2": "We use only the best construction materials and the latest techniques to ensure your m tile installation is both beautiful and durable. Our commitment to customer satisfaction means we won't consider the job done until you're completely happy with the results. Whether you're looking to update the tub surround, build a custom walk-in shower or tile 10,000 square feet of floors, all projects are important to Renova Contractors LLC no matter the scope. Client- centric approach is what makes us great.",
+    "priceLine1": "Quartz Countertops: ✨ Durable and low-maintenance, quartz countertops for $50-$130/sq ft. Perfect for a modern, long-lasting look!",
+    "priceLine2": "Granite Countertops: 🪨 Add natural beauty with granite countertops for $45-$120/sq ft. Each slab is unique and built to last!",
+    "phrase1": "Countertops that catch your eye.",
+    "phrase2": "Pro team of countertop installers.",
+    "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724733474/countertops/8D291669-B5AA-4EA7-BE69-8F792E729C8F_umzw5r.jpg",
+    "image1alt": "A spacious kitchen with wooden cabinets, a large island featuring quartz countertops and a built-in wine rack. Stainless steel appliances, including a refrigerator and oven, are visible. A modern pendant light hangs over the island, illuminated by sunlight streaming in through a door.",
+    "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724733474/countertops/1E3A6B21-9697-45CF-A06F-691566935172_y7os2u.jpg",
+    "image2alt": "A spacious kitchen with wooden cabinets and hardwood floors. It features a central island, stainless steel appliances, and large windows offering a scenic ocean view. A person stands at the counter near the sink, admiring the recent countertop installation by a renowned countertop company.",
+    "sectionH2": "Renova Contractors LLC Countertop Installation",
+    "sectionP1": "At Renova Contractors LLC, we understand that some projects take longer, but we do not like to drag out a countertop installation. Cooking is hard when you don't have a surface to cook on, right? Well, we have a streamlined countertop installation service. In our warehouse, we cut the stone slab you chose and then deliver it to your house for installation. Installing countertops is not the hardest task, but it does require a lot of skill to cut the stone slab into the form needed with as few seams as possible.",
+    "sectionP2": "We can turn your kitchen island into a work of art with our waterfall countertop features. At Renova Contractors LLC, we strive to deliver the highest customer satisfaction experience possible. We keep you in the loop about the project, and you will know exactly what stage we are at. If we pick up your stone slab from the distributor, store it in our shop, or install it, we notify you. Renova Contractors LLC will install your countertop within two days.",
+    "section2H2": "From Store to Home",
+    "section2P1": "Delivering countertops right to your doorstep and onto your cabinets, we do everything with our countertop installation team. Our team of specialists comes from diverse backgrounds, bringing to the table a wide range of knowledge and a unique set of skills. We have team members who specialize in cutting the stone slab that you selected, as well as team members who install it in your home. Our in-house designer frequently goes out with clients to the warehouse to consult on the best quality of stone to pick that would fit perfectly in their homes. Our interior designer will also be happy to take you on a tour. We keep a tight communication line, so you will know everything that is going on, and no surprises will await.",
+    "section2P2": "Renova Contractors LLC uses a VERSA 5-axis CNC saw that will cut your countertops with laser precision. With this machine, we can get our work done with high-quality precision and speed. We prioritize efficiency and reliability; our team members stay informed on all the new technology and methods for delivering high-quality countertops into your home. We can have your countertop installed faster than usual, with no long waits for a stone slab, and we can cut and deliver it to your home within days, thanks to Renova Contractors LLC's planned-out methodology.",
     "perks": [
       {
-        "heading": "Contractor Pricing 💸",
-        "paragraph": "We pass our tile and material discounts straight to you — no markup. Save up to 20–30% through our Seattle suppliers."
+        "heading": "Speed",
+        "paragraph": "We deliver and install your countertop within days; we pick up, cut, and deliver it all in a matter of days."
       },
       {
-        "heading": "On-Site Design Help 🎨",
-        "paragraph": "We help you pick tile, grout, and layout based on lighting, use, and space. You won’t be choosing from a catalog blind."
+        "heading": "Experience",
+        "paragraph": "Our team brings years of experience and expertise gained through the years of work."
       },
       {
-        "heading": "Mobile Sample Kits 🚚",
-        "paragraph": "We bring tile samples to your home — no showroom trips needed. See everything in your own space before finalizing."
+        "heading": "Customization",
+        "paragraph": "Choose from a wide range of materials, colors, and finishes to match your style."
       },
       {
-        "heading": "Pre-Marked Layouts 📐",
-        "paragraph": "Before we set a tile, we chalk layout lines for spacing, symmetry, and flow — so the install looks clean, centered, and intentional."
+        "heading": "Precision",
+        "paragraph": "We use VERSA 5 axis CNC saw, laser precision on all countertops."
       },
       {
-        "heading": "Low-Dust Demo & Install 🧹",
-        "paragraph": "We use vac attachments and clean-as-we-go practices to minimize dust — especially in finished homes or lived-in spaces."
-      },
-      {
-        "heading": "Grout Sealing Included 🧽",
-        "paragraph": "Every job comes with sealed grout — no extra charge. Protects against water, stains, and discoloration long-term."
-      },
-      {
-        "heading": "Repair Services 🔧",
-        "paragraph": "If a tile ever cracks or pops, we can replace it without redoing the whole area — including matching grout and trim."
-      },
-      {
-        "heading": "Flexible Scheduling 📆",
-        "paragraph": "We work around your calendar — weekday or weekend installs available to keep things convenient."
-      },
-      {
-        "heading": "Progress Photos or Video 📸",
-        "paragraph": "Want to track progress? We send updates during key stages — so you don’t need to babysit the job."
-      },
-      {
-        "heading": "Code-Compliant Installs ✅",
-        "paragraph": "We follow Seattle building code for wet area waterproofing, slip resistance, and transitions — no shortcuts, ever."
-      },
-      {
-        "heading": "Luxury Materials Available 🪵",
-        "paragraph": "Need high-end stone, handmade ceramic, or imported tile? We’ve installed it — and we can price it right."
-      },
-      {
-        "heading": "Final Walk & Warranty 📋",
-        "paragraph": "Every tile job ends with a full walk-through, punch list, and written labor warranty — so you’re covered long after install."
+        "heading": "Warranty",
+        "paragraph": "We provide ongoing support and maintenance for your countertop."
       }
     ],
-    "sectionH1": "Our Comprehensive Services"
+    "sectionH1": "Quick Countertop Install"
   },
   "ourServices": {
-    "h2": "Tile Installation Services",
-    "paragraph": "RENOVA Contractors LLC provides full-scope tile installation in Seattle — floors, showers, backsplashes, entryways, and wet areas. We prep the surface properly, use code-rated materials, and install tile clean, straight, and built to last.\n\nIf you're looking for a reliable tile installer in Seattle, we handle layout, waterproofing, and full install — no shortcuts, no lippage, no cracked grout.\n\n### Our Seattle Tile Services Include:\n- **Shower Tile Installation** – Floor and wall tile, niches, benches, and waterproofing systems like Schluter or Wedi  \n- **Bathroom Floors** – Porcelain or ceramic tile over cement board or membrane — with expansion joints and slope if needed  \n- **Kitchen Backsplashes** – Clean cuts, tight spacing, grouted and sealed — including outlets and transitions  \n- **Entryways & Mudrooms** – Durable tile over reinforced subfloor or slab, with trims and thresholds  \n- **Fireplace Surrounds & Accent Walls** – Thinset over backer or framed surface, aligned and leveled  \n- **Underlayment & Prep** – Cement board, uncoupling membrane, or self-leveling compound as needed\n\nWe source tile from **Statements Tile**, **United Tile**, and **Daltile** — all stocked in Seattle. You’ll get help with layout and grout selection before we start.\n\nWhether it's a full bathroom remodel or just replacing old flooring, **RENOVA Contractors LLC** is the go-to choice for tile installers in Seattle who do the job right.",
+    "h2": "Countertop Installation Services",
+    "paragraph": "Quartz, marble or stone countertop we can install it for you lighting fast with competitive prices and reliable installation.",
     "array": [
       {
-        "heading": "Tile Installation",
-        "paragraph": "New tile installation, wide variety of tiles available for kitchen backsplash, floors, bathroom floors, shower walls.",
-        "url": "/tile-installation",
+        "heading": "Countertop Installation",
+        "paragraph": "We offer a wide variety of quartz countertops, marble countertops, and granite countertops. Schedule your countertop installation now.",
+        "url": "countertop-installation",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2,500"
+        "price": "Price starts at $2500"
       },
       {
-        "heading": "Floor Tile",
-        "paragraph": "Explore our catalogue to see what floor tile will look best in your home, easy floor tile installation with us.",
-        "url": "/service/floor-tile",
+        "heading": "Quartz Countertops",
+        "paragraph": "Quartz countertops offer a wide range of colors and shades, making them the perfect choice for any kitchen. Discover your countertop.",
+        "url": "/service/quartz-countertops",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2,500"
+        "price": "Price starts at $2500"
       },
       {
-        "heading": "Bathroom Tile",
-        "paragraph": "Bathroom tile available for installation in all colors and shapes, can be purchased at a discount, bathroom glows with new tile install.",
-        "url": "/service/bathroom-tile",
+        "heading": "Granite Countertops",
+        "paragraph": "Installing granite countertops in your kitchen is quick and easy. Made from natural stone, these durable surfaces add beauty to any kitchen.",
+        "url": "/service/granite-countertops",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2,500"
+        "price": "Price starts at $2500"
       },
       {
-        "heading": "Shower Tile",
-        "paragraph": "Shower tile installation of any shape and size, change your shower with our new tile, shower walls and shower floor changed in one call.",
-        "url": "/service/shower-tile",
+        "heading": "Laminate Countertops",
+        "paragraph": "Laminate countertops offer an affordable and low-maintenance option with a wide variety of colors and styles to choose from.",
+        "url": "/service/laminate-countertops",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2,500"
+        "price": "Price starts at $1200"
       },
       {
-        "heading": "Backsplash Tile",
-        "paragraph": "Kitchen backsplash tile, subway tile, mosaic tile and more, can be purchased with a discount. Backsplash ideas rendered and installed by us.",
-        "url": "/service/backsplash-tile",
+        "heading": "Soapstone Countertops",
+        "paragraph": "Get a unique soapstone slab for your kitchen. We can help you choose and install your soapstone countertop, pick one from our inventory.",
+        "url": "/service/soapstone-countertops",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $1,200"
+        "price": "Price starts at $2800"
       },
       {
-        "heading": "Ceramic Tile",
-        "paragraph": "Ceramic floor tiles are a practical option for kitchen and bathroom floors. Ceramic floor tiles - installed easily in any room.",
-        "url": "/service/ceramic-tile",
+        "heading": "Butcher Block",
+        "paragraph": "Butcher block countertops are popular in kitchens for their timeless elegance, durability, and versatile nature, easy to cut and install.",
+        "url": "/service/butcher-block",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $1,200"
+        "price": "Price starts at $2000"
       },
       {
-        "heading": "Porcelain Tile",
-        "paragraph": "Our porcelain tile collection offers both elegance and versatility. We offer sales and installation services for porcelain tiles.",
-        "url": "/service/porcelain-tile",
+        "heading": "Concrete Countertop",
+        "paragraph": "Concrete countertops give a modern industrial aesthetic to contemporary kitchens but their installation process can be difficult.",
+        "url": "/service/concrete-countertops",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2,000"
+        "price": "Price starts at $3000"
       },
       {
-        "heading": "Mosaic Tile",
-        "paragraph": "Mosaic kitchen backsplash, mosaic tile floors - no arguing that mosaic tile looks great anywhere it goes. Install mosaic tiles with us.",
-        "url": "/service/mosaic-tile",
+        "heading": "Stainless Steel Countertops",
+        "paragraph": "Stainless steel countertops are a popular choice among professionals due to their ease of cleaning and hygienic properties.",
+        "url": "/service/stainless-steel-countertops",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $1,800"
+        "price": "Price starts at $3200"
       },
       {
-        "heading": "Heated Tile Floor",
-        "paragraph": "Radiant floor heating is a great addition to your home. Upgrade any room by adding a heated tile floor, feel the benefit of heated floors.",
-        "url": "/service/heated-tile-floor",
+        "heading": "Porcelain Countertop",
+        "paragraph": "Porcelain countertops are resistant to scratches, stains, and heat. They come in a wide range of color palettes, fabricated as one seamless piece.",
+        "url": "/service/porcelain-countertops",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $3,000"
+        "price": "Price starts at $3500"
       },
       {
-        "heading": "Basement Floor Tile",
-        "paragraph": "Install specialty basement tile, don't just cover it with basement floor paint. Explore basement flooring ideas with a free consultation.",
-        "url": "/service/basement-floor-tile",
+        "heading": "Countertop Repair",
+        "paragraph": "When your countertop has cracks or scratches, we can repair it instead of replacing the entire surface, helping you save money.",
+        "url": "/service/countertop-repair",
         "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2,200"
-      },
-      {
-        "heading": "Subway Tile",
-        "paragraph": "Discover our wide selection of subway tile for your kitchen backsplash or bathroom. Explore the variety of sizes and colors available.",
-        "url": "/service/subway-tile",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $1,200"
-      },
-      {
-        "heading": "Grout Cleaning",
-        "paragraph": "Cleaning grout is a difficult task, that's why we offer tile and grout cleaning. Our grout cleaner will make your tiles look like new.",
-        "url": "/service/grout-tile-cleaning",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $500"
-      },
-      {
-        "heading": "Fireplace Tile",
-        "paragraph": "Transform your fireplace with our free consultation on fireplace tile ideas and our expert fireplace tile installation services.",
-        "url": "/service/fireplace-tile",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2,500"
-      },
-      {
-        "heading": "Outdoor Tile",
-        "paragraph": "We offer a wide selection of outdoor tiles for your patio to ensure a perfect fit for your needs. Explore our outdoor patio tile options.",
-        "url": "/service/outdoor-tile",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2,500"
+        "price": "Price starts at $800"
       }
     ],
-    "ourServicesMarkdown": "RENOVA Contractors LLC provides full-scope tile installation in Seattle — floors, showers, backsplashes, entryways, and wet areas. We prep the surface properly, use code-rated materials, and install tile clean, straight, and built to last.\n\nIf you're looking for a reliable tile installer in Seattle, we handle layout, waterproofing, and full install — no shortcuts, no lippage, no cracked grout.\n\n### Our Seattle Tile Services Include:\n- **Shower Tile Installation** – Floor and wall tile, niches, benches, and waterproofing systems like Schluter or Wedi  \n- **Bathroom Floors** – Porcelain or ceramic tile over cement board or membrane — with expansion joints and slope if needed  \n- **Kitchen Backsplashes** – Clean cuts, tight spacing, grouted and sealed — including outlets and transitions  \n- **Entryways & Mudrooms** – Durable tile over reinforced subfloor or slab, with trims and thresholds  \n- **Fireplace Surrounds & Accent Walls** – Thinset over backer or framed surface, aligned and leveled  \n- **Underlayment & Prep** – Cement board, uncoupling membrane, or self-leveling compound as needed\n\nWe source tile from **Statements Tile**, **United Tile**, and **Daltile** — all stocked locally. You’ll get help with layout and grout selection before we start.\n\nWhether it's a full bathroom remodel or just replacing old flooring, **RENOVA Contractors LLC** is the go-to choice for tile installers in Seattle who do the job right."
+    "ourServicesMarkdown": "RENOVA Contractors LLC installs custom kitchen countertops and bathroom tops throughout Seattle. We handle measuring, templating, fabrication, and install — no prefab, no guessing, no uneven seams.\n\nWe work with full-size slabs of quartz, granite, and quartzite — cut to fit your space, polished, and installed with proper support and clean edges. Whether you’re replacing old counters or starting from scratch, we manage the entire process in-house.\n\n### What We Install:\n- 🪨 **Quartz countertops** – Durable, low maintenance, available in solid colors and stone-look patterns (Cambria, MSI, Pental, Caesarstone)  \n- 🧱 **Granite countertops** – Natural stone sealed after install — better heat resistance and unique color variation  \n- 🍽️ **Kitchen countertops** – Full slab installs with backsplash, faucet holes, and cooktop cutouts  \n- 🛁 **Bathroom vanities** – Single or double-sink tops, sealed and caulked  \n- 📐 **Edge profiles** – Eased, bevel, bullnose, mitered waterfall – selected during planning  \n- 🛠️ **Undermount sink mounting** – Bracket-secured, sealed, and trimmed on site\n\nWe pass along our contractor pricing – most clients save **15–30%** compared to retail or big box stores.\n\nIf you're searching for quartz countertops near me, granite countertops in Seattle, or a local countertop installation contractor, **RENOVA Contractors LLC** delivers clean, accurate installs that are built to last. ✅🧰📦"
   },
   "manufacturers": {
-    "h2": "Our Suppliers and Manufacturers",
-    "p": "Check the list of our suppliers and brands we've been working with, to provide you with the best possible solutions on the market while keeping it on the budget",
-    "markdownmanufacturers": "RENOVA Contractors LLC installs tile using solid materials and local suppliers — no bargain stock, no patch kits. Everything is ordered ahead, staged, and installed with the right prep behind it.\n\n### What We Use:\n- **Tile types** – Porcelain, ceramic, mosaic, and natural stone  \n- **Grout** – Sanded or unsanded depending on spacing, color-matched with sealant  \n- **Adhesives** – Modified thinset only (no pre-mixed buckets) – brands like MAPEI or LATICRETE  \n- **Trim** – Aluminum edging or bullnose depending on tile line\n\n### Recommended Prep & Waterproofing 🔧\nWe don’t install over drywall in wet areas — period.\n\n- **Showers & wet zones** – We use Schluter-KERDI or Wedi panels and pans — flood-tested when required. Corners and seams are banded or sealed with appropriate adhesives.  \n- **Underlayment** – Cement board or Schluter-DITRA for floors. For cracked slabs, we use an uncoupling membrane.  \n- **Heated floors** – We install Schluter-DITRA Heat or SunTouch WarmWire, fully embedded in thinset with a dedicated thermostat and GFCI-protected circuit.\n\n### Seattle Tile Suppliers We Use:\n- **United Tile – Seattle**  \n📍 11060 Tukwila International Blvd, Seattle, WA 98168  \nPorcelain, mosaic, and designer wall tile — solid selection and local warehouse stock.\n\n- **CFM – Seattle**  \n📍 14700 Aurora Ave N, Seattle, WA 98133  \nFlooring tile, setting materials, grout, and trim — good pricing and same-week pickup.\n\n- **Daltile – Seattle**  \n📍 2300 7th Ave S, Seattle, WA 98134  \nLarge-format tile, basic field tile, and commercial-grade stone — good for showers and full bathrooms.\n\n### Contractor Discounts 💸\nWe pass our pricing directly to you — up to **20–30% off retail** depending on tile line and supplier. Most of what we use is stocked locally, so there are no long lead times or broken boxes showing up late.\n\nWe don’t install tile until the prep is solid. We don’t use products we can’t warranty. And we don’t waste time with material that won’t hold up. ✅📏🧰"
+    "h2": "Seattle Countertop Suppliers - quartz, marble, granite",
+    "p": "",
+    "markdownmanufacturers": "RENOVA Contractors LLC installs countertops using full slabs sourced from trusted Seattle-area suppliers. We work with quartz, granite, and marble — templated to fit, fabricated in-house, and installed by our own crew.\n\n### Quartz vs. Granite vs. Marble – What We Recommend:\n- 🪨 **Quartz countertops** – Engineered stone made from natural quartz and resins. Consistent color, stain-resistant, and low maintenance. Best for busy kitchens and rental properties.  \n- 🧱 **Granite countertops** – 100% natural stone. Each slab is unique. More heat-resistant than quartz, but needs sealing. Great for kitchens and outdoor areas.  \n- 🪞 **Marble countertops** – Softer, natural stone. Beautiful veining and classic look, but prone to scratching and etching. Ideal for low-traffic vanities or show kitchens.\n\nWe’ll help you pick the right stone for the space based on use, wear, and budget.\n\n### Where We Source Slabs in Seattle:\n- **Daltile Slab Center** – Quartz, granite, and marble — stocked and ready for fabrication  \n- **MSI Surfaces** – Known for quartz (Q Premium), granite, and prefabricated options — large local inventory  \n- **Meta Marble & Granite** – Natural stone specialists — marble, quartzite, and high-end granite  \n- **Architectural Surfaces** – Designer slab options including quartz, porcelain, and rare stone lines\n\nWe pass on **contractor discounts** – most slabs come in **15–30% lower than showroom pricing**. You can visit any supplier directly or send us your top choices — we’ll confirm availability and fit before fabrication. ✅📏🧰"
   },
   "howWeWork": {
     "array": [
@@ -204,8 +150,8 @@
         "id": 2,
         "title": "Design Phase",
         "description": {
-          "p1": "Develop initial tile design concepts and layouts.",
-          "p2": "Create detailed plans for tile placement and patterns.",
+          "p1": "Develop initial design concepts and layouts.",
+          "p2": "Create detailed architectural and engineering plans.",
           "p3": "Present design options to the client for feedback and approval."
         },
         "imagePath": ""
@@ -214,7 +160,7 @@
         "id": 3,
         "title": "Budgeting and Cost Estimation",
         "description": {
-          "p1": "Prepare a detailed cost estimate for the tile installation.",
+          "p1": "Prepare a detailed cost estimate for the project.",
           "p2": "Review and finalize the budget with the client.",
           "p3": "Adjust the design or scope if needed to fit the budget."
         },
@@ -222,61 +168,60 @@
       },
       {
         "id": 4,
+        "title": "Permits and Approvals",
+        "description": {
+          "p1": "Submit necessary plans and applications to local authorities.",
+          "p2": "Obtain building permits and any other required approvals.",
+          "p3": "Address any revisions or additional requirements from authorities."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 5,
         "title": "Material Selection",
         "description": {
-          "p1": "Choose tile materials, adhesives, and grout.",
+          "p1": "Choose materials, fixtures, and finishes (e.g., flooring, cabinets, countertops).",
           "p2": "Source and order all necessary materials.",
           "p3": "Coordinate delivery schedules."
         },
         "imagePath": ""
       },
       {
-        "id": 5,
-        "title": "Surface Preparation",
-        "description": {
-          "p1": "Clear and prepare the workspace.",
-          "p2": "Ensure the surface is clean, level, and ready for tile installation.",
-          "p3": "Apply necessary primers or underlayments."
-        },
-        "imagePath": ""
-      },
-      {
         "id": 6,
-        "title": "Tile Layout and Planning",
+        "title": "Scheduling and Planning",
         "description": {
-          "p1": "Develop a detailed layout and grid for tile placement.",
-          "p2": "Dry-fit tiles to ensure proper fit and alignment.",
-          "p3": "Mark guidelines for installation."
-        },
-        "imagePath": ""
+          "p1": "Develop a detailed project timeline and schedule.",
+          "p2": "Coordinate with subcontractors and suppliers.",
+          "p3": "Set milestones and deadlines for each phase of the project."
+        }
       },
       {
         "id": 7,
-        "title": "Tile Installation",
+        "title": "Pre-Construction Preparation",
         "description": {
-          "p1": "Apply adhesive to the prepared surface.",
-          "p2": "Set tiles in place according to the layout.",
-          "p3": "Ensure even spacing and alignment of tiles."
+          "p1": "Clear and prepare the workspace.",
+          "p2": "Set up temporary utilities or structures as needed.",
+          "p3": "Protect existing structures and surfaces from damage."
         },
         "imagePath": ""
       },
       {
         "id": 8,
-        "title": "Grouting and Finishing",
+        "title": "Demolition",
         "description": {
-          "p1": "Mix and apply grout between tiles.",
-          "p2": "Clean excess grout and polish tiles.",
-          "p3": "Seal grout lines if necessary."
+          "p1": "Safely remove existing structures, fixtures, and finishes.",
+          "p2": "Dispose of debris and waste in accordance with regulations.",
+          "p3": "Ensure a clean and safe worksite during demolition."
         },
         "imagePath": ""
       },
       {
         "id": 9,
-        "title": "Quality Inspection",
+        "title": "Construction and Installation",
         "description": {
-          "p1": "Inspect the installation for any defects or issues.",
-          "p2": "Make any necessary repairs or adjustments.",
-          "p3": "Ensure overall quality and client satisfaction."
+          "p1": "Execute construction work as per the design plan.",
+          "p2": "Install new structures, systems, and finishes.",
+          "p3": "Ensure quality and compliance with building codes."
         },
         "imagePath": ""
       },
@@ -285,146 +230,117 @@
         "title": "Final Walkthrough and Handover",
         "description": {
           "p1": "Conduct a final walkthrough with the client.",
-          "p2": "Identify any remaining tasks or touch-ups and complete them.",
-          "p3": "Finalize all work, clean the site, and hand over the completed tile installation to the client."
+          "p2": "Identify any remaining tasks or touch-ups (punch list) and complete them.",
+          "p3": "Finalize all work, clean the site, and hand over the remodeled space to the client."
         },
         "imagePath": ""
       }
     ],
-    "howWeWorkMarkdown": "At RENOVA Contractors LLC, we don’t just lay tile — we prep it right, install it to code, and finish it clean. Every job starts with a walkthrough to check substrate condition, layout options, and material compatibility. If your floor isn’t level or your shower framing is off, we fix that before tile ever goes in.\n\nWe’re a licensed tile installation contractor in Seattle. That means everything we do meets Washington building code — proper underlayment, approved adhesives, correct expansion spacing, and slope where required.\n\n### Here’s How We Work:\n- **Inspect the area** – Check framing, substrate, and moisture exposure  \n- **Confirm tile & layout** – Specs, grout type, and pattern are confirmed before install  \n- **Prep the surface** – Cement board, waterproof membrane, or self-leveling compound applied as needed  \n- **Layout & reference lines** – Laser-leveled and adjusted to avoid slivers  \n- **Tile install** – Correct thinset, notch size, and spacing — no pre-mix shortcuts  \n- **Grout, clean & seal** – Expansion joints added where required  \n- **Finishing** – Trims, thresholds, and transitions installed clean  \n- **Final walkthrough** – No lippage, missed joints, or overcuts — all reviewed before sign-off\n\nWhether we’re installing 12x24 porcelain, mosaic sheets, or full-wall marble, we do it by the book. If you’re searching for a dependable tile installer in Seattle — someone who knows prep matters more than finish — **RENOVA Contractors LLC** gets it done right the first time. ✅📐🛠️"
+    "howWeWorkMarkdown": "RENOVA Contractors LLC manages the entire process — from slab selection to install. We operate our own countertop fabrication shop in the Seattle area and use our in-house crew of trained countertop installers — no outsourcing, no handoffs.\n\n### Here’s How We Work:\n- 📏 **Site visit & measurement** – We check cabinet level, wall conditions, sink location, and overhangs  \n- 📋 **Slab selection** – Choose your material from quartz, granite, or quartzite — we work with Pental, Daltile, MSI, and other local Seattle yards  \n- 🧰 **Fabrication** – We cut, polish, and finish slabs in-house — includes sink cutouts, faucet holes, and edge profiles  \n- 🛠️ **Install** – Our crew mounts the top, levels it, secures undermount sinks with brackets, and seals the seams  \n- ✅ **Final walkthrough** – We clean the surface, test sink seals, and confirm all cuts, fit, and caulking are clean\n\nWe build everything to fit — no prefab shortcuts, no uneven seams. As a **local countertop installation company in Seattle**, we handle kitchens, vanities, laundry tops, waterfall panels, and backsplashes with full slab continuity.\n\nIf you’re searching for a reliable team for **quartz countertops in Seattle** or need expert help replacing outdated surfaces, **RENOVA Contractors LLC** handles every step — measured right, fabricated locally, and installed by pros. 📦📐🧰"
   },
   "faqItems": [
     {
-      "question": "Do I need waterproofing behind tile in a shower?",
-      "answer": "Yes – tile and grout are not waterproof. We install Schluter or Wedi systems behind all shower tile. Everything gets sealed, banded, and flood-tested if required."
+      "question": "What’s the average cost for quartz or granite countertops in Seattle?",
+      "answer": "Quartz countertops usually run $85–$120 per square foot installed. Granite ranges from $75–$110, depending on the slab. That includes templating, fabrication, install, and sink cutouts. Exotic stone or thicker edges cost more."
     },
     {
-      "question": "Can you install tile over existing tile?",
-      "answer": "Sometimes – if the old tile is level, bonded well, and not cracked. But if there’s movement or signs of moisture underneath, we tear it out and prep the base properly."
+      "question": "Do you install prefab countertops?",
+      "answer": "No. We only install full slabs — templated, cut, and finished for your space. Prefab tops don’t hold up long term, and they usually come with poor seams and fit issues."
     },
     {
-      "question": "What’s the best tile for bathrooms in Seattle homes?",
-      "answer": "Porcelain – it’s dense, low-absorption, and handles moisture better than ceramic. We recommend it for floors, walls, and wet zones. Mosaic works well on shower floors for slope and grip."
+      "question": "Can I buy my own slab and have you install it?",
+      "answer": "Yes — as long as it’s from a reputable supplier and has not been cut. We’ll verify size, quality, and layout before taking it to fabrication. We work with Daltile, Meta, MSI, and Architectural Surfaces."
     },
     {
-      "question": "Do you install heated tile floors?",
-      "answer": "Yes – we install Schluter DITRA-Heat or SunTouch systems. They’re embedded in thinset with a dedicated GFCI-protected thermostat and tested before tile goes down."
+      "question": "What’s the difference between quartz and granite in real use?",
+      "answer": "Quartz is more consistent and easier to clean. Granite is more heat-resistant and natural-looking. If you want low maintenance, go quartz. If you want variation and don’t mind sealing, granite works great."
     },
     {
-      "question": "How do you prevent cracked tile or grout later?",
-      "answer": "We check for subfloor movement, use uncoupling membranes if needed, and install expansion joints at changes in plane. Most cracking happens when prep is skipped — we don’t skip it."
+      "question": "How long does it take from template to install?",
+      "answer": "Usually 5–7 business days after template. We don’t start until all cabinets are installed, sinks are selected, and slab is confirmed."
     },
     {
-      "question": "Can I choose tile from my own supplier?",
-      "answer": "Yes – as long as it’s rated for your application. We’ll inspect it before install. If it’s not flat, not sealed, or wrong for the use, we’ll let you know before moving forward."
+      "question": "Can you install waterfall panels or full-height backsplash?",
+      "answer": "Yes — we do both. Waterfall sides require extra slab and precision cutting. Full-height splash is templated on-site and cut to match outlets and wall shape."
     },
     {
-      "question": "Do I need to seal tile or grout after install?",
-      "answer": "We seal grout by default unless you request otherwise. Some natural stone tiles also need sealing. Porcelain usually doesn’t, but we’ll advise based on your material."
+      "question": "What sink styles do you install?",
+      "answer": "Mostly undermount sinks — kitchen or bath. We cut and polish in-shop, mount with bracket systems, and fully seal around the basin during install."
     },
     {
-      "question": "How long until I can use the space after install?",
-      "answer": "Most floors can be walked on after 24 hours. Showers need at least 48–72 hours to fully cure and pass inspection. We’ll give you exact dry and cure times before we leave."
+      "question": "Do you offer any discounts on slabs or fabrication?",
+      "answer": "Yes — we pass through contractor pricing from local slab yards. Depending on the material, that’s usually 15–30% off standard retail. No markups, no hidden fees."
     }
   ],
   "images": {
-    "hero": [
-  {
-    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757208689/seattle/tile/IMG_7453_t2htax.jpg",
-    "alt": "A modern bathroom features light beige subway tile in the shower, a silver showerhead and faucet, and a geometric artwork with white lines above a white toilet against a neutral wall."
-  },
-  {
-    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757208690/seattle/tile/IMG_2377_xubdew.jpg",
-    "alt": "A bathtub with light green vertical tiles on the wall, a black faucet, and a shower handle. White tiles are visible on the left side near the toilet tank."
-  },
-  {
-  "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757206101/seattle/tile/tile-installers-1_diiuqk.jpg",
-  "alt": "A man kneels on a red floor, installing large beige tiles in a hallway under renovation. Tools, buckets, and building materials are scattered around, and another person works in the background."
-},
-  {
-    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757206098/seattle/tile/tile-contractors-seattle-1_hz40eq.jpg",
-    "alt": "Close-up of a modern shower with white subway tile, featuring chrome-finished fixtures, a handheld showerhead, and control knobs. Sunlight casts soft reflections on the tiles. A small Renova logo is visible in the corner."
-  },
-  {
-    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757208431/seattle/tile/IMG_7460_ff2mkq.jpg",
-    "alt": "Modern bathroom with a freestanding white bathtub, a white and orange towel draped over the side, and a glass-enclosed shower. A large window with a shade lets in natural light."
-  },
-  {
-    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757208453/seattle/tile/IMG_5819_vshuqb.jpg",
-    "alt": "A shower corner with glossy dark green vertical tiles, a black showerhead and fixtures, a small built-in shelf, and a white textured floor."
-  }
-],
+    "hero": [],
     "firstAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile-installation-company_iyjnj2.jpg",
-          "alt": "Modern walk-in shower with glass doors, black rainfall showerhead, handheld shower, beige tiles, small window, and white blinds on the adjacent window. RENOVA logo is in the bottom right corner."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297580/seattle/countertops/seattle-countertop-installation-2_szq0d9.jpg",
+          "alt": "Modern kitchen with white cabinets, stainless steel appliances, a large dark gray island with storage, white subway tile backsplash, and a window above the sink allowing natural light in."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile-installation-company-2_yx7pmj.jpg",
-          "alt": "Modern bathroom with white subway tile walls, a bathtub with a wall niche, a floating toilet, a large backlit mirror above a gray stone countertop, and a small potted plant near the sink."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297581/seattle/countertops/seattle-countertop-installation_jbsjwf.jpg",
+          "alt": "Modern kitchen with a large dark wood island, marble countertop, and built-in sink. Open layout leads to a living area with beamed ceiling, large windows, and patio doors. Neutral tones and elegant lighting throughout."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile-installation-company-3_soo08y.jpg",
-          "alt": "Modern bathroom with a wooden vanity, rectangular sink, black fixtures, a potted plant, wall-mounted mirror, and a glass-enclosed shower with beige tiles and a small window. White walls and recessed lighting."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297581/seattle/countertops/seattle-countertop-installation-3_pw4bvj.jpg",
+          "alt": "Modern kitchen with white cabinets, stainless steel appliances, a center island with a dark countertop, a window above the sink, and light-colored tile flooring. The space is bright and clean with minimalist decor."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212439/seattle/tile/bathroom-tile-1_opfuiy.jpg",
-          "alt": "Modern walk-in shower with marble walls, built-in bench, black rainfall showerhead, handheld shower, and glass door. Ceiling lights illuminate the spacious, minimalistic design."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297582/seattle/countertops/seattle-countertop-installers_zyga5b.jpg",
+          "alt": "Modern kitchen with wood cabinets, marble countertops, gold pendant lights, white barstools, large windows, and open shelving with decor; dining area visible in the background with natural light."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212439/seattle/tile/bathroom-tile-installation-1_c40lwf.jpg",
-          "alt": "Modern bathroom with a freestanding white tub, gold fixtures, a glass-enclosed shower, black marble countertop, wood vanity, pendant lights, and a textured white tile wall."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297579/seattle/countertops/countertop-installation-seattle-1_qo5fly.jpg",
+          "alt": "A modern wet bar with dark wood cabinets, marble countertop, built-in sink, mini fridge, glassware, and bottles. The bar overlooks a living area with a sofa and lit fireplace in the background."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile-installation_s8hsxy.jpg",
-          "alt": "Modern bathroom with brass fixtures, square white tiles in the shower, a built-in niche, glass shower wall, and a vanity with a black marble countertop and hanging pendant lights."
-        },
-        {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile_xuq4v3.jpg",
-          "alt": "Modern bathroom with a glass-enclosed walk-in shower, black fixtures, a marble countertop, light wood vanity, round mirror, and striped towels hanging on wall hooks. The space features white tile and minimalist decor."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297580/seattle/countertops/seattle-countertop-installation-1_b7o3op.jpg",
+          "alt": "Modern kitchen with white cabinets, stainless steel appliances, a gray island, subway tile backsplash, and a window above the sink. The room is well-lit and uncluttered, with a sleek, minimalist design."
         }
       ],
-      "title": "Bathroom Tile Seattle 2025",
-  "heading": "Bathroom Tile Work",
-  "paragraph": "Bathroom tile installation across Seattle – shower walls, heated floors, floors, niches, and tub surrounds. We handle demo, prep with WEDI, cement board or Schluter systems, waterproofing, precision cuts, and grouting. Porcelain, ceramic, marble, and mosaic layouts.",
-  "timeline": "5–7 days per bathroom"
+      "title": "Kitchen Countertop Installation Seattle 2025",
+  "heading": "Kitchen Countertop Installation",
+  "paragraph": "Renova Contractors LLC provides professional kitchen countertop installation across Seattle 🏙️ — including Capitol Hill, Queen Anne, Ballard, Fremont, Green Lake, Magnolia, and West Seattle. We cut, deliver, and install quartz, granite, and marble countertops with precision and clean seams. Our process includes on-site measurement, fabrication, and installation, so you get a perfect fit every time. Complimentary design consultations 🎨 help you choose the right material and color for your kitchen remodel, whether you want quartz countertops Seattle, granite kitchen counters, or natural marble. We handle kitchen countertop replacement, new construction installs, and full kitchen remodel projects with fast turnaround ✅ — so your Seattle kitchen is ready to use right away.",
+  "timeline": "5–10 days from template to install"
     },
     "secondAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213048/seattle/tile/kitchen-tile-work_m4jgqj.jpg",
-          "alt": "A modern kitchen with white cabinets, gold handles, a blue oven, stainless steel hood, white backsplash in a herringbone pattern, pendant lights, wooden flooring, and a white island with navy and wood barstools."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298192/seattle/countertops/bathroom-vanity-countertop_gsnyo9.jpg",
+          "alt": "Modern bathroom with white cabinets, double sinks, large backlit mirrors, marble countertops, and dramatic stone accent walls. A wooden bench sits on the left, and the floor is white tile. The Renova logo is in the corner."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213047/seattle/tile/kitchen-tile-backsplash-2_yxcoaz.jpg",
-          "alt": "A modern, narrow kitchen pantry room with white cabinets, geometric tile backsplash, wood flooring, and under-cabinet lighting. The room features black cabinet handles and a clean, minimalist design."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298192/seattle/countertops/bathroom-vanity-countertop-1_t5agp6.jpg",
+          "alt": "AA modern public restroom with three illuminated mirrors above three sinks, white tile walls, wall-mounted soap dispensers, and paper towel dispensers on each side. A person is visible in the reflection taking a photo."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213256/seattle/tile/kitchen-tile_bdx4um.jpg",
-          "alt": " kitchen with white cabinets, tile backsplash, stainless steel appliances, a gas stove, white countertops, a large island with a sink, and pendant lights; sliding glass doors open to a backyard with green grass and a guest house."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298193/seattle/countertops/quartz-vanity-bathroom-countertop-1_oboqls.jpg",
+          "alt": "Modern bathroom with white cabinets, double sinks, large backlit mirrors, marble countertops, and dramatic stone accent walls. A wooden bench sits on the left, and the floor is white tile. The Renova logo is in the corner."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213256/seattle/tile/kitchen_nfo8sw.jpg",
-          "alt": "Modern kitchen with white cabinets, brass hardware, a blue stove, two gold pendant lights over a large white island, and wooden chairs with navy blue upholstery on light wood flooring."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298195/seattle/countertops/quartz-vanity-bathroom-countertop_lsomvr.jpg",
+          "alt": "A modern white bathroom with a double-sink vanity, black fixtures, two mirrors with wall lights, and a glass-enclosed shower in the background. Light cabinetry and a marble countertop complete the clean look."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213256/seattle/tile/kitchen-tile-1_l9pykk.jpg",
-          "alt": "Modern kitchen with white cabinets, gold handles, a blue and gold stove, stainless steel range hood, farmhouse sink, and large windows letting in natural light. Light wood flooring and white herringbone backsplash."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298196/seattle/countertops/vanity-stone-countertop-2_el2zrl.jpg",
+          "alt": "A bathroom under renovation with a new white double-sink vanity installed; cabinets below are open, and the wall behind has unfinished patches and exposed electrical outlets."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213451/seattle/tile/IMG_7427_jbgxvq.jpg",
-          "alt": "A modern kitchen sink with a large faucet and a smaller filtered water tap sits beneath a wide window, showing green trees and a wooden fence outside. The backsplash has light-colored subway tiles."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298195/seattle/countertops/vanity-stone-countertop-1_xe4bnc.jpg",
+          "alt": "Modern bathroom with double sinks, two square mirrors, gold fixtures, a soap dispenser, and a towel bar on the right wall. Window above the mirrors shows greenery outside. RENOVA logo in the bottom right corner."
         },
         {
           "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213451/seattle/tile/IMG_1418_rmgnmd.jpg",
-          "alt": "Modern kitchen with light gray cabinets, white marble countertops, stainless steel appliances, black fixtures, a large window above the sink, under-cabinet lighting, and a geometric white tile backsplash."
+          "alt": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298196/seattle/countertops/vanity-stone-countertop_a56x10.jpg."
         }
       ],
-      "title": "Kitchen Tile Installation Seattle 2025",
-  "heading": "Kitchen Tile Work",
-  "paragraph": "Full kitchen tile installation in Seattle – backsplashes, accent walls, and floor tile. We prep with cement board or Schluter Ditra underlayment, set with premium Laticrete thinset, and finish with tight grout lines. Options include subway, herringbone, mosaic, and large-format tiles to match any kitchen design.",
-  "timeline": "3–5 days per kitchen"
+     "title": "Bathroom Vanity Countertop Installation Seattle 2025",
+  "heading": "Bathroom Countertops & Vanities",
+  "paragraph": "Renova Contractors LLC installs bathroom countertops and vanities across Seattle 🏙️ — serving Capitol Hill, Ballard, Fremont, Queen Anne, Green Lake, Magnolia, and West Seattle. We provide bathroom vanity top installation with quartz, granite, marble, and solid surface options to match any style. Our team handles measurement, cutting, delivery, and installation so your bathroom remodel runs smoothly. Whether you need a single-sink vanity, double-sink vanity, or custom floating vanity, we fabricate and install it for a perfect fit. Homeowners searching for bathroom countertop replacement Seattle, bathroom vanity installation near me, or marble vanity tops trust us for clean seams, waterproof edges, and quick turnaround ✅.",
+  "timeline": "2–4 days from template to install"
     }
   }
 }
