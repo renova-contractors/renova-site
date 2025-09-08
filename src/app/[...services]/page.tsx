@@ -217,6 +217,28 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
           name: servicesPageData.category || 'Home Remodeling',
         },
       },
+      // Add video schema if video is present
+      ...(servicesPageData.video ? [{
+        '@type': 'VideoObject',
+        '@id': `https://www.renova.contractors/${id}#video`,
+        name: `${servicesPageData.category || 'Home'} Remodeling Video - RENOVA Contractors`,
+        description: `Watch our ${servicesPageData.category || 'home'} remodeling process and see the quality of our work in ${servicesPageData.location || 'Seattle'}.`,
+        thumbnailUrl: `https://img.youtube.com/vi/${servicesPageData.video}/maxresdefault.jpg`,
+        uploadDate: new Date().toISOString().split('T')[0],
+        duration: 'PT3M', // Default 3 minutes, adjust as needed
+        contentUrl: `https://www.youtube.com/watch?v=${servicesPageData.video}`,
+        embedUrl: `https://www.youtube.com/embed/${servicesPageData.video}`,
+        publisher: {
+          '@type': 'Organization',
+          '@id': 'https://www.renova.contractors/#organization',
+          name: 'RENOVA Contractors LLC',
+        },
+        about: {
+          '@type': 'Service',
+          '@id': `https://www.renova.contractors/${id}#service`,
+          name: servicesPageData.category || 'Home Remodeling',
+        },
+      }] : []),
     ],
   };
 
@@ -235,7 +257,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         category={servicesPageData.category}
         images={servicesPageData.images}
       />
-      <PageNav />
+      <PageNav showVideo={!!servicesPageData.video} />
 
       <YouTubeShortSlider
         city={servicesPageData.location}
@@ -251,9 +273,11 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         location={servicesPageData.location}
       />
       {servicesPageData.video && (
-        <SimpleYouTubeVideo
-          videoUrl={`https://www.youtube.com/watch?v=${servicesPageData.video}`}
-        />
+        <div id="video" className="scroll-anchor">
+          <SimpleYouTubeVideo
+            videoUrl={`https://www.youtube.com/watch?v=${servicesPageData.video}`}
+          />
+        </div>
       )}
 
       <Licensing />

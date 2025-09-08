@@ -3,8 +3,12 @@ import Link from "next/link";
 
 type NavLink = { text: string; href: string };
 
-export const PageNav = () => {
-  const links: NavLink[] = [
+interface PageNavProps {
+  showVideo?: boolean;
+}
+
+export const PageNav = ({ showVideo = false }: PageNavProps) => {
+  const baseLinks: NavLink[] = [
     { text: "📞 Contact", href: "#contact" },
     { text: "📜 Licencing", href: "#licensing" },
     { text: "💰 Cost Table", href: "#cost_table" },
@@ -15,6 +19,12 @@ export const PageNav = () => {
     { text: "🌐 Socials", href: "#socials" },
     { text: "🤖 Estimate with AI", href: "#ai_estimate" }
   ];
+
+  const videoLink: NavLink = { text: "🎥 Video", href: "#video" };
+  
+  const links = showVideo 
+    ? [...baseLinks.slice(0, 4), videoLink, ...baseLinks.slice(4)]
+    : baseLinks;
 
   return (
     <div className="container scroll-anchor">
