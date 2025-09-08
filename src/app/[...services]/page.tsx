@@ -24,6 +24,36 @@ import Script from 'next/script';
 import { ThumbsComponent } from '@/components/ThumbsComponent/ThumbsComponent';
 import FeaturableWidget from '@/components/Widgets/FeaturableWidget';
 
+// Import shorts data for schema
+const shortsObj = {
+  seattle: {
+    bathroom: [
+      { id: '1ZvtJ656fzM' },
+      { id: 'zvCGb-2RGPI' },
+      { id: '8UDWV8fl3XI' },
+      { id: '5pHLkY__MYU' },
+    ],
+    kitchen: [
+      { id: 'Id9DDeUKeP8' },
+      { id: '1J6XQWWLC5I' },
+      { id: 'TPgxHN6cu0I' },
+      { id: 'i9hrqnBZ9vo' },
+    ],
+    basement: [
+      { id: 'agBL7EkK7Fo' },
+      { id: 'k2YY8I7Xa-Y' },
+      { id: 'zvCGb-2RGPI' },
+      { id: 'FXgjx7blUi4' },
+    ],
+    attic: [
+      { id: 'c9TpekCq72Y' },
+      { id: 'agBL7EkK7Fo' },
+      { id: 'OAVRNuODziI' },
+      { id: 'Gy1I8U00rfc' },
+    ],
+  },
+};
+
 type Props = {
   params: { services: string[] };
   searchParams: { [key: string]: string | string[] | undefined };
@@ -239,6 +269,28 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
           name: servicesPageData.category || 'Home Remodeling',
         },
       }] : []),
+      // Add YouTube Shorts schema if shorts are available
+      ...(shortsObj[servicesPageData.location]?.[servicesPageData.category]?.length > 0 ? [{
+        '@type': 'VideoObject',
+        '@id': `https://www.renova.contractors/${id}#shorts`,
+        name: `${servicesPageData.category || 'Home'} Remodeling Shorts - RENOVA Contractors`,
+        description: `Quick tips and highlights from our ${servicesPageData.category || 'home'} remodeling projects in ${servicesPageData.location || 'Seattle'}. Watch our YouTube Shorts for project insights.`,
+        thumbnailUrl: `https://img.youtube.com/vi/${shortsObj[servicesPageData.location]?.[servicesPageData.category]?.[0]?.id}/maxresdefault.jpg`,
+        uploadDate: new Date().toISOString().split('T')[0],
+        duration: 'PT30S', // Typical shorts duration
+        contentUrl: `https://www.youtube.com/shorts/${shortsObj[servicesPageData.location]?.[servicesPageData.category]?.[0]?.id}`,
+        embedUrl: `https://www.youtube.com/embed/${shortsObj[servicesPageData.location]?.[servicesPageData.category]?.[0]?.id}`,
+        publisher: {
+          '@type': 'Organization',
+          '@id': 'https://www.renova.contractors/#organization',
+          name: 'RENOVA Contractors LLC',
+        },
+        about: {
+          '@type': 'Service',
+          '@id': `https://www.renova.contractors/${id}#service`,
+          name: servicesPageData.category || 'Home Remodeling',
+        },
+      }] : []),
     ],
   };
 
@@ -257,12 +309,19 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         category={servicesPageData.category}
         images={servicesPageData.images}
       />
-      <PageNav showVideo={!!servicesPageData.video} />
-
-      <YouTubeShortSlider
-        city={servicesPageData.location}
-        category={servicesPageData.category}
+      <PageNav 
+        showVideo={!!servicesPageData.video} 
+        showShorts={!!(shortsObj[servicesPageData.location]?.[servicesPageData.category]?.length > 0)}
       />
+
+      {shortsObj[servicesPageData.location]?.[servicesPageData.category]?.length > 0 && (
+        <div id="shorts" className="scroll-anchor">
+          <YouTubeShortSlider
+            city={servicesPageData.location}
+            category={servicesPageData.category}
+          />
+        </div>
+      )}
       <div id="reviews" className="scroll-anchor">
         <FeaturableWidget />
       </div>

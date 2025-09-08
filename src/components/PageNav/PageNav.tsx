@@ -5,14 +5,14 @@ type NavLink = { text: string; href: string };
 
 interface PageNavProps {
   showVideo?: boolean;
+  showShorts?: boolean;
 }
 
-export const PageNav = ({ showVideo = false }: PageNavProps) => {
+export const PageNav = ({ showVideo = false, showShorts = false }: PageNavProps) => {
   const baseLinks: NavLink[] = [
     { text: "📞 Contact", href: "#contact" },
     { text: "📜 Licencing", href: "#licensing" },
     { text: "💰 Cost Table", href: "#cost_table" },
-    { text: "🎬 Videos", href: "#videos" },
     { text: "⭐ Reviews", href: "#reviews" },
     { text: "📈 ROI Calculator", href: "#roi" },
     { text: "❓ FAQ", href: "#faq" },
@@ -21,10 +21,20 @@ export const PageNav = ({ showVideo = false }: PageNavProps) => {
   ];
 
   const videoLink: NavLink = { text: "🎥 Video", href: "#video" };
+  const shortsLink: NavLink = { text: "🎬 Shorts", href: "#shorts" };
   
-  const links = showVideo 
-    ? [...baseLinks.slice(0, 4), videoLink, ...baseLinks.slice(4)]
-    : baseLinks;
+  let links = [...baseLinks];
+  
+  // Add video link after cost table if video is present
+  if (showVideo) {
+    links.splice(3, 0, videoLink);
+  }
+  
+  // Add shorts link after video (or after cost table if no video)
+  if (showShorts) {
+    const insertIndex = showVideo ? 4 : 3;
+    links.splice(insertIndex, 0, shortsLink);
+  }
 
   return (
     <div className="container scroll-anchor">
