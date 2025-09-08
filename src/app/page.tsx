@@ -35,6 +35,9 @@ export const metadata: Metadata = {
   title: "Home Remodeling Seattle | Kitchens, Bathrooms, Basements – Renova Contractors LLC",
   description:
     "Seattle remodeling company for kitchens, bathrooms, basements, and more. Licensed contractors, free design consultation, and discounted materials. Call 206-255-2708 for an estimate.",
+  alternates: {
+    canonical: "https://www.renova.contractors"
+  }
 };
 
 export default function Home(): JSX.Element {

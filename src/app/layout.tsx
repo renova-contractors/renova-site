@@ -9,6 +9,80 @@ import { Analytics } from "@vercel/analytics/react";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 
+export const metadata: Metadata = {
+  title: {
+    default: "RENOVA Contractors LLC | Seattle Home Remodeling",
+    template: "%s | RENOVA Contractors LLC"
+  },
+  description: "Professional home remodeling services in Seattle. Kitchens, bathrooms, basements, and more. Licensed contractors with 11+ years experience. Free design consultation and discounted materials. Call 206-255-2708 for an estimate.",
+  keywords: [
+    "Seattle remodeling",
+    "kitchen remodel Seattle",
+    "bathroom remodel Seattle", 
+    "basement finishing Seattle",
+    "home renovation Seattle",
+    "contractors Seattle",
+    "licensed contractors",
+    "home remodeling",
+    "renovation services",
+    "Seattle contractors"
+  ],
+  authors: [{ name: "RENOVA Contractors LLC" }],
+  creator: "RENOVA Contractors LLC",
+  publisher: "RENOVA Contractors LLC",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.renova.contractors',
+    siteName: 'RENOVA Contractors LLC',
+    title: 'RENOVA Contractors LLC | Seattle Home Remodeling',
+    description: 'Professional home remodeling services in Seattle. Kitchens, bathrooms, basements, and more. Licensed contractors with 11+ years experience.',
+    images: [
+      {
+        url: 'https://www.renova.contractors/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'RENOVA Contractors LLC - Seattle Home Remodeling',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'RENOVA Contractors LLC | Seattle Home Remodeling',
+    description: 'Professional home remodeling services in Seattle. Licensed contractors with 11+ years experience.',
+    images: ['https://www.renova.contractors/twitter-image.jpg'],
+  },
+  verification: {
+    google: '6BAC73CBD2804DA3E05336B597702D53',
+  },
+  alternates: {
+    canonical: 'https://www.renova.contractors'
+  },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+  },
+  themeColor: '#000000',
+  colorScheme: 'dark',
+  other: {
+    'mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-status-bar-style': 'black-translucent',
+  }
+};
+
 export default function RootLayout({
 	children,
 }: {
@@ -26,43 +100,7 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-TZ5CQTCG');`,
           }}
         />
-				<Script
-					id="google-ads"
-					strategy="afterInteractive"
-					dangerouslySetInnerHTML={{
-						__html: `
-							window.dataLayer = window.dataLayer || [];
-							function gtag(){dataLayer.push(arguments);}
-							gtag('js', new Date());
-							gtag('config', 'AW-10929602248');
-						`,
-					}}
-				/>
-				<Script
-					async
-					src="https://www.googletagmanager.com/gtag/js?id=G-VCL1839D6R"
-				></Script>
-
-				<Script
-					async
-					src="https://www.googletagmanager.com/gtag/js?id=AW-10929602248"
-				></Script>
-				<Script
-					id="gtag-init"
-					dangerouslySetInnerHTML={{
-						__html: `
-							window.dataLayer = window.dataLayer || [];
-							function gtag(){dataLayer.push(arguments);}
-							gtag('js', new Date());
-							gtag('config', 'AW-10929602248');
-						`,
-					}}
-				/>
-				<Script id="analytics">{`window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VCL1839D6R')`}</Script>
+			{/* Google Analytics - using Next.js GoogleAnalytics component instead of manual scripts */}
 				<Script id="facebook-pixel" strategy="afterInteractive">
 					{`
 						!function(f,b,e,v,n,t,s)
@@ -88,6 +126,25 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+        
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.renova.contractors"
+                }
+              ]
+            })
+          }}
+        />
 				<ClientWrapper>
 					<Header />
 				</ClientWrapper>
@@ -107,18 +164,6 @@ export default function RootLayout({
 			<SpeedInsights />
 			<Analytics />
 			<GoogleAnalytics gaId="G-VCL1839D6R" />
-			<Script
-				strategy="afterInteractive"
-				src="https://www.googletagmanager.com/gtag/js?id=AW-10929602248"
-			/>
-			<Script id="gtag-init" strategy="afterInteractive">
-				{`
-					window.dataLayer = window.dataLayer || [];
-					function gtag(){dataLayer.push(arguments);}
-					gtag('js', new Date());
-					gtag('config', 'AW-10929602248');
-				`}
-			</Script>{" "}
 		</html>
 	);
 }

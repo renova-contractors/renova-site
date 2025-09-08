@@ -75,12 +75,13 @@ export const ThumbsSwiper: FC<Props> = ({ data, category }) => {
                 <div className="relative w-full h-[380px] max-sm:h-[250px] rounded-xl overflow-hidden">
                   <Image
                     src={slide.src}
-                    alt={slide.alt || `album image ${i + 1}`}
+                    alt={slide.alt || `Home remodeling project gallery image ${i + 1} by RENOVA Contractors`}
                     fill
-                    quality={80}
+                    quality={85}
                     sizes="(max-width: 640px) 100vw, 50vw"
                     className="object-cover"
                     priority={i === 0}
+                    loading={i === 0 ? "eager" : "lazy"}
                   />
                 </div>
               </SwiperSlide>
@@ -103,11 +104,12 @@ export const ThumbsSwiper: FC<Props> = ({ data, category }) => {
                 <div className="relative h-[110px] w-full rounded-xl overflow-hidden">
                   <Image
                     src={slide.src}
-                    alt={slide.alt || `thumb ${i + 1}`}
+                    alt={slide.alt || `Home remodeling project thumbnail ${i + 1} by RENOVA Contractors`}
                     fill
-                    quality={40}
+                    quality={60}
                     sizes="160px"
                     className="object-cover"
+                    loading="lazy"
                   />
                 </div>
               </SwiperSlide>

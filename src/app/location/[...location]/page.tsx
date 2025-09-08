@@ -89,9 +89,14 @@ export async function generateMetadata(
 	return {
 		title: product[0].title,
 		description: product[0].description,
-		/* openGraph: {
-			images: ["/some-specific-page-image.jpg", ...previousImages],
-		}, */
+		alternates: {
+			canonical: `https://www.renova.contractors/location/${city}`
+		},
+		openGraph: {
+			title: product[0].title,
+			description: product[0].description,
+			images: ["/some-specific-page-image.jpg"],
+		},
 	};
 }
 

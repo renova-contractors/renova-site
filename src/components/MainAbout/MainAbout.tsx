@@ -34,6 +34,8 @@ export const MainAbout: React.FC<Props> = ({
 					alt={imageAlt}
 					width={350}
 					height={270}
+					loading="lazy"
+					sizes="(max-width: 1280px) 350px, 0px"
 				/>
 			</div>
 			<div className="flex flex-col w-full md:w-[50%] max-md:mt-[40px] text-main-gray">

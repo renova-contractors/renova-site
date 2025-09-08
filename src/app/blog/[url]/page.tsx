@@ -30,8 +30,19 @@ export async function generateMetadata(
 	return {
 		title: post.metaTitle,
 		description: post.metaDescription,
+		alternates: {
+			canonical: `https://www.renova.contractors/blog/${id}`
+		},
 		openGraph: {
+			title: post.metaTitle,
+			description: post.metaDescription,
 			images: ["/some-specific-page-image.jpg", ...previousImages],
+		},
+		twitter: {
+			card: 'summary_large_image',
+			title: post.metaTitle,
+			description: post.metaDescription,
+			images: ["/some-specific-page-image.jpg"],
 		},
 	};
 }

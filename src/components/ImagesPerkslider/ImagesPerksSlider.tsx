@@ -32,11 +32,12 @@ export const ImagesPerksSlider = () => {
           >
             <Image
               src={src}
-              alt="Perk"
+              alt={`RENOVA Contractors service perk ${i + 1} - professional home remodeling benefits`}
               fill
               className="object-cover rounded-xl"
               sizes="(max-width: 768px) 80vw, (max-width: 1024px) 33vw, 25vw"
               priority={i === 0}
+              loading={i === 0 ? "eager" : "lazy"}
             />
           </div>
         ))}

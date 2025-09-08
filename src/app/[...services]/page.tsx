@@ -107,6 +107,9 @@ export async function generateMetadata(
   return {
     title: service?.title || 'Service Page',
     description: service?.description || '',
+    alternates: {
+      canonical: `https://www.renova.contractors/${id}`
+    },
     openGraph: {
       title: service?.title || 'Service Page',
       description: service?.description || '',
