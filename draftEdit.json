@@ -1,411 +1,431 @@
 [
   {
-    
-    "location": "seattle",
-    "category": "cabinets",
-    "service": "cabinet-installation-seattle",
-    "title": "Kitchen Cabinet Installation in Seattle ",
-    "description": "Cabinet Installers from Renova Contractors LLC offer a wide variety of prefabricated and custom cabinets that come in all dimensions and colors. One stop shop. Call Us Today!",
-    "hero": {
-      "h1": "Cabinet Installation in Seattle ",
-      "heroP": "RENOVA Contractors LLC installs kitchen cabinets, bathroom vanities, and custom storage systems across Seattle. We work with both prefab cabinet lines and custom-built options from our own local shop — depending on your layout, budget, and timeline. Every cabinet is measured to fit, shimmed, fastened to studs, and trimmed. No loose boxes, no filler tricks, no gaps hidden with caulk. We install plywood boxes only — no particle board or ikea grade junk cabinets. If your layout needs a specialty piece, we build it or customize.",
-      "heroImageAlt": "Cabinet installation banner",
-      "heroPhrase": "Installing cabinets on your walls right the first time."
-    },
-    "about": {
-      "phrase1": "Crafting Beautiful, Functional Spaces",
-      "phrase2": "Adding storge with taste and beauty.",
-      "priceLine1": "\nStock Cabinets: 🛠️ Quick and cost-effective, stock cabinets for $100-$200 per linear foot. Ready to install with basic styles and finishes!",
-      "priceLine2": "Custom Cabinets: ✨ Tailored to your space with custom cabinets for $200-$900 per linear foot. Choose your materials, style, and finish for a perfect fit!",
-      "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996751/cabinets/2FB7F4AA-32AC-486A-BE24-3DA17EB94E08_qiheki.jpg",
-      "image1alt": "A modern room features white cabinets with brass handles, a wooden countertop, and decorative shelves above. A flat-screen TV is mounted on a pinkish wall, and an open doorway reveals an adjacent room showcasing expert cabinet installation with large windows and shutters.",
-      "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996732/cabinets/5432BC60-4395-4561-8CE1-B7C69B18F6DC_upomi2.jpg",
-      "image2alt": "A person wearing a beige shirt, black pants, and a cap stands in a modern kitchen with white cabinets and drawers, wooden countertops, and a black ceiling fan above. The sleek kitchen cabinets frame the window with white shutters situated behind the person.",
-      "sectionP1": "In your home, you want to see beauty combined with functionality. That is where Renova Contractors LLC comes in with cabinet installation service for the kitchen, bathrooms, or any other room where you want additional storage space. We install kitchen cabinets for all your needs without compromising on the aesthetics of the space, and we provide you with a wide range of selections. Our cabinets come in various colors; you can pick blue kitchen cabinets, yellow cabinets, or go with the standard options of grey and white kitchen cabinets. We offer customization options for kitchen cabinets, providing you with more flexibility to choose the organization of your space. Our designers will give you thorough consultations to help you choose the right fit for your kitchen cabinetry. ",
-      "sectionP2": "We provide you with options for bathroom vanity cabinets of mass variety, such as a standard standing cabinet or a floating vanity. If you want to refinish your cabinets and add a new layer of color, that is also possible with Renova Contractors LLC. We will take your old cabinets and give them a second life. We employ highly trained installers who make most of the cabinets installation happen withing a day or two.",
-      "section2H2": "Why Us? ",
-      "section2P1": "Choosing Renova Contractors LLC for your cabinet requirements can be a rewarding experience. We offer a diverse range of top-notch cabinets, ready for installation in your home within a few days. By consulting our designers through our complimentary service, you can be confident that your new cabinets will bring a refreshing new look to your home. In our catalog, we often offer significant discounts on kitchen cabinets, and when you undertake a kitchen remodel, we will cover the cost of all upper cabinets. That is a strong case for picking Renova Contractors LLC as your trusted partner for cabinet installation. ",
-      "section2P2": "On a serious note, we employ a highly skilled team that knows how to do everything right the first time. Before we deliver the cabinets for assembly to our warehouse, we ensure that our distributors provide us with all the necessary materials, thereby minimizing our time in your home. We already come with pre-assembled cabinets to hang on your wall within a day or two, depending on the number of cabinets you have ordered. During our work, we ensure that the space is well maintained, avoiding scratches on the floor from screws and other sharp objects. Our plan was designed to maximize your investment while reducing the stress of construction and hectic planning. We have everything planned out and thought through, so with Renova Contractors LLC, having your cabinets installed is the smart way to go!",
-      "perks": [
-        {
-          "heading": "Renova Contractors LLC Strategy",
-          "paragraph": "Minimizing the time to install cabinets by doing it right the first time."
-        },
-        {
-          "heading": "Quality and Pricing",
-          "paragraph": "Offering you competitive prices without compromising on the quality."
-        },
-        {
-          "heading": "Bundle Deals",
-          "paragraph": "We offer a wide range of deals and discounts, check our catalog or call us."
-        },
-        {
-          "heading": "Custom Solutions",
-          "paragraph": "Custom cabinetry available that will fit all your needs and tastes."
-        },
-        {
-          "heading": "Customer Satisfaction",
-          "paragraph": "We prioritize customer satisfaction, ensuring you're happy with the results."
-        },
-        {
-          "heading": "Video Monitoring",
-          "paragraph": "We provide video monitoring during the installation process, ensuring transparency and allowing you to track progress."
-        },
-        {
-          "heading": "Design Consultation",
-          "paragraph": "Our expert designers offer personalized consultations to help you choose the perfect cabinets for your space."
-        },
-        {
-          "heading": "3D Visualization",
-          "paragraph": "We provide 3D visualizations of your project, so you can see the final look before installation begins."
-        },
-        {
-          "heading": "Flexible Scheduling",
-          "paragraph": "We offer flexible scheduling options to fit your busy lifestyle and minimize disruption to your daily routine."
-        },
-        {
-          "heading": "Warranty",
-          "paragraph": "Our cabinets come with a 2-year warranty, giving you peace of mind and confidence in our quality."
-        },
-        {
-          "heading": "Post-Installation Support",
-          "paragraph": "We provide ongoing support and maintenance tips to keep your cabinets looking their best for years to come."
-        },
-        {
-          "heading": "Expert Craftsmanship",
-          "paragraph": "Our skilled craftsmen ensure precise and flawless cabinet installation, enhancing the aesthetic appeal of your space."
-        },
-        {
-          "heading": "Grain Matching",
-          "paragraph": "We offer grain matching services for a seamless and cohesive look in your cabinetry."
-        },
-        {
-          "heading": "Seamless Repairs",
-          "paragraph": "In case of any damage, we offer seamless repair services to restore your cabinets to their original condition."
-        }
-      ],
-      "sectionH1": "Explore Cabinets with Renova Contractors LLC"
-    },
-    "ourServices": {
-      "h2": "Cabinet Installation Services",
-      "paragraph": "We offer a wide range of cabinet installation services for any room or requirement. We provide storage space that is both functional and aesthetically pleasing. Custom cabinetry and cabinet refinishing are also available, in addition to cabinet procurement and installation. Our interior designer, through a complimentary consultation, will point you in the right direction.",
-      "array": [
-        {
-          "heading": "Kitchen Cabinet Installation",
-          "paragraph": "Kitchen cabinets installed by professionals in your kitchen. Pick your perfect kitchen cabinet set from our inventory.",
-          "url": "/kitchen-cabinet-installation",
-          "image": "service_image_kitchen_cabinets",
-          "price": "Price starts at $3000"
-        },
-        {
-          "heading": "Kitchen Cabinets",
-          "paragraph": "Melamine MDF hardwood plywood kitchen cabinets and many more are available for purchase with select cabinets at a discount.",
-          "url": "/service/kitchen-cabinets",
-          "image": "service_image_kitchen_electrical",
-          "price": "Price starts at $3000"
-        },
-        {
-          "heading": "Cabinet Design",
-          "paragraph": "Our designer services for creating kitchen and bathroom cabinet designs are complimentary. Visualize your cabinets with ease.",
-          "url": "/service/cabinet-design",
-          "image": "service_image_kitchen_countertops",
-          "price": "Price starts at $1500"
-        },
-        {
-          "heading": "Cabinet Installation",
-          "paragraph": "If you need more storage we can install cabinets in any room of your house. Cabinet Installation for all your storage needs done right.",
-          "url": "/service/cabinet-installation",
-          "image": "service_image_kitchen_electrical",
-          "price": "Price starts at $2500"
-        },
-        {
-          "heading": "Bathroom Cabinets",
-          "paragraph": "Bathroom cabinets are a great way to add style to your bathroom. Specialty cabinets are available for bathroom vanity and storage needs.",
-          "url": "/service/bathroom-cabinets",
-          "image": "service_image_kitchen_backsplash",
-          "price": "Price starts at $2200"
-        },
-        {
-          "heading": "Cabinet Refinishing",
-          "paragraph": "Our cabinet refacing service can save you time and money with professional results. Kitchen cabinet refinishing and more with our help.",
-          "url": "/service/cabinet-refinishing",
-          "image": "service_image_kitchen_flooring",
-          "price": "Price starts at $1500"
-        },
-        {
-          "heading": "Built-in Cabinets",
-          "paragraph": "Built-in cabinets provide a seamless and timeless look to any room creating a sense of cohesiveness and helping to declutter your space.",
-          "url": "/service/built-in-cabinets",
-          "image": "service_image_custom_kitchen_cabinets",
-          "price": "Price starts at $4000"
-        },
-        {
-          "heading": "Cabinet Door Replacement",
-          "paragraph": "Freshen up your kitchen cabinets by replacing the cabinet doors with a wide variety of options that won't break the bank.",
-          "url": "/service/cabinet-door-replacement",
-          "image": "service_image_kitchen_plumbing",
-          "price": "Price starts at $1800"
-        },
-        {
-          "heading": "Cabinet Repair",
-          "paragraph": "We specialize in repairing kitchen cabinets as well as any other cabinets in your home that require fixing.",
-          "url": "/service/cabinet-repair",
-          "image": "service_image_kitchen_hardware",
-          "price": "Price starts at $800"
-        },
-        {
-          "heading": "Cabinet Painting",
-          "paragraph": "Brighten up your cabinets with our professional cabinet painting service. We use high-quality cabinet paint for all of your cabinets.",
-          "url": "/service/cabinet-painting",
-          "image": "service_image_kitchen_pantry",
-          "price": "Price starts at $1300"
-        },
-        {
-          "heading": "Storage Cabinets",
-          "paragraph": "Add storage space and functionality to any room with our cabinet installation and sales service. See storage cabinets we sell and install.",
-          "url": "/service/storage-cabinets",
-          "image": "service_image_kitchen_expansion",
-          "price": "Price starts at $2500"
-        }
-      ],
-      "ourServicesMarkdown": "RENOVA Contractors LLC installs cabinets for kitchens, bathrooms, laundry rooms, and storage areas across Seattle. Whether you're using prefab boxes or going full custom, we install everything level, shimmed, and fastened to structure — no wobbly boxes, no bad gaps, no shortcuts.\n\nWe’re the go-to team for homeowners searching for **cabinet installers near me**, **kitchen cabinet installation**, and clean, code-compliant work.\n\n### Our Cabinet Installation Services Include:\n- **Kitchen cabinet installation** – Upper and base cabinets set to laser lines, properly shimmed and fastened to studs  \n- **Bathroom vanity installation** – Wall-mounted or freestanding vanities, sink cutouts drilled clean, sealed and leveled  \n- **Custom cabinets** – Boxes built in our shop if prefab doesn’t fit your layout — plywood only, no particle board  \n- **Filler panels & trim** – Scribed and cut on-site — we don’t hide gaps with caulk  \n- **Toe kicks, crown, and end panels** – Installed tight and clean — no flex, no glue-only attachments  \n- **Appliance panel fitment** – Dishwasher, fridge, or range panels cut and aligned to match  \n- **Sink base cutouts** – Drilled with hole saws — not smashed out  \n- **Cabinet hardware** – Pulls, handles, soft-close hinges, tip-out trays, and organizers\n\nIf you’re searching for **cabinet contractors near me**, **kitchen cabinet installers near me**, or a licensed crew for full cabinet installation in Seattle, **RENOVA Contractors LLC** gets it done right — clean fit, clean lines, no filler tricks. ✅📐🧰"
-    },
-    "manufacturers": {
-      "h2": "Our Cabinets Suppliers",
-      "p": "We value our reputation and our mission to provide the best for our customers. Through the years, we acknowledged the manufacturers and distributors who constantly delivered high-quality and reliable cabinets for kitchens, bathrooms, and other rooms. For many years, we worked closely with them to create renderings and plan the layout of numerous projects that required cabinet installation. We provide our clients with reputable companies that stand by their work with high-quality products.",
-      "markdownmanufacturers": "RENOVA Contractors LLC installs both custom cabinets and prefab cabinet lines depending on layout and budget. All cabinets we install — custom or stock — are plywood construction with quality hardware. No MDF boxes. No stapled particle board.\n\n### What Materials We Use:\n- 🪵 **Cabinet boxes** – ½\" or ¾\" plywood sides, full backs, solid wood face frames (if framed)  \n- 🛠️ **Drawer boxes** – Dovetail or doweled hardwood, soft-close undermount slides  \n- 🚪 **Doors & panels** – Painted MDF, hardwood, or laminate finish depending on line  \n- 🧲 **Hardware** – Soft-close hinges (Blum, Salice), full-extension glides, adjustable shelves  \n- 🎨 **Finishes** – Painted, stained wood, thermofoil, or high-pressure laminate — all sprayed or factory-cured  \n- 📦 **Custom builds** – Made in our shop for anything prefab can’t cover — tall units, angled walls, filler panels, odd dimensions\n\n### Cabinet Brands We Install:\n- **Bellmont Cabinets** – Frameless, modern, durable finish, made in WA  \n- **GoldenHome** – European-style frameless line, fast turnaround, budget friendly  \n- **ProCraft** – Plywood boxes, solid drawer fronts, standard sizes — good fit for standard kitchens  \n- **Custom Shop Line** – Built in-house to match any layout, finish, or size\n\n### Seattle Cabinet Suppliers:\n- **Pius Kitchen & Bath – Seattle**  \n📍 4400 4th Ave S, Seattle, WA 98134  \nStocking GoldenHome and modern Euro-style cabinet lines\n\n- **Cabinets To Go – Seattle**  \n📍 6003 MLK Jr Way S, Seattle, WA 98118  \nBudget-friendly cabinets with local pickup\n\n- **Dunn Lumber – Seattle**  \n📍 3800 1st Ave S, Seattle, WA 98134  \nTrim stock, plywood, glue, brackets, fillers — we use this daily\n\n- **Bellmont Cabinet Co.**  \n📍 12303 Cyrus Way, Mukilteo, WA 98275  \nFrameless cabinet manufacturer — built locally with full warranty\n\nAll materials are staged before we start. We pass on **contractor pricing** — usually **15–30% less than showroom quotes**. We handle everything — supply, build, delivery, and install. ✅📐🧰"
-    },
-    "howWeWork": {
-      "array": [
-        {
-          "id": "1",
-          "title": "Initial Consultation",
-          "description": {
-            "p1": "Understanding your needs and preferences.",
-            "p2": "Discussing your vision and goals.",
-            "p3": "Gathering information for a tailored design."
-          },
-          "imagePath": "https://example.com/consultation.jpg"
-        },
-        {
-          "id": "2",
-          "title": "Design and Planning",
-          "description": {
-            "p1": "Creating a custom layout for your space.",
-            "p2": "Selecting materials and finishes.",
-            "p3": "Ensuring optimal functionality and aesthetics."
-          },
-          "imagePath": "https://example.com/design.jpg"
-        },
-        {
-          "id": "3",
-          "title": "Cost Estimation and Budgeting",
-          "description": {
-            "p1": "Providing a detailed quote.",
-            "p2": "Ensuring transparency and no surprises.",
-            "p3": "Aligning with your budget."
-          },
-          "imagePath": "https://example.com/cost.jpg"
-        },
-        {
-          "id": "4",
-          "title": "Material Procurement",
-          "description": {
-            "p1": "Sourcing high-quality materials.",
-            "p2": "Coordinating delivery schedules.",
-            "p3": "Ensuring everything is ready for installation."
-          },
-          "imagePath": "https://example.com/materials.jpg"
-        },
-        {
-          "id": "5",
-          "title": "Site Preparation",
-          "description": {
-            "p1": "Preparing the space for installation.",
-            "p2": "Ensuring a clean and safe work environment.",
-            "p3": "Minimizing disruption to your home."
-          },
-          "imagePath": "https://example.com/preparation.jpg"
-        },
-        {
-          "id": "6",
-          "title": "Cabinet Installation",
-          "description": {
-            "p1": "Installing cabinets with precision.",
-            "p2": "Ensuring proper alignment and fit.",
-            "p3": "Adhering to the highest standards."
-          },
-          "imagePath": "https://example.com/installation.jpg"
-        },
-        {
-          "id": "7",
-          "title": "Countertop and Hardware Installation",
-          "description": {
-            "p1": "Installing countertops with care.",
-            "p2": "Adding finishing touches with hardware.",
-            "p3": "Ensuring everything is secure and functional."
-          },
-          "imagePath": "https://example.com/countertops.jpg"
-        },
-        {
-          "id": "8",
-          "title": "Finishing Touches",
-          "description": {
-            "p1": "Finalizing details for a polished look.",
-            "p2": "Ensuring everything meets our high standards.",
-            "p3": "Preparing for the final inspection."
-          },
-          "imagePath": "https://example.com/finishing.jpg"
-        },
-        {
-          "id": "9",
-          "title": "Inspection and Quality Control",
-          "description": {
-            "p1": "Thoroughly inspecting the installation.",
-            "p2": "Ensuring everything is up to code.",
-            "p3": "Making any necessary adjustments."
-          },
-          "imagePath": "https://example.com/inspection.jpg"
-        },
-        {
-          "id": "10",
-          "title": "Final Walkthrough and Handover",
-          "description": {
-            "p1": "Walking through the completed project.",
-            "p2": "Addressing any final questions or concerns.",
-            "p3": "Handing over the keys to your new space."
-          },
-          "imagePath": "https://example.com/handover.jpg"
-        }
-      ],
-      "howWeWorkMarkdown": "RENOVA Contractors LLC installs both custom cabinets and non-custom prefab cabinets across Seattle. We help you choose based on your layout, timeline, and budget — no upselling, no shortcuts. Some projects need full custom work. Others don’t. We do both.\n\nWe’ve got our own cabinet shop in the Seattle area — so if the cabinets don’t fit, or the layout needs something built to size, we build it ourselves. For tight budgets or simple layouts, we install solid prefab lines like Bellmont or GoldenHome. Either way, everything is installed by our crew — no third-party subs.\n\n### Why Go Custom or Non-Custom?\n- **Go custom** if your space is tight, uneven, or has non-standard dimensions — or if you want full control over layout, finish, and cabinet features  \n- **Go non-custom (prefab)** if your kitchen or bathroom has a standard footprint and you want to keep cost and lead time down\n\n### Our Cabinet Install Process:\n- 📏 **Measure on site** – Check wall spacing, plumbing, appliances, and layout  \n- 🛠️ **Help you choose prefab or custom** – Based on what fits the space and budget  \n- 🪵 **Trim or build what’s needed** – Fillers, panels, special sizes  \n- 🔧 **Install uppers first** – Shimmed and fastened to studs — no drywall anchors  \n- ⚙️ **Install base cabinets after flooring** – Leveled and secured  \n- 🧰 **Drill sink cutouts** – With a hole saw — clean and tight  \n- 🧱 **Install trim, toe kicks, and hardware** – After fit is dialed in\n\nNo filler tricks. No loose cabinets. No blame game between the shop and the install crew — we handle both. If you're searching for **Seattle cabinet installers**, **custom cabinet makers**, or someone to handle the full build and install, **RENOVA Contractors LLC** does it right — custom or prefab. ✅🪚📐"
-    },
-    "faqItems": [
+ 
+  "location": "seattle",
+  "category": "tile",
+  "service": "tile-installation-seattle",
+  "title": "Tile Installation in Seattle: Bathroom, Kitchen, Floor ",
+  "description": "RENOVA Contractors LLC is a ✅ trusted tile installer in Seattle. We install tile in showers, bathrooms, floors, kitchens, and entryways – with proper prep, waterproofing, and clean finish work. ",
+  "hero": {
+    "h1": "Tile Installation Contractor in Seattle – Showers, Floors, Backsplashes 🧱🛠️",
+    "heroP": "**Seattle tile installation** 🏙️ — professional **floor, wall, and backsplash tile work** across Seattle homes and condos. We handle **kitchen backsplashes, bathroom showers, tub surrounds, and flooring** 🛁 — from prep to grout. **Surface prep done right** 🪚 — we use cement board, Schluter, or Wedi systems for a waterproof base. **Precision layout** 📏 — straight lines, perfect spacing, clean cuts around outlets and corners. **No shortcuts** 🚫 — no mastic where thinset belongs, no skipping waterproofing, no uneven edges. **Quality materials** 🧱 — porcelain, ceramic, marble, or natural stone — all set with premium mortars and grouts designed for Seattle’s damp climate. **Custom details** 🎨 — mosaics, niches, heated floors, and patterns like herringbone or stacked layouts. **Full bathroom remodel ready** 🧰 — we handle demo, waterproofing, tile, and fixtures. If you’re searching **tile installers Seattle**, **bathroom tile installation near me**, or **kitchen backsplash Seattle**, we deliver clean, durable work in Ballard, Queen Anne, Green Lake, Bellevue, and beyond — **built right, built to last** ✅.",
+    "heroImageAlt": "Tile installation banner",
+    "heroPhrase": "Elegance in Every Square Inch: Crafting Stunning Tiled Interiors That Speak of Sophistication and Style."
+  },
+  "about": {
+    "phrase1": "Your Vision, Our Precision: Delivering Flawless Tiling with an Eye for Detail and Excellence",
+    "phrase2": "Unmatched Craftsmanship for Timeless Interiors: Combining Quality Materials with Expert Installation.",
+    "priceLine1": "Ceramic Tile: 🛠️ Update your space with ceramic tiles for $9-$35/sq ft. Versatile and budget-friendly for any room!",
+    "priceLine2": "Porcelain Tile: ✨ Go for durability and style with porcelain tiles for $15-$45/sq ft. Ideal for high-traffic areas and a polished finish!",
+    "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722995426/tile/F2E04F04-31D8-4CEB-BDC9-BC0CDD59EF26_a65njd.jpg",
+    "image1alt": "A spacious modern room with a central fireplace surrounded by light-colored stone. Large windows let in natural light, and the ceiling features several multi-colored pendant lights. The expertly crafted tile installation adds elegance, while outside, greenery and parked cars are visible through the windows.",
+    "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722995336/tile/C489A5A3-D860-42AE-8712-DED9CF27CD92_weedwj.jpg",
+    "image2alt": "A wall of rectangular white tiles, installed by our expert tile installation company, features a built-in niche for storage. Positioned near the center of the wall, the niche adds both function and design. Subtle reflections from the lighting enhance the glossy surface installed by our skilled tile guys.",
+    "sectionP1": "The Renova Contractors LLC tile installation crew specializes in installing your selected tile on any surface you want. We install tile in the kitchen as a kitchen backsplash to build you a custom walk-in shower and cover it in the most intricate tile patterns. Whether you choose a simple brick pattern, offset tile, herringbone, or even basketweave, our tile installers can manage the project on time and budget. Check out our previous tile installation work and judge for yourself our craftsmanship.",
+    "sectionP2": "When we install tile on any surface, we first check the levels to ensure that the tile stays on one level and doesn't protrude in random spots. Our tile installation team cares about their craft; it may look simple, but that’s because they are just that good with tile of different sizes and shapes. If you want a subway tile, diamond tile, mosaic, or even Moroccan fish scales, we have you covered with superb work and grout.",
+    "section2H2": "Why Choose Renova Contractors LLC Tile?",
+    "section2P1": "Choosing Renova Contractors LLC means choosing quality, reliability, and a commitment to excellence. We highlight the importance of communication and daily updates on the project and you will even have a dedicated project manger who will be within an arms reach all day. Our experienced team of tile installers is dedicated to delivering high-quality results on every project. We take the time to understand your needs and preferences, providing personalized solutions that fit your lifestyle and budget. Our transparent pricing ensures you know exactly what to expect, with no hidden costs.",
+    "section2P2": "We use only the best construction materials and the latest techniques to ensure your m tile installation is both beautiful and durable. Our commitment to customer satisfaction means we won't consider the job done until you're completely happy with the results. Whether you're looking to update the tub surround, build a custom walk-in shower or tile 10,000 square feet of floors, all projects are important to Renova Contractors LLC no matter the scope. Client- centric approach is what makes us great.",
+    "perks": [
       {
-        "question": "Do you install both prefab and custom cabinets?",
-        "answer": "Yes – we do both. For standard layouts and tighter budgets, we install prefab lines like Bellmont or GoldenHome. For odd spaces or full design flexibility, we build custom in our own Seattle-area shop."
+        "heading": "Contractor Pricing 💸",
+        "paragraph": "We pass our tile and material discounts straight to you — no markup. Save up to 20–30% through our Seattle suppliers."
       },
       {
-        "question": "What materials do you use for cabinets?",
-        "answer": "All boxes are plywood — never particle board. Doors and drawer fronts vary (painted MDF, hardwood, laminate), and all hardware is soft-close. We only use durable, job-ready materials."
+        "heading": "On-Site Design Help 🎨",
+        "paragraph": "We help you pick tile, grout, and layout based on lighting, use, and space. You won’t be choosing from a catalog blind."
       },
       {
-        "question": "Can you install cabinets I’ve already purchased?",
-        "answer": "If the quality is good — yes. We won’t install cheap flat-pack particle board or anything that can’t hold a screw. Send us the specs and we’ll confirm if it’s installable."
+        "heading": "Mobile Sample Kits 🚚",
+        "paragraph": "We bring tile samples to your home — no showroom trips needed. See everything in your own space before finalizing."
       },
       {
-        "question": "How do you handle uneven walls or tight spaces?",
-        "answer": "We scribe, cut, and fit every filler panel or side trim on-site. Nothing is forced. If prefab won’t fit, we build what’s missing to match in our shop."
+        "heading": "Pre-Marked Layouts 📐",
+        "paragraph": "Before we set a tile, we chalk layout lines for spacing, symmetry, and flow — so the install looks clean, centered, and intentional."
       },
       {
-        "question": "Do you install bathroom vanities and utility cabinets?",
-        "answer": "Yes – we install all types of cabinetry: kitchen, bath, laundry, mudroom, and closet. Vanities are leveled, secured, and drilled for plumbing with a hole saw — no bashing."
+        "heading": "Low-Dust Demo & Install 🧹",
+        "paragraph": "We use vac attachments and clean-as-we-go practices to minimize dust — especially in finished homes or lived-in spaces."
       },
       {
-        "question": "How long does cabinet installation usually take?",
-        "answer": "A standard kitchen install takes 1–2 days. Full custom kitchens or jobs with major trim/detailing may take longer. We’ll give you a real timeline before we start."
+        "heading": "Grout Sealing Included 🧽",
+        "paragraph": "Every job comes with sealed grout — no extra charge. Protects against water, stains, and discoloration long-term."
       },
       {
-        "question": "Do you provide the cabinets, or do I have to supply them?",
-        "answer": "We can do both. You can choose from our supplier network (Dunn, Pius, Bellmont) or bring your own. Either way, we handle delivery, staging, and install."
+        "heading": "Repair Services 🔧",
+        "paragraph": "If a tile ever cracks or pops, we can replace it without redoing the whole area — including matching grout and trim."
+      },
+      {
+        "heading": "Flexible Scheduling 📆",
+        "paragraph": "We work around your calendar — weekday or weekend installs available to keep things convenient."
+      },
+      {
+        "heading": "Progress Photos or Video 📸",
+        "paragraph": "Want to track progress? We send updates during key stages — so you don’t need to babysit the job."
+      },
+      {
+        "heading": "Code-Compliant Installs ✅",
+        "paragraph": "We follow Seattle building code for wet area waterproofing, slip resistance, and transitions — no shortcuts, ever."
+      },
+      {
+        "heading": "Luxury Materials Available 🪵",
+        "paragraph": "Need high-end stone, handmade ceramic, or imported tile? We’ve installed it — and we can price it right."
+      },
+      {
+        "heading": "Final Walk & Warranty 📋",
+        "paragraph": "Every tile job ends with a full walk-through, punch list, and written labor warranty — so you’re covered long after install."
       }
     ],
-    "images": {
+    "sectionH1": "Our Comprehensive Services"
+  },
+  "ourServices": {
+    "h2": "Tile Installation Services",
+    "paragraph": "RENOVA Contractors LLC provides full-scope tile installation in Seattle — floors, showers, backsplashes, entryways, and wet areas. We prep the surface properly, use code-rated materials, and install tile clean, straight, and built to last.\n\nIf you're looking for a reliable tile installer in Seattle, we handle layout, waterproofing, and full install — no shortcuts, no lippage, no cracked grout.\n\n### Our Seattle Tile Services Include:\n- **Shower Tile Installation** – Floor and wall tile, niches, benches, and waterproofing systems like Schluter or Wedi  \n- **Bathroom Floors** – Porcelain or ceramic tile over cement board or membrane — with expansion joints and slope if needed  \n- **Kitchen Backsplashes** – Clean cuts, tight spacing, grouted and sealed — including outlets and transitions  \n- **Entryways & Mudrooms** – Durable tile over reinforced subfloor or slab, with trims and thresholds  \n- **Fireplace Surrounds & Accent Walls** – Thinset over backer or framed surface, aligned and leveled  \n- **Underlayment & Prep** – Cement board, uncoupling membrane, or self-leveling compound as needed\n\nWe source tile from **Statements Tile**, **United Tile**, and **Daltile** — all stocked in Seattle. You’ll get help with layout and grout selection before we start.\n\nWhether it's a full bathroom remodel or just replacing old flooring, **RENOVA Contractors LLC** is the go-to choice for tile installers in Seattle who do the job right.",
+    "array": [
+      {
+        "heading": "Tile Installation",
+        "paragraph": "New tile installation, wide variety of tiles available for kitchen backsplash, floors, bathroom floors, shower walls.",
+        "url": "/tile-installation",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $2,500"
+      },
+      {
+        "heading": "Floor Tile",
+        "paragraph": "Explore our catalogue to see what floor tile will look best in your home, easy floor tile installation with us.",
+        "url": "/service/floor-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $2,500"
+      },
+      {
+        "heading": "Bathroom Tile",
+        "paragraph": "Bathroom tile available for installation in all colors and shapes, can be purchased at a discount, bathroom glows with new tile install.",
+        "url": "/service/bathroom-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $2,500"
+      },
+      {
+        "heading": "Shower Tile",
+        "paragraph": "Shower tile installation of any shape and size, change your shower with our new tile, shower walls and shower floor changed in one call.",
+        "url": "/service/shower-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $2,500"
+      },
+      {
+        "heading": "Backsplash Tile",
+        "paragraph": "Kitchen backsplash tile, subway tile, mosaic tile and more, can be purchased with a discount. Backsplash ideas rendered and installed by us.",
+        "url": "/service/backsplash-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $1,200"
+      },
+      {
+        "heading": "Ceramic Tile",
+        "paragraph": "Ceramic floor tiles are a practical option for kitchen and bathroom floors. Ceramic floor tiles - installed easily in any room.",
+        "url": "/service/ceramic-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $1,200"
+      },
+      {
+        "heading": "Porcelain Tile",
+        "paragraph": "Our porcelain tile collection offers both elegance and versatility. We offer sales and installation services for porcelain tiles.",
+        "url": "/service/porcelain-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $2,000"
+      },
+      {
+        "heading": "Mosaic Tile",
+        "paragraph": "Mosaic kitchen backsplash, mosaic tile floors - no arguing that mosaic tile looks great anywhere it goes. Install mosaic tiles with us.",
+        "url": "/service/mosaic-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $1,800"
+      },
+      {
+        "heading": "Heated Tile Floor",
+        "paragraph": "Radiant floor heating is a great addition to your home. Upgrade any room by adding a heated tile floor, feel the benefit of heated floors.",
+        "url": "/service/heated-tile-floor",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $3,000"
+      },
+      {
+        "heading": "Basement Floor Tile",
+        "paragraph": "Install specialty basement tile, don't just cover it with basement floor paint. Explore basement flooring ideas with a free consultation.",
+        "url": "/service/basement-floor-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $2,200"
+      },
+      {
+        "heading": "Subway Tile",
+        "paragraph": "Discover our wide selection of subway tile for your kitchen backsplash or bathroom. Explore the variety of sizes and colors available.",
+        "url": "/service/subway-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $1,200"
+      },
+      {
+        "heading": "Grout Cleaning",
+        "paragraph": "Cleaning grout is a difficult task, that's why we offer tile and grout cleaning. Our grout cleaner will make your tiles look like new.",
+        "url": "/service/grout-tile-cleaning",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $500"
+      },
+      {
+        "heading": "Fireplace Tile",
+        "paragraph": "Transform your fireplace with our free consultation on fireplace tile ideas and our expert fireplace tile installation services.",
+        "url": "/service/fireplace-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $2,500"
+      },
+      {
+        "heading": "Outdoor Tile",
+        "paragraph": "We offer a wide selection of outdoor tiles for your patio to ensure a perfect fit for your needs. Explore our outdoor patio tile options.",
+        "url": "/service/outdoor-tile",
+        "image": "service_image_kitchen_cabinets",
+        "price": "Price starts at $2,500"
+      }
+    ],
+    "ourServicesMarkdown": "RENOVA Contractors LLC provides full-scope tile installation in Seattle — floors, showers, backsplashes, entryways, and wet areas. We prep the surface properly, use code-rated materials, and install tile clean, straight, and built to last.\n\nIf you're looking for a reliable tile installer in Seattle, we handle layout, waterproofing, and full install — no shortcuts, no lippage, no cracked grout.\n\n### Our Seattle Tile Services Include:\n- **Shower Tile Installation** – Floor and wall tile, niches, benches, and waterproofing systems like Schluter or Wedi  \n- **Bathroom Floors** – Porcelain or ceramic tile over cement board or membrane — with expansion joints and slope if needed  \n- **Kitchen Backsplashes** – Clean cuts, tight spacing, grouted and sealed — including outlets and transitions  \n- **Entryways & Mudrooms** – Durable tile over reinforced subfloor or slab, with trims and thresholds  \n- **Fireplace Surrounds & Accent Walls** – Thinset over backer or framed surface, aligned and leveled  \n- **Underlayment & Prep** – Cement board, uncoupling membrane, or self-leveling compound as needed\n\nWe source tile from **Statements Tile**, **United Tile**, and **Daltile** — all stocked locally. You’ll get help with layout and grout selection before we start.\n\nWhether it's a full bathroom remodel or just replacing old flooring, **RENOVA Contractors LLC** is the go-to choice for tile installers in Seattle who do the job right."
+  },
+  "manufacturers": {
+    "h2": "Our Suppliers and Manufacturers",
+    "p": "Check the list of our suppliers and brands we've been working with, to provide you with the best possible solutions on the market while keeping it on the budget",
+    "markdownmanufacturers": "RENOVA Contractors LLC installs tile using solid materials and local suppliers — no bargain stock, no patch kits. Everything is ordered ahead, staged, and installed with the right prep behind it.\n\n### What We Use:\n- **Tile types** – Porcelain, ceramic, mosaic, and natural stone  \n- **Grout** – Sanded or unsanded depending on spacing, color-matched with sealant  \n- **Adhesives** – Modified thinset only (no pre-mixed buckets) – brands like MAPEI or LATICRETE  \n- **Trim** – Aluminum edging or bullnose depending on tile line\n\n### Recommended Prep & Waterproofing 🔧\nWe don’t install over drywall in wet areas — period.\n\n- **Showers & wet zones** – We use Schluter-KERDI or Wedi panels and pans — flood-tested when required. Corners and seams are banded or sealed with appropriate adhesives.  \n- **Underlayment** – Cement board or Schluter-DITRA for floors. For cracked slabs, we use an uncoupling membrane.  \n- **Heated floors** – We install Schluter-DITRA Heat or SunTouch WarmWire, fully embedded in thinset with a dedicated thermostat and GFCI-protected circuit.\n\n### Seattle Tile Suppliers We Use:\n- **United Tile – Seattle**  \n📍 11060 Tukwila International Blvd, Seattle, WA 98168  \nPorcelain, mosaic, and designer wall tile — solid selection and local warehouse stock.\n\n- **CFM – Seattle**  \n📍 14700 Aurora Ave N, Seattle, WA 98133  \nFlooring tile, setting materials, grout, and trim — good pricing and same-week pickup.\n\n- **Daltile – Seattle**  \n📍 2300 7th Ave S, Seattle, WA 98134  \nLarge-format tile, basic field tile, and commercial-grade stone — good for showers and full bathrooms.\n\n### Contractor Discounts 💸\nWe pass our pricing directly to you — up to **20–30% off retail** depending on tile line and supplier. Most of what we use is stocked locally, so there are no long lead times or broken boxes showing up late.\n\nWe don’t install tile until the prep is solid. We don’t use products we can’t warranty. And we don’t waste time with material that won’t hold up. ✅📏🧰"
+  },
+  "howWeWork": {
+    "array": [
+      {
+        "id": 1,
+        "title": "Initial Consultation",
+        "description": {
+          "p1": "Discuss project scope, budget, and timeline.",
+          "p2": "Assess the existing space and take measurements.",
+          "p3": "Identify client needs, preferences, and goals."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 2,
+        "title": "Design Phase",
+        "description": {
+          "p1": "Develop initial tile design concepts and layouts.",
+          "p2": "Create detailed plans for tile placement and patterns.",
+          "p3": "Present design options to the client for feedback and approval."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 3,
+        "title": "Budgeting and Cost Estimation",
+        "description": {
+          "p1": "Prepare a detailed cost estimate for the tile installation.",
+          "p2": "Review and finalize the budget with the client.",
+          "p3": "Adjust the design or scope if needed to fit the budget."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 4,
+        "title": "Material Selection",
+        "description": {
+          "p1": "Choose tile materials, adhesives, and grout.",
+          "p2": "Source and order all necessary materials.",
+          "p3": "Coordinate delivery schedules."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 5,
+        "title": "Surface Preparation",
+        "description": {
+          "p1": "Clear and prepare the workspace.",
+          "p2": "Ensure the surface is clean, level, and ready for tile installation.",
+          "p3": "Apply necessary primers or underlayments."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 6,
+        "title": "Tile Layout and Planning",
+        "description": {
+          "p1": "Develop a detailed layout and grid for tile placement.",
+          "p2": "Dry-fit tiles to ensure proper fit and alignment.",
+          "p3": "Mark guidelines for installation."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 7,
+        "title": "Tile Installation",
+        "description": {
+          "p1": "Apply adhesive to the prepared surface.",
+          "p2": "Set tiles in place according to the layout.",
+          "p3": "Ensure even spacing and alignment of tiles."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 8,
+        "title": "Grouting and Finishing",
+        "description": {
+          "p1": "Mix and apply grout between tiles.",
+          "p2": "Clean excess grout and polish tiles.",
+          "p3": "Seal grout lines if necessary."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 9,
+        "title": "Quality Inspection",
+        "description": {
+          "p1": "Inspect the installation for any defects or issues.",
+          "p2": "Make any necessary repairs or adjustments.",
+          "p3": "Ensure overall quality and client satisfaction."
+        },
+        "imagePath": ""
+      },
+      {
+        "id": 10,
+        "title": "Final Walkthrough and Handover",
+        "description": {
+          "p1": "Conduct a final walkthrough with the client.",
+          "p2": "Identify any remaining tasks or touch-ups and complete them.",
+          "p3": "Finalize all work, clean the site, and hand over the completed tile installation to the client."
+        },
+        "imagePath": ""
+      }
+    ],
+    "howWeWorkMarkdown": "At RENOVA Contractors LLC, we don’t just lay tile — we prep it right, install it to code, and finish it clean. Every job starts with a walkthrough to check substrate condition, layout options, and material compatibility. If your floor isn’t level or your shower framing is off, we fix that before tile ever goes in.\n\nWe’re a licensed tile installation contractor in Seattle. That means everything we do meets Washington building code — proper underlayment, approved adhesives, correct expansion spacing, and slope where required.\n\n### Here’s How We Work:\n- **Inspect the area** – Check framing, substrate, and moisture exposure  \n- **Confirm tile & layout** – Specs, grout type, and pattern are confirmed before install  \n- **Prep the surface** – Cement board, waterproof membrane, or self-leveling compound applied as needed  \n- **Layout & reference lines** – Laser-leveled and adjusted to avoid slivers  \n- **Tile install** – Correct thinset, notch size, and spacing — no pre-mix shortcuts  \n- **Grout, clean & seal** – Expansion joints added where required  \n- **Finishing** – Trims, thresholds, and transitions installed clean  \n- **Final walkthrough** – No lippage, missed joints, or overcuts — all reviewed before sign-off\n\nWhether we’re installing 12x24 porcelain, mosaic sheets, or full-wall marble, we do it by the book. If you’re searching for a dependable tile installer in Seattle — someone who knows prep matters more than finish — **RENOVA Contractors LLC** gets it done right the first time. ✅📐🛠️"
+  },
+  "faqItems": [
+    {
+      "question": "Do I need waterproofing behind tile in a shower?",
+      "answer": "Yes – tile and grout are not waterproof. We install Schluter or Wedi systems behind all shower tile. Everything gets sealed, banded, and flood-tested if required."
+    },
+    {
+      "question": "Can you install tile over existing tile?",
+      "answer": "Sometimes – if the old tile is level, bonded well, and not cracked. But if there’s movement or signs of moisture underneath, we tear it out and prep the base properly."
+    },
+    {
+      "question": "What’s the best tile for bathrooms in Seattle homes?",
+      "answer": "Porcelain – it’s dense, low-absorption, and handles moisture better than ceramic. We recommend it for floors, walls, and wet zones. Mosaic works well on shower floors for slope and grip."
+    },
+    {
+      "question": "Do you install heated tile floors?",
+      "answer": "Yes – we install Schluter DITRA-Heat or SunTouch systems. They’re embedded in thinset with a dedicated GFCI-protected thermostat and tested before tile goes down."
+    },
+    {
+      "question": "How do you prevent cracked tile or grout later?",
+      "answer": "We check for subfloor movement, use uncoupling membranes if needed, and install expansion joints at changes in plane. Most cracking happens when prep is skipped — we don’t skip it."
+    },
+    {
+      "question": "Can I choose tile from my own supplier?",
+      "answer": "Yes – as long as it’s rated for your application. We’ll inspect it before install. If it’s not flat, not sealed, or wrong for the use, we’ll let you know before moving forward."
+    },
+    {
+      "question": "Do I need to seal tile or grout after install?",
+      "answer": "We seal grout by default unless you request otherwise. Some natural stone tiles also need sealing. Porcelain usually doesn’t, but we’ll advise based on your material."
+    },
+    {
+      "question": "How long until I can use the space after install?",
+      "answer": "Most floors can be walked on after 24 hours. Showers need at least 48–72 hours to fully cure and pass inspection. We’ll give you exact dry and cure times before we leave."
+    }
+  ],
+  "images": {
     "hero": [
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757121969/seattle/cabinets/IMG_1652_b0b2pa.jpg",
-        "alt": "A wall of white built-in cabinets with silver handles, featuring an arched doorway in the middle. The cabinets have a modern, clean design and are set against a hardwood floor."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757122478/seattle/cabinets/kitchen-cabinets-seattle_zs62ct.jpg",
-        "alt": "Modern kitchen with wood cabinets, white countertops, stainless steel appliances, a gas stove, refrigerator, and dishwasher. A potted plant sits by the sink beneath a window, and another on the island."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757122479/seattle/cabinets/modern-cabinets-seattle_wabfc8.jpg",
-        "alt": "Modern bathroom vanity with a large glass-enclosed shower, dual sinks, wall-mounted faucets, dark wood cabinets, geometric tile patterns, and decorative lighting, featuring natural and artificial light."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757122478/seattle/cabinets/kitchen-cabinets-seattle-2_m7qdyo.jpg",
-        "alt": "Modern kitchen with white cabinets, wood accents, a large island with a white countertop, yellow bar stools, pendant lights, built-in ovens, a stainless steel range hood, and decorative plants and flowers."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757122477/seattle/cabinets/kitchen-cabinets-seattle-1_tvtjc4.jpg",
-        "alt": "Modern kitchen with high vaulted ceilings, large windows, marble countertops and island with four wooden barstools, black cabinets, pendant lights, and a potted plant on light wood floors."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757121970/seattle/cabinets/IMG_1674_ghppba.jpg",
-        "alt": "A modern kitchen with white cabinets, stainless steel stove and hood, wood flooring, a patterned rug, arched doorway, and a wooden door with glass panes. The space is well-lit with recessed ceiling lights."
-      }
-    ],
+  {
+    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757208689/seattle/tile/IMG_7453_t2htax.jpg",
+    "alt": "A modern bathroom features light beige subway tile in the shower, a silver showerhead and faucet, and a geometric artwork with white lines above a white toilet against a neutral wall."
+  },
+  {
+    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757208690/seattle/tile/IMG_2377_xubdew.jpg",
+    "alt": "A bathtub with light green vertical tiles on the wall, a black faucet, and a shower handle. White tiles are visible on the left side near the toilet tank."
+  },
+  {
+  "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757206101/seattle/tile/tile-installers-1_diiuqk.jpg",
+  "alt": "A man kneels on a red floor, installing large beige tiles in a hallway under renovation. Tools, buckets, and building materials are scattered around, and another person works in the background."
+},
+  {
+    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757206098/seattle/tile/tile-contractors-seattle-1_hz40eq.jpg",
+    "alt": "Close-up of a modern shower with white subway tile, featuring chrome-finished fixtures, a handheld showerhead, and control knobs. Sunlight casts soft reflections on the tiles. A small Renova logo is visible in the corner."
+  },
+  {
+    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757208431/seattle/tile/IMG_7460_ff2mkq.jpg",
+    "alt": "Modern bathroom with a freestanding white bathtub, a white and orange towel draped over the side, and a glass-enclosed shower. A large window with a shade lets in natural light."
+  },
+  {
+    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757208453/seattle/tile/IMG_5819_vshuqb.jpg",
+    "alt": "A shower corner with glossy dark green vertical tiles, a black showerhead and fixtures, a small built-in shelf, and a white textured floor."
+  }
+],
     "firstAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757123365/seattle/cabinets/flat-panel-cabinets-seattle_vqm6bn.jpg",
-          "alt": "Modern kitchen with wood and black cabinets, stainless steel appliances, white countertops, an island with a sink, a patterned rug on wood flooring, and stair railings visible in the background."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile-installation-company_iyjnj2.jpg",
+          "alt": "Modern walk-in shower with glass doors, black rainfall showerhead, handheld shower, beige tiles, small window, and white blinds on the adjacent window. RENOVA logo is in the bottom right corner."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757123405/seattle/cabinets/modern-cabinets-3_epujgd.jpg",
-          "alt": "Modern kitchen with glossy white cabinets, a large island with bar stools, pendant lights, and wooden flooring. Open layout leads to a bright living area and outdoor patio with seating."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile-installation-company-2_yx7pmj.jpg",
+          "alt": "Modern bathroom with white subway tile walls, a bathtub with a wall niche, a floating toilet, a large backlit mirror above a gray stone countertop, and a small potted plant near the sink."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757123405/seattle/cabinets/modern-cabinets_ugyace.jpg",
-          "alt": "Modern kitchen with wood and dark gray cabinets, stainless steel French door refrigerator, gold hardware and fixtures, white marble countertops, and a stove with a wooden-accented range hood. Potted plants add decor."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile-installation-company-3_soo08y.jpg",
+          "alt": "Modern bathroom with a wooden vanity, rectangular sink, black fixtures, a potted plant, wall-mounted mirror, and a glass-enclosed shower with beige tiles and a small window. White walls and recessed lighting."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757123404/seattle/cabinets/modern-cabinets-1_kjg0oh.jpg",
-          "alt": "Modern kitchen with a large island, three gray barstools, black and wood cabinetry, stainless steel fridge, pendant lights, and minimalist decor, including a vase with branches and a bowl of fruit on the island."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212439/seattle/tile/bathroom-tile-1_opfuiy.jpg",
+          "alt": "Modern walk-in shower with marble walls, built-in bench, black rainfall showerhead, handheld shower, and glass door. Ceiling lights illuminate the spacious, minimalistic design."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996989/cabinets/C552576D-5336-49AE-87EF-2E14ACC1CDA3_fgidhv.jpg",
-          "alt": "Modern kitchen with light gray cabinets, wooden floor, black hardware, open wooden shelves, stainless steel stove, large window, and a natural fiber rug. Bright daylight streams in from the window."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212439/seattle/tile/bathroom-tile-installation-1_c40lwf.jpg",
+          "alt": "Modern bathroom with a freestanding white tub, gold fixtures, a glass-enclosed shower, black marble countertop, wood vanity, pendant lights, and a textured white tile wall."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996967/cabinets/A7E2FEFC-D3C6-4EC5-8B92-2ABAA1B89CF5_enxjqc.jpg",
-          "alt": "A modern kitchen with light wood flooring, white cabinets with black handles, a built-in oven, and a staircase with wooden steps in the background."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile-installation_s8hsxy.jpg",
+          "alt": "Modern bathroom with brass fixtures, square white tiles in the shower, a built-in niche, glass shower wall, and a vanity with a black marble countertop and hanging pendant lights."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757212440/seattle/tile/bathroom-tile_xuq4v3.jpg",
+          "alt": "Modern bathroom with a glass-enclosed walk-in shower, black fixtures, a marble countertop, light wood vanity, round mirror, and striped towels hanging on wall hooks. The space features white tile and minimalist decor."
         }
       ],
-      "title": "Modern Cabinet Installation Seattle 2025",
-  "heading": "Cabinet Projects",
-  "paragraph": "Multiple Seattle modern cabinet installation projects featuring custom-built and non-custom stock cabinets. Work includes flat-panel doors, soft-close hinges, full-height pantry cabinets. Mix of painted, matte, and wood-grain finishes",
-  "timeline": "3–5 days per project (8+ weeks for custom)"
+      "title": "Bathroom Tile Seattle 2025",
+  "heading": "Bathroom Tile Work",
+  "paragraph": "Bathroom tile installation across Seattle – shower walls, heated floors, floors, niches, and tub surrounds. We handle demo, prep with WEDI, cement board or Schluter systems, waterproofing, precision cuts, and grouting. Porcelain, ceramic, marble, and mosaic layouts.",
+  "timeline": "5–7 days per bathroom"
     },
     "secondAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757126987/seattle/cabinets/recessed-panel-custom-cabinets-1_gzdo3z.jpg",
-          "alt": "A modern kitchen with wooden cabinets, a stainless steel stove and range hood, and a window overlooking greenery. A laptop and cup sit on the counter, and a rug covers part of the hardwood floor."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213048/seattle/tile/kitchen-tile-work_m4jgqj.jpg",
+          "alt": "A modern kitchen with white cabinets, gold handles, a blue oven, stainless steel hood, white backsplash in a herringbone pattern, pendant lights, wooden flooring, and a white island with navy and wood barstools."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757126989/seattle/cabinets/shaker-custom-cabinets-1_adcued.jpg",
-          "alt": "A modern wine bar with dark wood cabinets, glass-front upper cupboards, built-in wine racks holding bottles, and a white countertop with wooden boxes, wine glasses, and a metal wine bowl."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213047/seattle/tile/kitchen-tile-backsplash-2_yxcoaz.jpg",
+          "alt": "A modern, narrow kitchen pantry room with white cabinets, geometric tile backsplash, wood flooring, and under-cabinet lighting. The room features black cabinet handles and a clean, minimalist design."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757126987/seattle/cabinets/recessed-panel-custom-cabinets-2_xgubqd.jpg",
-          "alt": "A narrow kitchen with light wood cabinets, white countertops, a window, and decorative items on the counter. A dining room with large windows and a table is visible through a doorway at the end of the space."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213256/seattle/tile/kitchen-tile_bdx4um.jpg",
+          "alt": " kitchen with white cabinets, tile backsplash, stainless steel appliances, a gas stove, white countertops, a large island with a sink, and pendant lights; sliding glass doors open to a backyard with green grass and a guest house."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757126988/seattle/cabinets/recessed-panel-custom-cabinets_zczmdf.jpg",
-          "alt": "A modern kitchen with white floor-to-ceiling cabinets, gold handles, an arched doorway, a stainless steel stove with a metallic vent hood, wooden door with glass panes, and a patterned rug on wooden floors."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213256/seattle/tile/kitchen_nfo8sw.jpg",
+          "alt": "Modern kitchen with white cabinets, brass hardware, a blue stove, two gold pendant lights over a large white island, and wooden chairs with navy blue upholstery on light wood flooring."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757127006/seattle/cabinets/shaker-custom-cabinets-2_jwham7.jpg",
-          "alt": "Modern open-concept kitchen with light wood cabinets, white countertops, pendant lights, stainless steel appliances, and an island with a sink; view extends to a bright living room with large windows."
-        },{
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757127007/seattle/cabinets/shaker-custom-cabinets-4_uwxkgt.jpg",
-          "alt": "Modern kitchen with wood cabinets, white marble countertop and backsplash, black fixtures, two hanging black pendant lights, and small decor items including plants and bottles on the counter."
-        },{
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757127006/seattle/cabinets/shaker-custom-cabinets-3_xmk3pv.jpg",
-          "alt": "A modern kitchen with light wooden cabinets, white countertops, a stainless steel range hood, and a pot filler above the stove. Hardwood floors and white walls create a bright, open space with a view into a dining area."
-        },{
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757127008/seattle/cabinets/shaker-custom-cabinets_qx3jw8.jpg",
-          "alt": "A kitchen with wooden cabinets, white countertops, small framed art, and a rooster statue on the floor. Large windows and a glass door provide a view of trees and a deck outside."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213256/seattle/tile/kitchen-tile-1_l9pykk.jpg",
+          "alt": "Modern kitchen with white cabinets, gold handles, a blue and gold stove, stainless steel range hood, farmhouse sink, and large windows letting in natural light. Light wood flooring and white herringbone backsplash."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213451/seattle/tile/IMG_7427_jbgxvq.jpg",
+          "alt": "A modern kitchen sink with a large faucet and a smaller filtered water tap sits beneath a wide window, showing green trees and a wooden fence outside. The backsplash has light-colored subway tiles."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213451/seattle/tile/IMG_1418_rmgnmd.jpg",
+          "alt": "Modern kitchen with light gray cabinets, white marble countertops, stainless steel appliances, black fixtures, a large window above the sink, under-cabinet lighting, and a geometric white tile backsplash."
         }
       ],
-      "title": "Shaker & Recessed Panel Cabinets Seattle 2025",
-  "heading": "Custom Cabinet Projects",
-  "paragraph": "Seattle projects with shaker, recessed panel, and raised panel cabinets. Custom pantry walls, wine storage, and inset drawer fronts. Painted and stained finishes with modern hardware.",
-  "timeline": "3-5 days per project (12+ weeks for custom)"
+      "title": "Kitchen Tile Installation Seattle 2025",
+  "heading": "Kitchen Tile Work",
+  "paragraph": "Full kitchen tile installation in Seattle – backsplashes, accent walls, and floor tile. We prep with cement board or Schluter Ditra underlayment, set with premium Laticrete thinset, and finish with tight grout lines. Options include subway, herringbone, mosaic, and large-format tiles to match any kitchen design.",
+  "timeline": "3–5 days per kitchen"
     }
   }
-  }
+}
 ]

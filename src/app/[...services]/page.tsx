@@ -22,6 +22,7 @@ import SimpleYouTubeVideo from '@/components/YouTubeVideo/SimpleYouTubeVideo';
 import { GenerateEstimate } from '@/components/Chatbot/GenerateEstimate';
 import Script from 'next/script';
 import { ThumbsComponent } from '@/components/ThumbsComponent/ThumbsComponent';
+import FeaturableWidget from '@/components/Widgets/FeaturableWidget';
 
 type Props = {
   params: { services: string[] };
@@ -202,6 +203,20 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
           servicesPageData.category || 'home'
         } remodel costs in ${servicesPageData.location || 'Seattle'}.`,
       },
+      {
+        '@type': 'WebPageElement',
+        '@id': `https://www.renova.contractors/${id}#reviews-widget`,
+        name: 'Customer Reviews Widget',
+        description: 'Interactive customer reviews and testimonials widget powered by Featurable',
+        isPartOf: {
+          '@id': `https://www.renova.contractors/${id}`,
+        },
+        about: {
+          '@type': 'Service',
+          '@id': `https://www.renova.contractors/${id}#service`,
+          name: servicesPageData.category || 'Home Remodeling',
+        },
+      },
     ],
   };
 
@@ -226,7 +241,9 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         city={servicesPageData.location}
         category={servicesPageData.category}
       />
-
+      <div id="reviews" className="scroll-anchor">
+        <FeaturableWidget />
+      </div>
       
       <OurServices
         {...servicesPageData.ourServices}

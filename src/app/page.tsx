@@ -28,6 +28,8 @@ import { HowWeWork } from "@/components/HowWeWork/HowWeWork";
 import YouTubeShortSlider from "@/components/Shorts/YoutubeShorts";
 import { GenerateEstimate } from "@/components/Chatbot/GenerateEstimate";
 import SimpleYouTubeVideo from "@/components/YouTubeVideo/SimpleYouTubeVideo";
+import FeaturableWidget from "@/components/Widgets/FeaturableWidget";
+
 
 export const metadata: Metadata = {
   title: "Home Remodeling Seattle | Kitchens, Bathrooms, Basements – Renova Contractors LLC",
@@ -181,6 +183,20 @@ export default function Home(): JSX.Element {
           "@id": "https://www.renova.contractors/#localbusiness",
           "name": "RENOVA Contractors LLC"
         }
+      },
+      {
+        "@type": "WebPageElement",
+        "@id": "https://www.renova.contractors/#reviews-widget",
+        "name": "Customer Reviews Widget",
+        "description": "Interactive customer reviews and testimonials widget powered by Featurable",
+        "isPartOf": {
+          "@id": "https://www.renova.contractors/#website"
+        },
+        "about": {
+          "@type": "LocalBusiness",
+          "@id": "https://www.renova.contractors/#localbusiness",
+          "name": "RENOVA Contractors LLC"
+        }
       }
     ]
   };
@@ -196,9 +212,15 @@ export default function Home(): JSX.Element {
       <main>
         {/*  <BackgroundPictures pageType={backgroundPicturesMain} /> */}
         <Slider id="hero" />
+
+        
         
         <PageNav />
+
         <ServicesAbout {...mainPageContent.about} isMobile={isMobile} />
+        <div id="reviews" className="scroll-anchor">
+          <FeaturableWidget />
+        </div>
         <YouTubeShortSlider category="kitchen" city="seattle" />
         <GenerateEstimate />
         <OurServices {...mainPageContent.ourServices} />

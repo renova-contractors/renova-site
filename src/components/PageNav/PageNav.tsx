@@ -9,6 +9,7 @@ export const PageNav = () => {
     { text: "📜 Licencing", href: "#licensing" },
     { text: "💰 Cost Table", href: "#cost_table" },
     { text: "🎬 Videos", href: "#videos" },
+    { text: "⭐ Reviews", href: "#reviews" },
     { text: "📈 ROI Calculator", href: "#roi" },
     { text: "❓ FAQ", href: "#faq" },
     { text: "🌐 Socials", href: "#socials" },
