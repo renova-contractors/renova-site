@@ -214,16 +214,33 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
       {
         '@type': 'FAQPage',
         '@id': `https://www.renova.contractors/${id}#faq`,
-        mainEntity: (servicesPageData.faqItems || [])
-          .filter((faq: any) => faq && faq.title && faq.description) // Only include valid items
-          .map((faq: any) => ({
-            '@type': 'Question',
-            name: faq.title || '',
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: faq.description || '',
-            },
-          })),
+        mainEntity: (() => {
+          const faqItems = servicesPageData.faqItems || [];
+          const validFaqs = faqItems
+            .filter((faq: any) => faq && faq.question && faq.answer) // Only include valid items
+            .map((faq: any) => ({
+              '@type': 'Question',
+              name: faq.question || '',
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer || '',
+              },
+            }));
+          
+          // Ensure we always have at least one FAQ item
+          if (validFaqs.length === 0) {
+            return [{
+              '@type': 'Question',
+              name: `Why choose RENOVA for ${servicesPageData.category || 'home'} remodeling?`,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: `RENOVA Contractors LLC is known for quality craftsmanship, clear communication, and handling permits, design, and construction in-house for ${servicesPageData.category || 'home'} remodeling projects.`,
+              },
+            }];
+          }
+          
+          return validFaqs;
+        })(),
       },
       {
         '@type': 'WebApplication',

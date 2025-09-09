@@ -2,346 +2,411 @@
  {
   
   "location": "seattle",
-  "category": "countertops",
-  "service": "countertop-installation-seattle",
-  "title": "Countertop Installation in Seattle: Granite, Marble, Quartz",
-  "description": "Discover premium countertop installation services for a variety of materials including quartz, granite, and marble.",
+  "category": "bathroom",
+  "service": "bathroom-remodel-seattle",
+  "title": "Bathroom Remodel Contractors in Seattle, Cost of Bathroom Remodel",
+  "description": "Bathroom remodels with Renova Contractors LLC on schedule and budget. Free cost estimates with discounts on bathroom fixtures and bathroom tile.",
   "hero": {
-    "h1": "Countertop Installation in Seattle by Renova Contractors LLC",
-    "heroH2": "Top Quality Countertops for Seattle Homes",
-    "heroP": "Renova Contractors LLC offers expert **countertop installation in Seattle** 🏙️ — specializing in **quartz countertops Seattle**, **granite countertops Seattle**, and **marble countertop installation Seattle**. We measure, cut, deliver, and install with a smooth process that keeps your project on schedule. Our team works across **Capitol Hill, Ballard, Queen Anne, Green Lake, Fremont, West Seattle, and Magnolia** — handling **kitchen countertops, bathroom vanity tops, and custom laundry room counters**. We provide **complimentary countertop design consultations** 🎨 to match your style and budget, plus pro tips on choosing durable, low-maintenance materials for your space. Whether you need **kitchen countertop replacement Seattle** or brand-new counters for a remodel, we install everything to perfection ✅ — clean seams, level fit, and polished finish — so your new countertop is ready to use right away.",
-    "heroImageAlt": "Kitchen with newly installed granite countertop",
-    "heroPhrase": "Countertops that give your kitchen a new look"
+    "h1": "Seattle Bathroom Remodeling",
+    "heroP": "Renova Contractors LLC offers professional **bathroom remodel** services in Seattle 🛁, handling everything from layout changes to full gut renovations. Homeowners searching for **bathroom remodel Seattle** or **bathroom remodel near me** trust our crew for precise, code-compliant work. We handle plumbing relocation, shower waterproofing, custom tile installation, vanities, lighting, and heated floors — all with clean finishes and clear timelines. Our **bathroom remodeling Seattle** projects include new tubs, walk-in showers, glass enclosures, and upgraded fixtures. Whether you need a small powder room update or a complete **bathroom renovation Seattle**, we manage design, permits, and construction from start to finish ✅. Serving Ballard, Queen Anne, Fremont, Magnolia, and West Seattle, we build bathrooms that look good and last.",
+    "heroImageAlt": "Bathroom remodel banner",
+    "heroPhrase": "Some people look for a beautiful place, others make a place beautiful."
   },
   "about": {
-    "priceLine1": "Quartz Countertops: ✨ Durable and low-maintenance, quartz countertops for $50-$130/sq ft. Perfect for a modern, long-lasting look!",
-    "priceLine2": "Granite Countertops: 🪨 Add natural beauty with granite countertops for $45-$120/sq ft. Each slab is unique and built to last!",
-    "phrase1": "Countertops that catch your eye.",
-    "phrase2": "Pro team of countertop installers.",
-    "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724733474/countertops/8D291669-B5AA-4EA7-BE69-8F792E729C8F_umzw5r.jpg",
-    "image1alt": "A spacious kitchen with wooden cabinets, a large island featuring quartz countertops and a built-in wine rack. Stainless steel appliances, including a refrigerator and oven, are visible. A modern pendant light hangs over the island, illuminated by sunlight streaming in through a door.",
-    "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724733474/countertops/1E3A6B21-9697-45CF-A06F-691566935172_y7os2u.jpg",
-    "image2alt": "A spacious kitchen with wooden cabinets and hardwood floors. It features a central island, stainless steel appliances, and large windows offering a scenic ocean view. A person stands at the counter near the sink, admiring the recent countertop installation by a renowned countertop company.",
-    "sectionH2": "Renova Contractors LLC Countertop Installation",
-    "sectionP1": "At Renova Contractors LLC, we understand that some projects take longer, but we do not like to drag out a countertop installation. Cooking is hard when you don't have a surface to cook on, right? Well, we have a streamlined countertop installation service. In our warehouse, we cut the stone slab you chose and then deliver it to your house for installation. Installing countertops is not the hardest task, but it does require a lot of skill to cut the stone slab into the form needed with as few seams as possible.",
-    "sectionP2": "We can turn your kitchen island into a work of art with our waterfall countertop features. At Renova Contractors LLC, we strive to deliver the highest customer satisfaction experience possible. We keep you in the loop about the project, and you will know exactly what stage we are at. If we pick up your stone slab from the distributor, store it in our shop, or install it, we notify you. Renova Contractors LLC will install your countertop within two days.",
-    "section2H2": "From Store to Home",
-    "section2P1": "Delivering countertops right to your doorstep and onto your cabinets, we do everything with our countertop installation team. Our team of specialists comes from diverse backgrounds, bringing to the table a wide range of knowledge and a unique set of skills. We have team members who specialize in cutting the stone slab that you selected, as well as team members who install it in your home. Our in-house designer frequently goes out with clients to the warehouse to consult on the best quality of stone to pick that would fit perfectly in their homes. Our interior designer will also be happy to take you on a tour. We keep a tight communication line, so you will know everything that is going on, and no surprises will await.",
-    "section2P2": "Renova Contractors LLC uses a VERSA 5-axis CNC saw that will cut your countertops with laser precision. With this machine, we can get our work done with high-quality precision and speed. We prioritize efficiency and reliability; our team members stay informed on all the new technology and methods for delivering high-quality countertops into your home. We can have your countertop installed faster than usual, with no long waits for a stone slab, and we can cut and deliver it to your home within days, thanks to Renova Contractors LLC's planned-out methodology.",
+    "phrase1": "Good design can transform a bathroom from a functional space to a relaxing retreat.",
+    "phrase2": "Every bathroom deserves a touch of elegance and a splash of comfort.",
+    "priceLine1": "Basic Remodel: 🚿 Update fixtures, vanity, and tile for $15,000-$25,000. A fresh new look on a budget!\n",
+    "priceLine2": "Luxury Remodel: 🛁 Upgrade with custom finishes, heated floors, and high-end fixtures for $30,000-$50,000+. Create your dream bathroom!",
+    "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722931918/bathrooms/46FD50E7-7447-4B2A-9FE3-810A7B80DEB8_v7yyms.jpg",
+    "image1alt": "A modern bathroom remodel featuring a white toilet next to a vanity with a light wood cabinet, black handles, and a white countertop. A wall-mounted mirror above the vanity and a partially open door leading to another room with hardwood flooring complete this sleek remodeling project.",
+    "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722930122/bathrooms/E8AA2224-A9E8-434C-97C3-7D49048F9121_i0bq1k.jpg",
+    "image2alt": "A modern bathroom remodel features a bathtub with sliding glass doors and blue subway tile walls. Adjacent is a white vanity with a matching sink and a chrome faucet under a large mirror. Shelves and a small window are visible, providing light and storage.",
+    "sectionP1": "Your bathroom is a place to relax and enjoy the quietness of it all. The last thing you want is to fumble through the clutter and hit your elbows on bathroom fixtures. Renova Contractors LLC gives you the option to use all of the space in your bathroom or expand the room itself. Expansion can be costly because extensive architectural and structural changes, along with electrical and plumbing work, are required. Depending on your budget, we can discuss the different options you have.",
+    "sectionP2": "If your budget does not allow for wall relocation, we propose a solution that optimizes the available space in the room. This involves removing your tub and shower combination to create a single walk-in shower, which you can customize to your preferred dimensions. Built-in wall shelves and niches can make the bathroom feel much more open, and if you install a pedestal sink, you're giving it a less cluttered feel. Our interior designer will make sure that the new bathroom layout is functional and optimal. When you want to extend your bathroom beyond its current footprint, we will have our structural engineer consult you on how to best proceed and the project's feasibility. When doing a bathroom remodel, we often change the electrical wiring and the layout of the plumbing pipes, so when doing such an extensive remodel, there will be no problem with the additional wiring and plumbing. Keep in mind that the installation of bathroom tiles heavily depends not only on the square footage, but also on the overall complexity of the tile and its pattern. For example, a small walk-in shower with a complex tile design may cost more than a larger walk-in shower with a simple, pattern-free design. When doing a bathroom remodel, we provide you with a cost sheet that is transparent and very accurate. We pride ourselves on our accuracy with the price, so we can explore different options for the bathroom renovation project.",
+    "section2H2": "Renova Contractors LLC Go-to For Bathroom Remodel",
+    "section2P1": "We are a company that takes a client-centered approach to all of our projects. We provide you with a clear-cut cost sheet and a fantastic warranty. Before the project starts, we provide you with a detailed project schedule that we adhere to vigorously while remaining flexible. Renova Contractors LLC believes in our management style and adherence to deadlines, so we also provide you with a $50 discount for every day that we are behind. We provide you with a variety of discounts and complimentary services, including free consultations with our interior designer and free 3D renderings. Our architect also offers complimentary consultations. Imagine having three professionals working on your bathroom renovation project at all times: an interior designer, an architect, and a project manager. However, we offer even more. At home or on vacation, you can check our video monitoring system we installed with your permission to track the project's progress. You can relax and not worry. Once the designer finalizes the 3D rendering based on your notes and vision, we begin procuring bathroom fixtures such as tubs, faucets, and showerheads. We offer free delivery and always pass on our contractor discount to you.",
+    "section2P2": "Each bathroom renovation project entails electrical and plumbing installation; for all this, our licensed electricians and licensed plumbers pull permits and pass all necessary inspections. Our tile installation team is perfect at making sure that your shower is waterproof and sealed correctly. Before we tile a custom shower, the project manager thoroughly inspects it for water leaks and drainage. You must approve each stage of the bathroom renovation project before we proceed to the next. We keep you updated daily and make sure you are up to date with all the things going on. With an extensive remodel, we also offer our clients a complimentary house cleaning. After you do a final walkthrough of the project with us, we will then provide you with a free house cleaning service as a token of appreciation.",
     "perks": [
       {
-        "heading": "Speed",
-        "paragraph": "We deliver and install your countertop within days; we pick up, cut, and deliver it all in a matter of days."
+        "heading": "Custom Designs",
+        "paragraph": "We create personalized designs that reflect your unique style and preferences."
       },
       {
-        "heading": "Experience",
-        "paragraph": "Our team brings years of experience and expertise gained through the years of work."
+        "heading": "Quality Materials",
+        "paragraph": "We use only the best materials to ensure durability and beauty in every project."
       },
       {
-        "heading": "Customization",
-        "paragraph": "Choose from a wide range of materials, colors, and finishes to match your style."
+        "heading": "Spa-Like Features",
+        "paragraph": "Transform your bathroom into a relaxing spa retreat with our luxurious features and finishes."
       },
       {
-        "heading": "Precision",
-        "paragraph": "We use VERSA 5 axis CNC saw, laser precision on all countertops."
+        "heading": "Design Consultations",
+        "paragraph": "We offer virtual design consultations for your convenience, allowing you to plan your remodel from anywhere."
       },
       {
-        "heading": "Warranty",
-        "paragraph": "We provide ongoing support and maintenance for your countertop."
+        "heading": "Smart Bathroom",
+        "paragraph": "Incorporate the latest smart technology into your bathroom for a modern and functional space."
+      },
+      {
+        "heading": "Customized Storage",
+        "paragraph": "We design and install custom storage solutions to maximize space and keep your bathroom organized."
+      },
+      {
+        "heading": "Exclusive Partnerships",
+        "paragraph": "We collaborate with top brands and suppliers to bring you exclusive products and materials at a discount."
+      },
+      {
+        "heading": "Luxury Fixtures",
+        "paragraph": "Upgrade your bathroom with high-end fixtures that add elegance and sophistication."
+      },
+      {
+        "heading": "Water Conservation",
+        "paragraph": "Our eco-friendly solutions include water-saving fixtures and sustainable materials to reduce your environmental footprint."
+      },
+      {
+        "heading": "Aging-in-Place Upgrades",
+        "paragraph": "We offer specialized designs to make your bathroom safer and more accessible for aging in place."
+      },
+      {
+        "heading": "3D Rendering",
+        "paragraph": "Visualize your new bathroom before we start with our advanced 3D rendering services."
+      },
+      {
+        "heading": "Health-Conscious Options",
+        "paragraph": "We offer hypoallergenic and non-toxic materials for a healthier bathroom environment."
+      },
+      {
+        "heading": "Noise Reduction",
+        "paragraph": "Our renovation techniques include soundproofing solutions to create a quieter, more serene bathroom."
+      },
+      {
+        "heading": "Pet-Friendly Features",
+        "paragraph": "Incorporate pet-friendly elements into your bathroom design for the convenience of your furry friends."
+      },
+      {
+        "heading": "Mood Lighting",
+        "paragraph": "Enhance your bathroom with customizable mood lighting to create the perfect ambiance."
       }
     ],
-    "sectionH1": "Quick Countertop Install"
+    "sectionH1": "Renovate Your Seattle Bathroom"
   },
   "ourServices": {
-    "h2": "Countertop Installation Services",
-    "paragraph": "Quartz, marble or stone countertop we can install it for you lighting fast with competitive prices and reliable installation.",
+    "h2": "Renova Contractors LLC Bathroom Services",
+    "paragraph": "When it comes to bathrooms, RENOVA handles every part of the job — start to finish. We offer bathroom remodeling services in Seattle that cover everything from cabinet installation, vanity replacement, and layout reconfiguration, to full plumbing and electrical rough-ins ⚡🚿. Whether you're adding a walk-in shower, a freestanding tub, or reworking the space to include double sinks or a larger linen closet, we build it to code. Most remodels involve detailed tile installation — we do shower surrounds, accent walls, floor tile, and backsplashes, with waterproofing systems like Schluter behind every wet zone. Heated floor systems can be installed under tile for added comfort 🔥. Every bathroom renovation includes licensed trades and exact planning for lighting, GFCI outlets, drain lines, and venting. You can also request standalone services like floor tile replacement, toilet relocation, or shower glass install — our team can break it down piece by piece.\n",
     "array": [
       {
-        "heading": "Countertop Installation",
-        "paragraph": "We offer a wide variety of quartz countertops, marble countertops, and granite countertops. Schedule your countertop installation now.",
-        "url": "countertop-installation",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2500"
-      },
-      {
-        "heading": "Quartz Countertops",
-        "paragraph": "Quartz countertops offer a wide range of colors and shades, making them the perfect choice for any kitchen. Discover your countertop.",
-        "url": "/service/quartz-countertops",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2500"
-      },
-      {
-        "heading": "Granite Countertops",
-        "paragraph": "Installing granite countertops in your kitchen is quick and easy. Made from natural stone, these durable surfaces add beauty to any kitchen.",
-        "url": "/service/granite-countertops",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2500"
-      },
-      {
-        "heading": "Laminate Countertops",
-        "paragraph": "Laminate countertops offer an affordable and low-maintenance option with a wide variety of colors and styles to choose from.",
-        "url": "/service/laminate-countertops",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $1200"
-      },
-      {
-        "heading": "Soapstone Countertops",
-        "paragraph": "Get a unique soapstone slab for your kitchen. We can help you choose and install your soapstone countertop, pick one from our inventory.",
-        "url": "/service/soapstone-countertops",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2800"
-      },
-      {
-        "heading": "Butcher Block",
-        "paragraph": "Butcher block countertops are popular in kitchens for their timeless elegance, durability, and versatile nature, easy to cut and install.",
-        "url": "/service/butcher-block",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $2000"
-      },
-      {
-        "heading": "Concrete Countertop",
-        "paragraph": "Concrete countertops give a modern industrial aesthetic to contemporary kitchens but their installation process can be difficult.",
-        "url": "/service/concrete-countertops",
-        "image": "service_image_kitchen_cabinets",
+        "heading": "Bathroom Remodel",
+        "paragraph": "Remodel your bathroom with experts. Change your layout or do a completely new addition; we have the system down for the best results.",
+        "url": "/bathroom-remodel",
+        "image": "service_image_kitchen_addition",
         "price": "Price starts at $3000"
       },
       {
-        "heading": "Stainless Steel Countertops",
-        "paragraph": "Stainless steel countertops are a popular choice among professionals due to their ease of cleaning and hygienic properties.",
-        "url": "/service/stainless-steel-countertops",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $3200"
+        "heading": "Bathroom Layout",
+        "paragraph": "Optimize your bathroom space; don't lose square footage. A change in layout can add more usable square footage to your bathroom.",
+        "url": "/service/bathroom-layout",
+        "image": "service_image_kitchen_addition",
+        "price": "Price starts at $3000"
       },
       {
-        "heading": "Porcelain Countertop",
-        "paragraph": "Porcelain countertops are resistant to scratches, stains, and heat. They come in a wide range of color palettes, fabricated as one seamless piece.",
-        "url": "/service/porcelain-countertops",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $3500"
+        "heading": "Bathroom Design",
+        "paragraph": "Create a stylish and functional bathroom design with our designers who will customize it to fit your needs and unique style.",
+        "url": "/service/bathroom-design",
+        "image": "service_image_kitchen_addition",
+        "price": "Price starts at $3000"
       },
       {
-        "heading": "Countertop Repair",
-        "paragraph": "When your countertop has cracks or scratches, we can repair it instead of replacing the entire surface, helping you save money.",
-        "url": "/service/countertop-repair",
-        "image": "service_image_kitchen_cabinets",
-        "price": "Price starts at $800"
+        "heading": "Bathroom Cabinetry",
+        "paragraph": "Bathroom cabinet installation provides stylish and reliable storage with cabinets designed for humid environments.",
+        "url": "/service/bathroom-cabinetry",
+        "image": "service_image_kitchen_addition",
+        "price": "Price starts at $3000"
+      },
+      {
+        "heading": "Heated Bathroom Floor",
+        "paragraph": "Experience the ultimate comfort of a heated bathroom floor with installation by licensed electricians.",
+        "url": "/service/heated-bathroom-floor",
+        "image": "service_image_kitchen_addition",
+        "price": "Price starts at $3000"
+      },
+      {
+        "heading": "Bathroom Expansion",
+        "paragraph": "Expand your bathroom space to enhance comfort and functionality by adding a walk-in shower or tub, or a modern combination of both.",
+        "url": "/service/bathroom-expansion",
+        "image": "service_image_kitchen_addition",
+        "price": "Price starts at $3000"
+      },
+      {
+        "heading": "Bathroom Shower",
+        "paragraph": "Upgrade your bathroom with a new shower installation. We provide both prefab and custom shower installations.",
+        "url": "/service/bathroom-shower",
+        "image": "service_image_kitchen_addition",
+        "price": "Price starts at $3000"
+      },
+      {
+        "heading": "Bathroom Fixtures",
+        "paragraph": "Order and receive new bathroom fixtures hassle-free. Enjoy fast and seamless bathroom fixture installation service with free delivery.",
+        "url": "/service/bathroom-fixtures",
+        "image": "service_image_kitchen_addition",
+        "price": "Price starts at $3000"
+      },
+      {
+        "heading": "Bathroom Plumbing",
+        "paragraph": "Ensure your bathroom plumbing works perfectly with our bathroom plumbing services; warranty is provided for all plumbing work.",
+        "url": "/service/bathroom-plumbing",
+        "image": "service_image_kitchen_addition",
+        "price": "Price starts at $3000"
+      },
+      {
+        "heading": "Bathroom Tile",
+        "paragraph": "Bathroom tile installation offers the opportunity to refresh your bathroom without major changes, keeping it simple and elegant.",
+        "url": "/service/bathroom-tile",
+        "image": "service_image_kitchen_addition",
+        "price": "Price starts at $3000"
       }
     ],
-    "ourServicesMarkdown": "RENOVA Contractors LLC installs custom kitchen countertops and bathroom tops throughout Seattle. We handle measuring, templating, fabrication, and install — no prefab, no guessing, no uneven seams.\n\nWe work with full-size slabs of quartz, granite, and quartzite — cut to fit your space, polished, and installed with proper support and clean edges. Whether you’re replacing old counters or starting from scratch, we manage the entire process in-house.\n\n### What We Install:\n- 🪨 **Quartz countertops** – Durable, low maintenance, available in solid colors and stone-look patterns (Cambria, MSI, Pental, Caesarstone)  \n- 🧱 **Granite countertops** – Natural stone sealed after install — better heat resistance and unique color variation  \n- 🍽️ **Kitchen countertops** – Full slab installs with backsplash, faucet holes, and cooktop cutouts  \n- 🛁 **Bathroom vanities** – Single or double-sink tops, sealed and caulked  \n- 📐 **Edge profiles** – Eased, bevel, bullnose, mitered waterfall – selected during planning  \n- 🛠️ **Undermount sink mounting** – Bracket-secured, sealed, and trimmed on site\n\nWe pass along our contractor pricing – most clients save **15–30%** compared to retail or big box stores.\n\nIf you're searching for quartz countertops near me, granite countertops in Seattle, or a local countertop installation contractor, **RENOVA Contractors LLC** delivers clean, accurate installs that are built to last. ✅🧰📦"
+    "ourServicesMarkdown": "RENOVA Contractors LLC is a licensed bathroom remodeling company in Seattle. We handle full bathroom remodels – demo, framing, waterproofing, tile, plumbing, and finish work. Whether it’s a hallway bath or a full custom primary suite, we manage every part of the job – no guesswork, no shortcuts.\n\n### What’s Included:\n- 🧰 **Full demo** – Down to studs and subfloor – no tiling over old rot or bad board  \n- 🧱 **Waterproofing systems** – Schluter KERDI, Wedi, or RedGard – all installed to code and flood-tested if required  \n- 🛁 **Shower builds** – Custom tile showers, pans, benches, niches, and glass – slope-checked and vented  \n- 🔧 **Plumbing** – Drain, vent, and supply moved or upgraded – UPC compliant  \n- ⚡ **Electrical** – GFCI outlets, lighting, fan circuits – updated per NEC with full grounding  \n- 🪵 **Vanities & tops** – Plywood vanities, quartz or stone tops, under-mount sinks  \n- 🧱 **Tile install** – Floors, walls, base, trim – grouted and sealed  \n- 🧽 **Paint, doors, trim** – Moisture-rated drywall, clean paint lines, casing, and baseboard  \n- 🚽 **Toilet, fixtures, accessories** – Installed level, pressure-tested, caulked, and clean\n\nWe also include free interior design support for layout, tile choices, fixtures, and lighting. **Permits are pulled with the City of Seattle**, and we handle every inspection.\n\nIf you're searching for a dependable bathroom remodel contractor in Seattle, or comparing Seattle bathroom remodel companies, **RENOVA Contractors LLC** builds clean, builds tight, and gets it done right. ✅📐🛠️"
   },
   "manufacturers": {
-    "h2": "Seattle Countertop Suppliers - quartz, marble, granite",
-    "p": "",
-    "markdownmanufacturers": "RENOVA Contractors LLC installs countertops using full slabs sourced from trusted Seattle-area suppliers. We work with quartz, granite, and marble — templated to fit, fabricated in-house, and installed by our own crew.\n\n### Quartz vs. Granite vs. Marble – What We Recommend:\n- 🪨 **Quartz countertops** – Engineered stone made from natural quartz and resins. Consistent color, stain-resistant, and low maintenance. Best for busy kitchens and rental properties.  \n- 🧱 **Granite countertops** – 100% natural stone. Each slab is unique. More heat-resistant than quartz, but needs sealing. Great for kitchens and outdoor areas.  \n- 🪞 **Marble countertops** – Softer, natural stone. Beautiful veining and classic look, but prone to scratching and etching. Ideal for low-traffic vanities or show kitchens.\n\nWe’ll help you pick the right stone for the space based on use, wear, and budget.\n\n### Where We Source Slabs in Seattle:\n- **Daltile Slab Center** – Quartz, granite, and marble — stocked and ready for fabrication  \n- **MSI Surfaces** – Known for quartz (Q Premium), granite, and prefabricated options — large local inventory  \n- **Meta Marble & Granite** – Natural stone specialists — marble, quartzite, and high-end granite  \n- **Architectural Surfaces** – Designer slab options including quartz, porcelain, and rare stone lines\n\nWe pass on **contractor discounts** – most slabs come in **15–30% lower than showroom pricing**. You can visit any supplier directly or send us your top choices — we’ll confirm availability and fit before fabrication. ✅📏🧰"
+    "h2": "Bathroom Fixture Manufacturers",
+    "p": "Renova Contractors LLC highlights the importance of great products, especially when it comes to plumbing fixtures in the bathroom, since this is the last place you want something to go wrong. We work with several manufacturers, like Moen, Delta, Grohe, and Kohler, among many others, who have proven that their products are of high quality and durable against frequent usage.",
+    "markdownmanufacturers": "\nWe remodel bathrooms across Seattle and take care of the materials too — so you don’t have to shop around or guess what fits. We use suppliers we trust and install everything ourselves 👇\n\n### 🪞 Vanities & Storage\n\n- **ProCraft**, **Luban**, and **Bellmont** – Quality vanities with soft-close drawers, smooth finishes, and solid build.  \n- **Golden Home** – Budget-friendly storage options like floating shelves and extra cabinets that still look clean.  \n\n### 🧱 Bathroom Tile Options\n\n- **United Tile** – Affordable **ceramic tile** for floors and walls (starts around $2.99/sq. ft.).  \n- **Daltile** – Great for **slate floors** or **wood-look tile** that works in wet areas.  \n- **CFM** – Classic **subway tile** with a glossy finish — easy to clean.  \n- **Statements Tile** – If you want something bold or modern for the shower wall or a niche.  \n\n### 🚿 Fixtures & Details\n\n- **Ferguson** – Sinks, faucets, and shower heads in **matte black**, **brushed nickel**, or whatever finish you want.  \n- **Schluter** – For **heated bathroom floors** and waterproofing under tile — we use it on almost every job.  \n\n### 🔧 Install & Warranty\n\n- We install everything: **vanities**, **tile**, **toilets**, **floor heat**, **lighting**, and more — no third parties.  \n- Materials are ordered ahead so we’re not waiting. If it's in stock, we usually start in **under 3 days**.  \n- Every job comes with a **2-year warranty on labor** and longer guarantees on most materials.\n\nIf you're doing a bathroom remodel in Seattle — full or small — we’ll build it right, and you won’t have to chase parts or fix stuff after.\n"
   },
   "howWeWork": {
     "array": [
       {
-        "id": 1,
+        "id": "1",
         "title": "Initial Consultation",
         "description": {
-          "p1": "Discuss project scope, budget, and timeline.",
-          "p2": "Assess the existing space and take measurements.",
-          "p3": "Identify client needs, preferences, and goals."
+          "p1": "We begin with an initial consultation to understand your needs.",
+          "p2": "Discuss your vision and requirements with our team.",
+          "p3": "Get a preliminary idea of the project's scope and budget."
         },
-        "imagePath": ""
+        "imagePath": "url_to_image1"
       },
       {
-        "id": 2,
+        "id": "2",
         "title": "Design Phase",
         "description": {
-          "p1": "Develop initial design concepts and layouts.",
-          "p2": "Create detailed architectural and engineering plans.",
-          "p3": "Present design options to the client for feedback and approval."
+          "p1": "Our design team creates a custom plan for your bathroom.",
+          "p2": "Review and approve the design before moving forward.",
+          "p3": "Make any necessary adjustments to ensure your satisfaction."
         },
-        "imagePath": ""
+        "imagePath": "url_to_image2"
       },
       {
-        "id": 3,
+        "id": "3",
         "title": "Budgeting and Cost Estimation",
         "description": {
-          "p1": "Prepare a detailed cost estimate for the project.",
-          "p2": "Review and finalize the budget with the client.",
-          "p3": "Adjust the design or scope if needed to fit the budget."
+          "p1": "We provide a detailed cost estimate for your project.",
+          "p2": "Discuss the budget and make any necessary adjustments.",
+          "p3": "Ensure the project stays within your financial plan."
         },
-        "imagePath": ""
+        "imagePath": "url_to_image3"
       },
       {
-        "id": 4,
+        "id": "4",
         "title": "Permits and Approvals",
         "description": {
-          "p1": "Submit necessary plans and applications to local authorities.",
-          "p2": "Obtain building permits and any other required approvals.",
-          "p3": "Address any revisions or additional requirements from authorities."
+          "p1": "We handle all necessary permits and approvals.",
+          "p2": "Ensure compliance with local regulations and codes.",
+          "p3": "Keep you informed of any updates or changes."
         },
-        "imagePath": ""
+        "imagePath": "url_to_image4"
       },
       {
-        "id": 5,
+        "id": "5",
         "title": "Material Selection",
         "description": {
-          "p1": "Choose materials, fixtures, and finishes (e.g., flooring, cabinets, countertops).",
-          "p2": "Source and order all necessary materials.",
-          "p3": "Coordinate delivery schedules."
+          "p1": "Choose from a wide range of high-quality materials.",
+          "p2": "Get expert advice on the best options for your project.",
+          "p3": "Ensure all materials fit your style and budget."
         },
-        "imagePath": ""
+        "imagePath": "url_to_image5"
       },
       {
-        "id": 6,
+        "id": "6",
         "title": "Scheduling and Planning",
         "description": {
-          "p1": "Develop a detailed project timeline and schedule.",
-          "p2": "Coordinate with subcontractors and suppliers.",
-          "p3": "Set milestones and deadlines for each phase of the project."
-        }
+          "p1": "We create a detailed schedule for your project.",
+          "p2": "Coordinate all aspects of the remodeling process.",
+          "p3": "Keep you informed of the timeline and any changes."
+        },
+        "imagePath": "url_to_image6"
       },
       {
-        "id": 7,
+        "id": "7",
         "title": "Pre-Construction Preparation",
         "description": {
-          "p1": "Clear and prepare the workspace.",
-          "p2": "Set up temporary utilities or structures as needed.",
-          "p3": "Protect existing structures and surfaces from damage."
+          "p1": "Prepare the site for construction work.",
+          "p2": "Ensure all necessary preparations are completed.",
+          "p3": "Minimize disruptions to your daily routine."
         },
-        "imagePath": ""
+        "imagePath": "url_to_image7"
       },
       {
-        "id": 8,
+        "id": "8",
         "title": "Demolition",
         "description": {
-          "p1": "Safely remove existing structures, fixtures, and finishes.",
-          "p2": "Dispose of debris and waste in accordance with regulations.",
-          "p3": "Ensure a clean and safe worksite during demolition."
+          "p1": "Remove old fixtures and materials.",
+          "p2": "Prepare the space for new construction.",
+          "p3": "Dispose of debris safely and efficiently."
         },
-        "imagePath": ""
+        "imagePath": "url_to_image8"
       },
       {
-        "id": 9,
+        "id": "9",
         "title": "Construction and Installation",
         "description": {
-          "p1": "Execute construction work as per the design plan.",
-          "p2": "Install new structures, systems, and finishes.",
-          "p3": "Ensure quality and compliance with building codes."
+          "p1": "Begin the construction and installation phase.",
+          "p2": "Ensure high-quality workmanship throughout the project.",
+          "p3": "Keep you updated on progress and any issues."
         },
-        "imagePath": ""
+        "imagePath": "url_to_image9"
       },
       {
-        "id": 10,
+        "id": "10",
         "title": "Final Walkthrough and Handover",
         "description": {
-          "p1": "Conduct a final walkthrough with the client.",
-          "p2": "Identify any remaining tasks or touch-ups (punch list) and complete them.",
-          "p3": "Finalize all work, clean the site, and hand over the remodeled space to the client."
+          "p1": "Conduct a final walkthrough to ensure satisfaction.",
+          "p2": "Address any remaining issues or concerns.",
+          "p3": "Hand over the completed bathroom to you."
         },
-        "imagePath": ""
+        "imagePath": "url_to_image10"
       }
     ],
-    "howWeWorkMarkdown": "RENOVA Contractors LLC manages the entire process — from slab selection to install. We operate our own countertop fabrication shop in the Seattle area and use our in-house crew of trained countertop installers — no outsourcing, no handoffs.\n\n### Here’s How We Work:\n- 📏 **Site visit & measurement** – We check cabinet level, wall conditions, sink location, and overhangs  \n- 📋 **Slab selection** – Choose your material from quartz, granite, or quartzite — we work with Pental, Daltile, MSI, and other local Seattle yards  \n- 🧰 **Fabrication** – We cut, polish, and finish slabs in-house — includes sink cutouts, faucet holes, and edge profiles  \n- 🛠️ **Install** – Our crew mounts the top, levels it, secures undermount sinks with brackets, and seals the seams  \n- ✅ **Final walkthrough** – We clean the surface, test sink seals, and confirm all cuts, fit, and caulking are clean\n\nWe build everything to fit — no prefab shortcuts, no uneven seams. As a **local countertop installation company in Seattle**, we handle kitchens, vanities, laundry tops, waterfall panels, and backsplashes with full slab continuity.\n\nIf you’re searching for a reliable team for **quartz countertops in Seattle** or need expert help replacing outdated surfaces, **RENOVA Contractors LLC** handles every step — measured right, fabricated locally, and installed by pros. 📦📐🧰"
+    "howWeWorkMarkdown": "\nAt RENOVA, we approach each **bathroom remodel** like a construction project — not a cosmetic upgrade. Everything is planned around your space, your fixtures, and actual code requirements in Seattle 🛠️. No guesswork, no “we’ll figure it out later.” Here’s how we work:\n\n### 🔍 Step-by-Step Process\n\n- **👣 Site Visit** – We take measurements, and assess plumbing, framing, electrical, and ventilation.  \n- **📐 Scope & Planning** – You pick materials or we help you select; we finalize layout, rough-in locations, and fixture specs.  \n- **📦 Material Prep** – We order all major items: tile, vanities, fixtures, toilets, glass, and store them until demo.  \n- **🧱 Demo & Rough-In** – Old surfaces removed. We reroute plumbing and wiring as needed; install backing for wall-hung items.  \n- **🧯 Waterproofing & Tile** – We prep wet areas using waterproofing membrane and install tile (floor, shower, walls).  \n- **🚿 Fixture Install** – Everything goes in: toilet, vanity, tub, shower glass, mirrors, lighting.  \n- **🧽 Final Touches** – Paint, caulking, trim, and final walkthrough.  \n\nEverything is built to code, clean, and made to last — no shortcuts.\n"
   },
   "faqItems": [
     {
-      "question": "What’s the average cost for quartz or granite countertops in Seattle?",
-      "answer": "Quartz countertops usually run $85–$120 per square foot installed. Granite ranges from $75–$110, depending on the slab. That includes templating, fabrication, install, and sink cutouts. Exotic stone or thicker edges cost more."
+      "question": "What is the typical timeline for a bathroom remodel?",
+      "answer": "The timeline for a bathroom remodel can vary depending on the scope of the project. On average, a complete bathroom remodel can take 2-4 weeks from start to finish and heavily depends on what layout changes you want to make. ."
     },
     {
-      "question": "Do you install prefab countertops?",
-      "answer": "No. We only install full slabs — templated, cut, and finished for your space. Prefab tops don’t hold up long term, and they usually come with poor seams and fit issues."
+      "question": "Do I need to move out during the bathroom remodel?",
+      "answer": "In most cases, you do not need to move out during a bathroom remodel. Our team works efficiently to minimize disruption to your daily life. However, there may be times when the bathroom is inaccessible for short periods."
     },
     {
-      "question": "Can I buy my own slab and have you install it?",
-      "answer": "Yes — as long as it’s from a reputable supplier and has not been cut. We’ll verify size, quality, and layout before taking it to fabrication. We work with Daltile, Meta, MSI, and Architectural Surfaces."
+      "question": "What are the latest trends in bathroom design?",
+      "answer": "Some of the latest trends in bathroom design include the use of natural materials, such as wood and stone, walk-in showers with frameless glass doors, and smart bathroom technology like touchless faucets and smart mirrors."
     },
     {
-      "question": "What’s the difference between quartz and granite in real use?",
-      "answer": "Quartz is more consistent and easier to clean. Granite is more heat-resistant and natural-looking. If you want low maintenance, go quartz. If you want variation and don’t mind sealing, granite works great."
+      "question": "How do I choose the right bathroom fixtures?",
+      "answer": "Choosing the right bathroom fixtures involves considering both functionality and style. Our design team can help you select fixtures that meet your needs and complement your overall bathroom design."
     },
     {
-      "question": "How long does it take from template to install?",
-      "answer": "Usually 5–7 business days after template. We don’t start until all cabinets are installed, sinks are selected, and slab is confirmed."
-    },
-    {
-      "question": "Can you install waterfall panels or full-height backsplash?",
-      "answer": "Yes — we do both. Waterfall sides require extra slab and precision cutting. Full-height splash is templated on-site and cut to match outlets and wall shape."
-    },
-    {
-      "question": "What sink styles do you install?",
-      "answer": "Mostly undermount sinks — kitchen or bath. We cut and polish in-shop, mount with bracket systems, and fully seal around the basin during install."
-    },
-    {
-      "question": "Do you offer any discounts on slabs or fabrication?",
-      "answer": "Yes — we pass through contractor pricing from local slab yards. Depending on the material, that’s usually 15–30% off standard retail. No markups, no hidden fees."
+      "question": "What should I consider when planning a bathroom layout?",
+      "answer": "When planning a bathroom layout, consider factors like the placement of plumbing fixtures, storage needs, and the flow of the space. Maximizing natural light and ensuring easy access to essential items are also important."
     }
   ],
   "images": {
-    "hero": [],
+    "hero": [
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757117678/seattle/bathroom/modern-bathroom_aobwvd.jpg",
+        "alt": "A modern bathroom with a glass-enclosed shower, a towel hanging on the wall, a window, a white sink countertop with a plant and soap dispenser, a large mirror, and wall-mounted light fixture."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757117678/seattle/bathroom/modern-bathroom-2_vjv0eo.jpg",
+        "alt": "Modern bathroom with a freestanding white tub, gold fixtures, marble wall tiles, a glass-enclosed shower with a patterned feature wall, and a small black side table with a plant and towel."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757117678/seattle/bathroom/modern-bathroom-1_he4zx3.jpg",
+        "alt": "Modern bathroom with double sinks, wood-accented vanities, large mirrors, and white subway tile. A glass shower is on the right, and a doorway opens to a bright bedroom with a bed and decorative pillows."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722929922/bathrooms/C9CC01FC-3008-4688-A4F9-00A2C5C3D1DD_dq1q1k.jpg",
+        "alt": "The image shows a remodeled bathroom with a white walk-in bathtub equipped with a side door and grab handles. Adjacent to the bathtub is a white toilet. The room features grey tile flooring and white tile walls with a marble pattern. There is a grab bar on the right wall, highlighting thoughtful remodeling details."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722930108/bathrooms/669160CA-BFA6-4108-9FF4-FB935991D94A_ugirsf.jpg",
+        "alt": "A bathroom remodel features green tile walls around the bathtub and a glass shower door. A single sink with a white countertop and cabinet is beneath a rectangular mirror. Reflected in the mirror, a man in a green-striped shirt snaps a photo with his phone, capturing the fresh remodeling work."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722930122/bathrooms/E8AA2224-A9E8-434C-97C3-7D49048F9121_i0bq1k.jpg",
+        "alt": "A modern bathroom remodel features a bathtub with sliding glass doors and blue subway tile walls. Adjacent is a white vanity with a matching sink and a chrome faucet under a large mirror. Shelves and a small window are visible, providing light and storage."
+      }
+    ],
     "firstAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297580/seattle/countertops/seattle-countertop-installation-2_szq0d9.jpg",
-          "alt": "Modern kitchen with white cabinets, stainless steel appliances, a large dark gray island with storage, white subway tile backsplash, and a window above the sink allowing natural light in."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756870526/seattle/bathroom/IMG_1364_mmg9z9.jpg",
+          "alt": "A modern bathroom vanity with a chevron wood pattern, gold hardware, and dual sinks beneath a large, backlit mirror. Tiled walls and floors, a towel hangs on a gold rack."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297581/seattle/countertops/seattle-countertop-installation_jbsjwf.jpg",
-          "alt": "Modern kitchen with a large dark wood island, marble countertop, and built-in sink. Open layout leads to a living area with beamed ceiling, large windows, and patio doors. Neutral tones and elegant lighting throughout."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756870526/seattle/bathroom/IMG_2436_cxeetx.heic",
+          "alt": "A bathroom with a wood paneled wall."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297581/seattle/countertops/seattle-countertop-installation-3_pw4bvj.jpg",
-          "alt": "Modern kitchen with white cabinets, stainless steel appliances, a center island with a dark countertop, a window above the sink, and light-colored tile flooring. The space is bright and clean with minimalist decor."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868039/seattle/bathroom/seattle-bathroom-remodel-1_gavidj.jpg",
+          "alt": "Modern bathroom with white subway tile, a bathtub-shower combo, gold fixtures, a vanity with a white countertop, a rectangular mirror, wall art, a towel, and a green plant in a vase. Bright and clean design."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297582/seattle/countertops/seattle-countertop-installers_zyga5b.jpg",
-          "alt": "Modern kitchen with wood cabinets, marble countertops, gold pendant lights, white barstools, large windows, and open shelving with decor; dining area visible in the background with natural light."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868039/seattle/bathroom/bathroom-remodel-seattle_z15qo3.jpg",
+          "alt": "Modern bathroom with a rectangular sink, dark vanity, glass-enclosed shower, beige tiles, and an illuminated mirror above the sink. RENOVA logo is visible in the bottom right corner."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297579/seattle/countertops/countertop-installation-seattle-1_qo5fly.jpg",
-          "alt": "A modern wet bar with dark wood cabinets, marble countertop, built-in sink, mini fridge, glassware, and bottles. The bar overlooks a living area with a sofa and lit fireplace in the background."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868039/seattle/bathroom/bathroom-remodel-seattle-1_gcoqu2.jpg",
+          "alt": "Modern bathroom with a glass-enclosed shower featuring black fixtures and a large freestanding white bathtub, set against gray tiled walls and white floors."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757297580/seattle/countertops/seattle-countertop-installation-1_b7o3op.jpg",
-          "alt": "Modern kitchen with white cabinets, stainless steel appliances, a gray island, subway tile backsplash, and a window above the sink. The room is well-lit and uncluttered, with a sleek, minimalist design."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868040/seattle/bathroom/modern-bathroom-remodel_cvzlys.jpg",
+          "alt": "Modern bathroom with a glass-enclosed shower on the left, light wood vanity with a white countertop and gold fixtures on the right, oval mirror above, and a doorway leading to a bright adjoining room."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868040/seattle/bathroom/seattle-bathroom-remodel-3_beag7r.jpg",
+          "alt": "Modern bathroom with a double-sink wooden vanity, two mirrors, gold fixtures, wall sconces, and a glass-enclosed walk-in shower with a rainfall shower head and a bench."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868040/seattle/bathroom/seattle-bathroom-remodel-2_vwpw4i.jpg",
+          "alt": "Modern bathroom with a spacious glass-enclosed shower, dark herringbone tile walls, gold fixtures, and a bathtub placed by two windows. A towel and decorative items sit on a stool by the tub."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756868040/seattle/bathroom/seattle-bathroom-remodel-4_n1izbp.jpg",
+          "alt": "Modern bathroom with a large soaking tub, glass-enclosed shower with gray tiles, double sinks with mirrors, and a large window letting in natural light. The space is bright and clean with white walls and minimal decor."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722931244/bathrooms/2A6DFEA9-E159-4DB0-8D9D-2F426D6AAF11_zrficv.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722931236/bathrooms/CAB2473E-7AC5-4886-951D-743466AD39BA_nrndgl.jpg",
+          "alt": ""
         }
       ],
-      "title": "Kitchen Countertop Installation Seattle 2025",
-  "heading": "Kitchen Countertop Installation",
-  "paragraph": "Renova Contractors LLC provides professional kitchen countertop installation across Seattle 🏙️ — including Capitol Hill, Queen Anne, Ballard, Fremont, Green Lake, Magnolia, and West Seattle. We cut, deliver, and install quartz, granite, and marble countertops with precision and clean seams. Our process includes on-site measurement, fabrication, and installation, so you get a perfect fit every time. Complimentary design consultations 🎨 help you choose the right material and color for your kitchen remodel, whether you want quartz countertops Seattle, granite kitchen counters, or natural marble. We handle kitchen countertop replacement, new construction installs, and full kitchen remodel projects with fast turnaround ✅ — so your Seattle kitchen is ready to use right away.",
-  "timeline": "5–10 days from template to install"
+      "title": "Modern Bathroom Remodels 2025",
+      "heading": "Bathroom Remodels",
+      "paragraph": "Several modern bathroom remodels completed in Seattle – each featuring custom tiled showers, upgraded vanities, glass enclosures, new flooring, fresh paint, and contemporary fixtures built for everyday comfort.",
+      "timeline": "3-8 weeks"
     },
     "secondAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298192/seattle/countertops/bathroom-vanity-countertop_gsnyo9.jpg",
-          "alt": "Modern bathroom with white cabinets, double sinks, large backlit mirrors, marble countertops, and dramatic stone accent walls. A wooden bench sits on the left, and the floor is white tile. The Renova logo is in the corner."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2813_uestp8.jpg",
+          "alt": "Bright, modern bathroom with a freestanding bathtub by large windows, double sink vanity with mirror, glass shower, and separate toilet area; white and light gray tones throughout."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298192/seattle/countertops/bathroom-vanity-countertop-1_t5agp6.jpg",
-          "alt": "AA modern public restroom with three illuminated mirrors above three sinks, white tile walls, wall-mounted soap dispensers, and paper towel dispensers on each side. A person is visible in the reflection taking a photo."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2806_vlwuwy.jpg",
+          "alt": "Sunlight casts shadows on white subway tile in a shower with a round showerhead, square control valve, a hand-held shower wand, and a chrome riser bar."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298193/seattle/countertops/quartz-vanity-bathroom-countertop-1_oboqls.jpg",
-          "alt": "Modern bathroom with white cabinets, double sinks, large backlit mirrors, marble countertops, and dramatic stone accent walls. A wooden bench sits on the left, and the floor is white tile. The Renova logo is in the corner."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2797_tfrnfa.jpg",
+          "alt": "A white freestanding bathtub sits by large windows in a bright bathroom with white walls, tiled floor, and a view of green trees outside. A silver faucet is mounted beside the tub."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298195/seattle/countertops/quartz-vanity-bathroom-countertop_lsomvr.jpg",
-          "alt": "A modern white bathroom with a double-sink vanity, black fixtures, two mirrors with wall lights, and a glass-enclosed shower in the background. Light cabinetry and a marble countertop complete the clean look."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926108/seattle/bathroom/IMG_2817_tdbt9o.jpg",
+          "alt": "A bright bathroom featuring a white freestanding bathtub near a window, a light-colored vanity cabinet, mosaic tile flooring, and sunlight streaming in, casting shadows on the floor."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298196/seattle/countertops/vanity-stone-countertop-2_el2zrl.jpg",
-          "alt": "A bathroom under renovation with a new white double-sink vanity installed; cabinets below are open, and the wall behind has unfinished patches and exposed electrical outlets."
-        },
-        {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298195/seattle/countertops/vanity-stone-countertop-1_xe4bnc.jpg",
-          "alt": "Modern bathroom with double sinks, two square mirrors, gold fixtures, a soap dispenser, and a towel bar on the right wall. Window above the mirrors shows greenery outside. RENOVA logo in the bottom right corner."
-        },
-        {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757213451/seattle/tile/IMG_1418_rmgnmd.jpg",
-          "alt": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757298196/seattle/countertops/vanity-stone-countertop_a56x10.jpg."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1756926112/seattle/bathroom/IMG_2799_drni7u.jpg",
+          "alt": "A modern bathroom with a large double-sink vanity, a wide mirror, wall-mounted lights, a towel bar, and a freestanding bathtub near a window letting in natural light."
         }
       ],
-     "title": "Bathroom Vanity Countertop Installation Seattle 2025",
-  "heading": "Bathroom Countertops & Vanities",
-  "paragraph": "Renova Contractors LLC installs bathroom countertops and vanities across Seattle 🏙️ — serving Capitol Hill, Ballard, Fremont, Queen Anne, Green Lake, Magnolia, and West Seattle. We provide bathroom vanity top installation with quartz, granite, marble, and solid surface options to match any style. Our team handles measurement, cutting, delivery, and installation so your bathroom remodel runs smoothly. Whether you need a single-sink vanity, double-sink vanity, or custom floating vanity, we fabricate and install it for a perfect fit. Homeowners searching for bathroom countertop replacement Seattle, bathroom vanity installation near me, or marble vanity tops trust us for clean seams, waterproof edges, and quick turnaround ✅.",
-  "timeline": "2–4 days from template to install"
+      "title": "Classic Bathroom Remodel 2025",
+      "heading": "Bathroom Remodel",
+      "paragraph": "Seattle bathroom remodel with a freestanding soaking tub, glass-enclosed shower, shaker-style vanity with quartz top, herringbone mosaic tile floor, and detailed crown molding. The space blends natural light with traditional finishes for an elegant, timeless look.",
+      "timeline": "7 weeks"
     }
-  }
+  },
+  "video": "RVnvaZs-J7U"
 }
 ]
