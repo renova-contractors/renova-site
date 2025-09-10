@@ -148,31 +148,6 @@ export default function Home(): JSX.Element {
         }
       },
       {
-        "@type": "Review",
-        "@id": "https://www.renova.contractors/#review",
-        "itemReviewed": {
-          "@type": "HomeImprovementContractor",
-          "@id": "https://www.renova.contractors/#localbusiness",
-          "name": "RENOVA Contractors LLC",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Seattle",
-            "addressRegion": "WA",
-            "addressCountry": "US"
-          }
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4.9",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Organization",
-          "name": "Google Reviews"
-        },
-        "reviewBody": "RENOVA Contractors LLC is known for quality craftsmanship, clear communication, and handling permits, design, and construction in-house."
-      },
-      {
         "@type": "VideoObject",
         "@id": "https://www.renova.contractors/#video",
         "name": "Seattle Home Remodeling Services - RENOVA Contractors",
