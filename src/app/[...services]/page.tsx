@@ -274,7 +274,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         name: `${servicesPageData.category || 'Home'} Remodeling Video - RENOVA Contractors`,
         description: `Watch our ${servicesPageData.category || 'home'} remodeling process and see the quality of our work in ${servicesPageData.location || 'Seattle'}.`,
         thumbnailUrl: `https://img.youtube.com/vi/${servicesPageData.video}/maxresdefault.jpg`,
-        uploadDate: new Date().toISOString().split('T')[0],
+        uploadDate: new Date().toISOString(),
         duration: 'PT3M', // Default 3 minutes, adjust as needed
         contentUrl: `https://www.youtube.com/watch?v=${servicesPageData.video}`,
         embedUrl: `https://www.youtube.com/embed/${servicesPageData.video}`,
@@ -296,7 +296,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         name: `${servicesPageData.category || 'Home'} Remodeling Shorts - RENOVA Contractors`,
         description: `Quick tips and highlights from our ${servicesPageData.category || 'home'} remodeling projects in ${servicesPageData.location || 'Seattle'}. Watch our YouTube Shorts for project insights.`,
         thumbnailUrl: `https://img.youtube.com/vi/${shortsObj[servicesPageData.location]?.[servicesPageData.category]?.[0]?.id}/maxresdefault.jpg`,
-        uploadDate: new Date().toISOString().split('T')[0],
+        uploadDate: new Date().toISOString(),
         duration: 'PT30S', // Typical shorts duration
         contentUrl: `https://www.youtube.com/shorts/${shortsObj[servicesPageData.location]?.[servicesPageData.category]?.[0]?.id}`,
         embedUrl: `https://www.youtube.com/embed/${shortsObj[servicesPageData.location]?.[servicesPageData.category]?.[0]?.id}`,

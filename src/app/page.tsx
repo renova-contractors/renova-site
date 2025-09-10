@@ -151,9 +151,15 @@ export default function Home(): JSX.Element {
         "@type": "Review",
         "@id": "https://www.renova.contractors/#review",
         "itemReviewed": {
-          "@type": "LocalBusiness",
+          "@type": "HomeImprovementContractor",
           "@id": "https://www.renova.contractors/#localbusiness",
-          "name": "RENOVA Contractors LLC"
+          "name": "RENOVA Contractors LLC",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Seattle",
+            "addressRegion": "WA",
+            "addressCountry": "US"
+          }
         },
         "reviewRating": {
           "@type": "Rating",
@@ -172,7 +178,7 @@ export default function Home(): JSX.Element {
         "name": "Seattle Home Remodeling Services - RENOVA Contractors",
         "description": "Learn about RENOVA Contractors' home remodeling services in Seattle including kitchen, bathroom, basement, and more renovation projects.",
         "thumbnailUrl": "https://img.youtube.com/vi/AuuHOqpgals/maxresdefault.jpg",
-        "uploadDate": "2024-01-15",
+        "uploadDate": "2024-01-15T00:00:00Z",
         "duration": "PT2M30S",
         "contentUrl": "https://www.youtube.com/watch?v=AuuHOqpgals",
         "embedUrl": "https://www.youtube.com/embed/AuuHOqpgals",
