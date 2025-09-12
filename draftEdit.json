@@ -1,161 +1,91 @@
 [
  {
-  
-  "location": "seattle",
-  "category": "masonry",
-  "service": "masonry-contractors-seattle",
-  "title": "Masonry Contractors in Seattle | Renova Contractors LLC",
-  "description": "Build a stone fence, or build a house. Renova Contractors LLC offers all the masonry services you could ask for. We provide everything from brick laying and seismic retrofitting to chimney construction and stone veneer installation, all with discounts and complimentary consultations.",
+  "location": "bellevue",
+  "category": "countertops",
+  "service": "countertop-installation-bellevue",
+  "title": "Countertop Installation in Bellevue: Granite, Marble, Quartz",
+  "description": "Local Bellevue countertop installers – quartz, granite, porcelain, butcher block, seamless edge. Real pricing, templating, install & removal by one crew.",
   "hero": {
-    "h1": "Professional Masonry Services in Seattle",
-    "heroP": "RENOVA Contractors LLC provides complete **masonry contractors near me** services across Seattle — handling both new installs and expert repairs. Homeowners searching for **masonry near me** or **masonry repair near me** call us for brick walls, stone veneer, patios, entry columns, and outdoor kitchens. Our crew takes on full structural installs, brick siding, block walls, and custom stone steps — as well as **brick repair near me** services like tuckpointing, crack stitching, and replacing damaged sections. If you need a **stone mason near me**, we source local materials and build to handle Seattle’s wet weather. Whether you’re building a new facade or fixing worn joints, we deliver clean lines, proper drainage, and durable results — serving Ballard, Queen Anne, Magnolia, and nearby neighborhoods.",
-    "heroImageAlt": "Masonry banner",
-    "heroPhrase": "Masonry: the cornerstone of architectural excellence."
-  },
-  "about": {
-    "phrase1": "Masonry: the ancient craft that builds the future.",
-    "phrase2": "Masonry is the poetry of architecture, written in stone and mortar.",
-    "priceLine1": "Brick Repair: 🧱 Fix cracks and damaged bricks for $500-$1,500. Keep your walls and structures looking solid and new!",
-    "priceLine2": "Stone Patio Installation: 🪨 Add a durable stone patio for $3,000-$8,000. Enhance your outdoor space with timeless style!",
-    "image1": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724116905/masonry/renova_contractors_work_image_1724116875138_otlkp9.jpg",
-    "image1alt": "A set of stone steps, expertly crafted by masonry contractors, leads to the front door of a beige house. The path is flanked by stone walls and surrounded by fallen leaves. A black lamp post stands to the left side of the path, while bushes adorn both sides of the entrance.",
-    "image2": "https://res.cloudinary.com/dzojhepyl/image/upload/v1724117568/masonry/renova_contractors_work_image_1724116884297_yd0cvg.jpg",
-    "image2alt": "A newly installed stone walkway leads up to a house with a rainbow flag displayed on the front. The walkway is flanked by fresh soil and green shrubs. Blue tarp and tools from masonry contractors are visible on the right side of the path, indicating ongoing landscaping work.",
-    "sectionP1": "Masonry is one of the oldest building techniques; it has evolved over the centuries. It has a classic appeal and is robust and lasting. Many customers opt to create a house out of bricks since they are quite sturdy and can survive extreme natural elements; hence, houses built with stone, concrete, and brick can outlast conventional houses. Masonry's components are fire and insect-resistant; you don't have to paint the brick, as it looks wonderful naturally. By keeping buildings cooler in the summer and warmer in the winter, the natural thermal mass of masonry helps control internal temperatures, providing energy efficiency and helping you to save significantly on your energy bills and feel not just secure in the house but also comfortable.",
-    "sectionP2": "In masonry, we deal with a vast range of materials with design possibilities and visual appeal. The client has countless textures and colours to choose from; hence, we also include the complementary services of our designer. He will assist you, whether your desired style is modern, sleek, or old-fashioned rustic. Masonry also boosts curb appeal and property value. Great for reducing noise within the house, the maosnry structure also provides sound insulation. From its durability and energy efficiency to its aesthetic appeal and architectural flexibility, stone buildings's overall advantages appeal to both builders and homeowners equally.",
-    "section2H2": "Masonry Restoration and Preservation",
-    "section2P1": "Masonry restoration and preservation are vital processes that ensure the longevity and structural integrity of historic and culturally significant buildings. Over time, masonry structures can suffer from weathering, pollution, and general wear and tear, which can lead to deterioration and potential safety hazards. Restoration involves repairing or replacing damaged masonry elements with materials that match the original as closely as possible, preserving the historical authenticity of the structure. This meticulous process not only safeguards the building's aesthetic and historical value but also ensures that it continues to function as a safe and habitable space. Techniques such as repointing, where the mortar between bricks or stones is replaced, and stone patching, where damaged sections are carefully restored, are commonly used in masonry restoration.",
-    "section2P2": "Preservation goes hand in hand with restoration, focusing on maintaining and protecting masonry structures to prevent future damage. This involves regular maintenance and the application of protective measures, such as sealants and water repellents, to shield the masonry from environmental factors. Preservation also includes monitoring the structure for any signs of deterioration and addressing issues promptly to avoid extensive damage. By investing in masonry restoration and preservation, we not only honor and retain our architectural heritage but also contribute to the sustainability of our built environment. These efforts ensure that historic masonry buildings can be enjoyed by future generations while maintaining their historical significance and structural soundness.",
-    "perks": [
-      {
-        "heading": "Remote Video Monitoring",
-        "paragraph": "Track the project's progress while away from home with our complimentary video monitoring service."
-      },
-      {
-        "heading": "Skilled Masons",
-        "paragraph": "Our team comprises highly trained and experienced masons."
-      },
-      {
-        "heading": "Quality Materials",
-        "paragraph": "We use premium materials to ensure durability and aesthetics."
-      },
-      {
-        "heading": "Detail-Oriented",
-        "paragraph": "Attention to detail ensures a flawless finish on every project."
-      },
-      {
-        "heading": "Customer Satisfaction",
-        "paragraph": "We prioritize customer satisfaction and tailor our services to meet your needs."
-      },
-      {
-        "heading": "Comprehensive Services",
-        "paragraph": "From masonry repair to custom projects, we handle all aspects of masonry."
-      },
-      {
-        "heading": "Custom Designs",
-        "paragraph": "We create personalized masonry designs that reflect your unique style and preferences."
-      },
-      {
-        "heading": "Structural Integrity",
-        "paragraph": "We ensure all our masonry work provides strong and lasting structural support."
-      },
-      {
-        "heading": "Restoration Expertise",
-        "paragraph": "Our team specializes in restoring historic and damaged masonry to its original beauty."
-      },
-      {
-        "heading": "Waterproofing Solutions",
-        "paragraph": "Protect your masonry with our advanced waterproofing techniques to prevent water damage."
-      },
-      {
-        "heading": "Fireplace Construction",
-        "paragraph": "We design and build custom fireplaces that add warmth and elegance to your home."
-      },
-      {
-        "heading": "Free Estimates",
-        "paragraph": "Complimentary estimates to help you plan your masonry project with confidence."
-      },
-      {
-        "heading": "Warranty on Services",
-        "paragraph": "We offer warranties on our masonry services to ensure your peace of mind and satisfaction."
-      }
-    ],
-    "sectionH1": "Benefits of Masonry Construction"
+    "h1": "Bellevue countertop installers - Renova Contractors",
+    "heroH2": "High-Quality Countertops for Bellevue Kitchens",
+    "heroP": "RENOVA Contractors LLC helps Bellevue homeowners searching for **countertop installers near me** and full-service **custom countertops**. We cut, deliver, and install **kitchen countertops** in Bellevue with a perfect fit — from **quartz countertops near me** to granite and marble. If you’re comparing **kitchen countertops near me** options or need expert advice, we guide you on what works best for your space. Our crew handles removal, prep, and installation, making us one of the most trusted **granite installers near me** for Bellevue kitchens. Whether you’re updating a kitchen island, adding waterfall edges, or refreshing a bathroom vanity, we provide contractor pricing, quick lead times, and seamless results — serving Bellevue, Medina, Clyde Hill, and nearby neighborhoods",
+    "heroImageAlt": "Sleek Bellevue kitchen with a new granite countertop",
+    "heroPhrase": "Countertops that transform your Bellevue kitchen"
   },
   "ourServices": {
-    "h2": "Masonry Services",
-    "paragraph": "Renova Contractors LLC offers a wide range of services for masonry. Whether you want to build a house from brick or install a chimney, we provide you with brick-laying services. For making your house more secure, we offer seismic reinforcement and masonry repairs. We work with various products, be it bricks, stone, or concrete blocks. Our brickmason will perform all these services to the highest standard.",
+    "h2": "",
+    "paragraph": "",
     "array": [
       {
-        "heading": "Masonry Services",
-        "paragraph": "Expert masonry services including brick laying stone masonry and more.",
-        "url": "/masonry-services",
-        "image": "service_image_masonry_services",
+        "heading": "Basement Finishing",
+        "paragraph": "Transform your basement into functional living space with our finishing services.",
+        "url": "/basement-finishing",
+        "image": "service_image_basement_finishing",
+        "price": "Price starts at $10000"
+      },
+      {
+        "heading": "Basement Flooring",
+        "paragraph": "Choose from a variety of flooring options to enhance your basement's comfort and style.",
+        "url": "/service/basement-flooring",
+        "image": "service_image_basement_flooring",
         "price": "Price starts at $5000"
       },
       {
-        "heading": "Brick Laying and Repair",
-        "paragraph": "Enhance your property with expert brick laying and repair services.",
-        "url": "/service/brick-laying-and-repair",
-        "image": "service_image_brick_laying_and_repair",
-        "price": "Price starts at $5000"
+        "heading": "Basement Remodel",
+        "paragraph": "Revamp your basement for improved functionality and aesthetics with our remodeling services.",
+        "url": "/service/basement-remodel",
+        "image": "service_image_basement_remodel",
+        "price": "Price starts at $12000"
       },
       {
-        "heading": "Stone Masonry",
-        "paragraph": "Add timeless beauty to your property with our professional stone masonry services.",
-        "url": "/service/stone-masonry",
-        "image": "service_image_stone_masonry",
-        "price": "Price starts at $6000"
-      },
-      {
-        "heading": "Seismic Retrofitting",
-        "paragraph": "Ensure the safety and stability of your property with our seismic retrofitting services.",
-        "url": "/service/seismic-retrofitting",
-        "image": "service_image_seismic_retrofitting",
-        "price": "Price starts at $7000"
-      },
-      {
-        "heading": "Chimney Masonry",
-        "paragraph": "Keep your chimney in top condition with our expert chimney masonry services.",
-        "url": "/service/chimney-masonry",
-        "image": "service_image_chimney_masonry",
-        "price": "Price starts at $4500"
-      },
-      {
-        "heading": "Concrete Block",
-        "paragraph": "Build durable structures with our professional concrete block services.",
-        "url": "/service/concrete-block",
-        "image": "service_image_concrete_block",
-        "price": "Price starts at $3500"
-      },
-      {
-        "heading": "Masonry Restoration",
-        "paragraph": "Restore the beauty and integrity of your masonry with our restoration services.",
-        "url": "/service/masonry-restoration",
-        "image": "service_image_masonry_restoration",
-        "price": "Price starts at $6000"
-      },
-      {
-        "heading": "Stone Veneer",
-        "paragraph": "Enhance your property's appearance with stylish and durable stone veneer.",
-        "url": "/service/stone-veneer",
-        "image": "service_image_stone_veneer",
+        "heading": "Basement Entertainment Center",
+        "paragraph": "Create the ultimate entertainment space in your basement with our customized solutions.",
+        "url": "/service/basement-entertainment-center",
+        "image": "service_image_basement_entertainment",
         "price": "Price starts at $8000"
       },
       {
-        "heading": "Commercial Masonry",
-        "paragraph": "Trust our expertise for all your commercial masonry needs.",
-        "url": "/service/commercial-masonry",
-        "image": "service_image_commercial_masonry",
-        "price": "Price starts at $12000"
+        "heading": "Basement Bathroom",
+        "paragraph": "Add convenience and value to your basement with a professionally installed bathroom.",
+        "url": "/service/basement-bathroom",
+        "image": "service_image_basement_bathroom",
+        "price": "Price starts at $6000"
+      },
+      {
+        "heading": "Basement Waterproofing",
+        "paragraph": "Protect your basement from moisture and water damage with our waterproofing solutions.",
+        "url": "/service/basement-waterproofing",
+        "image": "service_image_basement_waterproofing",
+        "price": "Price starts at $5500"
+      },
+      {
+        "heading": "Basement Insulation",
+        "paragraph": "Ensure year-round comfort and energy efficiency in your basement with proper insulation.",
+        "url": "/service/basement-insulation",
+        "image": "service_image_basement_insulation",
+        "price": "Price starts at $4500"
+      },
+      {
+        "heading": "Basement Bar",
+        "paragraph": "Create a stylish and functional bar space in your basement for entertaining guests.",
+        "url": "/service/basement-bar",
+        "image": "service_image_basement_bar",
+        "price": "Price starts at $7000"
+      },
+      {
+        "heading": "Basement Windows",
+        "paragraph": "Brighten up your basement and improve ventilation with new windows.",
+        "url": "/service/basement-windows",
+        "image": "service_image_basement_windows",
+        "price": "Price starts at $3500"
       }
     ],
-    "ourServicesMarkdown": "RENOVA Contractors LLC handles everything from small joint repairs to full structural rebuilds. Our team works on homes, chimneys, retaining walls, foundations, and veneers throughout Seattle. We are a licensed masonry company in Seattle with experience in both restoration and new builds.\n\n### Our Services Include:\n- **Brick repair** – Replace cracked or spalled bricks, reset loose courses, fix failed headers  \n- **Tuckpointing** – Remove failed mortar, match joints, and repoint with proper mix for age and exposure  \n- **Stonework** – Install or repair natural stone, veneer, ledgestone, and flagstone — wet set or dry stack  \n- **Chimney masonry repair** – Rebuild crowns, flue caps, reflash base, or demo and rebuild chimney stacks  \n- **Brick restoration** – Match historic brick, use lime mortar if needed, and protect existing work from damage  \n- **Masonry sealing** – Breathable sealers for water resistance without trapping moisture  \n- **Foundation parging & block repair** – Patch spalls, recoat walls, rebar rust removal and fill\n\nWe work with homeowners, builders, and property managers. Whether it’s a small brick wall or a full rebuild, we prep, build, and finish everything in-house — no middlemen, no cheap mortar, no skipped prep."
+    "ourServicesMarkdown": "RENOVA delivers full-service countertop installation for any kitchen size, style, or budget in Bellevue. We manage turnkey installs for quartz, granite, porcelain, and butcher block with all features included — from removal to backsplash tile.\n\n### Services Include:\n\nCountertop removal & disposal — safe tear-out, proper disposal, and site protection  \nTemplating & layout advice — laser or digital template, edge profiles (waterfall, chamfer, ogee), integrated or undermount sink planning  \nFabrication & delivery — slabs cut in our local shop (MSI, Pental, Cambria, local stone mills)  \nInstallation — seam matching, joint reinforcement, epoxy bonding, backsplash tile (subway or backsplash tile installed as part of scope)  \nCountertop repair & refinish — chip repair, seal inspection, stone polishing  \nCommercial support — businesses, bars, pantries, or resale-ready install with ADA or performance-grade finishes  \nWarranty & maintenance services — instructions, touch-up access, and protective sealants when needed\n\nWe handle the entire project with Bellevue trades—no outsourcing installations to strangers. If you’re comparing “kitchen countertop installers Bellevue” or searching “countertop cost Bellevue” our scope clearly lays out options like quartz vs granite vs porcelain or installation upgrades like waterfall edge or walk-in pantry counters.\n\nRENOVA installs designer edge profiles (eased, cove, radius) and coordinates backsplash tile with mortar bed as needed for seamless function. Looking for “countertop backsplash installation Bellevue” or “waterfall edge countertop Bellevue”? We do that clean, with matching seams and integrated sink planning."
   },
   "manufacturers": {
-    "h2": "Masonry supplies we use in Seattle",
-    "p": "Top masonry brands include Belgard for durable pavers and retaining walls, Eldorado Stone for stone veneers, Glen-Gery for high-end bricks and stone materials, and Oldcastle and Pavestone for a wide range of masonry and hardscape solutions. These brands are trusted for their quality, durability, and aesthetic appeal.",
-    "markdownmanufacturers": "We work with real masonry products — not premixed patch kits. Mortar is batched on-site to match strength, color, and texture. All materials meet **ASTM standards** and **Seattle building code** requirements.\n\n### Common Products We Use:\n- **Brick** – Mutual Materials, Pacific Clay, Glen-Gery (ordered locally)  \n- **Stone** – Eldorado Stone, Realstone Systems, natural ledgestone, limestone caps  \n- **Mortar** – Type N, S, or custom lime mix based on age and exposure — always mixed with clean sand, no additives  \n- **Sealers** – Siloxane-based breathable sealers from Prosoco or Dry-Treat\n\n### Seattle-Area Masonry Suppliers:\n- **Mutual Materials – Seattle**  \n- **Sound Brick & Supply**  \n- **Marenakos Rock Center** (for natural and architectural stone)\n\nWe don’t let the supplier decide what goes on your house. We select materials based on existing conditions, longevity, and match — not just what’s in stock. Every joint, bond, and bed gets installed by a mason who knows what they’re doing. ✅🧱📦"
+    "h2": "Materials & Brands – What We Install in Bellevue Kitchens 🪨",
+    "p": "",
+    "markdownmanufacturers": "We install countertops that hold up — not showroom samples, not prefab pieces. Everything is sourced locally, built for real kitchens, and installed to last.\n\n### Materials We Work With:\n- **Quartz** – We install Pental, Cambria, MSI, and Caesarstone slabs — great for clean seams, durability, and modern styles.  \n- **Granite** – Every piece is unique. We hand-select slabs for strength and pattern that makes sense in your kitchen.  \n- **Porcelain** – For homeowners who want the marble look without the maintenance — strong, clean, and heat-resistant.  \n- **Butcher block** – We work with real maple and walnut tops — sealed, leveled, and cut for sinks and cooktops.  \n- **Integrated sinks** – If you want a one-piece seamless sink and counter, we handle the layout, cut, and bonding.\n\nEvery material we install is cut clean, sealed right, and backed by a solid warranty. We’ll walk you through what holds up, what needs care, and what makes sense for your layout and budget. No guessing. No pressure. Just good work, from start to finish. ✅"
   },
   "howWeWork": {
     "array": [
@@ -171,26 +101,16 @@
       },
       {
         "id": "2",
-        "title": "Site Analysis and Assessment",
-        "description": {
-          "p1": "Conducting a thorough site survey.",
-          "p2": "Evaluating the site conditions.",
-          "p3": "Planning the masonry strategy."
-        },
-        "imagePath": "site_analysis_assessment_image"
-      },
-      {
-        "id": "3",
         "title": "Design and Planning",
         "description": {
-          "p1": "Creating a detailed masonry design.",
-          "p2": "Selecting materials.",
+          "p1": "Creating a detailed plan.",
+          "p2": "Designing the layout.",
           "p3": "Ensuring feasibility and compliance."
         },
         "imagePath": "design_planning_image"
       },
       {
-        "id": "4",
+        "id": "3",
         "title": "Cost Estimation and Budgeting",
         "description": {
           "p1": "Providing detailed cost estimates.",
@@ -200,7 +120,7 @@
         "imagePath": "cost_estimation_image"
       },
       {
-        "id": "5",
+        "id": "4",
         "title": "Permits and Approvals",
         "description": {
           "p1": "Securing necessary permits.",
@@ -210,7 +130,7 @@
         "imagePath": "permits_approvals_image"
       },
       {
-        "id": "6",
+        "id": "5",
         "title": "Site Preparation",
         "description": {
           "p1": "Clearing and cleaning the site.",
@@ -220,169 +140,192 @@
         "imagePath": "site_preparation_image"
       },
       {
-        "id": "7",
-        "title": "Masonry Installation",
+        "id": "6",
+        "title": "Framing and Insulation",
         "description": {
-          "p1": "Building masonry structures.",
-          "p2": "Ensuring structural integrity.",
-          "p3": "Applying finishes."
+          "p1": "Installing framing.",
+          "p2": "Adding insulation.",
+          "p3": "Ensuring structural integrity and comfort."
         },
-        "imagePath": "masonry_installation_image"
+        "imagePath": "framing_insulation_image"
+      },
+      {
+        "id": "7",
+        "title": "Electrical and Plumbing Work",
+        "description": {
+          "p1": "Installing electrical systems.",
+          "p2": "Setting up plumbing.",
+          "p3": "Ensuring functionality and safety."
+        },
+        "imagePath": "electrical_plumbing_image"
       },
       {
         "id": "8",
-        "title": "Detail Work",
+        "title": "Drywall and Finishing",
         "description": {
-          "p1": "Focusing on intricate details.",
-          "p2": "Performing touch-ups.",
-          "p3": "Ensuring a polished finish."
+          "p1": "Installing drywall.",
+          "p2": "Applying finishes.",
+          "p3": "Creating a polished look."
         },
-        "imagePath": "detail_work_image"
+        "imagePath": "drywall_finishing_image"
       },
       {
         "id": "9",
-        "title": "Cleanup and Debris Removal",
+        "title": "Flooring Installation",
         "description": {
-          "p1": "Cleaning the site thoroughly.",
-          "p2": "Removing all debris.",
-          "p3": "Leaving your space spotless."
+          "p1": "Laying down the flooring.",
+          "p2": "Choosing the best materials.",
+          "p3": "Ensuring durability and style."
         },
-        "imagePath": "cleanup_image"
+        "imagePath": "flooring_installation_image"
       },
       {
         "id": "10",
+        "title": "Final Touches and Cleanup",
+        "description": {
+          "p1": "Adding final details.",
+          "p2": "Cleaning up the site.",
+          "p3": "Preparing for handover."
+        },
+        "imagePath": "final_touches_cleanup_image"
+      },
+      {
+        "id": "11",
         "title": "Final Inspection and Handover",
         "description": {
           "p1": "Conducting a thorough inspection.",
           "p2": "Ensuring quality standards are met.",
-          "p3": "Handing over the completed project."
+          "p3": "Handing over the finished project."
         },
         "imagePath": "final_inspection_handover_image"
       }
     ],
-    "howWeWorkMarkdown": "Every masonry job starts with a site walk — not a phone quote. We inspect the structure, mortar condition, flashing, drainage, and tie-ins. Then we build a clean scope and run the job step-by-step.\n\n### Our Process:\n- 🧱 **Site visit and inspection** – Photos, notes, moisture check if needed  \n- 📋 **Scope + pricing** – Full line-item estimate with clear repair or rebuild plan  \n- 🧱 **Match materials** – Brick, mortar, or stone matched to existing when possible  \n- 🗓️ **Schedule and permit** – If required for chimney work or major façade repair  \n- 🛠️ **Demo and prep** – Cut-out old joints, clean face brick, reset loose elements  \n- 🔧 **Rebuild or repoint** – Wet-set, dry-stack, or full mortar bed depending on spec  \n- 🧽 **Final cleanup** – Pressure wash (if needed), reset access, and seal if part of scope\n\nNo rushed tuckpointing. No joint packing over soft mortar. We cut it out, clean it, and install it right."
+    "howWeWorkMarkdown": "When we install countertops, we don’t guess. Everything’s measured on-site, cut to fit, and installed by the same crew that quoted the job. You’ll know who’s coming, when they’re coming, and what’s happening each step of the way.\n\n### Here’s How It Works:\n\n**Site visit & measurement** – We come to your home, check your cabinets, take real measurements, and talk through your layout and options.  \n**Quote with real numbers** – We’ll show you price differences between quartz, granite, butcher block, or porcelain. No fluff — you’ll know exactly what’s included.  \n**Template & scheduling** – Once your cabinets are in, we come back to template for the countertop. We work around your timeline, not the other way around.  \n**Tear-out & prep** – If you have old countertops, we’ll remove them, check the structure, and prep the space before install.  \n**Fabrication** – Your slab is cut, edged, and polished — either in our shop or at one of our local partners.  \n**Installation** – We bring it in, seam it tight, level it right, and seal it clean. Sinks, backsplashes, everything.  \n**Final walk-through** – You check every corner and seam with us. If something’s off, we fix it before we leave.\n\nWe don’t leave behind scraps, silicone blobs, or excuses. Just clean countertops, done right the first time."
   },
   "faqItems": [
     {
-      "question": "Do I need a permit for masonry repair in Seattle?",
-      "answer": "Small repairs usually don’t need one. But chimney rebuilds, structural walls, or anything tied to framing or height often require a permit. We’ll tell you up front and pull it if needed."
+      "question": "How much does countertop installation cost in Bellevue?",
+      "answer": "Homeowners in Bellevue report quartz countertops between $80–$116 per sq ft, with total kitchen installs averaging $11,000–$14,000 depending on layout and edge details. RENOVA provides a fixed quote after measuring your space. As a local supplier, RENOVA blends slab and labor into one transparent number—no surprises at install."
     },
     {
-      "question": "What’s the difference between repointing and tuckpointing?",
-      "answer": "Repointing replaces damaged mortar. Tuckpointing is a technique that finishes the joint with a contrasting or color-matched layer for clean lines. We use whichever fits the age and condition of your brick."
+      "question": "Quartz vs. granite: which lasts longer and needs less maintenance?",
+      "answer": "Many Seattle homeowners lean toward quartz because it resists stains and doesn’t need sealing—granite requires sealing every 1–3 years, especially with lighter colors. RENOVA walks homeowners through care requirements and long-term value so you choose what fits your lifestyle."
     },
     {
-      "question": "How much does masonry repair cost in Seattle?",
-      "answer": "Most brick repair starts around $25–$45 per square foot, depending on access and scope. Chimney work or stone veneer replacement can run higher. We quote every job after a site visit."
+      "question": "Are waterfall-edge countertops still popular?",
+      "answer": "The waterfall edge looked edgy a few years back—but many users now regret it, citing cost, slab waste, and the style feeling dated. RENOVA shows both pros and cons of edge styles so you can decide if that trend fits your square footage and resale goals."
     },
     {
-      "question": "Can you match my existing brick or stone?",
-      "answer": "Yes — in most cases. We source from Mutual Materials or Sound Brick locally. For older homes, we may blend from multiple lots or use reclaimed materials when needed."
+      "question": "Should I avoid Home Depot or Ikea countertop installers in Bellevue?",
+      "answer": "Redditors often regret going with national chains due to higher pricing and third-party crews with little accountability. RENOVA provides cabinet, countertop, and plumbing coordination in-house—no handoffs, no surcharge, accountable service from demo to final walkthrough."
     },
     {
-      "question": "How do I know if my mortar is failing?",
-      "answer": "Look for cracks, missing joints, crumbling faces, or water getting behind the wall. Mortar should be firm, not powdery. We check it with a pick test during the inspection."
+      "question": "Can you repair or re-polish existing countertops instead of replacing them?",
+      "answer": "Some local Reddit threads report minor countertop damage that was easily repaired instead of replaced—like chips or dulling over time. RENOVA inspects your countertop first. If repair makes sense—like a crack or dull finish—you get that option alongside full replacement."
     },
     {
-      "question": "Do you repair chimneys?",
-      "answer": "Yes — we do full chimney masonry repair including crown rebuilds, flue cap install, flashing, and full tear-down if needed. We also fix leaning stacks and water-damaged brick."
+      "question": "What about countertop heat resistance in Bellevue kitchens?",
+      "answer": "Quartz resists stains and scratches but isn’t fully heatproof. Granite can crack if hot pots are placed directly on seams. RENOVA shares best-use tips and installs heat-resistant slabs—ensuring seams and adhesives won’t fail under real-world kitchen use."
     },
     {
-      "question": "Do you work on retaining walls or foundations?",
-      "answer": "Yes — we repair cracked block, crumbling mortar, and failing caps. We also parge or resurface exposed basement walls with clean lines and proper bond."
-    },
-    {
-      "question": "What’s the best time of year to do masonry work in Seattle?",
-      "answer": "Spring through early fall. We avoid working during heavy rain or freezing temps unless the area is tented and heated. Mortar needs dry conditions to cure properly."
+      "question": "What’s the advantage of using local Bellevue fabricators like RENOVA?",
+      "answer": "Many homeowners say local shops are more responsive and accurate than national chains. RENOVA templates your space after cabinets are installed, orders slabs from local suppliers (Metro Quartz, Dunn), installs with in-house crews, removes old tops, and seals seams properly. You get one point of contact and a warranty-backed job."
     }
   ],
   "images": {
     "hero": [
       {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524711/seattle/masonry/masonry-contractor-seattle_ctdmsf.jpg",
-        "alt": "Modern two-story house exterior with stone and gray siding, a white garage door with horizontal glass panels, a black-framed glass front door, steps leading to the entrance, and a small front lawn."
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/IMG_2710_sorsip.jpg",
+        "alt": "Two workers are installing patterned flooring tiles in a room with large windows. Tools and tiles are scattered around, and a red open binder lies on the floor nearby."
       },
       {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524857/seattle/masonry/masonry-contractors-seattle_wcl9xd.jpg",
-        "alt": "A red brick patio with a herringbone pattern and white gravel borders, divided into geometric sections, is surrounded by a wooden fence. Fallen leaves are scattered on the ground."
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/IMG_2569_pqsgha.jpg",
+        "alt": "A person with a tattooed arm spreads mortar on a red floor, preparing to lay rectangular gray tiles. Several tiles are already in place, aligned with spacers near a white door."
       },
       {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524856/seattle/masonry/masonry-contractors-seattle-1_u5a6df.jpg",
-        "alt": "A newly paved stone walkway leads to a house entrance, bordered by modern horizontal wooden slat fences and trees, with construction materials and unfinished landscaping visible nearby."
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389864/seattle/flooing/IMG_2729_ykpcyo.jpg",
+        "alt": "A spacious room with light wood flooring, white cabinets, and dressers along the back wall, two windows with shutters, and doors on either side; a covered ceiling beam shows ongoing renovations."
       },
       {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524711/seattle/masonry/masonry-work-seattle-1_isvl0f.jpg",
-        "alt": "A modern two-story house with light siding and red brick accents, white-framed windows, a white double garage door, a blue front door, and a small front lawn with minimal landscaping."
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/IMG_3826_qjkngc.jpg",
+        "alt": "A modern kitchen with teal cabinets, white countertops, a farmhouse sink, black faucet, stainless steel dishwasher, green tile backsplash, and patterned wood-look tile flooring."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/IMG_3105_zefrmc.jpg",
+        "alt": "A room with newly installed herringbone pattern flooring. Various tools, buckets, and equipment are organized in one area, with an unfinished fireplace and windows in the background."
+      },
+      {
+        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/camphoto_1038830638_t7t2ez.jpg",
+        "alt": "A living room with light green walls, a stone fireplace, large dark-framed glass doors, and newly installed multi-toned wood flooring. The room is empty, with painter's tape along the baseboards."
       }
-      
     ],
     "firstAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757469473/seattle/masonry/masonry-near-me-1_delusl.jpg",
-          "alt": "Sunlight shines on a clean, newly installed stone patio with rectangular tiles in various shades of gray, situated outside a house with green siding. The Renova company logo is visible in the bottom right corner."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/carpet-installers-1_smit3f.jpg",
+          "alt": "A spacious, modern, carpeted basement room with neutral walls, recessed lighting, a large flat-screen TV mounted on the wall, and an open doorway leading to a bathroom with a dark vanity."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757469473/seattle/masonry/masonry-and-pavers_hdl9pw.jpg",
-          "alt": "A stone-paved driveway surrounded by tall trees and greenery, with some construction materials and a parked car visible in the background under bright sunlight."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/carpet-installers_u0mj7f.jpg",
+          "alt": "A small, empty room with beige carpet, white walls, and recessed ceiling lights. There is a vent on the ceiling and multiple electrical outlets along the walls. The room appears clean and freshly painted."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757469473/seattle/masonry/masonry-near-me-2_xqil0f.jpg",
-          "alt": "Newly installed stone pavers forming a patio or driveway, with sunlight casting shadows from nearby plants. A broom, a pallet, and a parked car are visible in the background."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/new-carpet-installed-2_r5qmqu.jpg",
+          "alt": "A clean, empty room with beige carpet, light beige walls, a large window letting in natural light, white trim, and multiple electrical outlets along the walls."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757469474/seattle/masonry/masonry-work_e1tx6z.jpg",
-          "alt": "Newly installed stone pavers forming a patio or driveway, with sunlight casting shadows from nearby plants. A broom, a pallet, and a parked car are visible in the background."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/new-carpet-installed-1_tin5ck.jpg",
+          "alt": "A spacious, carpeted basement with beige walls, recessed ceiling lights, a staircase with a metal railing, and a wooden play gym in the corner. The room is empty except for the gym."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757469474/seattle/masonry/masonry-near-me_qrbzrd.jpg",
-          "alt": "Close-up view of a stone patio with rectangular tiles outside a house with gray siding and glass doors, in bright sunlight. The RENOVA logo is visible in the bottom right corner."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/new-carpet-installed_pemzmt.jpg",
+          "alt": "A small, empty room with beige carpet, white walls, a window, recessed ceiling lights, and two open white doors leading to a closet and hallway. RENOVA watermark is in the bottom right corner."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757469474/seattle/masonry/pavers-and-retaining-wall_osovmu.jpg",
-          "alt": "A clean, wet patio made of square and rectangular stone tiles is adjacent to a beige house with large glass sliding doors, surrounded by a landscaped garden with rocks and greenery."
-        },
-        {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757469475/seattle/masonry/pavers-masonry_rgf74v.jpg",
-          "alt": "A newly finished stone patio beside a light-colored house, with a raised stone retaining wall and surrounded by grass, trees, and forested area in the background."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996967/cabinets/A7E2FEFC-D3C6-4EC5-8B92-2ABAA1B89CF5_enxjqc.jpg",
+          "alt": "A modern kitchen with light wood flooring, white cabinets with black handles, a built-in oven, and a staircase with wooden steps in the background."
         }
       ],
-      "title": "Seattle Masonry & Paver Patio Installation 2025",
-  "heading": "Masonry & Paver Projects",
-  "paragraph": "Large-format stone paver patio installed in Seattle with a curved perimeter and tight-joint layout. Work included full site excavation, gravel and sand base prep, laser-leveled setting bed, and edge restraint for long-term stability. Natural stone pavers were cut to fit around curves and seams were filled for a clean finish. This project created a durable outdoor living surface perfect for year-round use in Seattle’s wet climate.",
-  "timeline": "1–2 weeks including excavation, base prep, and setting"
+      "title": "Queen Anne Carpet Installation 2025",
+  "heading": "Carpet Installation Projects",
+  "paragraph": "Full carpet installation completed in a Queen Anne basement remodel, including stair runners and multiple bedrooms. Work included floor prep, tack strip installation, carpet pad placement, and wall-to-wall stretch-in carpet for a clean, seamless finish. Project involved neutral stain-resistant carpet, matching transitions, and careful trimming around doors, closets, and built-ins. Perfect for homeowners searching for carpet installation near me or carpet replacement in Seattle.",
+  "timeline": "2–3 days including floor prep and install"
     },
     "secondAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524712/seattle/masonry/stone-mason-seattle-1_aqetvh.jpg",
-          "alt": "Modern two-story house with stone and gray siding exterior, large windows, a black-framed glass front door, and a white garage door with horizontal windows; wooden fence and concrete driveway in front."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-1_cnlotg.jpg",
+          "alt": "Empty room with green walls, wood-style flooring, a single window letting in daylight, recessed ceiling lights, and visible electrical outlets; room appears to be recently renovated or under construction."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524712/seattle/masonry/masonry-work-seattle_tjmsn4.jpg",
-          "alt": "A two-story beige house with dark shutters, a front porch, stairs leading to the main entrance, a small tree, neat landscaping, and a terraced stone retaining wall in front."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-3_pevkhb.jpg",
+          "alt": "Modern kitchen with white cabinets, stainless steel appliances, marble island with sink, black barstools, and three glass pendant lights. Hardwood floors and staircase are visible, with a dining area in the background."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524713/seattle/masonry/stone-mason-seattle_qmszg9.jpg",
-          "alt": "A modern two-story house with gray siding, stone accents, three-car garage, large windows, and landscaped front yard under a partly cloudy sky."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-3_pevkhb.jpg",
+          "alt": "Modern kitchen with white cabinets, stainless steel appliances, marble island with sink, black barstools, and three glass pendant lights. Hardwood floors and staircase are visible, with a dining area in the background."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524712/seattle/masonry/stone-mason-seattle-2_zwkh6q.jpg",
-          "alt": "Modern two-story house with light gray siding, white brick facade, large windows, and a double garage. The sky is partly cloudy and there are no visible cars or people."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-2_qdnk7l.jpg",
+          "alt": "Modern kitchen with light wood cabinets, stainless steel appliances, a large marble island with a built-in sink, and three cushioned barstools. Pendant lights hang above the island, and hardwood floors complement the stylish decor accents."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524858/seattle/masonry/masonry-near-me-in-seattle-1_tuezhi.jpg",
-          "alt": "A stone patio with irregularly shaped paving stones is bordered by wooden planters with green plants and flowers. A wooden fence and ferns are visible to the right, and sunlight casts shadows on the patio."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation_otrsgy.jpg",
+          "alt": "A person kneels on the floor in a room with dark green walls and a window, preparing the space for painting with black plastic sheets covering the floor. Construction materials are visible through the window."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757524859/seattle/masonry/masonry-near-me-in-seattle_slkxff.jpg",
-          "alt": "A newly constructed brick patio with a herringbone pattern, bordered by wooden beams and surrounded by gravel"
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458624/seattle/flooing/hardwood-flooring-1_zfrjqv.jpg",
+          "alt": "A modern open-concept kitchen and living area with wood floors, light wood cabinets, a large island with barstools, pendant lights, and a cozy living space with sofas, a rug, a fireplace, and large windows."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-4_z9r6pz.jpg",
+          "alt": "Modern kitchen with light wood cabinets, stainless steel appliances, a range hood, white countertops, subway tile backsplash, and dark hardwood floors. Open layout leads to a dining area and a living room with large windows."
         }
       ],
-      "title": "Seattle Masonry & Paver Projects 2025",
-  "heading": "Masonry & Front Entrance Builds",
-  "paragraph": "Our Seattle masonry crews completed multiple projects across Ballard, Queen Anne, and Magnolia, installing new paver walkways, brick pillars, and front entrance hardscapes 🧱. We prepped each site with proper gravel base and compaction, then set pavers and bricks in custom patterns – from herringbone driveways to clean concrete paver walkways. These installs improve curb appeal and add long-term durability for Seattle homes, even in wet weather. We also repaired and repointed existing masonry where needed, blending new brickwork with old for a seamless finish. Whether it’s paver patios, stone entryways, or brick columns, our team delivers clean lines, proper drainage, and code-compliant installations for lasting results. 🔨",
-  "timeline": "3–6 days depending on site and design"
+      "title": "Seattle Hardwood & LVP Flooring Installation 2025",
+  "heading": "Flooring Projects",
+  "paragraph": "Multiple flooring installation projects completed across Ballard, Crown Hill, and Magnolia — including hardwood flooring, engineered hardwood, LVP, and laminate installs. Work included removal of old flooring, subfloor prep, moisture barrier installation, and precise layout for a seamless finish. Boards were cut, staggered, and fastened to spec, with transitions and base trim installed for a clean look. Mix of wide-plank oak, waterproof LVP, and laminate options chosen for durability and Seattle-style design.",
+  "timeline": "2–5 days per job"
     }
   }
 }

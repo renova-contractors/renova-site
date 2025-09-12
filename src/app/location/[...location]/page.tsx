@@ -236,7 +236,7 @@ export default async function Page({
 				<ServicesAbout {...props.about} isMobile={isMobile} />
 				{/* <OurServices {...props.ourServices} /> */}
 				{/* <TopProducts /> */}
-				<HowWeWork {...props.howWeWork} />
+				{/* <HowWeWork {...props.howWeWork} /> */}
 				<CostTables category="" city={props.city} />
 				<Licensing />
 				{/* <section>
