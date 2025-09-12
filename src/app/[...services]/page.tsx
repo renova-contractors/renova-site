@@ -51,6 +51,18 @@ const shortsObj = {
       { id: 'OAVRNuODziI' },
       { id: 'Gy1I8U00rfc' },
     ],
+    siding: [
+      { id: 'xOxGHe1KeYY' },
+      { id: 'xJhs6-bHOOc' },
+      { id: 'o5MrxvCACsE' },
+      { id: 'jplRdDEPipY' },
+    ],
+    tile: [
+      { id: 'OAVRNuODziI' },
+      { id: 'FXgjx7blUi4' },
+      { id: '1ZvtJ656fzM' },
+      { id: 'mhC3lqPP3X4' },
+    ],
   },
 };
 
@@ -157,6 +169,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
   const servicesData = await getServicesData({ services: id });
   const servicesPageData = servicesData[0];
   const isMobile = useIsMobile();
+
 
   // JSON-LD Schema
   const schema = {

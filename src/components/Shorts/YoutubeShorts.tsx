@@ -28,6 +28,18 @@ const shortsObj = {
       { id: 'OAVRNuODziI' },
       { id: 'Gy1I8U00rfc' },
     ],
+    siding: [
+      { id: 'xOxGHe1KeYY' },
+      { id: 'xJhs6-bHOOc' },
+      { id: 'o5MrxvCACsE' },
+      { id: 'jplRdDEPipY' },
+    ],
+    tile: [
+      { id: 'OAVRNuODziI' },
+      { id: 'FXgjx7blUi4' },
+      { id: '1ZvtJ656fzM' },
+      { id: 'mhC3lqPP3X4' },
+    ],
   },
 };
 
