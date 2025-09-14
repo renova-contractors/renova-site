@@ -12,10 +12,10 @@ import { LocationsList } from "@/components/LocationsList/LocationsList";
 import { FormMain } from "@/components/FormMain/FormMain";
 import type { Metadata } from "next";
 import ServicesAbout from "../components/About/ServicesAbout";
+import useIsMobile from "@/lib/hooks/useIsMobile";
 
 import { CostTables } from "@/components/CostTables/CostTables";
 import { PageNav } from "@/components/PageNav/PageNav";
-import useIsMobile from "@/lib/hooks/useIsMobile";
 import InstagramEmbed from "@/components/Instagram/Instagram";
 import PerksComponentGrid from "@/components/PerksComponentGrid/PerksComponentGrid";
 import { ThumbsSwiper } from "@/components/ThumbsSwiper/ThumbsSwiper";

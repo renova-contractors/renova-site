@@ -4,10 +4,9 @@ import { FormMain } from "@/components/FormMain/FormMain";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-import { useState } from "react";
 import { HeroSwiperServices } from "./HeroSwiperServices";
 import { ImagesPerksSlider } from "@/components/ImagesPerkslider/ImagesPerksSlider";
-import Markdown from "react-markdown";
+import ServicesHeroClient from "./ServicesHeroClient";
 
 interface ServicesHeroProps {
 	h1: string;
@@ -30,7 +29,6 @@ export const ServicesHero: React.FC<ServicesHeroProps> = ({
 	category,
 	images
 }) => {
-
 	return (
 		<header className="mt-[180px] max-md:mt-[190px] container h-full relative pr-[10px]   sm:pt-[70px] mb-10">
 			<h1 className="custom-heading first-letter:text-main-yellow">
@@ -51,11 +49,7 @@ export const ServicesHero: React.FC<ServicesHeroProps> = ({
 					></iframe>
 				</div> */}
 
-				<div className="lg:ml-[82px] max-xl:mt-[15px] w-full xl:w-1/3] text-white">
-
-					<Markdown className="max-sm:hidden markdown">{heroP}</Markdown>
-
-				</div>
+				<ServicesHeroClient heroP={heroP} />
 
 			</div>
 			<ImagesPerksSlider />

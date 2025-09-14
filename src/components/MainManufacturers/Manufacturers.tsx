@@ -3,6 +3,7 @@
 import ReactMarkdown from "react-markdown";
 import { ManufacturersClient } from "./ManufacturersClient";
 import { MarkdownRender } from "../MarkdownRender/MarkdownRender";
+import ReadMore from "@/components/ReadMore/ReadMore";
 
 type Props = {
 	markdownmanufacturers: string;
@@ -33,9 +34,9 @@ export const Manufacturers: React.FC<Props> = ({
 
 			{/* <MarkdownRender markdown={markdownmanufacturers} isMobile/> */}
 
-			<ReactMarkdown className="markdown max-sm:hidden sm:w-2/3 w-full text-left">
-				{markdownmanufacturers}
-			</ReactMarkdown>
+			<ReadMore maxLength={250} className="markdown w-full text-left">
+				<ReactMarkdown>{markdownmanufacturers}</ReactMarkdown>
+			</ReadMore>
 
 		</section>
 	);
