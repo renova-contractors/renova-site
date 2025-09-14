@@ -222,7 +222,7 @@ select {
 }
 
 .gray-paragraph {
-  @apply text-main-gray font-light;
+  @apply text-main-gray font-extralight;
 }
 
 .white-paragraph {

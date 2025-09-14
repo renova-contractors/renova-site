@@ -100,7 +100,7 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
       aria-label="Remodeling cost table"
       className="component-mb scroll-anchor container mx-auto p-6 bg-gradient-to-br from-blue-900 to-teal-400 rounded-2xl shadow-lg"
     >
-      {/* Heading */}
+      {/* Heading - Static */}
       <h2 className="text-white text-3xl mb-6">
         {selectedCategory
           ? costHeading[selectedCategory]
@@ -108,7 +108,7 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
         {city && ` in ${locationNames[city] || city}`}
       </h2>
 
-      {/* Category Selector */}
+      {/* Category Selector - Static */}
       <div className="flex overflow-x-auto mb-4">
         <button
           aria-label="Show all remodeling services"
@@ -135,8 +135,9 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
         ))}
       </div>
 
-      {/* Selected Service Table */}
-      <div className="overflow-x-auto">
+      {/* Tables - Horizontally Scrollable */}
+      <div className="w-full overflow-x-auto">
+        <div className="min-w-max">
         {selectedCategory && selectedServiceData ? (
           <>
             <h3 className="text-xl text-white text-center mb-4">
@@ -188,15 +189,6 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
                 ))}
               </tbody>
             </table>
-            <div className="flex justify-center mt-4">
-              <button
-                aria-label="Close detailed service table"
-                onClick={handleCloseClick}
-                className="px-4 py-2 bg-red-500 text-white rounded"
-              >
-                Close
-              </button>
-            </div>
           </>
         ) : (
           <>
@@ -240,16 +232,29 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
                 ))}
               </tbody>
             </table>
-            <div className="flex justify-center mt-4">
-              <button
-                aria-label="Toggle between showing all or fewer services"
-                onClick={handleToggleShowAll}
-                className="px-4 py-2 bg-blue-500 text-white rounded"
-              >
-                {showAll ? "Show Less" : "Show More"}
-              </button>
-            </div>
           </>
+        )}
+        </div>
+      </div>
+
+      {/* Buttons - Static */}
+      <div className="flex justify-center mt-4">
+        {selectedCategory && selectedServiceData ? (
+          <button
+            aria-label="Close detailed service table"
+            onClick={handleCloseClick}
+            className="px-4 py-2 bg-red-500 text-white rounded"
+          >
+            Close
+          </button>
+        ) : (
+          <button
+            aria-label="Toggle between showing all or fewer services"
+            onClick={handleToggleShowAll}
+            className="px-4 py-2 bg-blue-500 text-white rounded"
+          >
+            {showAll ? "Show Less" : "Show More"}
+          </button>
         )}
       </div>
     </section>

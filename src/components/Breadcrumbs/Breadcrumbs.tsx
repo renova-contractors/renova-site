@@ -29,7 +29,7 @@ const NextBreadcrumb: React.FC<TBreadCrumbProps> = ({
 	}
 
 	return (
-		<div className={`flex items-center ${containerClasses}`}>
+		<div className={`flex items-center whitespace-nowrap overflow-x-auto ${containerClasses}`}>
 			<ul className="flex">
 				{/* Home Link */}
 				<li className={listClasses}>
@@ -48,7 +48,7 @@ const NextBreadcrumb: React.FC<TBreadCrumbProps> = ({
 						: link;
 
 					return (
-						<div key={index} className="flex items-center">
+						<div key={index} className="flex items-center ">
 							<li className={itemClasses}>
 								{isActive ? (
 									<span>{itemLink}</span>

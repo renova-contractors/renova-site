@@ -305,29 +305,16 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 				}}
 			/>
 			
-			{/* Breadcrumb Navigation */}
-			<nav aria-label="Breadcrumb" className="container py-4">
-				<ol className="flex items-center space-x-2 text-sm text-gray-600">
-					<li><a href="/" className="hover:text-main-yellow">Home</a></li>
-					<li className="text-gray-400">/</li>
-					<li><a href="/blog" className="hover:text-main-yellow">Blog</a></li>
-					<li className="text-gray-400">/</li>
-					<li className="text-gray-900 font-medium" aria-current="page">
-						{blog.metaTitle || blog.title || "Blog Post"}
-					</li>
-				</ol>
-			</nav>
+			
 
-			<main className="container max-w-4xl mx-auto px-4 py-8">
+			<main className="container max-w-2/3 mx-auto px-4 py-12">
 				{/* Article Header */}
-				<header className="mb-8">
-					<h1 className="text-4xl font-bold text-gray-900 mb-4 leading-tight">
-						{blog.metaTitle || blog.title || "Blog Post"}
-					</h1>
+				<header className="mb-16 mt-[180px] max-sm:mt-[130px] text-main-gray">
+					
 					
 					{/* Article Meta */}
-					<div className="flex flex-wrap items-center gap-4 text-sm text-gray-600 mb-6">
-						<time dateTime={publishedDate} className="flex items-center">
+					<div className="flex flex-wrap items-center gap-6 text-sm text-gray-600 text-main-gray">
+						<time dateTime={publishedDate} className="flex items-center text-main-gray">
 							<svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
 							</svg>
@@ -335,7 +322,7 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 						</time>
 						
 						{readingTime > 0 && (
-							<span className="flex items-center">
+							<span className="flex items-center ">
 								<svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
 								</svg>
@@ -343,45 +330,30 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 							</span>
 						)}
 						
-						{blog.category && (
-							<span className="bg-main-yellow text-black px-2 py-1 rounded text-xs font-medium">
-								{blog.category}
-							</span>
-						)}
+						
 					</div>
 
 					{/* Article Description */}
 					{(blog.metaDescription || blog.description) && (
-						<p className="text-xl text-gray-700 leading-relaxed mb-6">
+						<p className="text-xl md:text-2xl text-gray-700 leading-relaxed text-main-gray">
 							{blog.metaDescription || blog.description}
 						</p>
 					)}
 
-					{/* Featured Image */}
-					{blog.featuredImage && (
-						<div className="mb-8">
-							<img
-								src={blog.featuredImage}
-								alt={blog.metaTitle || blog.title || "Blog Post"}
-								className="w-full h-64 object-cover rounded-lg shadow-lg"
-								loading="eager"
-							/>
-						</div>
-					)}
 				</header>
 
 				{/* Article Content */}
-				<article className="prose prose-lg max-w-none">
+				<article className="prose prose-lg max-w-none mb-20">
 					<Markdown className="markdown">{blog.markdown}</Markdown>
 				</article>
 
 				{/* Article Footer */}
-				<footer className="mt-12 pt-8 border-t border-gray-200">
+				<footer className="mt-20 pt-12 border-t border-gray-200">
 					<div className="flex flex-wrap items-center justify-between">
 						<div className="flex items-center space-x-4">
 							<div className="flex-shrink-0">
 								<img
-									src="https://www.renova.contractors/logo.png"
+									src="https://www.renova.contractors/_next/static/media/logo_bottom.a4b3622a.svg"
 									alt="RENOVA Contractors LLC"
 									className="w-12 h-12 rounded-full"
 								/>
