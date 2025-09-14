@@ -30,6 +30,12 @@ export const headerData: HeaderData[] = [
 		dropdown: false,
 	},
 	{
+		id: "roi",
+		title: "ROI Calculator",
+		href: "/roi",
+		dropdown: false,
+	},
+	{
 		id: "contact",
 		title: "Contact",
 		href: "/contact",

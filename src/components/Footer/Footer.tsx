@@ -100,6 +100,11 @@ export const Footer: React.FC<Props> = ({ location }) => {
 									Blog
 								</Link>
 							</li>
+							<li className="mb-[15px]">
+								<Link title="ROI Calculator" href="/roi">
+									ROI Calculator
+								</Link>
+							</li>
 						</ul>
 					</nav>
 				</div>
