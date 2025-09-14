@@ -37,7 +37,7 @@ const calculators = [
     id: 'kitchen',
     name: 'Kitchen Remodel',
     description: 'Calculate ROI for your kitchen renovation project',
-    url: 'return-on-investment-for-kitchen-remodeling-seattle',
+    url: 'kitchen',
     icon: '🍳',
     color: 'from-orange-500 to-red-500',
     typicalROI: '55-85%',
@@ -47,7 +47,7 @@ const calculators = [
     id: 'bathroom',
     name: 'Bathroom Remodel',
     description: 'Calculate ROI for your bathroom renovation project',
-    url: 'return-on-investment-for-bathroom-remodeling-seattle',
+    url: 'bathroom',
     icon: '🚿',
     color: 'from-blue-500 to-cyan-500',
     typicalROI: '55-80%',
@@ -57,7 +57,7 @@ const calculators = [
     id: 'attic',
     name: 'Attic Conversion',
     description: 'Calculate ROI for your attic finishing project',
-    url: 'return-on-investment-for-attic-remodeling-seattle',
+    url: 'attic',
     icon: '🏠',
     color: 'from-purple-500 to-pink-500',
     typicalROI: '55-80%',
@@ -67,7 +67,7 @@ const calculators = [
     id: 'basement',
     name: 'Basement Finishing',
     description: 'Calculate ROI for your basement finishing project',
-    url: 'return-on-investment-for-basement-remodeling-seattle',
+    url: 'basement',
     icon: '🏗️',
     color: 'from-gray-600 to-gray-800',
     typicalROI: '55-80%',
@@ -77,7 +77,7 @@ const calculators = [
     id: 'roofing',
     name: 'Roofing Replacement',
     description: 'Calculate ROI for your roofing project',
-    url: 'return-on-investment-for-roofing-seattle',
+    url: 'roofing',
     icon: '🏠',
     color: 'from-slate-600 to-slate-800',
     typicalROI: '60-85%',
@@ -87,7 +87,7 @@ const calculators = [
     id: 'deck',
     name: 'Deck Construction',
     description: 'Calculate ROI for your deck building project',
-    url: 'return-on-investment-for-deck-seattle',
+    url: 'deck',
     icon: '🌳',
     color: 'from-green-600 to-green-800',
     typicalROI: '65-90%',
@@ -97,7 +97,7 @@ const calculators = [
     id: 'siding',
     name: 'Siding Replacement',
     description: 'Calculate ROI for your siding project',
-    url: 'return-on-investment-for-siding-seattle',
+    url: 'siding',
     icon: '🏘️',
     color: 'from-indigo-500 to-blue-600',
     typicalROI: '70-90%',
@@ -107,7 +107,7 @@ const calculators = [
     id: 'flooring',
     name: 'Flooring Installation',
     description: 'Calculate ROI for your flooring project',
-    url: 'return-on-investment-for-flooring-seattle',
+    url: 'flooring',
     icon: '🪵',
     color: 'from-amber-600 to-orange-600',
     typicalROI: '60-85%',
@@ -117,7 +117,7 @@ const calculators = [
 
 const page = () => {
   return (
-    <div className="min-h-screen container first-component sm:w-2/3 inside-mb">
+    <div className="min-h-screen container first-component sm:w-2/3 inside-mb c">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-teal-600 text-white py-16 rounded-3xl">
         <div className="container mx-auto px-4">
@@ -280,7 +280,7 @@ const page = () => {
                 "position": index + 1,
                 "name": calc.name,
                 "description": calc.description,
-                "url": `https://www.renova.contractors/roi/${calc.url}`
+                "url": `https://www.renova.contractors/return-on-investment-remodel/${calc.url}`
               }))
             },
             "breadcrumb": {

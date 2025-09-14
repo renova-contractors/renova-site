@@ -123,7 +123,7 @@ export const Footer: React.FC<Props> = ({ location }) => {
 			<Link
 				title="sitemap"
 				className="w-full mx-auto flex justify-center mb-5"
-				href="/sitemap.xml"
+				href="/sitemap"
 			>
 				Sitemap
 			</Link>

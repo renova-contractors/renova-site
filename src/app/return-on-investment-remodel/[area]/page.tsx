@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: `https://www.renova.contractors/roi/${area}`,
+      url: `https://www.renova.contractors/return-on-investment-remodel/${area}`,
       title,
       description,
       siteName: 'RENOVA Contractors LLC',
@@ -91,7 +91,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: ['https://www.renova.contractors/logo.png'],
     },
     alternates: {
-      canonical: `https://www.renova.contractors/roi/${area}`,
+      canonical: `https://www.renova.contractors/return-on-investment-remodel/${area}`,
     },
   }
 }
@@ -118,7 +118,7 @@ const page = async ({ params }: Props) => {
     h1: `${area.charAt(0).toUpperCase() + area.slice(1)} Remodel ROI Calculator 2025`,
     paragraph: `Calculate the ROI of your ${area} remodel project`,
     markdown: `Calculate the return on investment for your ${area} remodel in Seattle. Get accurate cost estimates and value projections for your remodel project.`,
-    url: `return-on-investment-for-${area}-remodeling-seattle`,
+    url: `${area}`,
     category: area
   }
   
@@ -131,10 +131,10 @@ const page = async ({ params }: Props) => {
     "@graph": [
       {
         "@type": "WebApplication",
-        "@id": `https://www.renova.contractors/roi/${area}`,
+        "@id": `https://www.renova.contractors/return-on-investment-remodel/${area}`,
         "name": `${categoryName} Remodel ROI Calculator 2025`,
         "description": `Calculate the return on investment for your ${categoryName.toLowerCase()} remodel in Seattle with our free ROI calculator.`,
-        "url": `https://www.renova.contractors/roi/${area}`,
+        "url": `https://www.renova.contractors/return-on-investment-remodel/${area}`,
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web Browser",
         "offers": {
@@ -170,8 +170,8 @@ const page = async ({ params }: Props) => {
       },
       {
         "@type": "WebPage",
-        "@id": `https://www.renova.contractors/roi/${area}`,
-        "url": `https://www.renova.contractors/roi/${area}`,
+        "@id": `https://www.renova.contractors/return-on-investment-remodel/${area}`,
+        "url": `https://www.renova.contractors/return-on-investment-remodel/${area}`,
         "name": `${categoryName} Remodel ROI Calculator 2025`,
         "description": `Calculate the return on investment for your ${categoryName.toLowerCase()} remodel in Seattle. Free ROI calculator with real market data.`,
         "isPartOf": {
@@ -199,7 +199,7 @@ const page = async ({ params }: Props) => {
               "@type": "ListItem",
               "position": 3,
               "name": `${categoryName} ROI Calculator`,
-              "item": `https://www.renova.contractors/roi/${area}`
+              "item": `https://www.renova.contractors/return-on-investment-remodel/${area}`
             }
           ]
         }
