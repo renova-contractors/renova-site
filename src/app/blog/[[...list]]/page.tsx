@@ -1,7 +1,6 @@
 import { BlogCards } from "../components/BlogCards";
 import { BlogFilter } from "../components/BlogFilter";
 import { getBlogData } from "@/lib/getBlogData/getBlogData";
-/* import { ServiceAreas } from "@/components/BottomButtons/BottomButtons"; */
 import { LocationsList } from "@/components/LocationsList/LocationsList";
 import ReactMarkdown from "react-markdown";
 import { Metadata } from "next";
