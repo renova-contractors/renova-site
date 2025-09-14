@@ -32,7 +32,7 @@ export async function generateMetadata(
 	// Generate keywords from title and description
 	const titleWords = (post.metaTitle || post.title || '').toLowerCase().split(' ').filter(word => word.length > 3);
 	const descriptionWords = (post.metaDescription || post.description || '').toLowerCase().split(' ').filter(word => word.length > 3);
-	const combinedKeywords = [...new Set([...titleWords, ...descriptionWords, 'home remodeling', 'seattle', 'renovation', 'contractors', 'renova'])];
+	const combinedKeywords = Array.from(new Set([...titleWords, ...descriptionWords, 'home remodeling', 'seattle', 'renovation', 'contractors', 'renova']));
 
 	return {
 		title: {
