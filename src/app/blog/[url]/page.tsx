@@ -1,5 +1,6 @@
 import ReactMarkdown from "react-markdown";
 import type { Metadata, ResolvingMetadata } from "next";
+import Markdown from "react-markdown";
 
 type Props = {
 	params: { url: string };
@@ -151,10 +152,7 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 				}}
 			/>
 			<main className="first-component container">
-				<section
-					className="component-mb bg-white"
-					dangerouslySetInnerHTML={{ __html: blog.markdown }}
-				/>
+				<Markdown className="markdown">{blog.markdown}</Markdown>
 				<div className="flex inside-mb text-main-yellow ">
 					<h3>{americanFormat}</h3>
 				</div>

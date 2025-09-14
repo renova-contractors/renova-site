@@ -264,7 +264,7 @@ select {
 
 .markdown h1,
 .markdown h2 {
-  @apply font-semibold text-[1.4rem] text-white leading-[15px] md:leading-[20px] pb-10;
+  @apply font-semibold text-[1.4rem] text-white leading-[1.3] md:leading-[1.35] pb-10;
 }
 
 .markdown h3,
@@ -293,6 +293,10 @@ select {
 
 .markdown li {
   @apply mb-2;
+}
+
+.markdown img {
+  @apply rounded-3xl my-[25px];
 }
 
 /* Table Styles */
