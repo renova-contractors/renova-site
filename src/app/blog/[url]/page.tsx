@@ -155,12 +155,22 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 	};
 
 	const blog = await getBlog();
-	const dateObj = new Date(blog.createdAt);
+	
+	// Debug: Log the createdAt value to see what we're getting
+	console.log('Blog createdAt from database:', blog.createdAt);
+	console.log('Blog object keys:', Object.keys(blog));
+	
+	// Use createdAt from the database, with proper fallback
+	const createdAtDate = blog.createdAt ? new Date(blog.createdAt) : new Date();
 	const options = { year: "numeric", month: "long", day: "numeric" };
-	const americanFormat = dateObj.toLocaleDateString("en-US", options as any);
+	const americanFormat = createdAtDate.toLocaleDateString("en-US", options as any);
+	
+	// Debug: Log the formatted date
+	console.log('Formatted date:', americanFormat);
+	console.log('CreatedAt Date object:', createdAtDate);
 
 	// Enhanced JSON-LD Schema for Blog Posts (2025 SEO Standards)
-	const publishedDate = blog.createdAt ? new Date(blog.createdAt).toISOString() : new Date().toISOString();
+	const publishedDate = createdAtDate.toISOString();
 	const modifiedDate = blog.updatedAt ? new Date(blog.updatedAt).toISOString() : publishedDate;
 	const wordCount = blog.markdown ? blog.markdown.split(' ').length : 0;
 	const readingTime = Math.ceil(wordCount / 200); // Average reading speed: 200 words per minute
@@ -307,9 +317,9 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 			
 			
 
-			<main className="container max-w-2/3 mx-auto px-4 py-12">
+			<main className="container  mx-auto px-4 py-12 sm:w-2/3">
 				{/* Article Header */}
-				<header className="mb-16 mt-[180px] max-sm:mt-[130px] text-main-gray">
+				<header className="mb-16 mt-[200px] max-sm:mt-[150px] text-main-gray">
 					
 					
 					{/* Article Meta */}
