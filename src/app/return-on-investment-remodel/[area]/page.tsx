@@ -4,7 +4,7 @@ import Markdown from 'react-markdown'
 import type { Metadata } from 'next'
 import { FormMain } from '@/components/FormMain/FormMain'
 import { CatalogBanner } from '@/app/catalog/[[...slug]]/components/CatalogBanner'
-import useIsMobile from '@/lib/hooks/useIsMobile'
+import { isMobileDevice } from '@/lib/hooks/useIsMobile'
 
 type Props = {
   params: { area: string }
@@ -207,6 +207,8 @@ const page = async ({ params }: Props) => {
     ]
   }
 
+  const isMobile = isMobileDevice()
+
   return (
     <>
       {/* Enhanced SEO Schema */}
@@ -231,7 +233,7 @@ const page = async ({ params }: Props) => {
             </Markdown>
           
         <FormMain>
-				<CatalogBanner  />
+				<CatalogBanner isMobile={isMobile} />
 		</FormMain>
       </main>
     </>
