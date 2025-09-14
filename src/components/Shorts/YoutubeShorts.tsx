@@ -56,35 +56,38 @@ const YouTubeShortSlider = ({ city, category }: Props) => {
   return (
     <section
       aria-label="YouTube Shorts"
-      className="w-full overflow-x-auto py-6 container component-mb"
+      className="w-full py-6 container component-mb"
       id="videos"
     >
-      {/* 🔑 SEO-заголовок */}
+      {/* 🔑 SEO-заголовок - Static */}
       <h2 className="custom-heading mb-4">
         {city.charAt(0).toUpperCase() + city.slice(1)} {category} Remodeling Videos
       </h2>
 
-      {/* 🔑 Короткое описание */}
+      {/* 🔑 Короткое описание - Static */}
       <p className="text-main-gray mb-6">
         Watch our recent {city} remodel projects on YouTube Shorts – real jobs, quick overviews, and design ideas from RENOVA Contractors.
       </p>
 
-      <div className="flex justify-between max-sm:gap-2">
-        {videos.map(({ id }) => (
-          <div
-            key={id}
-            className="min-w-[180px] sm:min-w-[220px] aspect-[9/16] rounded-xl shadow-md overflow-hidden flex-shrink-0 bg-black"
-          >
-            <iframe
-              src={`https://www.youtube.com/embed/${id}?modestbranding=1&rel=0`}
-              title={`${city} ${category} remodel video ${id}`}
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="w-full h-full border-0"
-            />
-          </div>
-        ))}
+      {/* 🔑 Videos - Horizontally Scrollable */}
+      <div className="w-full overflow-x-auto">
+        <div className="flex gap-4 pb-4" style={{ width: 'max-content' }}>
+          {videos.map(({ id }) => (
+            <div
+              key={id}
+              className="min-w-[180px] sm:min-w-[220px] aspect-[9/16] rounded-xl shadow-md overflow-hidden flex-shrink-0 bg-black"
+            >
+              <iframe
+                src={`https://www.youtube.com/embed/${id}?modestbranding=1&rel=0`}
+                title={`${city} ${category} remodel video ${id}`}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full border-0"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
