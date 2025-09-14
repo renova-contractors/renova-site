@@ -107,7 +107,7 @@ export async function generateStaticParams(): Promise<{ url: string }[]> {
 	}
 
 	const url = await fetch(
-		`${backendUrl}/blog/url/`,
+		`${backendUrl}/blog/`,
 	).then(async (res) => {
 		if (!res.ok) {
 			console.error(`API request failed: ${res.status} ${res.statusText}`);

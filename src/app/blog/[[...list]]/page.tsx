@@ -31,10 +31,6 @@ const page: React.FC<Props> = async ({ params }: Props) => {
 			<BlogFilter />
 			<BlogCards cards={blogData} />
 
-			<ReactMarkdown className="markdown">
-				{...blogData[0].markdown}
-			</ReactMarkdown>
-
 			{/* <ServiceAreas /> */}
 			<LocationsList />
 		</main>

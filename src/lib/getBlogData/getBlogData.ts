@@ -11,12 +11,17 @@ export const getBlogData = async (search = ""): Promise<any> => {
 	if (search === "") {
 		res = await fetch(`${backendUrl}/blog/`);
 	} else {
-		res = await fetch(
-			`${backendUrl}/blog/${search}`,
-		);
+		// Handle category filtering
+		if (search.startsWith('category/')) {
+			const category = search.replace('category/', '');
+			res = await fetch(`${backendUrl}/blog?category=${category}`);
+		} else {
+			res = await fetch(`${backendUrl}/blog/${search}`);
+		}
 	}
 
 	if (!res.ok) {
+		console.error(`API request failed: ${res.status} ${res.statusText}`);
 		throw new Error("Failed to fetch data");
 	}
 
