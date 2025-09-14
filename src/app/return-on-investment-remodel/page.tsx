@@ -117,7 +117,7 @@ const calculators = [
 
 const page = () => {
   return (
-    <div className="min-h-screen container first-component sm:w-2/3 ">
+    <div className="min-h-screen container first-component sm:w-2/3 inside-mb">
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-teal-600 text-white py-16 rounded-3xl">
         <div className="container mx-auto px-4">
