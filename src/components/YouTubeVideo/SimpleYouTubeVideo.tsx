@@ -18,7 +18,7 @@ const SimpleYouTubeVideo = ({ videoUrl }: Props) => {
   const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
 
   return (
-    <div className="youtube-video-container container mx-auto component-mb">
+    <div className="youtube-video-container container mx-auto sm:w-2/3 component-mb">
       <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
         <iframe
           src={embedUrl}
