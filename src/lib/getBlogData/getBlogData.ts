@@ -8,22 +8,17 @@ export const getBlogData = async (search = ""): Promise<any> => {
 		throw new Error("Backend URL is not configured");
 	}
 
-	if (search === "") {
-		res = await fetch(`${backendUrl}/blog/`);
-	} else {
-		// Handle category filtering
-		if (search.startsWith('category/')) {
-			const category = search.replace('category/', '');
-			res = await fetch(`${backendUrl}/blog?category=${category}`);
-		} else {
-			res = await fetch(`${backendUrl}/blog/${search}`);
-		}
-	}
+	const url = search === "" ? `${backendUrl}/blog/` : `${backendUrl}/blog/${search}`;
+	console.log('Fetching blog data from:', url);
+
+	res = await fetch(url);
 
 	if (!res.ok) {
 		console.error(`API request failed: ${res.status} ${res.statusText}`);
 		throw new Error("Failed to fetch data");
 	}
 
-	return res.json();
+	const data = await res.json();
+	console.log('Blog data received:', data);
+	return data;
 };
