@@ -142,16 +142,7 @@ const page = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                Choose Your Remodeling Project
-              </h2>
-              <p className="text-lg text-main-gray max-w-3xl mx-auto">
-                Select from our comprehensive collection of ROI calculators designed specifically 
-                for Seattle homeowners. Each calculator provides detailed analysis based on 
-                current market data and local trends.
-              </p>
-            </div>
+            
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {calculators.map((calculator) => (
