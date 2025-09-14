@@ -11,7 +11,7 @@ import { LocationsList } from "@/components/LocationsList/LocationsList";
 import ServicesAbout from "@/components/About/ServicesAbout";
 import { CatalogBanner } from "@/app/catalog/[[...slug]]/components/CatalogBanner";
 
-import useIsMobile from "@/lib/hooks/useIsMobile";
+import { isMobileDevice } from "@/lib/hooks/useIsMobile";
 import { OurServices } from "@/components/OurServices/OurServices";
 import { FormMain } from "@/components/FormMain/FormMain";
 import { CostTables } from "@/components/CostTables/CostTables";
@@ -133,7 +133,7 @@ export default async function Page({
 
 	const props = { ...data[0] };
 
-	const isMobile = useIsMobile();
+	const isMobile = isMobileDevice();
 
 	// JSON-LD Schema for Location Pages
 	const locationSchema = {

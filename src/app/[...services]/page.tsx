@@ -8,7 +8,7 @@ import type { Metadata, ResolvingMetadata } from 'next';
 import { Manufacturers } from '@/components/MainManufacturers/Manufacturers';
 import { HowWeWork } from '@/components/HowWeWork/HowWeWork';
 import { LocationsList } from '@/components/LocationsList/LocationsList';
-import useIsMobile from '@/lib/hooks/useIsMobile';
+import { isMobileDevice } from '@/lib/hooks/useIsMobile';
 import { OurServices } from '@/components/OurServices/OurServices';
 import { ThumbsSwiper } from '@/components/ThumbsSwiper/ThumbsSwiper';
 import { CostTables } from '@/components/CostTables/CostTables';
@@ -168,7 +168,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
   const id = params.services.join('/');
   const servicesData = await getServicesData({ services: id });
   const servicesPageData = servicesData[0];
-  const isMobile = useIsMobile();
+  const isMobile = isMobileDevice();
 
 
   // JSON-LD Schema

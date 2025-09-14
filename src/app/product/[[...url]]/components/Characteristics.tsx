@@ -37,9 +37,9 @@ export const Characteristics: React.FC<CharacteristicsProps> = ({
 						<h2 className="text-2xl font-semibold mb-2">
 							Specifications
 						</h2>
-						{product?.specifications?.map((table) => {
+						{product?.specifications?.map((table, index) => {
 							return (
-								<div>
+								<div key={index}>
 									<p className="tb-heading">
 										{table?.heading}
 									</p>

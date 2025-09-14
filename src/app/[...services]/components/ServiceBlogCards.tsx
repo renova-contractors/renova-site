@@ -1,7 +1,7 @@
 import { getBlogData } from "@/lib/getBlogData/getBlogData";
 import { BlogCard } from "@/app/blog/components/BlogCard";
 import { CatalogBanner } from "@/app/catalog/[[...slug]]/components/CatalogBanner";
-import useIsMobile from "@/lib/hooks/useIsMobile";
+import { isMobileDevice } from "@/lib/hooks/useIsMobile";
 import { FormMain } from "@/components/FormMain/FormMain";
 
 interface Props {
@@ -17,7 +17,7 @@ export const ServicesBlogCards: React.FC<Props> = async ({ category = "" }) => {
 		blogData = await getBlogData("");
 	}
 
-	const isMobile = useIsMobile();
+	const isMobile = isMobileDevice();
 
 	return (
 		<section className="container relative component-mb z-20">

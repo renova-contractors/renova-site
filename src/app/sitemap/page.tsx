@@ -152,7 +152,7 @@ const page = () => {
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Navigate through all our services, locations, and resources. 
-              Find exactly what you're looking for with our organized site structure.
+              Find exactly what you&apos;re looking for with our organized site structure.
             </p>
             
           </div>
@@ -219,7 +219,7 @@ const page = () => {
 
           {/* Search Box */}
           <section className="bg-white rounded-xl shadow-lg p-8 text-center">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Can't Find What You're Looking For?</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Can&apos;t Find What You&apos;re Looking For?</h2>
             <p className="text-gray-600 mb-6">
               Use our search functionality or contact us directly for personalized assistance.
             </p>
