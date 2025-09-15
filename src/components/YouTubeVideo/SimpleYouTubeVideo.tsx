@@ -15,7 +15,7 @@ const SimpleYouTubeVideo = ({ videoUrl }: Props) => {
 
   const videoId = getVideoId(videoUrl);
   const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
-  const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+  const embedUrl = `https://www.youtube.com/embed/${videoId}?rel=0`;
 
   return (
     <div className="youtube-video-container container mx-auto sm:w-2/3 component-mb">
