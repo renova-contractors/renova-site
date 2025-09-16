@@ -95,6 +95,7 @@ const sitemapData = {
     { title: 'Blog Home', href: '/blog', description: 'All blog posts' },
     { title: 'Bathroom Category', href: '/blog/category/bathroom', description: 'Bathroom remodeling articles' },
     { title: 'Small Bathroom Cost', href: '/blog/bathroom-remodel-cost-seattle-small-bathroom', description: 'Small bathroom remodel costs in Seattle' },
+    { title: 'Basement Remodel Cost', href: '/blog/basement-remodel-cost-seattle', description: 'Basement remodel costs in Seattle with permits and waterproofing' },
   ],
   legal: [
     { title: 'Privacy Policy', href: '/privacy-policy', description: 'Privacy policy and data protection' },
