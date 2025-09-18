@@ -99,7 +99,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const page = async ({ params }: Props) => {
   const area = params.area || 'kitchen'
   
-  // Fetch data from API
   let pageData = null
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/roi/${area}?t=${Date.now()}`, {
