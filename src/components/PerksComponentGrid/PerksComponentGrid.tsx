@@ -53,8 +53,8 @@ const PerksComponentGrid = () => {
 							📲 Daily Check-ins, No Guessing
 						</h4>
 						<p className="mt-3 max-sm:mt-1">
-							You'll get real updates on what was done, what's
-							next, and who's coming — we don't leave you
+							You&apos;ll get real updates on what was done, what&apos;s
+							next, and who&apos;s coming — we don&apos;t leave you
 							guessing.
 						</p>
 					</div>
