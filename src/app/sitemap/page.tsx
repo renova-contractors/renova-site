@@ -96,6 +96,7 @@ const sitemapData = {
     { title: 'Bathroom Category', href: '/blog/category/bathroom', description: 'Bathroom remodeling articles' },
     { title: 'Small Bathroom Cost', href: '/blog/bathroom-remodel-cost-seattle-small-bathroom', description: 'Small bathroom remodel costs in Seattle' },
     { title: 'Basement Remodel Cost', href: '/blog/basement-remodel-cost-seattle', description: 'Basement remodel costs in Seattle with permits and waterproofing' },
+    { title: 'Basement Permit Requirements', href: '/blog/do-i-need-a-permit-basement-remodel-seattle', description: 'Learn when Seattle requires permits for basement finishing vs. remodeling' },
   ],
   legal: [
     { title: 'Privacy Policy', href: '/privacy-policy', description: 'Privacy policy and data protection' },

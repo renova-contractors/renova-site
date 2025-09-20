@@ -1,332 +1,97 @@
-[
- {
-  "location": "bellevue",
-  "category": "countertops",
-  "service": "countertop-installation-bellevue",
-  "title": "Countertop Installation in Bellevue: Granite, Marble, Quartz",
-  "description": "Local Bellevue countertop installers – quartz, granite, porcelain, butcher block, seamless edge. Real pricing, templating, install & removal by one crew.",
-  "hero": {
-    "h1": "Bellevue countertop installers - Renova Contractors",
-    "heroH2": "High-Quality Countertops for Bellevue Kitchens",
-    "heroP": "RENOVA Contractors LLC helps Bellevue homeowners searching for **countertop installers near me** and full-service **custom countertops**. We cut, deliver, and install **kitchen countertops** in Bellevue with a perfect fit — from **quartz countertops near me** to granite and marble. If you’re comparing **kitchen countertops near me** options or need expert advice, we guide you on what works best for your space. Our crew handles removal, prep, and installation, making us one of the most trusted **granite installers near me** for Bellevue kitchens. Whether you’re updating a kitchen island, adding waterfall edges, or refreshing a bathroom vanity, we provide contractor pricing, quick lead times, and seamless results — serving Bellevue, Medina, Clyde Hill, and nearby neighborhoods",
-    "heroImageAlt": "Sleek Bellevue kitchen with a new granite countertop",
-    "heroPhrase": "Countertops that transform your Bellevue kitchen"
-  },
-  "ourServices": {
-    "h2": "",
-    "paragraph": "",
-    "array": [
-      {
-        "heading": "Basement Finishing",
-        "paragraph": "Transform your basement into functional living space with our finishing services.",
-        "url": "/basement-finishing",
-        "image": "service_image_basement_finishing",
-        "price": "Price starts at $10000"
-      },
-      {
-        "heading": "Basement Flooring",
-        "paragraph": "Choose from a variety of flooring options to enhance your basement's comfort and style.",
-        "url": "/service/basement-flooring",
-        "image": "service_image_basement_flooring",
-        "price": "Price starts at $5000"
-      },
-      {
-        "heading": "Basement Remodel",
-        "paragraph": "Revamp your basement for improved functionality and aesthetics with our remodeling services.",
-        "url": "/service/basement-remodel",
-        "image": "service_image_basement_remodel",
-        "price": "Price starts at $12000"
-      },
-      {
-        "heading": "Basement Entertainment Center",
-        "paragraph": "Create the ultimate entertainment space in your basement with our customized solutions.",
-        "url": "/service/basement-entertainment-center",
-        "image": "service_image_basement_entertainment",
-        "price": "Price starts at $8000"
-      },
-      {
-        "heading": "Basement Bathroom",
-        "paragraph": "Add convenience and value to your basement with a professionally installed bathroom.",
-        "url": "/service/basement-bathroom",
-        "image": "service_image_basement_bathroom",
-        "price": "Price starts at $6000"
-      },
-      {
-        "heading": "Basement Waterproofing",
-        "paragraph": "Protect your basement from moisture and water damage with our waterproofing solutions.",
-        "url": "/service/basement-waterproofing",
-        "image": "service_image_basement_waterproofing",
-        "price": "Price starts at $5500"
-      },
-      {
-        "heading": "Basement Insulation",
-        "paragraph": "Ensure year-round comfort and energy efficiency in your basement with proper insulation.",
-        "url": "/service/basement-insulation",
-        "image": "service_image_basement_insulation",
-        "price": "Price starts at $4500"
-      },
-      {
-        "heading": "Basement Bar",
-        "paragraph": "Create a stylish and functional bar space in your basement for entertaining guests.",
-        "url": "/service/basement-bar",
-        "image": "service_image_basement_bar",
-        "price": "Price starts at $7000"
-      },
-      {
-        "heading": "Basement Windows",
-        "paragraph": "Brighten up your basement and improve ventilation with new windows.",
-        "url": "/service/basement-windows",
-        "image": "service_image_basement_windows",
-        "price": "Price starts at $3500"
-      }
-    ],
-    "ourServicesMarkdown": "RENOVA delivers full-service countertop installation for any kitchen size, style, or budget in Bellevue. We manage turnkey installs for quartz, granite, porcelain, and butcher block with all features included — from removal to backsplash tile.\n\n### Services Include:\n\nCountertop removal & disposal — safe tear-out, proper disposal, and site protection  \nTemplating & layout advice — laser or digital template, edge profiles (waterfall, chamfer, ogee), integrated or undermount sink planning  \nFabrication & delivery — slabs cut in our local shop (MSI, Pental, Cambria, local stone mills)  \nInstallation — seam matching, joint reinforcement, epoxy bonding, backsplash tile (subway or backsplash tile installed as part of scope)  \nCountertop repair & refinish — chip repair, seal inspection, stone polishing  \nCommercial support — businesses, bars, pantries, or resale-ready install with ADA or performance-grade finishes  \nWarranty & maintenance services — instructions, touch-up access, and protective sealants when needed\n\nWe handle the entire project with Bellevue trades—no outsourcing installations to strangers. If you’re comparing “kitchen countertop installers Bellevue” or searching “countertop cost Bellevue” our scope clearly lays out options like quartz vs granite vs porcelain or installation upgrades like waterfall edge or walk-in pantry counters.\n\nRENOVA installs designer edge profiles (eased, cove, radius) and coordinates backsplash tile with mortar bed as needed for seamless function. Looking for “countertop backsplash installation Bellevue” or “waterfall edge countertop Bellevue”? We do that clean, with matching seams and integrated sink planning."
-  },
-  "manufacturers": {
-    "h2": "Materials & Brands – What We Install in Bellevue Kitchens 🪨",
-    "p": "",
-    "markdownmanufacturers": "We install countertops that hold up — not showroom samples, not prefab pieces. Everything is sourced locally, built for real kitchens, and installed to last.\n\n### Materials We Work With:\n- **Quartz** – We install Pental, Cambria, MSI, and Caesarstone slabs — great for clean seams, durability, and modern styles.  \n- **Granite** – Every piece is unique. We hand-select slabs for strength and pattern that makes sense in your kitchen.  \n- **Porcelain** – For homeowners who want the marble look without the maintenance — strong, clean, and heat-resistant.  \n- **Butcher block** – We work with real maple and walnut tops — sealed, leveled, and cut for sinks and cooktops.  \n- **Integrated sinks** – If you want a one-piece seamless sink and counter, we handle the layout, cut, and bonding.\n\nEvery material we install is cut clean, sealed right, and backed by a solid warranty. We’ll walk you through what holds up, what needs care, and what makes sense for your layout and budget. No guessing. No pressure. Just good work, from start to finish. ✅"
-  },
-  "howWeWork": {
-    "array": [
-      {
-        "id": "1",
-        "title": "Initial Consultation",
-        "description": {
-          "p1": "Understanding your vision.",
-          "p2": "Discussing your requirements.",
-          "p3": "Providing a project overview."
-        },
-        "imagePath": "initial_consultation_image"
-      },
-      {
-        "id": "2",
-        "title": "Design and Planning",
-        "description": {
-          "p1": "Creating a detailed plan.",
-          "p2": "Designing the layout.",
-          "p3": "Ensuring feasibility and compliance."
-        },
-        "imagePath": "design_planning_image"
-      },
-      {
-        "id": "3",
-        "title": "Cost Estimation and Budgeting",
-        "description": {
-          "p1": "Providing detailed cost estimates.",
-          "p2": "Budgeting for the project.",
-          "p3": "Ensuring transparency in pricing."
-        },
-        "imagePath": "cost_estimation_image"
-      },
-      {
-        "id": "4",
-        "title": "Permits and Approvals",
-        "description": {
-          "p1": "Securing necessary permits.",
-          "p2": "Obtaining required approvals.",
-          "p3": "Ensuring legal compliance."
-        },
-        "imagePath": "permits_approvals_image"
-      },
-      {
-        "id": "5",
-        "title": "Site Preparation",
-        "description": {
-          "p1": "Clearing and cleaning the site.",
-          "p2": "Marking the layout.",
-          "p3": "Preparing for construction."
-        },
-        "imagePath": "site_preparation_image"
-      },
-      {
-        "id": "6",
-        "title": "Framing and Insulation",
-        "description": {
-          "p1": "Installing framing.",
-          "p2": "Adding insulation.",
-          "p3": "Ensuring structural integrity and comfort."
-        },
-        "imagePath": "framing_insulation_image"
-      },
-      {
-        "id": "7",
-        "title": "Electrical and Plumbing Work",
-        "description": {
-          "p1": "Installing electrical systems.",
-          "p2": "Setting up plumbing.",
-          "p3": "Ensuring functionality and safety."
-        },
-        "imagePath": "electrical_plumbing_image"
-      },
-      {
-        "id": "8",
-        "title": "Drywall and Finishing",
-        "description": {
-          "p1": "Installing drywall.",
-          "p2": "Applying finishes.",
-          "p3": "Creating a polished look."
-        },
-        "imagePath": "drywall_finishing_image"
-      },
-      {
-        "id": "9",
-        "title": "Flooring Installation",
-        "description": {
-          "p1": "Laying down the flooring.",
-          "p2": "Choosing the best materials.",
-          "p3": "Ensuring durability and style."
-        },
-        "imagePath": "flooring_installation_image"
-      },
-      {
-        "id": "10",
-        "title": "Final Touches and Cleanup",
-        "description": {
-          "p1": "Adding final details.",
-          "p2": "Cleaning up the site.",
-          "p3": "Preparing for handover."
-        },
-        "imagePath": "final_touches_cleanup_image"
-      },
-      {
-        "id": "11",
-        "title": "Final Inspection and Handover",
-        "description": {
-          "p1": "Conducting a thorough inspection.",
-          "p2": "Ensuring quality standards are met.",
-          "p3": "Handing over the finished project."
-        },
-        "imagePath": "final_inspection_handover_image"
-      }
-    ],
-    "howWeWorkMarkdown": "When we install countertops, we don’t guess. Everything’s measured on-site, cut to fit, and installed by the same crew that quoted the job. You’ll know who’s coming, when they’re coming, and what’s happening each step of the way.\n\n### Here’s How It Works:\n\n**Site visit & measurement** – We come to your home, check your cabinets, take real measurements, and talk through your layout and options.  \n**Quote with real numbers** – We’ll show you price differences between quartz, granite, butcher block, or porcelain. No fluff — you’ll know exactly what’s included.  \n**Template & scheduling** – Once your cabinets are in, we come back to template for the countertop. We work around your timeline, not the other way around.  \n**Tear-out & prep** – If you have old countertops, we’ll remove them, check the structure, and prep the space before install.  \n**Fabrication** – Your slab is cut, edged, and polished — either in our shop or at one of our local partners.  \n**Installation** – We bring it in, seam it tight, level it right, and seal it clean. Sinks, backsplashes, everything.  \n**Final walk-through** – You check every corner and seam with us. If something’s off, we fix it before we leave.\n\nWe don’t leave behind scraps, silicone blobs, or excuses. Just clean countertops, done right the first time."
-  },
-  "faqItems": [
-    {
-      "question": "How much does countertop installation cost in Bellevue?",
-      "answer": "Homeowners in Bellevue report quartz countertops between $80–$116 per sq ft, with total kitchen installs averaging $11,000–$14,000 depending on layout and edge details. RENOVA provides a fixed quote after measuring your space. As a local supplier, RENOVA blends slab and labor into one transparent number—no surprises at install."
-    },
-    {
-      "question": "Quartz vs. granite: which lasts longer and needs less maintenance?",
-      "answer": "Many Seattle homeowners lean toward quartz because it resists stains and doesn’t need sealing—granite requires sealing every 1–3 years, especially with lighter colors. RENOVA walks homeowners through care requirements and long-term value so you choose what fits your lifestyle."
-    },
-    {
-      "question": "Are waterfall-edge countertops still popular?",
-      "answer": "The waterfall edge looked edgy a few years back—but many users now regret it, citing cost, slab waste, and the style feeling dated. RENOVA shows both pros and cons of edge styles so you can decide if that trend fits your square footage and resale goals."
-    },
-    {
-      "question": "Should I avoid Home Depot or Ikea countertop installers in Bellevue?",
-      "answer": "Redditors often regret going with national chains due to higher pricing and third-party crews with little accountability. RENOVA provides cabinet, countertop, and plumbing coordination in-house—no handoffs, no surcharge, accountable service from demo to final walkthrough."
-    },
-    {
-      "question": "Can you repair or re-polish existing countertops instead of replacing them?",
-      "answer": "Some local Reddit threads report minor countertop damage that was easily repaired instead of replaced—like chips or dulling over time. RENOVA inspects your countertop first. If repair makes sense—like a crack or dull finish—you get that option alongside full replacement."
-    },
-    {
-      "question": "What about countertop heat resistance in Bellevue kitchens?",
-      "answer": "Quartz resists stains and scratches but isn’t fully heatproof. Granite can crack if hot pots are placed directly on seams. RENOVA shares best-use tips and installs heat-resistant slabs—ensuring seams and adhesives won’t fail under real-world kitchen use."
-    },
-    {
-      "question": "What’s the advantage of using local Bellevue fabricators like RENOVA?",
-      "answer": "Many homeowners say local shops are more responsive and accurate than national chains. RENOVA templates your space after cabinets are installed, orders slabs from local suppliers (Metro Quartz, Dunn), installs with in-house crews, removes old tops, and seals seams properly. You get one point of contact and a warranty-backed job."
-    }
-  ],
+{
   "images": {
     "hero": [
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/IMG_2710_sorsip.jpg",
-        "alt": "Two workers are installing patterned flooring tiles in a room with large windows. Tools and tiles are scattered around, and a red open binder lies on the floor nearby."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/IMG_2569_pqsgha.jpg",
-        "alt": "A person with a tattooed arm spreads mortar on a red floor, preparing to lay rectangular gray tiles. Several tiles are already in place, aligned with spacers near a white door."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389864/seattle/flooing/IMG_2729_ykpcyo.jpg",
-        "alt": "A spacious room with light wood flooring, white cabinets, and dressers along the back wall, two windows with shutters, and doors on either side; a covered ceiling beam shows ongoing renovations."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/IMG_3826_qjkngc.jpg",
-        "alt": "A modern kitchen with teal cabinets, white countertops, a farmhouse sink, black faucet, stainless steel dishwasher, green tile backsplash, and patterned wood-look tile flooring."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/IMG_3105_zefrmc.jpg",
-        "alt": "A room with newly installed herringbone pattern flooring. Various tools, buckets, and equipment are organized in one area, with an unfinished fireplace and windows in the background."
-      },
-      {
-        "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757389862/seattle/flooing/camphoto_1038830638_t7t2ez.jpg",
-        "alt": "A living room with light green walls, a stone fireplace, large dark-framed glass doors, and newly installed multi-toned wood flooring. The room is empty, with painter's tape along the baseboards."
-      }
-    ],
+  {
+    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758170042/bellevue/countertops/custom-countertop-3_iri0md.jpg",
+    "alt": "Modern kitchen with teal cabinets, white countertops, stainless steel appliances, black tile backsplash, and patterned wood flooring. Recessed lighting and a central ceiling light brighten the space. RENOVA logo in the corner."
+  },
+  {
+    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758170042/bellevue/countertops/custom-countertop-1_n3ors0.jpg",
+    "alt": "Modern kitchen with gray wood cabinets, a stainless steel oven, dark wood flooring, and large windows providing natural light; a living area with seating is visible in the background."
+  },
+  {
+  "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758170043/bellevue/countertops/custom-countertop_tdxjya.jpg",
+  "alt": "Modern kitchen with dark wood flooring, white cabinets, a grey quartz waterfall island, and gold-accented barstools. Sunlight streams through a window above the counter. RENOVA logo is visible in the corner."
+},
+  {
+    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758170042/bellevue/countertops/custom-countertop-2_czjepb.jpg",
+    "alt": "Modern kitchen with white cabinets, gray countertop, stainless steel sink, and window above counter. Open shelving, potted plant, and kitchen items are on the counter. Walk-in pantry entrance at the far end."
+  },
+  {
+    "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758170043/bellevue/countertops/custom-countertop-4_l5hmgj.jpg",
+    "alt": "A small kitchen with green subway tile backsplash, dark lower cabinets, white upper cabinets, and a gray countertop. A window lets in light, and a black step stool sits in front of the counter."
+  }
+],
     "firstAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/carpet-installers-1_smit3f.jpg",
-          "alt": "A spacious, modern, carpeted basement room with neutral walls, recessed lighting, a large flat-screen TV mounted on the wall, and an open doorway leading to a bathroom with a dark vanity."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758218911/bellevue/countertops/kitchen-countertop-4_cyolrx.jpg",
+          "alt": "A modern kitchen with white cabinets, gray countertops, a sink under a wide horizontal window, potted plants, kitchen canisters, and sunlight streaming in. The design is minimal and sleek."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/carpet-installers_u0mj7f.jpg",
-          "alt": "A small, empty room with beige carpet, white walls, and recessed ceiling lights. There is a vent on the ceiling and multiple electrical outlets along the walls. The room appears clean and freshly painted."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758218912/bellevue/countertops/quartz-kitchen-countertop-1_k8gf2x.jpg",
+          "alt": "Modern kitchen with a glossy white backsplash, gray countertop, sink, potted plant, two white canisters, and an electrical outlet. Sunlight streams through a window, creating reflections on the surfaces."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/new-carpet-installed-2_r5qmqu.jpg",
-          "alt": "A clean, empty room with beige carpet, light beige walls, a large window letting in natural light, white trim, and multiple electrical outlets along the walls."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758218911/bellevue/countertops/kitchen-countertop-3_krjzjh.jpg",
+          "alt": "A kitchen under renovation with brown wood cabinets, exposed wall sections, and unfinished backsplash areas. Large windows provide natural light, and various kitchen items are visible on countertops and shelves."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/new-carpet-installed-1_tin5ck.jpg",
-          "alt": "A spacious, carpeted basement with beige walls, recessed ceiling lights, a staircase with a metal railing, and a wooden play gym in the corner. The room is empty except for the gym."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758218911/bellevue/countertops/kitchen-countertop-6_oauqhz.jpg",
+          "alt": "A small kitchen with green subway tile backsplash, dark lower cabinets, white upper cabinets, a granite countertop, a small window, and a step stool on the floor."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757457698/seattle/flooing/new-carpet-installed_pemzmt.jpg",
-          "alt": "A small, empty room with beige carpet, white walls, a window, recessed ceiling lights, and two open white doors leading to a closet and hallway. RENOVA watermark is in the bottom right corner."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758218911/bellevue/countertops/kitchen-countertop-1_vnoxsq.jpg",
+          "alt": "A kitchen under renovation showing a marble countertop with a large rectangular stainless steel sink, light wood cabinets below, and unfinished walls with exposed wiring around a double window."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1722996967/cabinets/A7E2FEFC-D3C6-4EC5-8B92-2ABAA1B89CF5_enxjqc.jpg",
-          "alt": "A modern kitchen with light wood flooring, white cabinets with black handles, a built-in oven, and a staircase with wooden steps in the background."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758218912/bellevue/countertops/kitchen-countertop_jqcpph.jpg",
+          "alt": "A kitchen under renovation with blue cabinets, a white farmhouse sink, marble countertops, and patterned wooden floor. Some cabinet drawers are missing, and construction tools are on the floor."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758218912/bellevue/countertops/kitchen-countertop-7_hehghu.jpg",
+          "alt": "A modern kitchen with dark cabinets, a gray patterned granite countertop, stainless steel sink, dishwasher, and stove. The backsplash is light-colored, and there is under-cabinet lighting with a few shelves and cleaning supplies visible."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758218911/bellevue/countertops/kitchen-countertop-2_z2hu71.jpg",
+          "alt": "A modern kitchen with dark wood cabinets, a microwave, and unfinished backsplash. There’s a large window with a view of greenery, and exposed insulation and wiring above the countertops indicate ongoing renovation work."
+        },
+        {
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758218918/bellevue/countertops/quartz-kitchen-countertop_b0ch5q.jpg",
+          "alt": "A partially finished kitchen with blue cabinets, white countertops, a stainless steel sink under three large windows, and cardboard covering part of the tile floor. Construction materials are visible."
         }
       ],
-      "title": "Queen Anne Carpet Installation 2025",
-  "heading": "Carpet Installation Projects",
-  "paragraph": "Full carpet installation completed in a Queen Anne basement remodel, including stair runners and multiple bedrooms. Work included floor prep, tack strip installation, carpet pad placement, and wall-to-wall stretch-in carpet for a clean, seamless finish. Project involved neutral stain-resistant carpet, matching transitions, and careful trimming around doors, closets, and built-ins. Perfect for homeowners searching for carpet installation near me or carpet replacement in Seattle.",
-  "timeline": "2–3 days including floor prep and install"
+         "title": "Bellevue Kitchen Countertops 2025",
+  "heading": "Kitchen Countertop Projects – Bellevue, WA",
+  "paragraph": "Portfolio of Bellevue kitchen countertop projects: laser templated quartz, granite, and marble with tight ≤1/16\" seams, color-matched epoxy, and steel brackets for >12\" overhangs. Scope includes removal, plywood build-up, sink/faucet/cooktop cutouts, waterfall islands, and stone sealing. Completed in West Bellevue, Medina, Clyde Hill, Eastgate."
+
+,
+  "timeline": "3-10 days including prep and install"
     },
     "secondAlbum": {
       "images": [
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-1_cnlotg.jpg",
-          "alt": "Empty room with green walls, wood-style flooring, a single window letting in daylight, recessed ceiling lights, and visible electrical outlets; room appears to be recently renovated or under construction."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758220889/bellevue/countertops/vanity-countertops_xoodso.jpg",
+          "alt": "Modern bathroom countertop with a rectangular sink, silver faucet, white vase, dark navy vase, and a small decor item. Vertical striped wallpaper and a lit mirror are visible in the background. RENOVA logo in the bottom right corner."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-3_pevkhb.jpg",
-          "alt": "Modern kitchen with white cabinets, stainless steel appliances, marble island with sink, black barstools, and three glass pendant lights. Hardwood floors and staircase are visible, with a dining area in the background."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758220889/bellevue/countertops/bathroom-countertop-2_xdrhuz.jpg",
+          "alt": "A modern bathroom with a double sink vanity, large mirror, and mosaic tile backsplash. There are two towel rings with blue towels, a round vanity mirror, and brushed nickel fixtures. The walls are beige and white doors are visible."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-3_pevkhb.jpg",
-          "alt": "Modern kitchen with white cabinets, stainless steel appliances, marble island with sink, black barstools, and three glass pendant lights. Hardwood floors and staircase are visible, with a dining area in the background."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758220889/bellevue/countertops/bathroom-countertop_f2ixta.jpg",
+          "alt": "Modern bathroom with a white countertop, under-mount sink, decorative vases, illuminated mirrors, wall-mounted light, towel rack, and a walk-in shower with glass walls and rainfall showerheads in the background."
         },
         {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-2_qdnk7l.jpg",
-          "alt": "Modern kitchen with light wood cabinets, stainless steel appliances, a large marble island with a built-in sink, and three cushioned barstools. Pendant lights hang above the island, and hardwood floors complement the stylish decor accents."
-        },
-        {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation_otrsgy.jpg",
-          "alt": "A person kneels on the floor in a room with dark green walls and a window, preparing the space for painting with black plastic sheets covering the floor. Construction materials are visible through the window."
-        },
-        {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458624/seattle/flooing/hardwood-flooring-1_zfrjqv.jpg",
-          "alt": "A modern open-concept kitchen and living area with wood floors, light wood cabinets, a large island with barstools, pendant lights, and a cozy living space with sofas, a rug, a fireplace, and large windows."
-        },
-        {
-          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1757458625/seattle/flooing/hardwood-installation-4_z9r6pz.jpg",
-          "alt": "Modern kitchen with light wood cabinets, stainless steel appliances, a range hood, white countertops, subway tile backsplash, and dark hardwood floors. Open layout leads to a dining area and a living room with large windows."
+          "src": "https://res.cloudinary.com/dzojhepyl/image/upload/v1758220889/bellevue/countertops/bathroom-countertop-1_qifexr.jpg",
+          "alt": "A modern bathroom with black cabinets, double sinks with granite countertops, gold fixtures, a tall plant, rolled white towels, and framed botanical prints on a light wall. Large mirrors and wall lights are above each sink."
         }
       ],
-      "title": "Seattle Hardwood & LVP Flooring Installation 2025",
-  "heading": "Flooring Projects",
-  "paragraph": "Multiple flooring installation projects completed across Ballard, Crown Hill, and Magnolia — including hardwood flooring, engineered hardwood, LVP, and laminate installs. Work included removal of old flooring, subfloor prep, moisture barrier installation, and precise layout for a seamless finish. Boards were cut, staggered, and fastened to spec, with transitions and base trim installed for a clean look. Mix of wide-plank oak, waterproof LVP, and laminate options chosen for durability and Seattle-style design.",
-  "timeline": "2–5 days per job"
+        "title": "Bellevue Bathroom Countertops 2025",
+  "heading": "Bathroom Countertop Projects – Bellevue, WA",
+  "paragraph": "Portfolio of Bellevue bathroom countertop projects: laser-templated quartz, granite, and marble vanity tops; 3 cm slabs; undermount sink cutouts, faucet holes, 4\" or full-height splashes, and clean silicone joints. We handle removal/disposal, plywood build-up where needed, tight wall scribe fits, and sealing on natural stone. Seams ≤1/16\" with color-matched epoxy; eased or mitered edges. Completed in West Bellevue, Medina, Clyde Hill, and Somerset—guest baths to primary suites."
+,
+  "timeline": "1-2 days per job"
     }
   }
 }
-]
