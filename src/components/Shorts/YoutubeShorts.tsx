@@ -69,7 +69,6 @@ const YouTubeShortSlider = ({ city, category }: Props) => {
         Watch our recent {city} remodel projects on YouTube Shorts – real jobs, quick overviews, and design ideas from RENOVA Contractors.
       </p>
 
-      {/* 🔑 Videos - Horizontally Scrollable */}
       <div className="w-full overflow-x-auto">
         <div className="flex gap-4 pb-4" style={{ width: 'max-content' }}>
           {videos.map(({ id }) => (
