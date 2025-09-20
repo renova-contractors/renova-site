@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { BlogCard } from "../../app/blog/components/BlogCard";
 
 interface BlogPost {
   markdown: string;
@@ -12,6 +11,13 @@ interface BlogPost {
   category: string;
   location: string;
 }
+
+// Function to extract first image from markdown
+const extractFirstImage = (markdown: string): string | null => {
+  const imageRegex = /!\[.*?\]\((.*?)\)/;
+  const match = markdown.match(imageRegex);
+  return match ? match[1] : null;
+};
 
 export const RecentBlogs: React.FC = () => {
   const [blogPosts, setBlogPosts] = React.useState<BlogPost[]>([]);
@@ -68,21 +74,30 @@ export const RecentBlogs: React.FC = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8" style={{ gridAutoRows: '224px' }}>
           {[1, 2, 3].map((i) => (
-            <div key={i} className="h-56 flex flex-col border-solid border-[1px] border-white bg-white/5 backdrop-blur-sm rounded-lg p-6 animate-pulse">
-              <div className="flex justify-between pb-5 mb-4">
-                <div className="h-4 bg-gray-300 rounded w-16"></div>
-                <div className="h-4 bg-gray-300 rounded w-20"></div>
+            <div key={i} className="flex flex-col border-solid border-[1px] border-white bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden animate-pulse" style={{ height: '224px' }}>
+              {/* Header with Browse link and Date */}
+              <div className="flex justify-between items-baseline p-3 pb-3">
+                <div className="h-3 bg-gray-300 rounded w-16"></div>
+                <div className="h-3 bg-gray-300 rounded w-20"></div>
               </div>
-              <div className="flex-1 flex flex-col">
-                <div className="h-6 bg-gray-300 rounded mb-2"></div>
-                <div className="h-6 bg-gray-300 rounded w-3/4 mb-2"></div>
-                <div className="space-y-2 flex-1">
-                  <div className="h-3 bg-gray-300 rounded"></div>
-                  <div className="h-3 bg-gray-300 rounded"></div>
-                  <div className="h-3 bg-gray-300 rounded w-2/3"></div>
+
+              {/* Content and Image Section */}
+              <div className="flex flex-1 px-6 pb-6 min-h-0">
+                {/* Content Section - Left Side */}
+                <div className="flex-1 flex flex-col min-h-0">
+                  <div className="h-5 bg-gray-300 rounded mb-2"></div>
+                  <div className="h-5 bg-gray-300 rounded w-3/4 mb-2"></div>
+                  <div className="space-y-1 flex-1 overflow-hidden">
+                    <div className="h-3 bg-gray-300 rounded"></div>
+                    <div className="h-3 bg-gray-300 rounded"></div>
+                    <div className="h-3 bg-gray-300 rounded w-2/3"></div>
+                  </div>
                 </div>
+                
+                {/* Image placeholder - Right Side */}
+                <div className="w-32 h-32 ml-4 bg-gray-300 rounded-lg flex-shrink-0"></div>
               </div>
             </div>
           ))}
@@ -119,21 +134,67 @@ export const RecentBlogs: React.FC = () => {
 
   return (
     <section className="container component-mb">
-      <div className="text-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+      <div className="mb-12">
+        <h2 className="custom-heading sm:text-left first-letter:text-main-yellow">
           Latest Seattle Remodeling Insights
         </h2>
-        <p className="text-xl text-main-gray max-w-3xl mx-auto">
+        <p className="text-xl text-main-gray max-w-3xl">
           Stay updated with the latest home remodeling trends, tips, and cost insights 
           specifically for Seattle homeowners.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8" style={{ gridAutoRows: '224px' }}>
         {blogPosts.map((blog) => (
-          <div key={blog.url} className="h-56">
-            <BlogCard {...blog} />
-          </div>
+          <article 
+            key={blog.url}
+            className="flex flex-col border-solid border-[1px] hover:border-main-yellow border-white small-button text-white font-light text-title bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden transition-all duration-300 hover:bg-white/10"
+            style={{ height: '224px' }}
+          >
+            {/* Header with Browse link and Date */}
+            <div className="flex justify-between items-baseline p-3 pb-3">
+              <Link 
+                href={`/blog/${blog.url}`} 
+                className="text-main-yellow hover:text-yellow-400 font-medium text-sm"
+              >
+                Browse
+              </Link>
+              <time 
+                dateTime={blog.createdAt}
+                className="text-xs text-gray-300"
+              >
+                {new Date(blog.createdAt).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </time>
+            </div>
+
+            {/* Content and Image Section */}
+            <div className="flex flex-1 pb-2 min-h-0">
+              {/* Content Section - Left Side */}
+              <div className="flex-1 flex flex-col min-h-0">
+                <h3 className="text-lg font-semibold line-clamp-2 text-white mb-2">
+                  {blog.cardTitle}
+                </h3>
+                <p className="text-gray-300 text-sm line-clamp-3 flex-1 overflow-hidden text-left">
+                  {blog.cardDescription}
+                </p>
+              </div>
+
+              {/* Image Section - Right Side */}
+              {extractFirstImage(blog.markdown) && (
+                <div className="relative w-32 h-32 ml-4 flex-shrink-0">
+                  <img 
+                    src={extractFirstImage(blog.markdown)!} 
+                    alt={blog.cardTitle}
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                </div>
+              )}
+            </div>
+          </article>
         ))}
       </div>
 

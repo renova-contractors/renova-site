@@ -23,11 +23,11 @@ export const BlogCards: React.FC<BlogCard> = ({ cards }) => {
 			<FormMain>
 				<CatalogBanner isMobile={isMobile} />
 			</FormMain>
-			<ul className="flex flex-col gap-y-10">
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" style={{ gridAutoRows: '224px' }}>
 				{cards.map((card) => (
 					<BlogCard key={card.url} {...card} />
 				))}
-			</ul>
+			</div>
 		</section>
 	);
 };
