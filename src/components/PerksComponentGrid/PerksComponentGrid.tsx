@@ -34,10 +34,10 @@ const PerksComponentGrid = () => {
 						width={120}
 					/>
 					<div className="sm:ml-5">
-						<h4 className="text-title">
+						<h4 className="text-title mb-2">
 							🛠️ Clear Pricing, Firm Deadlines
 						</h4>
-						<p className="mt-5 max-sm:mt-2">
+						<p className="mt-3 max-sm:mt-1">
 							Upfront quotes, no padded costs, and realistic
 							timelines that we stick to — so you know exactly
 							what to expect.
@@ -49,12 +49,12 @@ const PerksComponentGrid = () => {
 					className={`${styles.mobile} bg-white flex col-span-3 h-[250px] max-sm:h-[150px] max-sm:text-sm max-sm:py-3 max-sm:px-2 max-sm:rounded-xl rounded-3xl py-10 px-10 items-start`}
 				>
 					<div>
-						<h4 className="text-title ">
+						<h4 className="text-title mb-2">
 							📲 Daily Check-ins, No Guessing
 						</h4>
-						<p className="mt-5 max-sm:mt-2">
-							You’ll get real updates on what was done, what’s
-							next, and who’s coming — we don’t leave you
+						<p className="mt-3 max-sm:mt-1">
+							You'll get real updates on what was done, what's
+							next, and who's coming — we don't leave you
 							guessing.
 						</p>
 					</div>
@@ -70,10 +70,10 @@ const PerksComponentGrid = () => {
 					className={`${styles.mobile} bg-dark-red col-span-2 slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
 				>
 					<div>
-						<h4 className="text-title">
+						<h4 className="text-title mb-1">
 							👷‍♂️ Licensed and Verified Crews
 						</h4>
-						<p className="mt-2 max-sm:mt-2">
+						<p className="mt-2 max-sm:mt-1">
 							Every trade on-site is licensed and insured —
 							plumbing, electrical, HVAC
 						</p>

@@ -140,7 +140,7 @@ export default async function Page({
 		"@context": "https://schema.org",
 		"@graph": [
 			{
-				"@type": "LocalBusiness",
+				"@type": "HomeAndConstructionBusiness",
 				"@id": `https://www.renova.contractors/location/${props.city || 'seattle'}#localbusiness`,
 				"name": `RENOVA Contractors LLC - ${props.city || 'Seattle'}`,
 				"image": "https://www.renova.contractors/logo.png",
@@ -158,7 +158,58 @@ export default async function Page({
 				"priceRange": "$$",
 				"areaServed": {
 					"@type": "City",
-					"name": props.city || "Seattle"
+					"name": props.city || "Seattle",
+					"containedInPlace": {
+						"@type": "State",
+						"name": "Washington"
+					}
+				},
+				"serviceArea": {
+					"@type": "GeoCircle",
+					"geoMidpoint": {
+						"@type": "GeoCoordinates",
+						"latitude": "47.6062",
+						"longitude": "-122.3321"
+					},
+					"geoRadius": "50000"
+				},
+				"hasOfferCatalog": {
+					"@type": "OfferCatalog",
+					"name": "Home Remodeling Services",
+					"itemListElement": [
+						{
+							"@type": "Offer",
+							"itemOffered": {
+								"@type": "Service",
+								"name": "Kitchen Remodeling",
+								"description": "Complete kitchen renovation and remodeling services"
+							}
+						},
+						{
+							"@type": "Offer",
+							"itemOffered": {
+								"@type": "Service",
+								"name": "Bathroom Remodeling",
+								"description": "Bathroom renovation and remodeling services"
+							}
+						},
+						{
+							"@type": "Offer",
+							"itemOffered": {
+								"@type": "Service",
+								"name": "Basement Finishing",
+								"description": "Basement finishing and remodeling services"
+							}
+						},
+						{
+							"@type": "Offer",
+							"itemOffered": {
+								"@type": "Service",
+								"name": "Attic Finishing",
+								"description": "Attic conversion and finishing services"
+							}
+						}
+					]
 				},
 				"aggregateRating": {
 					"@type": "AggregateRating",
@@ -211,6 +262,29 @@ export default async function Page({
 						}
 					}
 				]
+			},
+			{
+				"@type": "Blog",
+				"@id": "https://www.renova.contractors/blog",
+				"name": "RENOVA Contractors Blog",
+				"description": "Expert home remodeling insights, tips, and guides from RENOVA Contractors LLC in Seattle",
+				"url": "https://www.renova.contractors/blog",
+				"publisher": {
+					"@type": "Organization",
+					"@id": "https://www.renova.contractors/#organization",
+					"name": "RENOVA Contractors LLC",
+					"url": "https://www.renova.contractors",
+					"logo": {
+						"@type": "ImageObject",
+						"url": "https://www.renova.contractors/logo.png"
+					}
+				},
+				"inLanguage": "en-US",
+				"about": {
+					"@type": "Thing",
+					"name": "Home Remodeling",
+					"description": `Professional home remodeling and renovation services in ${props.city || 'Seattle'}`
+				}
 			}
 		]
 	};

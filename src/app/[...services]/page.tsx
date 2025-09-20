@@ -23,6 +23,7 @@ import { GenerateEstimate } from '@/components/Chatbot/GenerateEstimate';
 import Script from 'next/script';
 import { ThumbsComponent } from '@/components/ThumbsComponent/ThumbsComponent';
 import FeaturableWidget from '@/components/Widgets/FeaturableWidget';
+import ServiceBlog from '@/components/ServiceBlog/ServiceBlog';
 
 // Import shorts data for schema
 const shortsObj = {
@@ -256,6 +257,83 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         })(),
       },
       {
+        '@type': 'HomeAndConstructionBusiness',
+        '@id': `https://www.renova.contractors/${id}#localbusiness`,
+        name: 'RENOVA Contractors LLC',
+        image: 'https://www.renova.contractors/logo.png',
+        url: 'https://www.renova.contractors/',
+        telephone: '+1-206-255-2708',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: '221 1st Ave W #247',
+          addressLocality: 'Seattle',
+          addressRegion: 'WA',
+          postalCode: '98119',
+          addressCountry: 'US',
+        },
+        openingHours: 'Mo-Su 09:00-21:00',
+        priceRange: '$$',
+        areaServed: {
+          '@type': 'City',
+          name: servicesPageData.location || 'Seattle',
+          containedInPlace: {
+            '@type': 'State',
+            name: 'Washington',
+          },
+        },
+        serviceArea: {
+          '@type': 'GeoCircle',
+          geoMidpoint: {
+            '@type': 'GeoCoordinates',
+            latitude: '47.6062',
+            longitude: '-122.3321',
+          },
+          geoRadius: '50000',
+        },
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: 'Home Remodeling Services',
+          itemListElement: [
+            {
+              '@type': 'Offer',
+              itemOffered: {
+                '@type': 'Service',
+                name: `${servicesPageData.category || 'Home'} Remodeling`,
+                description: `Professional ${servicesPageData.category || 'home'} remodeling services`,
+              },
+            },
+          ],
+        },
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: '4.9',
+          reviewCount: '250',
+        },
+      },
+      {
+        '@type': 'Blog',
+        '@id': 'https://www.renova.contractors/blog',
+        name: 'RENOVA Contractors Blog',
+        description: 'Expert home remodeling insights, tips, and guides from RENOVA Contractors LLC in Seattle',
+        url: 'https://www.renova.contractors/blog',
+        publisher: {
+          '@type': 'Organization',
+          '@id': 'https://www.renova.contractors/#organization',
+          name: 'RENOVA Contractors LLC',
+          url: 'https://www.renova.contractors',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://www.renova.contractors/logo.png',
+          },
+        },
+        inLanguage: 'en-US',
+        about: {
+          '@type': 'Thing',
+          name: 'Home Remodeling',
+          description: `Professional home remodeling and renovation services in ${servicesPageData.location || 'Seattle'}`,
+        },
+      },
+      {
         '@type': 'WebApplication',
         '@id': `https://www.renova.contractors/${id}#calculator`,
         name: `${servicesPageData.category || 'Home'} Remodel ROI Calculator`,
@@ -379,6 +457,12 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
       <CostTables
         category={servicesPageData.category}
         city={servicesPageData.location}
+      />
+
+      <ServiceBlog
+        category={servicesPageData.category}
+        location={servicesPageData.location}
+        maxPosts={3}
       />
 
       {servicesPageData.images && (

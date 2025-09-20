@@ -7,41 +7,6 @@ const blogFilter = [
 		link: "/blog",
 	},
 	{
-		id: "countertops",
-		name: "Countertops",
-		link: "/blog/category/countertops",
-	},
-	{
-		id: "tile",
-		name: "Tiles & Flooring",
-		link: "/blog/category/tile",
-	},
-	{
-		id: "kitchen_cabinets",
-		name: "Kitchen Cabinets",
-		link: "/blog/category/cabinets",
-	},
-	{
-		id: "outdoor",
-		name: "Outdoors",
-		link: "/blog/category/outdoor",
-	},
-	{
-		id: "architecture",
-		name: "Architecture",
-		link: "/blog/category/architecture",
-	},
-	{
-		id: "doors",
-		name: "Doors",
-		link: "/blog/category/doors",
-	},
-	{
-		id: "windows",
-		name: "Windows",
-		link: "/blog/category/windows",
-	},
-	{
 		id: "bathroom",
 		name: "Bathroom",
 		link: "/blog/category/bathroom",
@@ -51,6 +16,45 @@ const blogFilter = [
 		name: "Kitchen",
 		link: "/blog/category/kitchen",
 	},
+	{
+		id: "basement",
+		name: "Basement",
+		link: "/blog/category/basement",
+	},
+	{
+		id: "attic",
+		name: "Attic",
+		link: "/blog/category/attic",
+	},
+	
+	{
+		id: "deck",
+		name: "Deck",
+		link: "/blog/category/deck",
+	},
+
+	{
+		id: "tile",
+		name: "Tiles & Flooring",
+		link: "/blog/category/tile",
+	},
+	{
+		id: "cabinets",
+		name: "Cabinets",
+		link: "/blog/category/cabinets",
+	},
+	
+	{
+		id: "architecture",
+		name: "Architecture",
+		link: "/blog/category/architecture",
+	},{
+		id: "countertops",
+		name: "Countertops",
+		link: "/blog/category/countertops",
+	},
+	
+	
 ];
 
 export const BlogFilter: React.FC = () => (

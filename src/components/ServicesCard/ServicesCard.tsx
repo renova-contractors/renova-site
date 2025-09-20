@@ -35,10 +35,10 @@ export const ServicesCard: React.FC<ServicesCardProps> = ({
         {/* Text Overlay */}
         <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-between p-5 z-10">
           <div>
-            <h3 className="text-white font-bold text-xl mb-2 drop-shadow-md">
+            <h3 className="text-white font-bold text-xl mb-1 drop-shadow-md line-clamp-2">
               {heading}
             </h3>
-            <p className="text-white text-sm font-light drop-shadow-md">
+            <p className="text-white text-sm font-light drop-shadow-md line-clamp-3">
               {paragraph}
             </p>
           </div>

@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import type { Metadata, ResolvingMetadata } from "next";
 import Markdown from "react-markdown";
+import { CostTables } from "@/components/CostTables/CostTables";
 
 type Props = {
 	params: { url: string };
@@ -150,15 +151,22 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 
 		const res = await fetch(
 			`${backendUrl}/blog/url/${params.url}`,
+			{
+				next: { revalidate: 3600 } // Cache for 1 hour
+			}
 		);
-		return res.json();
+		
+		if (!res.ok) {
+			console.error('Failed to fetch blog:', res.status, res.statusText);
+			throw new Error('Failed to fetch blog data');
+		}
+		
+		const data = await res.json();
+		return data;
 	};
 
 	const blog = await getBlog();
 	
-	// Debug: Log the createdAt value to see what we're getting
-	console.log('Blog createdAt from database:', blog.createdAt);
-	console.log('Blog object keys:', Object.keys(blog));
 	
 	// Use createdAt from the database, with proper fallback
 	const createdAtDate = blog.createdAt ? new Date(blog.createdAt) : new Date();
@@ -356,6 +364,16 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 				<article className="prose prose-lg max-w-none mb-20">
 					<Markdown className="markdown">{blog.markdown}</Markdown>
 				</article>
+
+				{/* Cost Tables - Show when table: true */}
+				{blog.table && (
+					<div className="mb-20">
+						<CostTables 
+							category={blog.category || 'bathroom'} 
+							city={blog.location || 'seattle'} 
+						/>
+					</div>
+				)}
 
 				{/* Article Footer */}
 				<footer className="mt-20 pt-12 border-t border-gray-200">

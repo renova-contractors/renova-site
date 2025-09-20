@@ -262,44 +262,152 @@ const page = () => {
         </div>
       </section>
 
-      {/* JSON-LD Schema */}
+      {/* Enhanced JSON-LD Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "ROI Calculators for Seattle Home Remodeling",
-            "description": "Calculate return on investment for your Seattle home remodeling projects. Free ROI calculators for kitchen, bathroom, attic, basement, roofing, deck, siding, and flooring remodels.",
-            "url": "https://www.renova.contractors/roi",
-            "mainEntity": {
-              "@type": "ItemList",
-              "name": "ROI Calculators",
-              "itemListElement": calculators.map((calc, index) => ({
-                "@type": "ListItem",
-                "position": index + 1,
-                "name": calc.name,
-                "description": calc.description,
-                "url": `https://www.renova.contractors/return-on-investment-remodel/${calc.url}`
-              }))
-            },
-            "breadcrumb": {
-              "@type": "BreadcrumbList",
-              "itemListElement": [
-                {
-                  "@type": "ListItem",
-                  "position": 1,
-                  "name": "Home",
-                  "item": "https://www.renova.contractors"
+            "@graph": [
+              {
+                "@type": "HomeAndConstructionBusiness",
+                "@id": "https://www.renova.contractors/roi#localbusiness",
+                "name": "RENOVA Contractors LLC",
+                "image": "https://www.renova.contractors/logo.png",
+                "url": "https://www.renova.contractors/",
+                "telephone": "+1-206-255-2708",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "221 1st Ave W #247",
+                  "addressLocality": "Seattle",
+                  "addressRegion": "WA",
+                  "postalCode": "98119",
+                  "addressCountry": "US"
                 },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "ROI Calculators",
-                  "item": "https://www.renova.contractors/roi"
+                "openingHours": "Mo-Su 09:00-21:00",
+                "priceRange": "$$",
+                "areaServed": [
+                  {
+                    "@type": "City",
+                    "name": "Seattle",
+                    "containedInPlace": {
+                      "@type": "State",
+                      "name": "Washington"
+                    }
+                  }
+                ],
+                "serviceArea": {
+                  "@type": "GeoCircle",
+                  "geoMidpoint": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "47.6062",
+                    "longitude": "-122.3321"
+                  },
+                  "geoRadius": "50000"
+                },
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "Home Remodeling Services",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Kitchen Remodeling",
+                        "description": "Complete kitchen renovation and remodeling services"
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Bathroom Remodeling",
+                        "description": "Bathroom renovation and remodeling services"
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Basement Finishing",
+                        "description": "Basement finishing and remodeling services"
+                      }
+                    },
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Attic Finishing",
+                        "description": "Attic conversion and finishing services"
+                      }
+                    }
+                  ]
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.9",
+                  "reviewCount": "250"
                 }
-              ]
-            }
+              },
+              {
+                "@type": "Blog",
+                "@id": "https://www.renova.contractors/blog",
+                "name": "RENOVA Contractors Blog",
+                "description": "Expert home remodeling insights, tips, and guides from RENOVA Contractors LLC in Seattle",
+                "url": "https://www.renova.contractors/blog",
+                "publisher": {
+                  "@type": "Organization",
+                  "@id": "https://www.renova.contractors/#organization",
+                  "name": "RENOVA Contractors LLC",
+                  "url": "https://www.renova.contractors",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.renova.contractors/logo.png"
+                  }
+                },
+                "inLanguage": "en-US",
+                "about": {
+                  "@type": "Thing",
+                  "name": "Home Remodeling",
+                  "description": "Professional home remodeling and renovation services in Seattle"
+                }
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://www.renova.contractors/roi",
+                "name": "ROI Calculators for Seattle Home Remodeling",
+                "description": "Calculate return on investment for your Seattle home remodeling projects. Free ROI calculators for kitchen, bathroom, attic, basement, roofing, deck, siding, and flooring remodels.",
+                "url": "https://www.renova.contractors/roi",
+                "mainEntity": {
+                  "@type": "ItemList",
+                  "name": "ROI Calculators",
+                  "itemListElement": calculators.map((calc, index) => ({
+                    "@type": "ListItem",
+                    "position": index + 1,
+                    "name": calc.name,
+                    "description": calc.description,
+                    "url": `https://www.renova.contractors/return-on-investment-remodel/${calc.url}`
+                  }))
+                },
+                "breadcrumb": {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://www.renova.contractors"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "ROI Calculators",
+                      "item": "https://www.renova.contractors/roi"
+                    }
+                  ]
+                }
+              }
+            ]
           })
         }}
       />

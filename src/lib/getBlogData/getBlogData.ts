@@ -1,17 +1,32 @@
 export const getBlogData = async (search = ""): Promise<any> => {
 	let res;
 
-	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+	// Use local API route instead of direct backend calls
+	const baseUrl = process.env.NODE_ENV === 'production' 
+		? 'https://www.renova.contractors' 
+		: 'http://localhost:3000';
 
-	if (!backendUrl) {
-		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
-		throw new Error("Backend URL is not configured");
+	let url;
+	if (search === "") {
+		url = `${baseUrl}/api/blog`;
+	} else if (search.startsWith('category/')) {
+		const category = search.replace('category/', '');
+		url = `${baseUrl}/api/blog?category=${category}`;
+	} else {
+		// For individual blog posts, still use backend directly
+		const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+		if (!backendUrl) {
+			console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+			throw new Error("Backend URL is not configured");
+		}
+		url = `${backendUrl}/blog/${search}`;
 	}
 
-	const url = search === "" ? `${backendUrl}/blog/` : `${backendUrl}/blog/${search}`;
 	console.log('Fetching blog data from:', url);
 
-	res = await fetch(url);
+	res = await fetch(url, {
+		next: { revalidate: 3600 } // Cache for 1 hour
+	});
 
 	if (!res.ok) {
 		console.error(`API request failed: ${res.status} ${res.statusText}`);

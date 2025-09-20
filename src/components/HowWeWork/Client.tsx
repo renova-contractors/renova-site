@@ -40,18 +40,18 @@ export const HowWeWorkClient: React.FC<Props> = ({ array, howWeWorkMarkdown }) =
             key={step.id}
             role="group"
             aria-label={`Step ${step.id}: ${step.title}`}
-            className="py-5 px-4 rounded-2xl border-solid border-[0.5px] border-white min-w-[350px] max-w-[350px] lg:min-w-[450px] lg:max-w-[450px] min-h-[250px]"
+            className="py-5 px-4 rounded-2xl border-solid border-[0.5px] border-white min-w-[350px] max-w-[350px] lg:min-w-[450px] lg:max-w-[450px] h-[250px] flex flex-col"
           >
-            <div>
-              <div className="mb-5 flex items-center">
-                <h3 className="text-white font-light text-title">{step.title}</h3>
+            <div className="flex-1 flex flex-col">
+              <div className="mb-3 flex items-center">
+                <h3 className="text-white font-light text-title line-clamp-2">{step.title}</h3>
               </div>
 
-              <ul aria-label={`${step.title} details`}>
+              <ul aria-label={`${step.title} details`} className="flex-1">
                 {Object.values(step.description).map((desc, i) => (
                   <li
                     key={i}
-                    className="relative left-4 white-paragraph text-base flex items-start gap-2 min-h-[50px]"
+                    className="relative left-4 white-paragraph text-base flex items-start gap-2 min-h-[40px]"
                   >
                     {desc}
                   </li>

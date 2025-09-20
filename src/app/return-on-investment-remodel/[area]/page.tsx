@@ -129,6 +129,85 @@ const page = async ({ params }: Props) => {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "HomeAndConstructionBusiness",
+        "@id": `https://www.renova.contractors/return-on-investment-remodel/${area}#localbusiness`,
+        "name": "RENOVA Contractors LLC",
+        "image": "https://www.renova.contractors/logo.png",
+        "url": "https://www.renova.contractors/",
+        "telephone": "+1-206-255-2708",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "221 1st Ave W #247",
+          "addressLocality": "Seattle",
+          "addressRegion": "WA",
+          "postalCode": "98119",
+          "addressCountry": "US"
+        },
+        "openingHours": "Mo-Su 09:00-21:00",
+        "priceRange": "$$",
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Seattle",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Washington"
+            }
+          }
+        ],
+        "serviceArea": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "47.6062",
+            "longitude": "-122.3321"
+          },
+          "geoRadius": "50000"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Home Remodeling Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": `${categoryName} Remodeling`,
+                "description": `Professional ${categoryName.toLowerCase()} remodeling services in Seattle`
+              }
+            }
+          ]
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "250"
+        }
+      },
+      {
+        "@type": "Blog",
+        "@id": "https://www.renova.contractors/blog",
+        "name": "RENOVA Contractors Blog",
+        "description": "Expert home remodeling insights, tips, and guides from RENOVA Contractors LLC in Seattle",
+        "url": "https://www.renova.contractors/blog",
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://www.renova.contractors/#organization",
+          "name": "RENOVA Contractors LLC",
+          "url": "https://www.renova.contractors",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.renova.contractors/logo.png"
+          }
+        },
+        "inLanguage": "en-US",
+        "about": {
+          "@type": "Thing",
+          "name": "Home Remodeling",
+          "description": `Professional home remodeling and renovation services in Seattle, including ${categoryName.toLowerCase()} remodeling`
+        }
+      },
+      {
         "@type": "WebApplication",
         "@id": `https://www.renova.contractors/return-on-investment-remodel/${area}`,
         "name": `${categoryName} Remodel ROI Calculator 2025`,

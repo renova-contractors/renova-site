@@ -29,6 +29,7 @@ import YouTubeShortSlider from "@/components/Shorts/YoutubeShorts";
 import { GenerateEstimate } from "@/components/Chatbot/GenerateEstimate";
 import SimpleYouTubeVideo from "@/components/YouTubeVideo/SimpleYouTubeVideo";
 import FeaturableWidget from "@/components/Widgets/FeaturableWidget";
+import { RecentBlogs } from "@/components/RecentBlogs/RecentBlogs";
 
 
 export const metadata: Metadata = {
@@ -84,7 +85,7 @@ export default function Home(): JSX.Element {
         }
       },
       {
-        "@type": "LocalBusiness",
+        "@type": "HomeAndConstructionBusiness",
         "@id": "https://www.renova.contractors/#localbusiness",
         "name": "RENOVA Contractors LLC",
         "image": "https://www.renova.contractors/logo.png",
@@ -100,6 +101,79 @@ export default function Home(): JSX.Element {
         },
         "openingHours": "Mo-Su 09:00-21:00",
         "priceRange": "$$",
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Seattle",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Washington"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Bellevue",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Washington"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Redmond",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Washington"
+            }
+          }
+        ],
+        "serviceArea": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": "47.6062",
+            "longitude": "-122.3321"
+          },
+          "geoRadius": "50000"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Home Remodeling Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Kitchen Remodeling",
+                "description": "Complete kitchen renovation and remodeling services"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Bathroom Remodeling",
+                "description": "Bathroom renovation and remodeling services"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Basement Finishing",
+                "description": "Basement finishing and remodeling services"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Attic Finishing",
+                "description": "Attic conversion and finishing services"
+              }
+            }
+          ]
+        },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
@@ -127,6 +201,22 @@ export default function Home(): JSX.Element {
             }
           }
         ]
+      },
+      {
+        "@type": "Blog",
+        "@id": "https://www.renova.contractors/blog",
+        "name": "RENOVA Contractors Blog",
+        "description": "Expert home remodeling insights, tips, and guides from RENOVA Contractors LLC in Seattle",
+        "url": "https://www.renova.contractors/blog",
+        "publisher": {
+          "@id": "https://www.renova.contractors/#organization"
+        },
+        "inLanguage": "en-US",
+        "about": {
+          "@type": "Thing",
+          "name": "Home Remodeling",
+          "description": "Professional home remodeling and renovation services in Seattle"
+        }
       },
       {
         "@type": "ContactPage",
@@ -240,6 +330,7 @@ export default function Home(): JSX.Element {
         </div>
 
         <SeattleRemodelCalculator category="kitchen" />
+        <RecentBlogs />
         <Manufacturers {...mainPageContent.manufacturers} />
         <FAQ {...mainPageContent} />
         <LocationsList />
