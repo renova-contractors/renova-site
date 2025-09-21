@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { PerksSlider } from "../PerksSwiper/PerksSwiper";
+import MobileReadMore from "./MobileReadMore";
 
 type Perk = {
 	heading: string;
@@ -74,17 +75,11 @@ const MobileServicesAbout: React.FC<Props> = ({
 						/>
 					</div>
 				</div>
-				<div className="flex">
-					<div className="lg:mt-[44px]">
-						<p className="mb-8 text-main-yellow items-center font-bold">
-							{priceLine1}
-						</p>
-						<p className="text-main-gray ml-auto mb-10 max-md:mb-2">
-							{sectionP1}
-						</p>
-						<p className="text-main-gray ml-auto">{sectionP2}</p>
-					</div>
-				</div>
+				<MobileReadMore
+					sectionP1={sectionP1}
+					sectionP2={sectionP2}
+					priceLine1={priceLine1}
+				/>
 			</div>
 			<ul className="flex inside-mb slider-gap w-full overflow-x-auto overflow-y-hidden no-scrollbar">
 				{perks.map((item, index) => {
