@@ -152,7 +152,7 @@ export const RecentBlogs: React.FC = () => {
             style={{ height: '224px' }}
           >
             {/* Header with Browse link and Date */}
-            <div className="flex justify-between items-baseline p-3 pb-3">
+            <div className="flex justify-between items-baseline  py-3">
               <Link 
                 href={`/blog/${blog.url}`} 
                 className="text-main-yellow hover:text-yellow-400 font-medium text-sm"
