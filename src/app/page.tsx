@@ -295,7 +295,7 @@ export default function Home(): JSX.Element {
         <div id="reviews" className="scroll-anchor">
           <FeaturableWidget />
         </div>
-        <YouTubeShortSlider category="kitchen" city="seattle" />
+        <YouTubeShortSlider category="main" city="seattle" />
         <GenerateEstimate />
         <OurServices {...mainPageContent.ourServices} />
       <SimpleYouTubeVideo

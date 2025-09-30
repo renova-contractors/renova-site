@@ -21,6 +21,7 @@ import { PageNav } from "@/components/PageNav/PageNav";
 import { serviceHeadings } from "@/constants/ourServices/ourServices";
 import Licensing from "@/components/Licensing/Licensing";
 import { HowWeWork } from "@/components/HowWeWork/HowWeWork";
+import YouTubeShortSlider from "@/components/Shorts/YoutubeShorts";
 
 type LocationParams = {
 	location: string[];
@@ -306,6 +307,7 @@ export default async function Page({
 				</FormMain>
 				<PageNav />
 				<OurServices {...props.ourServices} location={props.city} />
+        <YouTubeShortSlider category="home" city="bellevue" />
 
 				<ServicesAbout {...props.about} isMobile={isMobile} />
 				{/* <OurServices {...props.ourServices} /> */}
