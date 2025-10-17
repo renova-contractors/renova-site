@@ -6,7 +6,7 @@ import { ItemCard } from "../../../components/ItemCard/ItemCard";
 
 interface CatalogCardsProps {
 	params: any; // Add any specific types as needed
-	products: any[]; // Specify the type for products if possible
+	products: any[]; 
 	apiEndpoint: string; // Endpoint for fetching the data
 }
 
