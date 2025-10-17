@@ -227,7 +227,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
     '@context': 'https://schema.org',
     '@graph': [
       {
-        '@type': 'ServicePage',
+        '@type': 'WebPage',
         '@id': `https://www.renova.contractors/${id}`,
         url: `https://www.renova.contractors/${id}`,
         name:
