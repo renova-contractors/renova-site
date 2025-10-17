@@ -408,7 +408,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
           name: servicesPageData.category || 'Home Remodeling',
         },
       },
-      // Add video schema if video is present
+      // Video schema logic: prioritize main video, fallback to first short if no main video
       ...(servicesPageData.video ? [{
         '@type': 'VideoObject',
         '@id': `https://www.renova.contractors/${id}#video`,
@@ -429,12 +429,12 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
           '@id': `https://www.renova.contractors/${id}#service`,
           name: servicesPageData.category || 'Home Remodeling',
         },
-      }] : []),
-      // Add YouTube Shorts schema if shorts are available
-      ...(shortsObj[servicesPageData.location]?.[servicesPageData.category]?.length > 0 ? [{
+      }] : 
+      // Only add shorts schema if no main video exists
+      (shortsObj[servicesPageData.location]?.[servicesPageData.category]?.length > 0 ? [{
         '@type': 'VideoObject',
-        '@id': `https://www.renova.contractors/${id}#shorts`,
-        name: `${servicesPageData.category || 'Home'} Remodeling Shorts - RENOVA Contractors`,
+        '@id': `https://www.renova.contractors/${id}#video`,
+        name: `${servicesPageData.category || 'Home'} Remodeling Video - RENOVA Contractors`,
         description: `Quick tips and highlights from our ${servicesPageData.category || 'home'} remodeling projects in ${servicesPageData.location || 'Seattle'}. Watch our YouTube Shorts for project insights.`,
         thumbnailUrl: `https://img.youtube.com/vi/${shortsObj[servicesPageData.location]?.[servicesPageData.category]?.[0]?.id}/maxresdefault.jpg`,
         uploadDate: new Date().toISOString(),
@@ -451,7 +451,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
           '@id': `https://www.renova.contractors/${id}#service`,
           name: servicesPageData.category || 'Home Remodeling',
         },
-      }] : []),
+      }] : [])),
     ],
   };
 
