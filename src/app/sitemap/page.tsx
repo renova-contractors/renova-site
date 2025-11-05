@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Metadata } from 'next'
+import staticServices from '@/constants/services/services.json'
 
 export const metadata: Metadata = {
   title: 'Sitemap | RENOVA Contractors - Seattle Home Remodeling',
@@ -15,6 +16,115 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.renova.contractors/sitemap'
   }
+}
+
+// Fetch all services from backend
+async function getAllServices() {
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+  
+  if (!backendUrl) {
+    console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+    // Return static services as fallback
+    return staticServices;
+  }
+
+  try {
+    const response = await fetch(`${backendUrl}/services/`, {
+      next: { revalidate: 3600 } // Cache for 1 hour
+    });
+
+    if (!response.ok) {
+      console.error(`API request failed: ${response.status} ${response.statusText}`);
+      // Return static services as fallback
+      return staticServices;
+    }
+
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      console.error('API response is not JSON');
+      // Return static services as fallback
+      return staticServices;
+    }
+
+    const data = await response.json();
+    return Array.isArray(data) && data.length > 0 ? data : staticServices;
+  } catch (error) {
+    console.error('Error fetching services:', error);
+    // Return static services as fallback
+    return staticServices;
+  }
+}
+
+// Fetch all blogs from backend
+async function getAllBlogs() {
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+  
+  if (!backendUrl) {
+    console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+    return [];
+  }
+
+  try {
+    const response = await fetch(`${backendUrl}/blog/`, {
+      next: { revalidate: 3600 } // Cache for 1 hour
+    });
+
+    if (!response.ok) {
+      console.error(`API request failed: ${response.status} ${response.statusText}`);
+      return [];
+    }
+
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      console.error('API response is not JSON');
+      return [];
+    }
+
+    const data = await response.json();
+    return Array.isArray(data) ? data : [];
+  } catch (error) {
+    console.error('Error fetching blogs:', error);
+    return [];
+  }
+}
+
+// Helper function to extract location from service URL
+function extractLocationFromService(serviceUrl: string): string {
+  const locations = ['seattle', 'bellevue', 'mill-creek', 'mercer-island', 'edmonds', 'burien'];
+  const urlLower = serviceUrl.toLowerCase();
+  for (const location of locations) {
+    if (urlLower.includes(location)) {
+      return location.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    }
+  }
+  return '';
+}
+
+// Helper function to extract category from service URL
+function extractCategoryFromService(serviceUrl: string): string {
+  const categories: { [key: string]: string } = {
+    'kitchen-remodel': 'Kitchen',
+    'bathroom-remodel': 'Bathroom',
+    'basement-finishing': 'Basement',
+    'attic-finishing': 'Attic',
+    'cabinet-installation': 'Cabinets',
+    'countertop-installation': 'Countertops',
+    'flooring': 'Flooring',
+    'tile-installation': 'Tile',
+    'roofing': 'Roofing',
+    'siding-installation': 'Siding',
+    'deck-building': 'Deck',
+    'masonry-contractors': 'Masonry',
+    'fire-damage-restoration': 'Restoration',
+  };
+  
+  const urlLower = serviceUrl.toLowerCase();
+  for (const [key, value] of Object.entries(categories)) {
+    if (urlLower.includes(key)) {
+      return value;
+    }
+  }
+  return 'Other Services';
 }
 
 const sitemapData = {
@@ -142,7 +252,53 @@ const SitemapSection = ({ title, items, icon, description }: {
   </section>
 )
 
-const page = () => {
+const page = async () => {
+  // Fetch dynamic data
+  const allServices = await getAllServices();
+  const allBlogs = await getAllBlogs();
+
+  // Filter out Victoria services and transform services data for sitemap
+  const serviceItems = allServices
+    .filter((service: any) => {
+      const serviceUrl = service.service || service.slug || '';
+      // Exclude Victoria services
+      return !serviceUrl.toLowerCase().includes('victoria');
+    })
+    .map((service: any) => ({
+      title: service.title || service.hero?.title || service.service?.replace(/-/g, ' ') || 'Service',
+      href: `/${service.service || service.slug || ''}`,
+      description: service.description || service.hero?.description || '',
+      location: service.location || extractLocationFromService(service.service || service.slug || ''),
+      category: service.category || extractCategoryFromService(service.service || service.slug || ''),
+    }));
+
+  // Add fire damage restoration seattle page
+  const fireDamagePage = {
+    title: 'Fire Damage Restoration Seattle',
+    href: '/fire-damage-restoration-seattle',
+    description: 'Professional fire damage restoration and rebuilding services in Seattle',
+    location: 'Seattle',
+    category: 'Restoration',
+  };
+
+  // Transform blogs data for sitemap
+  const blogItems = allBlogs.map((blog: any) => ({
+    title: blog.title || blog.metaTitle || blog.cardTitle || 'Blog Post',
+    href: `/blog/${blog.url || blog.slug || ''}`,
+    description: blog.description || blog.metaDescription || blog.cardDescription || '',
+    category: blog.category || '',
+  }));
+
+  // Organize services by category
+  const servicesByCategory: { [key: string]: typeof serviceItems } = {};
+  [...serviceItems, fireDamagePage].forEach((service) => {
+    const category = service.category || 'Other Services';
+    if (!servicesByCategory[category]) {
+      servicesByCategory[category] = [];
+    }
+    servicesByCategory[category].push(service);
+  });
+
   return (
     <div className="min-h-screen bg-gray-50 container first-component  inside-mb rounded-3xl">
       {/* Hero Section */}
@@ -181,19 +337,36 @@ const page = () => {
             items={sitemapData.roiCalculators}
           />
 
-          {/* Services by Category */}
-          {Object.entries(sitemapData.services).map(([category, items]) => (
-            <SitemapSection
-              key={category}
-              title={category}
-              icon={category === 'Kitchen Remodeling' ? '🍳' : 
-                    category === 'Bathroom Remodeling' ? '🚿' :
-                    category === 'Basement Finishing' ? '🏗️' :
-                    category === 'Attic Finishing' ? '🏠' : '🔧'}
-              description={`${category} services across all locations`}
-              items={items}
-            />
-          ))}
+          {/* Dynamic Services by Category */}
+          {Object.entries(servicesByCategory).length > 0 ? (
+            Object.entries(servicesByCategory).map(([category, items]) => (
+              <SitemapSection
+                key={category}
+                title={category}
+                icon={category === 'Kitchen' ? '🍳' : 
+                      category === 'Bathroom' ? '🚿' :
+                      category === 'Basement' ? '🏗️' :
+                      category === 'Attic' ? '🏠' : 
+                      category === 'Restoration' ? '🔥' : '🔧'}
+                description={`${category} services across all locations`}
+                items={items}
+              />
+            ))
+          ) : (
+            // Fallback to static services if API fails
+            Object.entries(sitemapData.services).map(([category, items]) => (
+              <SitemapSection
+                key={category}
+                title={category}
+                icon={category === 'Kitchen Remodeling' ? '🍳' : 
+                      category === 'Bathroom Remodeling' ? '🚿' :
+                      category === 'Basement Finishing' ? '🏗️' :
+                      category === 'Attic Finishing' ? '🏠' : '🔧'}
+                description={`${category} services across all locations`}
+                items={items}
+              />
+            ))
+          )}
 
           {/* Locations */}
           <SitemapSection
@@ -203,13 +376,42 @@ const page = () => {
             items={sitemapData.locations}
           />
 
-          {/* Blog */}
+          {/* Blog Categories */}
           <SitemapSection
-            title="Blog & Resources"
-            icon="📝"
-            description="Articles, tips, and insights about home remodeling"
-            items={sitemapData.blog}
+            title="Blog Categories"
+            icon="📂"
+            description="Browse blog posts by category"
+            items={[
+              { title: 'All Topics', href: '/blog', description: 'All blog posts' },
+              { title: 'Bathroom', href: '/blog/category/bathroom', description: 'Bathroom remodeling articles' },
+              { title: 'Kitchen', href: '/blog/category/kitchen', description: 'Kitchen remodeling articles' },
+              { title: 'Basement', href: '/blog/category/basement', description: 'Basement remodeling articles' },
+              { title: 'Attic', href: '/blog/category/attic', description: 'Attic conversion articles' },
+              { title: 'Deck', href: '/blog/category/deck', description: 'Deck construction articles' },
+              { title: 'Tiles & Flooring', href: '/blog/category/tile', description: 'Tile and flooring articles' },
+              { title: 'Cabinets', href: '/blog/category/cabinets', description: 'Cabinet installation articles' },
+              { title: 'Architecture', href: '/blog/category/architecture', description: 'Architecture and design articles' },
+              { title: 'Countertops', href: '/blog/category/countertops', description: 'Countertop installation articles' },
+            ]}
           />
+
+          {/* Dynamic Blog Posts */}
+          {blogItems.length > 0 ? (
+            <SitemapSection
+              title="All Blog Posts"
+              icon="📝"
+              description={`Complete list of all blog posts (${blogItems.length} posts)`}
+              items={blogItems}
+            />
+          ) : (
+            // Fallback to static blog items if API fails
+            <SitemapSection
+              title="Blog & Resources"
+              icon="📝"
+              description="Articles, tips, and insights about home remodeling"
+              items={sitemapData.blog}
+            />
+          )}
 
           {/* Legal */}
           <SitemapSection
