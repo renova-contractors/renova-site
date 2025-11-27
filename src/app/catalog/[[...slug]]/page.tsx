@@ -3,6 +3,7 @@ import { CatalogHero } from "./components/CatalogHero";
 import { CatalogCards } from "./CatalogCards";
 import { getData } from "@/lib/getData/getData";
 import SearchButtons from "./components/SearchButtons";
+import { notFound } from "next/navigation";
 /* import { Manufacturers } from "@/components/MainManufacturers/Manufacturers"; */
 import Pagination from "./components/Pagination";
 
@@ -12,7 +13,17 @@ type Props = {
 };
 
 const page: React.FC<Props> = async ({ params, searchParams }) => {
-	const productItems = await getData(params, searchParams);
+	let productItems;
+	try {
+		productItems = await getData(params, searchParams);
+	} catch (error) {
+		notFound();
+	}
+
+	if (!productItems || typeof productItems !== 'object') {
+		notFound();
+	}
+
 	const slug = params.slug || [];
 	const currentPage = parseInt(searchParams.page?.[0] || "1");
 

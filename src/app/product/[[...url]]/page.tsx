@@ -3,6 +3,7 @@ import ProductImage from "./components/ProductImage";
 import { Characteristics } from "./components/Characteristics";
 import { ProductImageSmallerScreens } from "./components/ProductImageSmallerScreens";
 import { ImageSwiper } from "./components/ImageSwiper";
+import { notFound } from "next/navigation";
 // import { MyMarkdown } from "@/components/MyMarkdown/MyMarkdown";
 
 // Define types for product data structure
@@ -48,7 +49,16 @@ const product: React.FC<Props> = async ({ params, searchParams }) => {
 		return data;
 	}
 
-	const productData = await getData();
+	let productData;
+	try {
+		productData = await getData();
+	} catch (error) {
+		notFound();
+	}
+
+	if (!productData || !Array.isArray(productData) || productData.length === 0 || !productData[0]) {
+		notFound();
+	}
 
 	const product = productData[0];
 	return (

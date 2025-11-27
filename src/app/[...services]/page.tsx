@@ -5,6 +5,7 @@ import { FAQ } from '@/components/FAQ/FAQ';
 import { ContactUs } from '@/components/ContactUs/ContactUs';
 import { getServicesData } from '@/lib/getServiceData/getServiceData';
 import type { Metadata, ResolvingMetadata } from 'next';
+import { notFound } from 'next/navigation';
 import { Manufacturers } from '@/components/MainManufacturers/Manufacturers';
 import { HowWeWork } from '@/components/HowWeWork/HowWeWork';
 import { LocationsList } from '@/components/LocationsList/LocationsList';
@@ -217,7 +218,17 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
   params,
 }) => {
   const id = params.services.join('/');
-  const servicesData = await getServicesData({ services: id });
+  let servicesData;
+  try {
+    servicesData = await getServicesData({ services: id });
+  } catch (error) {
+    notFound();
+  }
+
+  if (!servicesData || !Array.isArray(servicesData) || servicesData.length === 0 || !servicesData[0]) {
+    notFound();
+  }
+
   const servicesPageData = servicesData[0];
   const isMobile = isMobileDevice();
 

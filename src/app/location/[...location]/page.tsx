@@ -3,6 +3,7 @@
 import { MainWhySection } from "@/components/MainWhySection/MainWhySection";
 import { Manufacturers } from "@/components/MainManufacturers/Manufacturers";
 import { Slider } from "@/components/Slider/Slider";
+import { notFound } from "next/navigation";
 /* import { TopProducts } from "@/components/TopProducts/TopProducts"; */
 /* import { backgroundPicturesMain } from "@/constants/background/backgroundPictures"; */
 /* import { ServiceAreas } from "@/components/BottomButtons/BottomButtons";*/
@@ -70,32 +71,42 @@ export async function generateMetadata(
 		};
 	}
 
-	const product = await fetch(
-		`${backendUrl}/location/${city}`,
-	).then(async (res) => {
-		if (!res.ok) {
-			console.error(`API request failed: ${res.status} ${res.statusText}`);
-			return { title: "Location Page", description: "Location page from RENOVA Contractors" };
+	let product;
+	try {
+		const response = await fetch(
+			`${backendUrl}/location/${city}`,
+		);
+		
+		if (!response.ok) {
+			console.error(`API request failed: ${response.status} ${response.statusText}`);
+			product = null;
+		} else {
+			const contentType = response.headers.get('content-type');
+			if (!contentType || !contentType.includes('application/json')) {
+				console.error('API response is not JSON');
+				product = null;
+			} else {
+				product = await response.json();
+			}
 		}
-		const contentType = res.headers.get('content-type');
-		if (!contentType || !contentType.includes('application/json')) {
-			console.error('API response is not JSON');
-			return { title: "Location Page", description: "Location page from RENOVA Contractors" };
-		}
-		return res.json();
-	});
+	} catch (error) {
+		console.error('Error fetching location data for metadata:', error);
+		product = null;
+	}
+
+	const locationData = (Array.isArray(product) && product.length > 0) ? product[0] : null;
 	/* 	const previousImages = (await parent).openGraph?.images || [];
 	 */
 
 	return {
-		title: product[0].title,
-		description: product[0].description,
+		title: locationData?.title || "Location Page",
+		description: locationData?.description || "Location page from RENOVA Contractors",
 		alternates: {
 			canonical: `https://www.renova.contractors/location/${city}`
 		},
 		openGraph: {
-			title: product[0].title,
-			description: product[0].description,
+			title: locationData?.title || "Location Page",
+			description: locationData?.description || "Location page from RENOVA Contractors",
 			images: ["/some-specific-page-image.jpg"],
 		},
 	};
@@ -130,7 +141,16 @@ export default async function Page({
 }: {
 	params: LocationParams;
 }): Promise<any> {
-	const data = await getLocationData(params);
+	let data;
+	try {
+		data = await getLocationData(params);
+	} catch (error) {
+		notFound();
+	}
+
+	if (!data || !Array.isArray(data) || data.length === 0 || !data[0]) {
+		notFound();
+	}
 
 	const props = { ...data[0] };
 

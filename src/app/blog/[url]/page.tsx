@@ -2,6 +2,7 @@ import ReactMarkdown from "react-markdown";
 import type { Metadata, ResolvingMetadata } from "next";
 import Markdown from "react-markdown";
 import { CostTables } from "@/components/CostTables/CostTables";
+import { notFound } from "next/navigation";
 
 type Props = {
 	params: { url: string };
@@ -22,13 +23,25 @@ export async function generateMetadata(
 		};
 	}
 
-	const post = await fetch(
-		`${backendUrl}/blog/url/${id}`,
-	).then((res) => res.json());
+	let post;
+	try {
+		const response = await fetch(
+			`${backendUrl}/blog/url/${id}`,
+		);
+		
+		if (!response.ok) {
+			post = null;
+		} else {
+			post = await response.json();
+		}
+	} catch (error) {
+		console.error('Error fetching blog data for metadata:', error);
+		post = null;
+	}
 
 	const previousImages = (await parent).openGraph?.images || [];
-	const publishedDate = post.createdAt ? new Date(post.createdAt).toISOString() : new Date().toISOString();
-	const modifiedDate = post.updatedAt ? new Date(post.updatedAt).toISOString() : publishedDate;
+	const publishedDate = post?.createdAt ? new Date(post.createdAt).toISOString() : new Date().toISOString();
+	const modifiedDate = post?.updatedAt ? new Date(post.updatedAt).toISOString() : publishedDate;
 
 	// Generate keywords from title and description
 	const titleWords = (post.metaTitle || post.title || '').toLowerCase().split(' ').filter(word => word.length > 3);
@@ -165,8 +178,16 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 		return data;
 	};
 
-	const blog = await getBlog();
-	
+	let blog;
+	try {
+		blog = await getBlog();
+	} catch (error) {
+		notFound();
+	}
+
+	if (!blog || !blog.title) {
+		notFound();
+	}
 	
 	// Use createdAt from the database, with proper fallback
 	const createdAtDate = blog.createdAt ? new Date(blog.createdAt) : new Date();
