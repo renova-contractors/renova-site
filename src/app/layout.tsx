@@ -15,18 +15,6 @@ export const metadata: Metadata = {
     template: "%s | RENOVA Contractors LLC"
   },
   description: "Professional home remodeling services in Seattle. Kitchens, bathrooms, basements, and more. Licensed contractors with 11+ years experience. Free design consultation and discounted materials. Call 206-255-2708 for an estimate.",
-  keywords: [
-    "Seattle remodeling",
-    "kitchen remodel Seattle",
-    "bathroom remodel Seattle", 
-    "basement finishing Seattle",
-    "home renovation Seattle",
-    "contractors Seattle",
-    "licensed contractors",
-    "home remodeling",
-    "renovation services",
-    "Seattle contractors"
-  ],
   authors: [{ name: "RENOVA Contractors LLC" }],
   creator: "RENOVA Contractors LLC",
   publisher: "RENOVA Contractors LLC",

@@ -42,18 +42,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    keywords: [
-      `${categoryName.toLowerCase()} remodel ROI calculator`,
-      'Seattle home improvement ROI',
-      'remodel return on investment',
-      'home renovation calculator',
-      'Seattle remodeling costs',
-      'property value increase',
-      'home improvement investment',
-      'renovation ROI analysis',
-      'Seattle contractors',
-      'RENOVA contractors'
-    ],
     authors: [{ name: "RENOVA Contractors LLC" }],
     creator: "RENOVA Contractors LLC",
     publisher: "RENOVA Contractors LLC",

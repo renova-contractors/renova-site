@@ -4,6 +4,7 @@ import { ServicesHero } from './components/ServicesHero';
 import { FAQ } from '@/components/FAQ/FAQ';
 import { ContactUs } from '@/components/ContactUs/ContactUs';
 import { getServicesData } from '@/lib/getServiceData/getServiceData';
+import { getGooglePlacesRating } from '@/lib/getGooglePlacesRating/getGooglePlacesRating';
 import type { Metadata, ResolvingMetadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Manufacturers } from '@/components/MainManufacturers/Manufacturers';
@@ -130,38 +131,70 @@ export async function generateMetadata(
   const id = params.services.join('/');
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
-  if (!backendUrl) {
-    console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+  // Check if backendUrl is valid
+  if (!backendUrl || backendUrl === 'undefined' || backendUrl.trim() === '') {
+    console.error('NEXT_PUBLIC_BACKEND_URL is not defined or invalid');
     return {
       title: 'Service Page',
       description: 'Service page from RENOVA Contractors',
     };
   }
 
-  const serviceData = await fetch(`${backendUrl}/services/${id}`).then((res) =>
-    res.json()
-  );
+  // Validate URL format
+  let isValidUrl = true;
+  try {
+    new URL(backendUrl);
+  } catch (error) {
+    isValidUrl = false;
+  }
+
+  if (!isValidUrl) {
+    console.error('NEXT_PUBLIC_BACKEND_URL is not a valid URL:', backendUrl);
+    return {
+      title: 'Service Page',
+      description: 'Service page from RENOVA Contractors',
+    };
+  }
+
+  let serviceData;
+  try {
+    const response = await fetch(`${backendUrl}/services/${id}`, {
+      next: { revalidate: 3600 }
+    });
+
+    if (!response.ok) {
+      console.error(`API request failed: ${response.status} ${response.statusText}`);
+      serviceData = null;
+    } else {
+      serviceData = await response.json();
+    }
+  } catch (error) {
+    console.error('Error fetching service data for metadata:', error);
+    serviceData = null;
+  }
 
   // Debug logging for metadata generation
   console.log('Metadata generation for URL:', id);
 
   // Find exact service match (same logic as getServicesData)
   let service;
-  if (Array.isArray(serviceData)) {
-    // First try to find exact match
-    service = serviceData.find((s: any) => s.service === id);
+  if (serviceData) {
+    if (Array.isArray(serviceData)) {
+      // First try to find exact match
+      service = serviceData.find((s: any) => s.service === id);
 
-    // If no exact match, try slug or id
-    if (!service) {
-      service = serviceData.find((s: any) => s.slug === id || s.id === id);
-    }
+      // If no exact match, try slug or id
+      if (!service) {
+        service = serviceData.find((s: any) => s.slug === id || s.id === id);
+      }
 
-    // If still no match, use first item
-    if (!service) {
-      service = serviceData[0];
+      // If still no match, use first item
+      if (!service) {
+        service = serviceData[0];
+      }
+    } else {
+      service = serviceData;
     }
-  } else {
-    service = serviceData;
   }
 
   console.log('Selected service for metadata:', service?.title);
@@ -191,27 +224,51 @@ export async function generateMetadata(
 export async function generateStaticParams() {
   const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
-  if (!backendUrl) {
-    console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
+  // Check if backendUrl is valid (not undefined, not empty, not the string "undefined")
+  if (!backendUrl || backendUrl === 'undefined' || backendUrl.trim() === '') {
+    console.error('NEXT_PUBLIC_BACKEND_URL is not defined or invalid');
     return [];
   }
 
-  const url = await fetch(`${backendUrl}/services/`).then(async (res) => {
-    if (!res.ok) {
-      console.error(`API request failed: ${res.status} ${res.statusText}`);
+  try {
+    // Validate URL format
+    new URL(backendUrl);
+  } catch (error) {
+    console.error('NEXT_PUBLIC_BACKEND_URL is not a valid URL:', backendUrl);
+    return [];
+  }
+
+  try {
+    const servicesUrl = `${backendUrl}/services/`;
+    const response = await fetch(servicesUrl, {
+      next: { revalidate: 3600 } // Cache for 1 hour
+    });
+
+    if (!response.ok) {
+      console.error(`API request failed: ${response.status} ${response.statusText}`);
       return [];
     }
-    const contentType = res.headers.get('content-type');
+
+    const contentType = response.headers.get('content-type');
     if (!contentType || !contentType.includes('application/json')) {
       console.error('API response is not JSON');
       return [];
     }
-    return res.json();
-  });
 
-  return url.map((post: { service: string }) => ({
-    services: post.service.split('/'),
-  }));
+    const url = await response.json();
+
+    // Check if url is an array and has items
+    if (!Array.isArray(url) || url.length === 0) {
+      return [];
+    }
+
+    return url.map((post: { service: string }) => ({
+      services: post.service.split('/'),
+    }));
+  } catch (error) {
+    console.error('Error fetching services for generateStaticParams:', error);
+    return [];
+  }
 }
 
 const Services: React.FC<{ params: { services: string[] } }> = async ({
@@ -232,6 +289,8 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
   const servicesPageData = servicesData[0];
   const isMobile = isMobileDevice();
 
+  // Get rating from Google Places API
+  const googlePlacesRating = await getGooglePlacesRating();
 
   // JSON-LD Schema
   const schema = {
@@ -250,39 +309,59 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
             servicesPageData.category || 'home'
           } remodeling services in ${servicesPageData.location || 'Seattle'}`,
         mainEntity: {
-          '@type': 'Service',
-          name: servicesPageData.category || 'Home Remodeling',
-          serviceType: `${servicesPageData.category || 'home'} remodeling`,
+          '@type': 'HomeAndConstructionBusiness',
+          '@id': `https://www.renova.contractors/${id}#localbusiness`,
+          name: `RENOVA Contractors LLC - ${servicesPageData.category || 'Home'} Remodeling`,
+          image: 'https://www.renova.contractors/logo.png',
+          url: `https://www.renova.contractors/${id}`,
+          telephone: '+1-206-255-2708',
+          email: 'sales@renova.contractors',
+          address: {
+            '@type': 'PostalAddress',
+            streetAddress: '221 1st Ave W #247',
+            addressLocality: 'Seattle',
+            addressRegion: 'WA',
+            postalCode: '98119',
+            addressCountry: 'US',
+          },
+          openingHours: 'Mo-Su 09:00-21:00',
+          priceRange: '$$',
           areaServed: {
             '@type': 'City',
             name: servicesPageData.location || 'Seattle',
-          },
-          provider: {
-            '@type': 'Organization',
-            '@id': 'https://www.renova.contractors/#organization',
-            name: 'RENOVA Contractors LLC',
-            telephone: '206-255-2708',
-            email: 'sales@renova.contractors',
-            address: {
-              '@type': 'PostalAddress',
-              streetAddress: '221 1st Ave W, #247',
-              addressLocality: 'Seattle',
-              addressRegion: 'WA',
-              postalCode: '98119',
-              addressCountry: 'US',
+            containedInPlace: {
+              '@type': 'State',
+              name: 'Washington',
             },
           },
-          offers: {
-            '@type': 'AggregateOffer',
-            priceCurrency: 'USD',
-            lowPrice: '15000',
-            highPrice: '90000',
-            offerCount: '25',
+          serviceArea: {
+            '@type': 'GeoCircle',
+            geoMidpoint: {
+              '@type': 'GeoCoordinates',
+              latitude: '47.6062',
+              longitude: '-122.3321',
+            },
+            geoRadius: '50000',
           },
           aggregateRating: {
             '@type': 'AggregateRating',
-            ratingValue: '4.8',
-            reviewCount: '124',
+            ratingValue: googlePlacesRating?.ratingValue || servicesPageData.aggregateRating?.ratingValue || servicesPageData.rating?.ratingValue || servicesPageData.rating?.value || '4.9',
+            reviewCount: googlePlacesRating?.reviewCount || servicesPageData.aggregateRating?.reviewCount || servicesPageData.rating?.reviewCount || servicesPageData.rating?.count || '250',
+          },
+          hasOfferCatalog: {
+            '@type': 'OfferCatalog',
+            name: `${servicesPageData.category || 'Home'} Remodeling Services`,
+            itemListElement: [
+              {
+                '@type': 'Offer',
+                itemOffered: {
+                  '@type': 'Service',
+                  name: `${servicesPageData.category || 'Home'} Remodeling`,
+                  serviceType: `${servicesPageData.category || 'home'} remodeling`,
+                  description: `Professional ${servicesPageData.category || 'home'} remodeling services in ${servicesPageData.location || 'Seattle'}`,
+                },
+              },
+            ],
           },
         },
       },
@@ -316,60 +395,6 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
           
           return validFaqs;
         })(),
-      },
-      {
-        '@type': 'HomeAndConstructionBusiness',
-        '@id': `https://www.renova.contractors/${id}#localbusiness`,
-        name: 'RENOVA Contractors LLC',
-        image: 'https://www.renova.contractors/logo.png',
-        url: 'https://www.renova.contractors/',
-        telephone: '+1-206-255-2708',
-        address: {
-          '@type': 'PostalAddress',
-          streetAddress: '221 1st Ave W #247',
-          addressLocality: 'Seattle',
-          addressRegion: 'WA',
-          postalCode: '98119',
-          addressCountry: 'US',
-        },
-        openingHours: 'Mo-Su 09:00-21:00',
-        priceRange: '$$',
-        areaServed: {
-          '@type': 'City',
-          name: servicesPageData.location || 'Seattle',
-          containedInPlace: {
-            '@type': 'State',
-            name: 'Washington',
-          },
-        },
-        serviceArea: {
-          '@type': 'GeoCircle',
-          geoMidpoint: {
-            '@type': 'GeoCoordinates',
-            latitude: '47.6062',
-            longitude: '-122.3321',
-          },
-          geoRadius: '50000',
-        },
-        hasOfferCatalog: {
-          '@type': 'OfferCatalog',
-          name: 'Home Remodeling Services',
-          itemListElement: [
-            {
-              '@type': 'Offer',
-              itemOffered: {
-                '@type': 'Service',
-                name: `${servicesPageData.category || 'Home'} Remodeling`,
-                description: `Professional ${servicesPageData.category || 'home'} remodeling services`,
-              },
-            },
-          ],
-        },
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '250',
-        },
       },
       {
         '@type': 'Blog',

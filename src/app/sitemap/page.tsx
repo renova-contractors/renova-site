@@ -6,7 +6,6 @@ import staticServices from '@/constants/services/services.json'
 export const metadata: Metadata = {
   title: 'Sitemap | RENOVA Contractors - Seattle Home Remodeling',
   description: 'Complete sitemap of RENOVA Contractors website. Find all our services, locations, ROI calculators, blog posts, and more. Easy navigation to all Seattle home remodeling resources.',
-  keywords: 'sitemap, RENOVA Contractors, Seattle remodeling, home renovation services, kitchen remodel, bathroom remodel, basement finishing, attic conversion, ROI calculator',
   openGraph: {
     title: 'Sitemap | RENOVA Contractors - Seattle Home Remodeling',
     description: 'Complete sitemap of RENOVA Contractors website. Find all our services, locations, ROI calculators, and more.',

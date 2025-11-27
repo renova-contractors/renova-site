@@ -6,7 +6,6 @@ import { data } from '@/constants/roiData/data'
 export const metadata: Metadata = {
   title: 'ROI Calculators for Seattle Home Remodeling | RENOVA Contractors',
   description: 'Calculate return on investment for your Seattle home remodeling projects. Free ROI calculators for kitchen, bathroom, attic, basement, roofing, deck, siding, and flooring remodels.',
-  keywords: 'ROI calculator, Seattle remodeling, home renovation ROI, kitchen remodel calculator, bathroom remodel ROI, attic conversion calculator, basement finishing ROI, roofing ROI, deck ROI, siding ROI, flooring ROI',
   openGraph: {
     title: 'ROI Calculators for Seattle Home Remodeling | RENOVA Contractors',
     description: 'Calculate return on investment for your Seattle home remodeling projects. Free ROI calculators for all major renovation types.',

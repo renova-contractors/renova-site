@@ -43,18 +43,12 @@ export async function generateMetadata(
 	const publishedDate = post?.createdAt ? new Date(post.createdAt).toISOString() : new Date().toISOString();
 	const modifiedDate = post?.updatedAt ? new Date(post.updatedAt).toISOString() : publishedDate;
 
-	// Generate keywords from title and description
-	const titleWords = (post.metaTitle || post.title || '').toLowerCase().split(' ').filter(word => word.length > 3);
-	const descriptionWords = (post.metaDescription || post.description || '').toLowerCase().split(' ').filter(word => word.length > 3);
-	const combinedKeywords = Array.from(new Set([...titleWords, ...descriptionWords, 'home remodeling', 'seattle', 'renovation', 'contractors', 'renova']));
-
 	return {
 		title: {
 			default: post.metaTitle || post.title || "Blog Post",
 			template: "%s | RENOVA Contractors LLC"
 		},
 		description: post.metaDescription || post.description || "Expert home remodeling insights and tips from RENOVA Contractors LLC in Seattle.",
-		keywords: combinedKeywords,
 		authors: [{ name: "RENOVA Contractors LLC" }],
 		creator: "RENOVA Contractors LLC",
 		publisher: "RENOVA Contractors LLC",
@@ -248,7 +242,6 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 					"caption": blog.metaTitle || blog.title || "Blog Post"
 				},
 				"articleSection": blog.category || "Home Remodeling",
-				"keywords": Array.isArray(blog.tags) ? blog.tags : (blog.tags ? blog.tags.split(',').map(tag => tag.trim()) : ["home remodeling", "renovation", "seattle"]),
 				"wordCount": wordCount,
 				"timeRequired": `PT${readingTime}M`,
 				"inLanguage": "en-US",
