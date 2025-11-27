@@ -195,7 +195,7 @@ table {
 }
 
 .custom-heading {
-  @apply text-title-large font-black text-white leading-tight text-[40px]  mb-[25px] max-xl:mb-[12px];
+  @apply text-title-large max-sm:text-[20px] font-black text-white leading-tight text-[40px]  mb-[25px] max-xl:mb-[12px] max-sm:mb-[10px];
 }
 
 .title-white {
