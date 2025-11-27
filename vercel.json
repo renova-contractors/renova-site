@@ -1,21 +1,3 @@
 {
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "(.*)"
-        }
-      ],
-      "permanent": true,
-      "regex": [
-        {
-          "pattern": "[A-Z]",
-          "replace": ""
-        }
-      ],
-      "destination": "/:path*"
-    }
-  ]
+  "redirects": []
 }
