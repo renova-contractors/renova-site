@@ -289,7 +289,6 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
   const servicesPageData = servicesData[0];
   const isMobile = isMobileDevice();
 
-  // Get rating from Google Places API
   const googlePlacesRating = await getGooglePlacesRating();
 
   // JSON-LD Schema
