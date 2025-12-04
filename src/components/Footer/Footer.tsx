@@ -101,7 +101,7 @@ export const Footer: React.FC<Props> = ({ location }) => {
 								</Link>
 							</li>
 							<li className="mb-[15px]">
-								<Link title="ROI Calculator" href="/roi">
+								<Link title="ROI Calculator" href="/return-on-investment-remodel">
 									ROI Calculator
 								</Link>
 							</li>
