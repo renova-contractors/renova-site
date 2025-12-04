@@ -1,6 +1,6 @@
 export const locationsList  = {
 	wa: [
-	{ location: "Seattle" , link: "/location/seattle" },
+	{ location: "Seattle" , link: "/" },
 	  { location: "Bellevue", link: "/location/bellevue" }
 	  /* { location: "Redmond", link: "/location/redmond" },
 	  { location: "Kirkland", link: "/location/kirkland" }, */
