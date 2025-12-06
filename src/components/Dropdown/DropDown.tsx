@@ -27,7 +27,7 @@ export const DropDown: React.FC<Props> = ({ idType }) => {
 
 	return (
 		<div
-			className={`left-0 right-0 p-5 rounded-3xl mx-auto absolute inset-0 top-32   w-full  grid grid-flow-col bg-black text-main-gray z-20 ${
+			className={`left-0 right-0 p-5 rounded-3xl mx-auto absolute inset-0 top-48   w-full  grid grid-flow-col bg-black text-main-gray z-20 ${
 				isDropdownOpen ? "h-max" : "h-max"
 			}`}
 		>
