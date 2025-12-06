@@ -210,12 +210,8 @@ export const Header: React.FC = (): JSX.Element => {
 								className="flex font-semibold hover:text-main-yellow"
 								href={href}
 								title={title}
-								onMouseEnter={() => {
-									dropdownOpenHandler(id);
-								}}
-								onMouseLeave={() => {
-									setIsDropdownOpen(false);
-								}}
+								onMouseEnter={dropdown ? () => dropdownOpenHandler(id) : undefined}
+								onMouseLeave={dropdown ? () => setIsDropdownOpen(false) : undefined}
 							>
 								{title}
 							</Link>
