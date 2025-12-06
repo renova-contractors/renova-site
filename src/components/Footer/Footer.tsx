@@ -137,13 +137,21 @@ export const Footer: React.FC<Props> = ({ location }) => {
 				© {new Date().getFullYear()} Renova Contractors LLC. All rights reserved.
 			</p>
 
-			<Link
-				title="sitemap"
-				className="w-full mx-auto flex justify-center mb-5"
-				href="/sitemap"
-			>
-				Sitemap
-			</Link>
+			<div className="w-full mx-auto flex justify-center gap-4 mb-5">
+				<Link
+					title="Terms and Conditions"
+					href="/terms-and-conditions"
+				>
+					Terms and Conditions
+				</Link>
+				<span className="text-gray-400">|</span>
+				<Link
+					title="sitemap"
+					href="/sitemap"
+				>
+					Sitemap
+				</Link>
+			</div>
 		</footer>
 	);
 };
