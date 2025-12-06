@@ -7,6 +7,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
 	title: "Our Services",
 	description: "RENOVA services",
+	alternates: {
+		canonical: 'https://www.renova.contractors/services'
+	}
 };
 
 const Services = () => {

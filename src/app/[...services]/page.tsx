@@ -174,7 +174,6 @@ export async function generateMetadata(
   }
 
   // Debug logging for metadata generation
-  console.log('Metadata generation for URL:', id);
 
   // Find exact service match (same logic as getServicesData)
   let service;

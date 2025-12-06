@@ -10,6 +10,9 @@ import Licensing from "@/components/Licensing/Licensing";
 export const metadata: Metadata = {
 	title: "About Us",
 	description: "Some important information about us",
+	alternates: {
+		canonical: "https://www.renova.contractors/about"
+	}
 };
 
 const About: React.FC = () => {

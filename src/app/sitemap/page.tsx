@@ -202,7 +202,7 @@ const sitemapData = {
   ],
   blog: [
     { title: 'Blog Home', href: '/blog', description: 'All blog posts' },
-    { title: 'Bathroom Category', href: '/blog/category/bathroom', description: 'Bathroom remodeling articles' },
+    { title: 'Bathroom Category', href: '/blog/bathroom', description: 'Bathroom remodeling articles' },
     { title: 'Small Bathroom Cost', href: '/blog/bathroom-remodel-cost-seattle-small-bathroom', description: 'Small bathroom remodel costs in Seattle' },
     { title: 'Basement Remodel Cost', href: '/blog/basement-remodel-cost-seattle', description: 'Basement remodel costs in Seattle with permits and waterproofing' },
     { title: 'Basement Permit Requirements', href: '/blog/do-i-need-a-permit-basement-remodel-seattle', description: 'Learn when Seattle requires permits for basement finishing vs. remodeling' },
@@ -382,15 +382,15 @@ const page = async () => {
             description="Browse blog posts by category"
             items={[
               { title: 'All Topics', href: '/blog', description: 'All blog posts' },
-              { title: 'Bathroom', href: '/blog/category/bathroom', description: 'Bathroom remodeling articles' },
-              { title: 'Kitchen', href: '/blog/category/kitchen', description: 'Kitchen remodeling articles' },
-              { title: 'Basement', href: '/blog/category/basement', description: 'Basement remodeling articles' },
-              { title: 'Attic', href: '/blog/category/attic', description: 'Attic conversion articles' },
-              { title: 'Deck', href: '/blog/category/deck', description: 'Deck construction articles' },
-              { title: 'Tiles & Flooring', href: '/blog/category/tile', description: 'Tile and flooring articles' },
-              { title: 'Cabinets', href: '/blog/category/cabinets', description: 'Cabinet installation articles' },
-              { title: 'Architecture', href: '/blog/category/architecture', description: 'Architecture and design articles' },
-              { title: 'Countertops', href: '/blog/category/countertops', description: 'Countertop installation articles' },
+              { title: 'Bathroom', href: '/blog/bathroom', description: 'Bathroom remodeling articles' },
+              { title: 'Kitchen', href: '/blog/kitchen', description: 'Kitchen remodeling articles' },
+              { title: 'Basement', href: '/blog/basement', description: 'Basement remodeling articles' },
+              { title: 'Attic', href: '/blog/attic', description: 'Attic conversion articles' },
+              { title: 'Deck', href: '/blog/deck', description: 'Deck construction articles' },
+              { title: 'Tiles & Flooring', href: '/blog/tile', description: 'Tile and flooring articles' },
+              { title: 'Cabinets', href: '/blog/cabinets', description: 'Cabinet installation articles' },
+              { title: 'Architecture', href: '/blog/architecture', description: 'Architecture and design articles' },
+              { title: 'Countertops', href: '/blog/countertops', description: 'Countertop installation articles' },
             ]}
           />
 

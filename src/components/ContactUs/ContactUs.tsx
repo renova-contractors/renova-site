@@ -51,21 +51,42 @@ export const ContactUs: React.FC = () => {
 
 				{/* Social icons */}
 				<li className="flex space-between gap-2">
-					{socialIcons?.map(({ icon, href, id, name }: any) => (
-						<Link
-							key={id}
-							href={href}
-							aria-label={`Visit our ${name}`}
-							title={name}
-						>
-							<Image
-								src={icon}
-								height={SOCIALS_SIZE}
-								width={SOCIALS_SIZE}
-								alt={`${name} icon`}
-							/>
-						</Link>
-					))}
+					{socialIcons?.map(({ icon, href, id, name }: any) => {
+						const isExternalLink = href.startsWith('http://') || href.startsWith('https://');
+						return (
+							isExternalLink ? (
+								<a
+									key={id}
+									href={href}
+									aria-label={`Visit our ${name}`}
+									title={name}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<Image
+										src={icon}
+										height={SOCIALS_SIZE}
+										width={SOCIALS_SIZE}
+										alt={`${name} icon`}
+									/>
+								</a>
+							) : (
+								<Link
+									key={id}
+									href={href}
+									aria-label={`Visit our ${name}`}
+									title={name}
+								>
+									<Image
+										src={icon}
+										height={SOCIALS_SIZE}
+										width={SOCIALS_SIZE}
+										alt={`${name} icon`}
+									/>
+								</Link>
+							)
+						);
+					})}
 				</li>
 
 				{/* Form */}

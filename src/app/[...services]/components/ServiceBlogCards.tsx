@@ -12,7 +12,7 @@ export const ServicesBlogCards: React.FC<Props> = async ({ category = "" }) => {
 	let blogData;
 
 	if (category) {
-		blogData = await getBlogData(`category/${category}`);
+		blogData = await getBlogData(category);
 	} else {
 		blogData = await getBlogData("");
 	}

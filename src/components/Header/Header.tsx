@@ -86,18 +86,32 @@ export const Header: React.FC = (): JSX.Element => {
             </div> */}
 			<div className="flex pb-5 justify-between items-end border-b-[1px] border-solid border-black ">
 				<ul className="flex gap-5 max-sm:hidden">
-					{socialIcons?.map(({ icon, href, id }: any) => (
-						<li key={id}>
-							<Link href={href}>
-								<Image
-									src={icon}
-									height={SOCIALS_SIZE}
-									width={SOCIALS_SIZE}
-									alt="social-media-icons"
-								/>
-							</Link>
-						</li>
-					))}
+					{socialIcons?.map(({ icon, href, id }: any) => {
+						const isExternalLink = href.startsWith('http://') || href.startsWith('https://');
+						return (
+							<li key={id}>
+								{isExternalLink ? (
+									<a href={href} target="_blank" rel="noopener noreferrer">
+										<Image
+											src={icon}
+											height={SOCIALS_SIZE}
+											width={SOCIALS_SIZE}
+											alt="social-media-icons"
+										/>
+									</a>
+								) : (
+									<Link href={href}>
+										<Image
+											src={icon}
+											height={SOCIALS_SIZE}
+											width={SOCIALS_SIZE}
+											alt="social-media-icons"
+										/>
+									</Link>
+								)}
+							</li>
+						);
+					})}
 				</ul>
 
 				{/* <div className="relative flex max-sm:hidden items-center gap-2">
@@ -196,26 +210,18 @@ export const Header: React.FC = (): JSX.Element => {
 								className="flex font-semibold hover:text-main-yellow"
 								href={href}
 								title={title}
+								onMouseEnter={() => {
+									dropdownOpenHandler(id);
+								}}
+								onMouseLeave={() => {
+									setIsDropdownOpen(false);
+								}}
 							>
 								{title}
 							</Link>
 							{dropdown && (
 								<Image
-									onMouseEnter={() => {
-										dropdownOpenHandler(id);
-									}}
-									onMouseLeave={() => {
-										if (
-											!isDropdownOpen ||
-											!isDropdownOpen
-										) {
-											setTimeout(() => {
-												setIsDropdownOpen(false);
-											}, 60);
-										} else {
-											setIsDropdownOpen(true);
-										}
-									}}
+									
 									src={header_arrow_down}
 									height={ICON_SIZE}
 									width={ICON_SIZE}

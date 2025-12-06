@@ -8,11 +8,16 @@ type Props = {
 	params: { url: string };
 };
 
+// Allow dynamic params for blog posts that aren't statically generated
+export const dynamicParams = true;
+export const dynamic = 'force-dynamic';
+
 export async function generateMetadata(
 	{ params }: Props,
 	parent: ResolvingMetadata,
 ): Promise<Metadata> {
 	const id = params.url;
+	
 	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 	if (!backendUrl) {
@@ -25,9 +30,18 @@ export async function generateMetadata(
 
 	let post;
 	try {
-		const response = await fetch(
+		let response = await fetch(
 			`${backendUrl}/blog/url/${id}`,
+			{ cache: 'no-store' }
 		);
+		
+		if (!response.ok) {
+			// Try alternative format
+			response = await fetch(
+				`${backendUrl}/blog/${id}`,
+				{ cache: 'no-store' }
+			);
+		}
 		
 		if (!response.ok) {
 			post = null;
@@ -43,12 +57,19 @@ export async function generateMetadata(
 	const publishedDate = post?.createdAt ? new Date(post.createdAt).toISOString() : new Date().toISOString();
 	const modifiedDate = post?.updatedAt ? new Date(post.updatedAt).toISOString() : publishedDate;
 
+	// Safe access with fallbacks
+	const metaTitle = post?.metaTitle || post?.title || "Blog Post";
+	const metaDescription = post?.metaDescription || post?.description || "Expert home remodeling insights and tips from RENOVA Contractors LLC in Seattle.";
+	const featuredImage = post?.featuredImage || "https://www.renova.contractors/logo.png";
+	const category = post?.category || 'Home Remodeling';
+	const tags = post?.tags || ['home remodeling', 'renovation', 'seattle'];
+
 	return {
 		title: {
-			default: post.metaTitle || post.title || "Blog Post",
+			default: metaTitle,
 			template: "%s | RENOVA Contractors LLC"
 		},
-		description: post.metaDescription || post.description || "Expert home remodeling insights and tips from RENOVA Contractors LLC in Seattle.",
+		description: metaDescription,
 		authors: [{ name: "RENOVA Contractors LLC" }],
 		creator: "RENOVA Contractors LLC",
 		publisher: "RENOVA Contractors LLC",
@@ -68,16 +89,16 @@ export async function generateMetadata(
 		},
 		openGraph: {
 			type: 'article',
-			title: post.metaTitle || post.title || "Blog Post",
-			description: post.metaDescription || post.description || "Expert home remodeling insights and tips from RENOVA Contractors LLC in Seattle.",
+			title: metaTitle,
+			description: metaDescription,
 			url: `https://www.renova.contractors/blog/${id}`,
 			siteName: "RENOVA Contractors LLC",
 			images: [
 				{
-					url: post.featuredImage || "https://www.renova.contractors/logo.png",
+					url: featuredImage,
 					width: 1200,
 					height: 630,
-					alt: post.metaTitle || post.title || "Blog Post",
+					alt: metaTitle,
 				},
 				...previousImages
 			],
@@ -85,64 +106,36 @@ export async function generateMetadata(
 			publishedTime: publishedDate,
 			modifiedTime: modifiedDate,
 			authors: ['RENOVA Contractors LLC'],
-			section: post.category || 'Home Remodeling',
-			tags: post.tags || ['home remodeling', 'renovation', 'seattle'],
+			section: category,
+			tags: Array.isArray(tags) ? tags : ['home remodeling', 'renovation', 'seattle'],
 		},
 		twitter: {
 			card: 'summary_large_image',
 			site: '@renova.contractors',
 			creator: '@renova.contractors',
-			title: post.metaTitle || post.title || "Blog Post",
-			description: post.metaDescription || post.description || "Expert home remodeling insights and tips from RENOVA Contractors LLC in Seattle.",
-			images: [post.featuredImage || "https://www.renova.contractors/logo.png"],
+			title: metaTitle,
+			description: metaDescription,
+			images: [featuredImage],
 		},
 		other: {
 			'article:published_time': publishedDate,
 			'article:modified_time': modifiedDate,
 			'article:author': 'RENOVA Contractors LLC',
-			'article:section': post.category || 'Home Remodeling',
-			'article:tag': Array.isArray(post.tags) ? post.tags.join(', ') : (post.tags || 'home remodeling, renovation, seattle'),
+			'article:section': category,
+			'article:tag': Array.isArray(tags) ? tags.join(', ') : 'home remodeling, renovation, seattle',
 		},
 	};
 }
 
 export async function generateStaticParams(): Promise<{ url: string }[]> {
-	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
-
-	if (!backendUrl) {
-		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
-		return [];
-	}
-
-	const url = await fetch(
-		`${backendUrl}/blog/`,
-	).then(async (res) => {
-		if (!res.ok) {
-			console.error(`API request failed: ${res.status} ${res.statusText}`);
-			return [];
-		}
-		const contentType = res.headers.get('content-type');
-		if (!contentType || !contentType.includes('application/json')) {
-			console.error('API response is not JSON');
-			return [];
-		}
-		return res.json();
-	});
-
-	// Check if the response is an array before using .map
-	if (Array.isArray(url)) {
-		return url.map((post: { url: any }) => ({
-			url: post.url,
-		}));
-	} else {
-		// Handle the case where the response is not an array
-		console.error("API response for blog/url/ is not an array");
-
-		return []; // Or return an empty array if no valid data is present
-	}
+	// Return empty array to force dynamic generation for all URLs
+	// With dynamicParams = true, Next.js will handle all URLs dynamically
+	return [];
 }
 
 const page = async ({ params }: Props): Promise<JSX.Element> => {
+	console.log('Blog post page called with URL:', params.url);
+	
 	const getBlog = async (): Promise<any> => {
 		const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
@@ -156,30 +149,52 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 			};
 		}
 
-		const res = await fetch(
+		console.log(`Fetching blog from: ${backendUrl}/blog/url/${params.url}`);
+		
+		// Try different URL formats
+		let res = await fetch(
 			`${backendUrl}/blog/url/${params.url}`,
 			{
-				next: { revalidate: 3600 } // Cache for 1 hour
+				cache: 'no-store' // Force dynamic fetch
 			}
 		);
 		
+		console.log(`First attempt status: ${res.status} for URL: ${params.url}`);
+		
+		// If first format fails, try alternative format
 		if (!res.ok) {
-			console.error('Failed to fetch blog:', res.status, res.statusText);
-			throw new Error('Failed to fetch blog data');
+			console.log(`Trying alternative URL format for: ${params.url}`);
+			res = await fetch(
+				`${backendUrl}/blog/${params.url}`,
+				{
+					cache: 'no-store'
+				}
+			);
+			console.log(`Alternative attempt status: ${res.status} for URL: ${params.url}`);
+		}
+		
+		if (!res.ok) {
+			console.error('Failed to fetch blog:', res.status, res.statusText, `URL: ${params.url}`);
+			const errorText = await res.text().catch(() => '');
+			console.error('Error response body:', errorText);
+			throw new Error(`Failed to fetch blog data: ${res.status} ${res.statusText}`);
 		}
 		
 		const data = await res.json();
+		console.log('Blog data fetched successfully:', data?.metaTitle || data?.cardTitle || data?.title || 'No title');
 		return data;
 	};
 
 	let blog;
 	try {
 		blog = await getBlog();
-	} catch (error) {
+	} catch (error: any) {
+		console.error('Error in getBlog:', error?.message || error);
 		notFound();
 	}
 
-	if (!blog || !blog.title) {
+	if (!blog || (!blog.title && !blog.metaTitle && !blog.cardTitle)) {
+		console.error('Blog not found or missing title:', blog);
 		notFound();
 	}
 	
@@ -187,12 +202,6 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 	const createdAtDate = blog.createdAt ? new Date(blog.createdAt) : new Date();
 	const options = { year: "numeric", month: "long", day: "numeric" };
 	const americanFormat = createdAtDate.toLocaleDateString("en-US", options as any);
-	
-	// Debug: Log the formatted date
-	console.log('Formatted date:', americanFormat);
-	console.log('CreatedAt Date object:', createdAtDate);
-
-	// Enhanced JSON-LD Schema for Blog Posts (2025 SEO Standards)
 	const publishedDate = createdAtDate.toISOString();
 	const modifiedDate = blog.updatedAt ? new Date(blog.updatedAt).toISOString() : publishedDate;
 	const wordCount = blog.markdown ? blog.markdown.split(' ').length : 0;
@@ -204,8 +213,8 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 			{
 				"@type": "BlogPosting",
 				"@id": `https://www.renova.contractors/blog/${params.url}`,
-				"headline": blog.metaTitle || blog.title || "Blog Post",
-				"description": blog.metaDescription || blog.description || "",
+				"headline": blog?.metaTitle || blog?.title || "Blog Post",
+				"description": blog?.metaDescription || blog?.description || "",
 				"author": {
 					"@type": "Organization",
 					"@id": "https://www.renova.contractors/#organization",
@@ -236,12 +245,12 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 				},
 				"image": {
 					"@type": "ImageObject",
-					"url": blog.featuredImage || "https://www.renova.contractors/logo.png",
+					"url": blog?.featuredImage || "https://www.renova.contractors/logo.png",
 					"width": 1200,
 					"height": 630,
-					"caption": blog.metaTitle || blog.title || "Blog Post"
+					"caption": blog?.metaTitle || blog?.title || "Blog Post"
 				},
-				"articleSection": blog.category || "Home Remodeling",
+				"articleSection": blog?.category || "Home Remodeling",
 				"wordCount": wordCount,
 				"timeRequired": `PT${readingTime}M`,
 				"inLanguage": "en-US",
@@ -253,16 +262,16 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 				},
 				"about": {
 					"@type": "Thing",
-					"name": blog.category || "Home Remodeling",
-					"description": `Professional ${blog.category || 'home remodeling'} services in Seattle`
+					"name": blog?.category || "Home Remodeling",
+					"description": `Professional ${blog?.category || 'home remodeling'} services in Seattle`
 				}
 			},
 			{
 				"@type": "WebPage",
 				"@id": `https://www.renova.contractors/blog/${params.url}`,
 				"url": `https://www.renova.contractors/blog/${params.url}`,
-				"name": blog.metaTitle || blog.title || "Blog Post",
-				"description": blog.metaDescription || blog.description || "",
+				"name": blog?.metaTitle || blog?.title || "Blog Post",
+				"description": blog?.metaDescription || blog?.description || "",
 				"isPartOf": {
 					"@type": "WebSite",
 					"@id": "https://www.renova.contractors/#website",
@@ -287,7 +296,7 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 						{
 							"@type": "ListItem",
 							"position": 3,
-							"name": blog.metaTitle || blog.title || "Blog Post",
+							"name": blog?.metaTitle || blog?.title || "Blog Post",
 							"item": `https://www.renova.contractors/blog/${params.url}`
 						}
 					]
@@ -319,7 +328,7 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 					{
 						"@type": "ListItem",
 						"position": 3,
-						"name": blog.metaTitle || blog.title || "Blog Post",
+						"name": blog?.metaTitle || blog?.title || "Blog Post",
 						"item": `https://www.renova.contractors/blog/${params.url}`
 					}
 				]
@@ -342,7 +351,10 @@ const page = async ({ params }: Props): Promise<JSX.Element> => {
 			<main className="container  mx-auto px-4 py-12 sm:w-2/3">
 				{/* Article Header */}
 				<header className="mb-16 mt-[200px] max-sm:mt-[150px] text-main-gray">
-					
+					{/* Article Title */}
+					<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-main-gray">
+						{blog.metaTitle || blog.cardTitle || blog.title || "Blog Post"}
+					</h1>
 					
 					{/* Article Meta */}
 					<div className="flex flex-wrap items-center gap-6 text-sm text-gray-600 text-main-gray">

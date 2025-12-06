@@ -1,4 +1,13 @@
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: 'Privacy Policy | RENOVA Contractors',
+	description: 'Privacy Policy for RENOVA Contractors LLC',
+	alternates: {
+		canonical: 'https://www.renova.contractors/privacy-policy'
+	}
+};
 
 const PrivacyPolicy = () => {
   return (

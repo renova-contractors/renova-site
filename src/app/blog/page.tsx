@@ -1,31 +1,51 @@
-import { BlogCards } from "../components/BlogCards";
-import { BlogFilter } from "../components/BlogFilter";
 import { getBlogData } from "@/lib/getBlogData/getBlogData";
 import { LocationsList } from "@/components/LocationsList/LocationsList";
-import ReactMarkdown from "react-markdown";
 import { Metadata } from "next";
-
-type Props = {
-	params: { list: string[] }; // Update type for 'list' to be an array of strings
-};
+import { BlogPageClient } from "./components/BlogPageClient";
 
 export const metadata: Metadata = {
-	title: 'Blog | RENOVA',
+	title: 'Blog | RENOVA Contractors',
 	description: 'Check out recent information and useful articles',
-  }
+	alternates: {
+		canonical: "https://www.renova.contractors/blog"
+	}
+};
 
-const page: React.FC<Props> = async ({ params }: Props) => {
+const page = async () => {
 	let blogData;
 
-	if (Object.keys(params).length === 0) {
+	try {
 		blogData = await getBlogData();
-	} else {
-		const paramsArray = params.list; // Use const for better immutability
-		const search = paramsArray.join("/");
-		blogData = await getBlogData(search);
+		
+		// Ensure blogData is an array and filter out invalid entries
+		if (!Array.isArray(blogData)) {
+			console.error('Blog data is not an array:', blogData);
+			blogData = [];
+		} else {
+			// Filter out null/undefined values and ensure required fields exist
+			blogData = blogData
+				.filter((item: any) => {
+					if (!item || typeof item !== 'object') return false;
+					if (!item.url) return false;
+					const hasTitle = !!(item?.cardTitle || item?.metaTitle || item?.title);
+					const hasDescription = !!(item?.cardDescription || item?.metaDescription || item?.description);
+					return hasTitle && hasDescription;
+				})
+				.map((item: any) => ({
+					markdown: item?.markdown || '',
+					url: item?.url || '',
+					createdAt: item?.createdAt || new Date().toISOString(),
+					cardTitle: item?.cardTitle || item?.metaTitle || item?.title || 'Untitled',
+					cardDescription: item?.cardDescription || item?.metaDescription || item?.description || '',
+					category: item?.category || ''
+				}))
+				.filter((item: any) => item.url && item.cardTitle); // Final safety check
+		}
+	} catch (error) {
+		console.error('Error fetching blog data:', error);
+		blogData = [];
 	}
 
-	// Schema for blog listing page
 	const blogSchema = {
 		"@context": "https://schema.org",
 		"@graph": [
@@ -99,10 +119,7 @@ const page: React.FC<Props> = async ({ params }: Props) => {
 				}}
 			/>
 			<main>
-				<BlogFilter />
-				<BlogCards cards={blogData} />
-
-				{/* <ServiceAreas /> */}
+				<BlogPageClient initialBlogData={blogData} />
 				<LocationsList />
 			</main>
 		</>

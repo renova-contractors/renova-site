@@ -9,6 +9,28 @@ export function middleware(req: NextRequest) {
     return new NextResponse(null, { status: 404 })
   }
 
+  // Redirect old blog category URLs to main blog page (301 permanent redirect for SEO)
+  // /blog/category/* -> /blog
+  // Old category URLs like /blog/kitchen, /blog/basement -> /blog
+  const blogCategories = ['bathroom', 'kitchen', 'basement', 'attic', 'deck', 'tile', 'cabinets', 'architecture', 'countertops'];
+  
+  if (pathname.startsWith('/blog/category/')) {
+    const url = req.nextUrl.clone()
+    url.pathname = '/blog'
+    return NextResponse.redirect(url, 301)
+  }
+
+  // Redirect old category URLs to main blog page
+  const blogCategoryMatch = pathname.match(/^\/blog\/([^\/]+)$/);
+  if (blogCategoryMatch) {
+    const category = blogCategoryMatch[1].toLowerCase();
+    if (blogCategories.includes(category)) {
+      const url = req.nextUrl.clone();
+      url.pathname = '/blog';
+      return NextResponse.redirect(url, 301);
+    }
+  }
+
   // Ignore system & asset files
   if (
     pathname.startsWith('/_next') ||

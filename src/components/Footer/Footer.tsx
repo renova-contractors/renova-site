@@ -51,16 +51,30 @@ export const Footer: React.FC<Props> = ({ location }) => {
 
 					{/* Соцсети */}
 					<nav aria-label="Social links" className="flex justify-between">
-						{socialIcons?.map(({ icon, href, id, title }: any) => (
-							<Link key={id} href={href} title={title}>
-								<Image
-									src={icon}
-									height={SOCIALS_SIZE}
-									width={SOCIALS_SIZE}
-									alt={title}
-								/>
-							</Link>
-						))}
+						{socialIcons?.map(({ icon, href, id, title }: any) => {
+							const isExternalLink = href.startsWith('http://') || href.startsWith('https://');
+							return (
+								isExternalLink ? (
+									<a key={id} href={href} title={title} target="_blank" rel="noopener noreferrer">
+										<Image
+											src={icon}
+											height={SOCIALS_SIZE}
+											width={SOCIALS_SIZE}
+											alt={title}
+										/>
+									</a>
+								) : (
+									<Link key={id} href={href} title={title}>
+										<Image
+											src={icon}
+											height={SOCIALS_SIZE}
+											width={SOCIALS_SIZE}
+											alt={title}
+										/>
+									</Link>
+								)
+							);
+						})}
 					</nav>
 				</address>
 

@@ -38,16 +38,30 @@ export const ContactHero: React.FC = () => (
 						Monday - Sunday 9:00AM - 9:00PM
 					</li>
 					<li className="flex gap-5">
-						{socialIcons?.map(({ icon, href, id }) => (
-							<Link key={id} href={href}>
-								<Image
-									src={icon}
-									height={SOCIALS_SIZE}
-									width={SOCIALS_SIZE}
-									alt="social_icon"
-								/>
-							</Link>
-						))}
+						{socialIcons?.map(({ icon, href, id }) => {
+							const isExternalLink = href.startsWith('http://') || href.startsWith('https://');
+							return (
+								isExternalLink ? (
+									<a key={id} href={href} target="_blank" rel="noopener noreferrer">
+										<Image
+											src={icon}
+											height={SOCIALS_SIZE}
+											width={SOCIALS_SIZE}
+											alt="social_icon"
+										/>
+									</a>
+								) : (
+									<Link key={id} href={href}>
+										<Image
+											src={icon}
+											height={SOCIALS_SIZE}
+											width={SOCIALS_SIZE}
+											alt="social_icon"
+										/>
+									</Link>
+								)
+							);
+						})}
 					</li>
 				</ul>
 			</div>

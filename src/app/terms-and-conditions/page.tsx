@@ -1,5 +1,14 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: 'Terms and Conditions | RENOVA Contractors',
+	description: 'Terms and Conditions for RENOVA Contractors LLC',
+	alternates: {
+		canonical: 'https://www.renova.contractors/terms-and-conditions'
+	}
+};
 
 const content = {
 	terms_and_conditions:

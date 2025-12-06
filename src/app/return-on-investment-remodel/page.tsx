@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     images: ['https://res.cloudinary.com/dzojhepyl/image/upload/v1722931865/kitchen/8C623FAB-87EF-42B7-978C-3937E512C023_rmocq4.jpg']
   },
   alternates: {
-    canonical: 'https://www.renova.contractors/roi'
+    canonical: 'https://www.renova.contractors/return-on-investment-remodel'
   }
 }
 

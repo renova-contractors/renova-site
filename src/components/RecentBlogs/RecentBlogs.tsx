@@ -29,10 +29,12 @@ export const RecentBlogs: React.FC = () => {
       try {
         setLoading(true);
 
-        // Use local API route for blog posts
-        const baseUrl = process.env.NODE_ENV === 'production'
-          ? 'https://www.renova.contractors'
-          : 'http://localhost:3000';
+        // Use local API route for blog posts - relative URL works in client components
+        const baseUrl = typeof window !== 'undefined' 
+          ? window.location.origin
+          : (process.env.NODE_ENV === 'production' 
+            ? 'https://www.renova.contractors' 
+            : 'http://localhost:3001');
 
         const response = await fetch(`${baseUrl}/api/blog?location=seattle`);
 
