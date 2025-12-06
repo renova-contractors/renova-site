@@ -17,6 +17,7 @@ export const Footer: React.FC<Props> = ({ location }) => {
 			role="contentinfo"
 		>
 			<div className="flex w-max mx-auto max-sm:items-center max-sm:text-center items-start md:flex-row flex-col pb-[60px] md:gap-[20px] lg:gap-[90px] xl:gap-[157px]">
+				<Link href="/" title="Renova Contractors - Seattle Remodeling">
 				<Image
 					src={logo_bottom}
 					width={145}
@@ -24,6 +25,8 @@ export const Footer: React.FC<Props> = ({ location }) => {
 					alt="Renova Contractors LLC logo"
 					priority
 				/>
+				</Link>
+				
 
 				{/* Контакты */}
 				<address className="not-italic max-w-[194px] max-md:mt-[40px]">
