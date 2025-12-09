@@ -7,6 +7,11 @@ import { useEffect, useState } from "react";
 import { Button } from "../Button/Button";
 import styles from "./GenerateEstimate.module.css";
 
+// Helper function to allow only digits
+const allowOnlyDigits = (value: string): string => {
+  return value.replace(/\D/g, '');
+};
+
 export const GenerateEstimate = () => {
   const [prompt, setPrompt] = useState("");
   const [phone, setPhone] = useState("");
@@ -18,7 +23,8 @@ export const GenerateEstimate = () => {
 
   useEffect(() => {
     const sendPhoneEmail = async () => {
-      if (phone.trim().length >= 7 && !emailSent) {
+      const phoneDigits = phone.replace(/\D/g, '');
+      if (phoneDigits.length >= 10 && !emailSent) {
         try {
           await fetch("/api/notify", {
             method: "POST",
@@ -45,9 +51,10 @@ export const GenerateEstimate = () => {
     setEstimate(null);
     setPhoneError(false);
 
-    if (phone.trim().length < 7) {
+    const phoneDigits = phone.replace(/\D/g, '');
+    if (phoneDigits.length < 10) {
       setPhoneError(true);
-      setError("Please enter a valid phone number.");
+      setError("Please enter a valid phone number with at least 10 digits.");
       return;
     }
 
@@ -107,18 +114,24 @@ export const GenerateEstimate = () => {
 
           {phoneError && (
             <p className="text-red-600 text-sm mt-2">
-              Phone number is required.
+              Phone number is required and must contain at least 10 digits (numbers only).
             </p>
           )}
 
           <input
             type="tel"
             value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-            placeholder="Enter your phone number"
+            onChange={(e) => {
+              const digitsOnly = allowOnlyDigits(e.target.value);
+              setPhone(digitsOnly);
+              setPhoneError(false);
+            }}
+            placeholder="Enter your phone number (10 digits minimum, numbers only)"
             className={`${styles.textArea} mt-4 ${
               phoneError ? "border border-red-500" : ""
             }`}
+            maxLength={15}
+            required
           />
 
           <Button
@@ -152,7 +165,7 @@ export const GenerateEstimate = () => {
       )}
 
       {/* Результат */}
-      {estimate && phone.trim().length >= 7 && (
+      {estimate && phone.replace(/\D/g, '').length >= 10 && (
         <div className={`container ${styles.resultSection} component-mb`}>
           <h2 className={styles.textTitle}>Your Estimate</h2>
           <div className={styles.estimateBox}>

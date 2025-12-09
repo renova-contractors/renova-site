@@ -1,0 +1,17 @@
+/* SocialsWidget styles - wrapper for Instagram and Google Maps */
+
+.socialsContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-around;
+	gap: 2rem;
+}
+
+@media (max-width: 640px) {
+	.socialsContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+

@@ -344,6 +344,110 @@ select {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
+/* ============================================
+   markdownComponent - Lightweight Compact Styles
+   Modern 2025 UI/UX best practices
+   Font sizes reduced by 30%
+   ============================================ */
+
+/* Headings - More compact sizing (20% larger than previous) */
+.markdownComponent h1,
+.markdownComponent h2 {
+  @apply font-semibold text-white leading-tight
+         text-[1.05rem] md:text-[1.26rem]
+         mt-6 mb-3;
+}
+
+.markdownComponent h3,
+.markdownComponent h4,
+.markdownComponent h5,
+.markdownComponent h6 {
+  @apply text-white font-medium leading-snug
+         text-[0.84rem] md:text-[0.945rem]
+         mt-5 mb-2;
+}
+
+/* Paragraphs - Smaller, more compact (20% larger than previous) */
+.markdownComponent p {
+  @apply text-[0.735rem] text-main-gray/90 font-light mb-1.5
+         leading-relaxed;
+}
+.markdownComponent p:last-child { @apply mb-0; }
+
+/* Links - Refined spacing and hover states */
+.markdownComponent a {
+  @apply text-main-yellow underline underline-offset-2
+         hover:text-yellow-300 transition-colors duration-200
+         focus:outline-none focus:ring-1 focus:ring-yellow-400/40 
+         rounded-sm;
+  text-decoration-thickness: 1px;
+}
+
+/* Horizontal rule - Tighter spacing */
+.markdownComponent hr {
+  @apply my-5 border-0 border-t border-white/10;
+}
+
+/* Lists - Compact indentation and spacing (20% larger than previous) */
+.markdownComponent ul,
+.markdownComponent ol {
+  @apply text-white text-[0.735rem] pl-4 my-3;
+}
+.markdownComponent ul { @apply list-disc; }
+.markdownComponent ol { @apply list-decimal; }
+.markdownComponent li { 
+  @apply mb-1.5 leading-relaxed;
+}
+
+/* Images - Smaller margins, refined rounding */
+.markdownComponent img {
+  @apply w-full h-auto rounded-2xl my-4;
+}
+
+/* Strong/Bold text */
+.markdownComponent strong,
+.markdownComponent b {
+  @apply font-semibold text-white;
+}
+
+/* Code blocks (20% larger than previous) */
+.markdownComponent code {
+  @apply text-[0.6825rem] bg-white/10 px-1.5 py-0.5 rounded
+         font-mono text-main-yellow;
+}
+
+.markdownComponent pre {
+  @apply bg-white/10 p-3 rounded-lg my-4 overflow-x-auto;
+}
+
+.markdownComponent pre code {
+  @apply bg-transparent p-0;
+}
+
+/* Blockquotes (20% larger than previous) */
+.markdownComponent blockquote {
+  @apply border-l-2 border-main-yellow/50 pl-4 my-3
+         text-main-gray/80 italic text-[0.735rem];
+}
+
+/* Tables - Compact styling (20% larger than previous) */
+.markdownComponent table {
+  @apply w-full border-collapse my-3 text-[0.735rem];
+}
+
+.markdownComponent th,
+.markdownComponent td {
+  @apply px-2 py-1.5 text-left border-b border-white/10;
+}
+
+.markdownComponent th {
+  @apply font-semibold text-white bg-white/10;
+}
+
+.markdownComponent tr:hover {
+  @apply bg-white/5;
+}
+
 
 .swiper-button-prev,
 .swiper-button-next {

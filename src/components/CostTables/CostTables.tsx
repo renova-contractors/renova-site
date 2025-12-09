@@ -98,7 +98,7 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
     <section
       id="cost_table"
       aria-label="Remodeling cost table"
-      className="component-mb scroll-anchor container mx-auto p-6 bg-gradient-to-br from-blue-900 to-teal-400 rounded-2xl shadow-lg"
+      className="component-mb scroll-anchor container bg-gradient-to-br from-blue-900 to-teal-400 rounded-2xl shadow-lg p-4 md:p-6 lg:p-8 overflow-hidden"
     >
       {/* Heading - Static */}
       <h2 className="text-white text-3xl mb-6">
@@ -109,7 +109,7 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
       </h2>
 
       {/* Category Selector - Static */}
-      <div className="flex overflow-x-auto mb-4">
+      <div className="flex overflow-x-auto mb-4 -mx-2 px-2">
         <button
           aria-label="Show all remodeling services"
           onClick={() => setSelectedCategory(null)}
@@ -136,7 +136,7 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
       </div>
 
       {/* Tables - Horizontally Scrollable */}
-      <div className="w-full overflow-x-auto">
+      <div className="w-full overflow-x-auto -mx-2 px-2">
         <div className="min-w-max">
         {selectedCategory && selectedServiceData ? (
           <>

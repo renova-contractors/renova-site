@@ -5,7 +5,6 @@ import React, { useState } from "react";
 import right from "/public/logo/hero_right_arrow.svg";
 import down from "/public/arrow/arrow_dropdown_down.svg";
 
-// Define the type for each item in the whyArray
 interface WhyItem {
 	title: string;
 	description: string;
@@ -17,16 +16,11 @@ interface WhyDropdownsProps {
 }
 
 export const WhyDropdowns: React.FC<WhyDropdownsProps> = ({ whyArray }) => {
-	const [clickedItems, setClickedItems] = useState(Array(4).fill(false));
+	const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-	// Function to handle item click and toggle visibility
 	const handleItemClick = (index: number): void => {
-		setClickedItems((prevClickedItems) => {
-			const newClickedItems = [...prevClickedItems];
-			newClickedItems[index] = !newClickedItems[index];
-
-			return newClickedItems;
-		});
+		// If clicking the same item, close it. Otherwise, open the clicked item
+		setOpenIndex(openIndex === index ? null : index);
 	};
 
 	return (
@@ -40,7 +34,7 @@ export const WhyDropdowns: React.FC<WhyDropdownsProps> = ({ whyArray }) => {
 						<p>{step.title}</p>
 						<Image
 							className="ml-auto"
-							src={clickedItems[index] ? down : right}
+							src={openIndex === index ? down : right}
 							height={25}
 							width={25}
 							alt=""
@@ -49,7 +43,7 @@ export const WhyDropdowns: React.FC<WhyDropdownsProps> = ({ whyArray }) => {
 
 					<p
 						className={`my-5 text-main-gray ${
-							clickedItems[index] ? "block" : "hidden"
+							openIndex === index ? "block" : "hidden"
 						}`}
 					>
 						{step.description}

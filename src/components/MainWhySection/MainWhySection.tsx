@@ -84,7 +84,7 @@ export const MainWhySection: React.FC<Props> = ({
 			{/* Extra markdown content */}
 			{whyMarkdown && (
 				<div className="sm:w-2/3 max-sm:hidden">
-					<ReactMarkdown className="markdown-b markdown">
+					<ReactMarkdown className=" markdownComponent">
 						{whyMarkdown}
 					</ReactMarkdown>
 				</div>

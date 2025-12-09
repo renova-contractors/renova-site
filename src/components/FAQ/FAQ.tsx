@@ -15,14 +15,11 @@ type FaqProps = {
 };
 
 export const FAQ: React.FC<FaqProps> = ({ faqItems }): JSX.Element => {
-  const [clickedItems, setClickedItems] = useState<boolean[]>(
-    Array(faqItems.length).fill(false) // ✅ динамика
-  );
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const handleItemClick = (index: number): void => {
-    setClickedItems((prev) =>
-      prev.map((val, i) => (i === index ? !val : val))
-    );
+    // If clicking the same item, close it. Otherwise, open the clicked item
+    setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
@@ -45,7 +42,7 @@ export const FAQ: React.FC<FaqProps> = ({ faqItems }): JSX.Element => {
               className="flex items-center mb-[32px] text-main-gray font-medium text-title hover:cursor-pointer"
             >
               <Image
-                src={clickedItems[index] ? down : right}
+                src={openIndex === index ? down : right}
                 height={25}
                 width={25}
                 alt=""
@@ -57,7 +54,7 @@ export const FAQ: React.FC<FaqProps> = ({ faqItems }): JSX.Element => {
 
             <div
               className={`mb-[32px] text-main-gray ${
-                clickedItems[index] ? "block" : "hidden"
+                openIndex === index ? "block" : "hidden"
               }`}
             >
               <p>{item.answer}</p>

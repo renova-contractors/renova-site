@@ -28,6 +28,7 @@ export const Header: React.FC = (): JSX.Element => {
 	const { isDropdownOpen, setIsDropdownOpen, hasIdType, setHasIdType } =
 		useDropdown();
 	const [isNavMobile, setIsNavMobile] = useState(false);
+	const [closeTimeout, setCloseTimeout] = useState<NodeJS.Timeout | null>(null);
 
 	/* search */
 	const [searchQuery, setSearchQuery] = useState("");
@@ -54,8 +55,29 @@ export const Header: React.FC = (): JSX.Element => {
 	};
 
 	const dropdownOpenHandler = (id: string): void => {
+		// Clear any pending close timeout
+		if (closeTimeout) {
+			clearTimeout(closeTimeout);
+			setCloseTimeout(null);
+		}
 		setHasIdType(id);
 		setIsDropdownOpen(true);
+	};
+
+	const dropdownCloseHandler = (): void => {
+		// Add delay before closing to allow mouse movement to dropdown
+		const timeout = setTimeout(() => {
+			setIsDropdownOpen(false);
+		}, 200); // 200ms delay
+		setCloseTimeout(timeout);
+	};
+
+	const cancelDropdownClose = (): void => {
+		// Cancel the close timeout if mouse enters dropdown area
+		if (closeTimeout) {
+			clearTimeout(closeTimeout);
+			setCloseTimeout(null);
+		}
 	};
 
 	useEffect(() => {
@@ -78,6 +100,15 @@ export const Header: React.FC = (): JSX.Element => {
 			document.removeEventListener("click", handleOutsideClick);
 		};
 	}, [isNavMobile]);
+
+	// Cleanup timeout on unmount
+	useEffect(() => {
+		return () => {
+			if (closeTimeout) {
+				clearTimeout(closeTimeout);
+			}
+		};
+	}, [closeTimeout]);
 
 	return (
 		<header className=" container right-0 left-0 fixed w-full pt-10 max-sm:pt-5 md:mb-5 xl:mb-5 z-40 bg-comfort-blue mx-auto px-5">
@@ -211,7 +242,7 @@ export const Header: React.FC = (): JSX.Element => {
 								href={href}
 								title={title}
 								onMouseEnter={dropdown ? () => dropdownOpenHandler(id) : undefined}
-								onMouseLeave={dropdown ? () => setIsDropdownOpen(false) : undefined}
+								onMouseLeave={dropdown ? dropdownCloseHandler : undefined}
 							>
 								{title}
 							</Link>
@@ -280,10 +311,8 @@ export const Header: React.FC = (): JSX.Element => {
 				}`}
 			>
 				<div
-					onMouseEnter={() => setIsDropdownOpen(true)}
-					onMouseLeave={() => {
-						setIsDropdownOpen(false);
-					}}
+					onMouseEnter={cancelDropdownClose}
+					onMouseLeave={dropdownCloseHandler}
 				>
 					<DropDown idType={hasIdType} />
 				</div>

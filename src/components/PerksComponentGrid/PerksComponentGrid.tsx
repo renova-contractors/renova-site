@@ -22,7 +22,7 @@ const PerksComponentGrid = () => {
 			<h2 className="custom-heading first-letter:text-main-yellow">
 				What is it like to remodel with us?
 			</h2>
-			<div className="container grid grid-cols-6 max-sm:flex max-sm:flex-wrap slider-gap w-full component-mb">
+			<div className=" grid grid-cols-6 max-sm:flex max-sm:flex-wrap slider-gap w-full component-mb">
 				<article
 					className={`${styles.mobile} bg-white flex max-sm:flex-row-reverse col-span-3 h-[250px] rounded-3xl py-10 px-10 custom-mobile-class items-start`}
 				>

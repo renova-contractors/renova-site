@@ -1,0 +1,111 @@
+.perksSwiper {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+/* Custom scrollbar styling */
+.perksSwiper :global(.swiper-scrollbar) {
+	background-color: rgba(0, 0, 0, 0.1) !important;
+	height: 6px !important;
+	border-radius: 10px !important;
+	bottom: 10px !important;
+}
+
+.perksSwiper :global(.swiper-scrollbar-drag) {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	border-radius: 10px !important;
+	cursor: grab;
+}
+
+.perksSwiper :global(.swiper-scrollbar-drag:active) {
+	cursor: grabbing;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Navigation button styles */
+.navButton {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 20;
+	transition: all 0.3s ease;
+	border: none;
+	cursor: pointer;
+}
+
+.navButton:hover {
+	transform: translateY(-50%) scale(1.1);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.navButton:active {
+	transform: translateY(-50%) scale(0.95);
+}
+
+.navButtonPrev {
+	left: 0;
+}
+
+.navButtonNext {
+	right: 0;
+}
+
+.navButtonHidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* Fade gradients */
+.fadeGradient {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 80px;
+	z-index: 10;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+}
+
+.fadeGradientLeft {
+	left: 0;
+	background: linear-gradient(to right, var(--bg-color, white), transparent);
+}
+
+.fadeGradientRight {
+	right: 0;
+	background: linear-gradient(to left, var(--bg-color, white), transparent);
+}
+
+/* Scroll hint */
+.scrollHint {
+	position: absolute;
+	bottom: -32px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 10;
+	pointer-events: none;
+}
+
+/* Card hover effect */
+.card {
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+	transform: translateY(-4px);
+}
+
+.card:active {
+	transform: translateY(-2px) scale(0.98);
+}
+

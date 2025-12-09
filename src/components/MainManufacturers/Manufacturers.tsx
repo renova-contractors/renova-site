@@ -34,7 +34,7 @@ export const Manufacturers: React.FC<Props> = ({
 
 			{/* <MarkdownRender markdown={markdownmanufacturers} isMobile/> */}
 
-			<ReadMore maxLength={250} className="markdown w-full text-left">
+			<ReadMore maxLength={250} className="markdownComponent w-full text-left">
 				<ReactMarkdown>{markdownmanufacturers}</ReactMarkdown>
 			</ReadMore>
 

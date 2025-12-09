@@ -83,7 +83,7 @@ const SeattleRemodelCalculator = ({ category = 'kitchen' }) => {
   return (
     <section
       id="roi"
-      className="scroll-anchor container w-full mx-10 p-4 md:p-8 bg-gradient-to-br from-[#f8f9fa] to-[#e3f2fd] rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.05)] component-mb"
+      className="scroll-anchor w-full component-mb bg-gradient-to-br from-[#f8f9fa] to-[#e3f2fd] rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.05)] p-4 md:p-6 lg:p-8"
     >
       <header className="mb-4 md:mb-8 border-b border-[#90caf9] pb-3 md:pb-6">
         <h2 className="text-xl md:text-3xl font-bold text-[#1a237e] leading-tight">
@@ -91,31 +91,31 @@ const SeattleRemodelCalculator = ({ category = 'kitchen' }) => {
         </h2>
       </header>
 
-      <div className="md:flex md:gap-6 lg:gap-8">
-        <div className="md:w-1/2 space-y-4 md:space-y-6 lg:space-y-8">
+      <div className="md:flex md:gap-6 lg:gap-8 w-full">
+        <div className="md:w-1/2 space-y-4 md:space-y-6 lg:space-y-8 min-w-0">
           {initialServices.map(([project, range]) => (
-            <article key={project} className="space-y-2">
-              <div className="flex justify-between items-start">
-                <div>
-                  <h3 className="text-sm md:text-base lg:text-lg font-semibold text-[#283593] capitalize">
+            <article key={project} className="space-y-2 w-full min-w-0">
+              <div className="flex justify-between items-start w-full gap-2 min-w-0">
+                <div className="min-w-0 flex-1">
+                  <h3 className="text-sm md:text-base lg:text-lg font-semibold text-[#283593] capitalize break-words">
                     {project}
                   </h3>
-                  <p className="text-xs text-[#78909c] mt-1">
+                  <p className="text-xs text-[#78909c] mt-1 break-words">
                     ${range.min.toLocaleString()} - ${range.max.toLocaleString()}
                   </p>
                 </div>
-                <div className="text-right">
-                  <p className="text-sm md:text-base lg:text-lg font-medium text-[#1a237e]">
+                <div className="text-right flex-shrink-0 ml-2">
+                  <p className="text-sm md:text-base lg:text-lg font-medium text-[#1a237e] whitespace-nowrap">
                     ${investments[project].toLocaleString()}
                   </p>
-                  <p className="text-xs md:text-sm font-medium text-[#2e7d32]">
+                  <p className="text-xs md:text-sm font-medium text-[#2e7d32] whitespace-nowrap">
                     {investments[project] > 0
                       ? `${(roiValues[project] * 100).toFixed(1)}%`
                       : "—"}
                   </p>
                 </div>
               </div>
-              <div className="relative max-sm:px-5">
+              <div className="relative w-full">
                 <input
                   type="range"
                   min={0}
@@ -133,28 +133,28 @@ const SeattleRemodelCalculator = ({ category = 'kitchen' }) => {
 
           {showAllServices &&
             remainingServices.map(([project, range]) => (
-              <article key={project} className="space-y-2">
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h4 className="text-sm md:text-base lg:text-lg font-semibold text-[#283593] capitalize">
+              <article key={project} className="space-y-2 w-full min-w-0">
+                <div className="flex justify-between items-start w-full gap-2 min-w-0">
+                  <div className="min-w-0 flex-1">
+                    <h4 className="text-sm md:text-base lg:text-lg font-semibold text-[#283593] capitalize break-words">
                       {project}
                     </h4>
-                    <p className="text-xs text-[#78909c] mt-1">
+                    <p className="text-xs text-[#78909c] mt-1 break-words">
                       ${range.min.toLocaleString()} - ${range.max.toLocaleString()}
                     </p>
                   </div>
-                  <div className="text-right">
-                    <p className="text-sm md:text-base lg:text-lg font-medium text-[#1a237e]">
+                  <div className="text-right flex-shrink-0 ml-2">
+                    <p className="text-sm md:text-base lg:text-lg font-medium text-[#1a237e] whitespace-nowrap">
                       ${investments[project].toLocaleString()}
                     </p>
-                    <p className="text-xs md:text-sm font-medium text-[#2e7d32]">
+                    <p className="text-xs md:text-sm font-medium text-[#2e7d32] whitespace-nowrap">
                       {investments[project] > 0
                         ? `${(roiValues[project] * 100).toFixed(1)}%`
                         : "—"}
                     </p>
                   </div>
                 </div>
-                <div className="relative max-sm:px-5">
+                <div className="relative w-full">
                   <input
                     type="range"
                     min={0}
@@ -180,8 +180,8 @@ const SeattleRemodelCalculator = ({ category = 'kitchen' }) => {
           </div>
         </div>
 
-        <aside className="md:w-1/2 mt-4 md:mt-0">
-          <div className="p-4 relative h-full md:p-6 bg-white rounded-xl border border-[#bbdefb] space-y-4 md:space-y-6">
+        <aside className="md:w-1/2 mt-4 md:mt-0 min-w-0">
+          <div className="p-4 relative h-full md:p-6 bg-white rounded-xl border border-[#bbdefb] space-y-4 md:space-y-6 w-full">
             <div className="space-y-3 md:space-y-4">
               <div>
                 <p className="text-xs md:text-sm text-[#78909c]">Total Investment</p>

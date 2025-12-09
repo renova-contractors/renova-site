@@ -84,9 +84,11 @@ export const Footer: React.FC<Props> = ({ location }) => {
 				{/* Навигация */}
 				<div className="max-sm:hidden flex max-md:gap-x-[58px] max-md:mt-5 md:gap-[30px] lg:gap-[90px] xl:gap-[157px]">
 					<nav aria-label="Services">
+						<Link title="Services" href="/services">
 						<h2 className="relative left-4 text-title text-white mb-[20px]">
 							Services
-						</h2>
+						</h2></Link>
+						
 						<ul className="text-left">
 							{dropdowns.services.map((service) => (
 								<li
@@ -104,14 +106,7 @@ export const Footer: React.FC<Props> = ({ location }) => {
 					<nav aria-label="Footer menu" className="max-xl:hidden">
 						<h2 className="text-title text-white mb-[20px]">Menu</h2>
 						<ul>
-							<li className="mb-[15px]">
-								<Link href="/">Main</Link>
-							</li>
-							<li className="mb-[15px]">
-								<Link title="Services" href="/services">
-									Services
-								</Link>
-							</li>
+			
 							<li className="mb-[15px]">
 								<Link title="Blog" href="/blog">
 									Blog
