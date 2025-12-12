@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import closing from "/public/logo/close.svg";
 import Link from "next/link";
+import { allowOnlyDigits, formatPhoneNumber, validatePhoneNumber } from '@/utils/phoneUtils';
 
 interface FormMainProps {
 	children?: React.ReactNode;
@@ -16,22 +17,9 @@ const allowOnlyEnglishLetters = (value: string): string => {
 	return value.replace(/[^a-zA-Z\s]/g, '');
 };
 
-// Helper function to allow only digits
-const allowOnlyDigits = (value: string): string => {
-	return value.replace(/\D/g, '');
-};
-
 // Helper function to allow only English letters and digits
 const allowOnlyEnglishLettersAndDigits = (value: string): string => {
 	return value.replace(/[^a-zA-Z0-9\s]/g, '');
-};
-
-// Phone number mask formatter
-const formatPhoneNumber = (value: string): string => {
-	const digits = value.replace(/\D/g, '');
-	if (digits.length <= 3) return digits;
-	if (digits.length <= 6) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
-	return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6, 10)}`;
 };
 
 export const FormMain: React.FC<FormMainProps> = ({ children }) => {
@@ -177,8 +165,7 @@ export const FormMain: React.FC<FormMainProps> = ({ children }) => {
 								rules={{
 									required: "Phone number is required",
 									validate: (value) => {
-										const digits = value.replace(/\D/g, '');
-										if (digits.length < 10) {
+										if (!validatePhoneNumber(value)) {
 											return "Phone number must be at least 10 digits";
 										}
 										return true;
@@ -285,8 +272,7 @@ export const FormMain: React.FC<FormMainProps> = ({ children }) => {
 							rules={{
 								required: "Phone number is required",
 								validate: (value) => {
-									const digits = value.replace(/\D/g, '');
-									if (digits.length < 10) {
+									if (!validatePhoneNumber(value)) {
 										return "Phone number must be at least 10 digits";
 									}
 									return true;

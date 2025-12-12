@@ -9,7 +9,7 @@ export const ContactUs: React.FC = () => {
 	return (
 		<section
 			id="contact"
-			className="container mb-[100px] max-md:mb-[50px] relative"
+			className="container scroll-anchor mb-[100px] max-md:mb-[50px] relative"
 		>
 			<h2 className="w-max custom-heading first-letter:text-main-yellow">
 				Contact Us

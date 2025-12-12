@@ -10,14 +10,16 @@ interface PageNavProps {
 
 export const PageNav = ({ showVideo = false, showShorts = false }: PageNavProps) => {
   const baseLinks: NavLink[] = [
-    { text: "📞 Contact", href: "#contact" },
+        { text: "⭐ Reviews", href: "#reviews" },
+            { text: "🤖 Estimate with AI", href: "#ai_estimate" },
     { text: "📜 Licencing", href: "#licensing" },
     { text: "💰 Cost Table", href: "#cost_table" },
-    { text: "⭐ Reviews", href: "#reviews" },
+
+
+    { text: "📞 Contact", href: "#contact" },
     { text: "📈 ROI Calculator", href: "#roi" },
     { text: "❓ FAQ", href: "#faq" },
     { text: "🌐 Socials", href: "#socials" },
-    { text: "🤖 Estimate with AI", href: "#ai_estimate" }
   ];
 
   const videoLink: NavLink = { text: "🎥 Video", href: "#video" };

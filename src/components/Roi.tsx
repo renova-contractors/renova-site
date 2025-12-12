@@ -83,8 +83,9 @@ const SeattleRemodelCalculator = ({ category = 'kitchen' }) => {
   return (
     <section
       id="roi"
-      className="scroll-anchor w-full component-mb bg-gradient-to-br from-[#f8f9fa] to-[#e3f2fd] rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.05)] p-4 md:p-6 lg:p-8"
+      className="scroll-anchor container component-mb"
     >
+      <div className="relative flex flex-col bg-gradient-to-br from-[#f8f9fa] to-[#e3f2fd] rounded-3xl shadow-[0_10px_30px_rgba(0,0,0,0.05)] p-4 md:p-6 lg:p-10">
       <header className="mb-4 md:mb-8 border-b border-[#90caf9] pb-3 md:pb-6">
         <h2 className="text-xl md:text-3xl font-bold text-[#1a237e] leading-tight">
           Remodel ROI Calculator 2025
@@ -204,6 +205,7 @@ const SeattleRemodelCalculator = ({ category = 'kitchen' }) => {
             </div>
           </div>
         </aside>
+      </div>
       </div>
     </section>
   );

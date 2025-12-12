@@ -6,11 +6,7 @@ import ReactMarkdown from "react-markdown";
 import { useEffect, useState } from "react";
 import { Button } from "../Button/Button";
 import styles from "./GenerateEstimate.module.css";
-
-// Helper function to allow only digits
-const allowOnlyDigits = (value: string): string => {
-  return value.replace(/\D/g, '');
-};
+import { allowOnlyDigits, validatePhoneNumber } from '@/utils/phoneUtils';
 
 export const GenerateEstimate = () => {
   const [prompt, setPrompt] = useState("");
@@ -23,8 +19,7 @@ export const GenerateEstimate = () => {
 
   useEffect(() => {
     const sendPhoneEmail = async () => {
-      const phoneDigits = phone.replace(/\D/g, '');
-      if (phoneDigits.length >= 10 && !emailSent) {
+      if (validatePhoneNumber(phone) && !emailSent) {
         try {
           await fetch("/api/notify", {
             method: "POST",
@@ -51,8 +46,7 @@ export const GenerateEstimate = () => {
     setEstimate(null);
     setPhoneError(false);
 
-    const phoneDigits = phone.replace(/\D/g, '');
-    if (phoneDigits.length < 10) {
+    if (!validatePhoneNumber(phone)) {
       setPhoneError(true);
       setError("Please enter a valid phone number with at least 10 digits.");
       return;
@@ -165,7 +159,7 @@ export const GenerateEstimate = () => {
       )}
 
       {/* Результат */}
-      {estimate && phone.replace(/\D/g, '').length >= 10 && (
+      {estimate && validatePhoneNumber(phone) && (
         <div className={`container ${styles.resultSection} component-mb`}>
           <h2 className={styles.textTitle}>Your Estimate</h2>
           <div className={styles.estimateBox}>
