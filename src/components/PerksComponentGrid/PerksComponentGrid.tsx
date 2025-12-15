@@ -22,9 +22,9 @@ const PerksComponentGrid = () => {
 			<h2 className="custom-heading first-letter:text-main-yellow">
 				What is it like to remodel with us?
 			</h2>
-			<div className=" grid grid-cols-6 max-sm:flex max-sm:flex-wrap slider-gap w-full component-mb">
+			<div className="grid grid-cols-6 max-sm:flex max-sm:flex-col max-sm:overflow-y-auto max-sm:max-h-[600px] slider-gap w-full component-mb max-sm:gap-4">
 				<article
-					className={`${styles.mobile} bg-white flex max-sm:flex-row-reverse col-span-3 h-[250px] rounded-3xl py-10 px-10 custom-mobile-class items-start`}
+					className={`${styles.mobile} bg-white flex max-sm:flex-row-reverse col-span-3 max-sm:col-span-full max-sm:w-full h-[250px] rounded-3xl py-10 px-10 custom-mobile-class items-start`}
 				>
 					<Image
 						quality={30}
@@ -46,7 +46,7 @@ const PerksComponentGrid = () => {
 				</article>
 
 				<article
-					className={`${styles.mobile} bg-white flex col-span-3 h-[250px] max-sm:h-[150px] max-sm:text-sm max-sm:py-3 max-sm:px-2 max-sm:rounded-xl rounded-3xl py-10 px-10 items-start`}
+					className={`${styles.mobile} bg-white flex col-span-3 max-sm:col-span-full max-sm:w-full h-[250px] max-sm:h-[150px] max-sm:text-sm max-sm:py-3 max-sm:px-2 max-sm:rounded-xl rounded-3xl py-10 px-10 items-start`}
 				>
 					<div>
 						<h4 className="text-title mb-2">
@@ -67,7 +67,7 @@ const PerksComponentGrid = () => {
 				</article>
 
 				<article
-					className={`${styles.mobile} bg-dark-red col-span-2 slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
+					className={`${styles.mobile} bg-dark-red col-span-2 max-sm:col-span-full max-sm:w-full slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
 				>
 					<div>
 						<h4 className="text-title mb-1">
@@ -88,7 +88,7 @@ const PerksComponentGrid = () => {
 				</article>
 
 				<article
-					className={`${styles.mobile} bg-dark-orange col-span-2 slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
+					className={`${styles.mobile} bg-dark-orange col-span-2 max-sm:col-span-full max-sm:w-full slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
 				>
 					<div>
 						<h4 className="text-title">
@@ -109,7 +109,7 @@ const PerksComponentGrid = () => {
 				</article>
 
 				<article
-					className={`${styles.mobile} bg-tortoise col-span-2 slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
+					className={`${styles.mobile} bg-tortoise col-span-2 max-sm:col-span-full max-sm:w-full slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
 				>
 					<div>
 						<h4 className="text-title">🧱 Materials That Hold Up</h4>
@@ -128,7 +128,7 @@ const PerksComponentGrid = () => {
 				</article>
 
 				<article
-					className={`${styles.mobile} bg-white col-span-2 slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-main-dark`}
+					className={`${styles.mobile} bg-white col-span-2 max-sm:col-span-full max-sm:w-full slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-main-dark`}
 				>
 					<div>
 						<h4 className="text-title">
@@ -149,7 +149,7 @@ const PerksComponentGrid = () => {
 				</article>
 
 				<article
-					className={`${styles.mobile} bg-light-orange col-span-2 slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
+					className={`${styles.mobile} bg-light-orange col-span-2 max-sm:col-span-full max-sm:w-full slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
 				>
 					<div>
 						<h4 className="text-title">24/7 Support</h4>
@@ -168,7 +168,7 @@ const PerksComponentGrid = () => {
 				</article>
 
 				<article
-					className={`${styles.mobile} bg-dark-purple col-span-2 slider-gap h-[200px] rounded-3xl py-6 px-10 flex  text-white`}
+					className={`${styles.mobile} bg-dark-purple col-span-2 max-sm:col-span-full max-sm:w-full slider-gap h-[200px] rounded-3xl py-6 px-10 flex text-white`}
 				>
 					<div>
 						<h4 className="text-title">
