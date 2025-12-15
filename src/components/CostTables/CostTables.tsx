@@ -200,7 +200,7 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
         </div>
 
         {/* Tables with modern design */}
-        <div className="w-full -mx-4 md:-mx-6 lg:-mx-10 px-4 md:px-6 lg:px-10">
+        <div className="relative -mx-4 md:-mx-6 lg:-mx-10 px-4 md:px-6 lg:px-10">
           <div className="w-full">
             {selectedCategory && selectedServiceData ? (
               <div className="space-y-4 animate-in fade-in duration-300">
@@ -212,8 +212,8 @@ export const CostTables = ({ category = null, city = "seattle" }) => {
                     Detailed cost breakdown
                   </p>
                 </div>
-                <div className="bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-xl">
-                  <table className="table-auto w-full">
+                <div className="bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-xl w-full">
+                  <table className="w-full">
                     <caption className="sr-only">
                       Detailed remodeling cost breakdown for {selectedServiceData.project} in{" "}
                       {locationNames[city] || city}
