@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import styles from "./Styles.module.css";
 
-//images
 import contract from "/public/perks-grid/contract-document-svgrepo-com.svg";
 import reporting from "/public/perks-grid/smart-phone-screen-with-message-bubbles-sms-design-template-for-messenger-chat-free-vector.jpg";
 import licensing from "/public/perks-grid/id-card-svgrepo-com.svg";
@@ -22,7 +21,7 @@ const PerksComponentGrid = () => {
 			<h2 className="custom-heading first-letter:text-main-yellow">
 				What is it like to remodel with us?
 			</h2>
-			<div className="grid grid-cols-6 max-sm:flex max-sm:flex-col max-sm:overflow-y-scroll slider-gap w-full component-mb max-sm:gap-4">
+			<div className="grid grid-cols-6 max-sm:flex max-sm:flex-col max-sm:overflow-y-auto max-sm:max-h-[80vh] slider-gap w-full component-mb max-sm:gap-4 max-sm:pb-8">
 				<article
 					className={`${styles.mobile} bg-white flex max-sm:flex-row-reverse col-span-3 max-sm:col-span-full max-sm:w-full h-[250px] rounded-3xl py-10 px-10 custom-mobile-class items-start`}
 				>

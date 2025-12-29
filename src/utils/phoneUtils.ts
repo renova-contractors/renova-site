@@ -17,3 +17,4 @@ export const validatePhoneNumber = (value: string): boolean => {
 	return digits.length >= 10;
 };
 
+
