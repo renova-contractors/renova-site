@@ -22,6 +22,7 @@ interface ServicesHeroProps {
 			alt: string;
 		}>;
 	};
+	mobile?: boolean;
 }
 
 export const ServicesHero: React.FC<ServicesHeroProps> = ({
