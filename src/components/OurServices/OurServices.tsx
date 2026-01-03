@@ -2,6 +2,7 @@ import React from "react";
 import { serviceHeadings } from "@/constants/ourServices/ourServices";
 import { locationNames } from "@/constants/costKeywords/costKeywords";
 import OurServicesClient from "./Client";
+import ReactMarkdown from "react-markdown";
 
 interface OurServicesProps {
 	h2: string;
@@ -9,6 +10,7 @@ interface OurServicesProps {
 	ourServicesMarkdown: string;
 	category?: string;
 	location?: string;
+	mobile?: boolean;
 }
 
 export const OurServices: React.FC<OurServicesProps> = ({
@@ -17,6 +19,7 @@ export const OurServices: React.FC<OurServicesProps> = ({
 	ourServicesMarkdown,
 	category = 'all',
 	location = 'seattle',
+	mobile
 }) => {
 	return (
 		<section className="border-white rounded-3xl container w-full component-mb text-white relative z-20">
@@ -35,6 +38,7 @@ export const OurServices: React.FC<OurServicesProps> = ({
 				category={category}
 				location={location}
 			/>
+			{mobile !== true && <ReactMarkdown className="markdownComponent">{ourServicesMarkdown}</ReactMarkdown>}
 		</section>
 	);
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import HowWeWorkClient from "./Client";
-
+import ReactMarkdown from "react-markdown";
 interface DescriptionObject {
   p1: string;
   p2: string;
@@ -31,6 +31,8 @@ export const HowWeWork: React.FC<Props> = ({ array, howWeWorkMarkdown }) => {
       </h2>
 
       <HowWeWorkClient array={array} howWeWorkMarkdown={howWeWorkMarkdown} />
+      <ReactMarkdown className="markdownComponent hidden md:block">{howWeWorkMarkdown}</ReactMarkdown>
+
     </section>
   );
 };

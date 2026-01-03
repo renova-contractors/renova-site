@@ -43,16 +43,99 @@ interface ManufacturerLogo {
 }
 
 interface ManufacturersLogos {
+	all: ManufacturerLogo[];
 	tile: ManufacturerLogo[];
 	countertops: ManufacturerLogo[];
 	cabinets: ManufacturerLogo[];
 	windows: ManufacturerLogo[];
 	doors: ManufacturerLogo[];
 	flooring: ManufacturerLogo[];
-	decking: ManufacturerLogo[];
+	deck: ManufacturerLogo[];
 }
 
 export const manufacturersLogos: ManufacturersLogos = {
+	all: [
+		{
+			id: 1,
+			height: 88,
+			width: 166,
+			image: cambria,
+			url: "",
+			alt: "Cambria Countertops",
+		},
+		{
+			id: 2,
+			height: 88,
+			width: 166,
+			image: kraftmaid,
+			url: "",
+			alt: "Kraftmaid",
+		},
+		{
+			id: 3,
+			height: 88,
+			width: 166,
+			image: milgard,
+			url: "",
+			alt: "Milgard",
+		},
+		{
+			id: 4,
+			height: 88,
+			width: 166,
+			image: marvin,
+			url: "",
+			alt: "Marvin",
+		},
+		{
+			id: 5,
+			height: 88,
+			width: 166,
+			image: shaw,
+			url: "",
+			alt: "Shaw",
+		},
+		{
+			id: 6,
+			height: 88,
+			width: 166,
+			image: daltile,
+			url: "",
+			alt: "Daltile",
+		},
+		{
+			id: 7,
+			height: 88,
+			width: 166,
+			image: msi,
+			url: "",
+			alt: "MSI",
+		},
+		{
+			id: 8,
+			height: 88,
+			width: 166,
+			image: therma_tru,
+			url: "",
+			alt: "Therma Tru",
+		},
+		{
+			id: 9,
+			height: 88,
+			width: 166,
+			image: mohawk,
+			url: "",
+			alt: "Mohawk",
+		},
+		{
+			id: 10,
+			height: 88,
+			width: 166,
+			image: bedrosians,
+			url: "",
+			alt: "Bedrosians",
+		},
+	],
 	tile: [
 		{
 			id: 1,
@@ -309,7 +392,7 @@ export const manufacturersLogos: ManufacturersLogos = {
 			alt: "Mohawk",
 		},
 	],
-	decking: [
+	deck: [
 		{
 			id: 1,
 			height: 88,

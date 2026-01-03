@@ -2,21 +2,21 @@
 /* eslint-disable */
 import ReactMarkdown from "react-markdown";
 import { ManufacturersClient } from "./ManufacturersClient";
-import { MarkdownRender } from "../MarkdownRender/MarkdownRender";
-import ReadMore from "@/components/ReadMore/ReadMore";
 
 type Props = {
 	markdownmanufacturers: string;
 	p: string;
 	h2: string;
-	isMobile?: boolean;
+	category?: string;
+	mobile?: boolean;
 };
 
 export const Manufacturers: React.FC<Props> = ({
 	h2,
 	p,
 	markdownmanufacturers,
-	isMobile
+	category,
+	mobile
 }) => {
 	return (
 		<section
@@ -30,13 +30,9 @@ export const Manufacturers: React.FC<Props> = ({
 				{/* <p className="text-main-gray max-sm:hidden sm:w-2/3 w-full mx-auto">{p}</p> */}
 			</div>
 
-			<ManufacturersClient />
+			<ManufacturersClient category={category} markdown={markdownmanufacturers} />
 
-			{/* <MarkdownRender markdown={markdownmanufacturers} isMobile/> */}
-
-			<ReadMore maxLength={250} className="markdownComponent w-full text-left">
-				<ReactMarkdown>{markdownmanufacturers}</ReactMarkdown>
-			</ReadMore>
+			{mobile !== true && <ReactMarkdown className="markdownComponent w-full text-left hidden md:block">{markdownmanufacturers}</ReactMarkdown>}
 
 		</section>
 	);

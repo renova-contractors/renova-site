@@ -503,6 +503,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         imageBottom={heroBottom}
         category={servicesPageData.category}
         images={servicesPageData.images}
+        mobile={isMobile}
       />
       <PageNav 
         showVideo={!!servicesPageData.video} 
@@ -525,6 +526,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
         {...servicesPageData.ourServices}
         category={servicesPageData.category}
         location={servicesPageData.location}
+        mobile={isMobile}
       />
       {servicesPageData.video && (
         <div id="video" className="scroll-anchor">
@@ -570,7 +572,7 @@ const Services: React.FC<{ params: { services: string[] } }> = async ({
       <SocialsWidget />
 
       <HowWeWork {...servicesPageData.howWeWork} />
-      <Manufacturers {...servicesPageData.manufacturers} />
+      <Manufacturers {...servicesPageData.manufacturers} category={servicesPageData.category} />
       <FAQ faqItems={servicesPageData.faqItems} />
 
       <ContactUs />

@@ -7,6 +7,8 @@ import "swiper/css/thumbs";
 import { HeroSwiperServices } from "./HeroSwiperServices";
 import { ImagesPerksSlider } from "@/components/ImagesPerkslider/ImagesPerksSlider";
 import ServicesHeroClient from "./ServicesHeroClient";
+import useIsMobile from "@/lib/hooks/useIsMobile";
+import Markdown from "react-markdown";
 
 interface ServicesHeroProps {
 	h1: string;
@@ -27,7 +29,8 @@ export const ServicesHero: React.FC<ServicesHeroProps> = ({
 	heroPhrase,
 	heroP,
 	category,
-	images
+	images,
+	mobile
 }) => {
 	return (
 		<header className="mt-[180px] max-md:mt-[190px] container h-full relative pr-[10px]   sm:pt-[70px] mb-10">
@@ -49,8 +52,8 @@ export const ServicesHero: React.FC<ServicesHeroProps> = ({
 					></iframe>
 				</div> */}
 
-				<ServicesHeroClient heroP={heroP} />
-
+				{mobile ? <ServicesHeroClient heroP={heroP} /> : <Markdown className="markdown lg:ml-[82px] max-xl:mt-[15px] w-full xl:w-1/3] text-white">{heroP}</Markdown>}
+				
 			</div>
 			<ImagesPerksSlider />
 

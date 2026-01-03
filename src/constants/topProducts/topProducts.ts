@@ -1,4 +1,8 @@
 export const topProducts = [
+	{
+		title: "All Products",
+		id: "all",
+	},
 	{ title: "Countertops", id: "countertops" },
 	{
 		title: "Windows",
@@ -26,6 +30,6 @@ export const topProducts = [
 	},
 	{
 		title: "Decking",
-		id: "decking",
+		id: "deck",
 	},
 ];

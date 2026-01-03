@@ -15,6 +15,7 @@ import { ourServicesLocalLinks } from "@/constants/ourServices/ourServicesLoccal
 import { locationNames } from "@/constants/costKeywords/costKeywords";
 import ReadMore from "@/components/ReadMore/ReadMore";
 import ReactMarkdown from "react-markdown";
+import { useIsMobileClient } from "@/lib/hooks/useIsMobileClient";
 
 interface OurServicesClientProps {
 	h2: string;
@@ -31,6 +32,7 @@ const OurServicesClient: React.FC<OurServicesClientProps> = ({
 	category = 'all',
 	location = 'seattle',
 }) => {
+	const isMobile = useIsMobileClient();
 	const [clickedService, setClickedService] = useState(category);
 	
 	// State for menu slider scroll position
@@ -323,10 +325,11 @@ const OurServicesClient: React.FC<OurServicesClientProps> = ({
 				</button>
 			</div>
 
-			{/* Markdown Content */}
-			<ReadMore maxLength={200} className="markdownComponent relative z-10">
-				<ReactMarkdown>{ourServicesMarkdown}</ReactMarkdown>
-			</ReadMore>
+			{isMobile && (
+				<ReadMore maxLength={200} className="markdownComponent relative z-10">
+					<ReactMarkdown>{ourServicesMarkdown}</ReactMarkdown>
+				</ReadMore>
+			)}
 		</>
 	);
 };

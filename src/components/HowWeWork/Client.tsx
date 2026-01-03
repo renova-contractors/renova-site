@@ -7,6 +7,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import ReadMore from "@/components/ReadMore/ReadMore";
+import { useIsMobileClient } from "@/lib/hooks/useIsMobileClient";
 
 interface DescriptionObject {
   p1: string;
@@ -27,6 +28,7 @@ type Props = {
 };
 
 export const HowWeWorkClient: React.FC<Props> = ({ array, howWeWorkMarkdown }) => {
+  const isMobile = useIsMobileClient();
   // State for slider scroll position
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
@@ -177,7 +179,7 @@ export const HowWeWorkClient: React.FC<Props> = ({ array, howWeWorkMarkdown }) =
       </div>
 
       {/* Extra descriptive markdown */}
-      {howWeWorkMarkdown && (
+      {isMobile && howWeWorkMarkdown && (
         <ReadMore maxLength={180} className="markdownComponent" aria-label="Additional description of how we work">
           <ReactMarkdown className="markdownComponent">{howWeWorkMarkdown}</ReactMarkdown>
         </ReadMore>
