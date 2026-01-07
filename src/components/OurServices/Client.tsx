@@ -33,7 +33,12 @@ const OurServicesClient: React.FC<OurServicesClientProps> = ({
 	location = 'seattle',
 }) => {
 	const isMobile = useIsMobileClient();
+	const [mounted, setMounted] = useState(false);
 	const [clickedService, setClickedService] = useState(category);
+
+	useEffect(() => {
+		setMounted(true);
+	}, []);
 	
 	// State for menu slider scroll position
 	const [menuCanScrollLeft, setMenuCanScrollLeft] = useState(false);
@@ -325,11 +330,21 @@ const OurServicesClient: React.FC<OurServicesClientProps> = ({
 				</button>
 			</div>
 
-			{isMobile && (
-				<ReadMore maxLength={200} className="markdownComponent relative z-10">
-					<ReactMarkdown>{ourServicesMarkdown}</ReactMarkdown>
-				</ReadMore>
-			)}
+		{mounted && (
+			<>
+				{isMobile ? (
+					<ReadMore maxLength={200} className="markdownComponent relative z-10 csr-markdown">
+						<ReactMarkdown>{ourServicesMarkdown}</ReactMarkdown>
+					</ReadMore>
+				) : (
+					<ReactMarkdown className="markdownComponent csr-markdown">{ourServicesMarkdown}</ReactMarkdown>
+				)}
+				<style jsx global>{`
+					.ssr-markdown { display: none; }
+					.csr-markdown { display: block; }
+				`}</style>
+			</>
+		)}
 		</>
 	);
 };

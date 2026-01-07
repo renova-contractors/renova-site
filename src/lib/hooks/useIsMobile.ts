@@ -4,7 +4,7 @@ import { headers } from "next/headers";
 export const isMobileDevice = (): boolean => {
 	const headersList = headers();
 	const userAgent = headersList.get("user-agent") || "";
-	return /Mobile|Android|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+	return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile/i.test(userAgent);
 };
 
 // Server-side hook (for backward compatibility with server components)

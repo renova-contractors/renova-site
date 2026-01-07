@@ -31,7 +31,9 @@ export const HowWeWork: React.FC<Props> = ({ array, howWeWorkMarkdown }) => {
       </h2>
 
       <HowWeWorkClient array={array} howWeWorkMarkdown={howWeWorkMarkdown} />
-      <ReactMarkdown className="markdownComponent hidden md:block">{howWeWorkMarkdown}</ReactMarkdown>
+      <div className="ssr-markdown">
+        <ReactMarkdown className="markdownComponent">{howWeWorkMarkdown}</ReactMarkdown>
+      </div>
 
     </section>
   );

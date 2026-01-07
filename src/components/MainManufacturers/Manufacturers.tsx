@@ -30,10 +30,12 @@ export const Manufacturers: React.FC<Props> = ({
 				{/* <p className="text-main-gray max-sm:hidden sm:w-2/3 w-full mx-auto">{p}</p> */}
 			</div>
 
-			<ManufacturersClient category={category} markdown={markdownmanufacturers} />
+		<ManufacturersClient category={category} markdown={markdownmanufacturers} />
 
-			{mobile !== true && <ReactMarkdown className="markdownComponent w-full text-left hidden md:block">{markdownmanufacturers}</ReactMarkdown>}
+		<div className="ssr-markdown w-full text-left">
+			<ReactMarkdown className="markdownComponent">{markdownmanufacturers}</ReactMarkdown>
+		</div>
 
-		</section>
+	</section>
 	);
 };

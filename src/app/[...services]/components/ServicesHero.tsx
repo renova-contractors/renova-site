@@ -53,7 +53,10 @@ export const ServicesHero: React.FC<ServicesHeroProps> = ({
 					></iframe>
 				</div> */}
 
-				{mobile ? <ServicesHeroClient heroP={heroP} /> : <Markdown className="markdown lg:ml-[82px] max-xl:mt-[15px] w-full xl:w-1/3] text-white">{heroP}</Markdown>}
+				<ServicesHeroClient heroP={heroP} />
+			<div className="ssr-markdown lg:ml-[82px] max-xl:mt-[15px] w-full xl:w-1/3] text-white">
+				<Markdown className="markdown">{heroP}</Markdown>
+			</div>
 				
 			</div>
 			<ImagesPerksSlider />

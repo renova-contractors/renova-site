@@ -6,16 +6,21 @@
 import { manufacturersLogos } from "@/constants/manufacturersLogos/manufacturersLogos";
 import { topProducts } from "@/constants/topProducts/topProducts";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ReadMore from "@/components/ReadMore/ReadMore";
 import ReactMarkdown from "react-markdown";
 import { useIsMobileClient } from "@/lib/hooks/useIsMobileClient";
 
 export const ManufacturersClient = ({category, markdown}: {category: string, markdown: string}) => {
 	const isMobile = useIsMobileClient();
+	const [mounted, setMounted] = useState(false);
 	const [clickedService, setClickedService] = useState(
 		category && category in manufacturersLogos ? category : "all"
 	);
+
+	useEffect(() => {
+		setMounted(true);
+	}, []);
 
 	return (
 		<>
@@ -55,13 +60,23 @@ export const ManufacturersClient = ({category, markdown}: {category: string, mar
 						/>
 					))}
 				</div>
-			</div>
+		</div>
 
-			{isMobile && (
-				<ReadMore maxLength={250} className="markdownComponent w-full text-left">
-					<ReactMarkdown>{markdown}</ReactMarkdown>
-				</ReadMore>
-			)}
-		</>
+		{mounted && (
+			<>
+				{isMobile ? (
+					<ReadMore maxLength={250} className="markdownComponent csr-markdown w-full text-left">
+						<ReactMarkdown>{markdown}</ReactMarkdown>
+					</ReadMore>
+				) : (
+					<ReactMarkdown className="markdownComponent csr-markdown w-full text-left">{markdown}</ReactMarkdown>
+				)}
+				<style jsx global>{`
+					.ssr-markdown { display: none; }
+					.csr-markdown { display: block; }
+				`}</style>
+			</>
+		)}
+	</>
 	);
 };

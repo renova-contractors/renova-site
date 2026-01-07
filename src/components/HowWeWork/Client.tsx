@@ -29,10 +29,15 @@ type Props = {
 
 export const HowWeWorkClient: React.FC<Props> = ({ array, howWeWorkMarkdown }) => {
   const isMobile = useIsMobileClient();
+  const [mounted, setMounted] = useState(false);
   // State for slider scroll position
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
   const [swiperInstance, setSwiperInstance] = useState<any>(null);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Handle slider scroll state
   useEffect(() => {
@@ -179,10 +184,20 @@ export const HowWeWorkClient: React.FC<Props> = ({ array, howWeWorkMarkdown }) =
       </div>
 
       {/* Extra descriptive markdown */}
-      {isMobile && howWeWorkMarkdown && (
-        <ReadMore maxLength={180} className="markdownComponent" aria-label="Additional description of how we work">
-          <ReactMarkdown className="markdownComponent">{howWeWorkMarkdown}</ReactMarkdown>
-        </ReadMore>
+      {mounted && howWeWorkMarkdown && (
+        <>
+          {isMobile ? (
+            <ReadMore maxLength={180} className="markdownComponent csr-markdown" aria-label="Additional description of how we work">
+              <ReactMarkdown className="markdownComponent">{howWeWorkMarkdown}</ReactMarkdown>
+            </ReadMore>
+          ) : (
+            <ReactMarkdown className="markdownComponent csr-markdown">{howWeWorkMarkdown}</ReactMarkdown>
+          )}
+          <style jsx global>{`
+            .ssr-markdown { display: none; }
+            .csr-markdown { display: block; }
+          `}</style>
+        </>
       )}
     </>
   );

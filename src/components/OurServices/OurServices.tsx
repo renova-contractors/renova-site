@@ -37,8 +37,10 @@ export const OurServices: React.FC<OurServicesProps> = ({
 				ourServicesMarkdown={ourServicesMarkdown}
 				category={category}
 				location={location}
-			/>
-			{mobile !== true && <ReactMarkdown className="markdownComponent">{ourServicesMarkdown}</ReactMarkdown>}
-		</section>
+		/>
+		<div className="ssr-markdown">
+			<ReactMarkdown className="markdownComponent">{ourServicesMarkdown}</ReactMarkdown>
+		</div>
+	</section>
 	);
 };

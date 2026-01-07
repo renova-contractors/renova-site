@@ -1,9 +1,17 @@
+import { getMockProducts } from "@/constants/catalog/mockProducts";
+
 export async function getData(params: any, searchParams: any): Promise<any> {
 	const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
 	if (!backendUrl) {
-		console.error('NEXT_PUBLIC_BACKEND_URL is not defined');
-		throw new Error("Backend URL is not configured");
+		console.warn('NEXT_PUBLIC_BACKEND_URL is not defined, using mock data');
+		const category = Array.isArray(params.slug) && params.slug.length > 0 
+			? params.slug[0] 
+			: params.slug || undefined;
+		return {
+			data: getMockProducts(category),
+			totalCount: getMockProducts(category).length,
+		};
 	}
 
 	let url = `${backendUrl}`;
@@ -40,7 +48,14 @@ export async function getData(params: any, searchParams: any): Promise<any> {
 
 		return data;
 	} catch (error) {
-		console.error("Error fetching data:", error);
-		throw error; // It's good practice to rethrow errors so they can be handled further up the call stack.
+		console.warn("Error fetching data from backend, using mock data:", error);
+		// Return mock data instead of throwing error
+		const category = Array.isArray(params.slug) && params.slug.length > 0 
+			? params.slug[0] 
+			: params.slug || undefined;
+		return {
+			data: getMockProducts(category),
+			totalCount: getMockProducts(category).length,
+		};
 	}
 }
